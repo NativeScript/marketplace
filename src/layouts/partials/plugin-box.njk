@@ -5,7 +5,7 @@
            class="text-xl font-bold text-gray-900">{{ plugin.name }}</a>
         <div class="text-sm text-gray-700">
             {% if plugin.author %}
-                <a href="/author/{{ plugin.author.name }}" class="hover:text-blue-800">by {{ plugin.author.name }}</a>
+                <a href="/author/{{ plugin.author.username }}" class="hover:text-blue-800">by {{ plugin.author.name }}</a>
                 <span> | </span>
             {% endif %}
             <span>v{{ plugin.version }}</span>

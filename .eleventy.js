@@ -8,9 +8,7 @@ module.exports = function(eleventyConfig) {
     })
     eleventyConfig.addNunjucksFilter('markdown', function(value) {
         try {
-            let markdown = require('markdown-it')({
-                html: false
-            });
+            let markdown = require('markdown-it')();
             return markdown.render(value);
         } catch (e) {
             return ''
