@@ -1,0 +1,19 @@
+---
+pagination:
+    data: authors
+    size: 1
+    alias: author
+permalink: /author/{{ author.name }}/index.html
+renderData:
+    title: '{{ author.name }}'
+---
+<h2 class="text-3xl text-gray-600 mt-10">Plugins by {{ author.name }} ({{ author.plugins.length }})</h2>
+
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+    {% for plugin in author.plugins %}
+        <li>
+            {% include "layouts/partials/plugin-box.njk" %}
+        </li>
+    {% endfor %}
+</ul>
+{#<pre class="mt-10">{{ author | json }}</pre>#}
