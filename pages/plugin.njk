@@ -51,11 +51,9 @@ renderData:
         </div>
     </div>
 
-    <div class="max-w-full prose prose-lg mt-24">
-        {{ plugin.data.readme | markdown | safe }}
+    <div class="max-w-full mt-24 markdown-body">
+        {{ pluginData[plugin.name].readme | safe }}
     </div>
-
-    <pre class="mt-4">
-{{ plugin | json }}
-</pre>
+    <pre class="mt-4 ">{{ plugin | json }}</pre>
 </article>
+

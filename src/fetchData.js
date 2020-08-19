@@ -3,6 +3,28 @@ const fs = require('fs')
 const npmSearch = require('libnpmsearch')
 const axios = require('axios')
 const Fuse = require('fuse.js')
+const PQueue = require('p-queue').default
+
+// syntax highlighting for READMEs
+const Prism = require("prismjs");
+const langs = Prism.languages
+Prism.languages = new Proxy(langs, {
+    get(target, key) {
+        if (target[key]) {
+            return target[key]
+        } else if (target[key.toLowerCase()]) {
+            return target[key.toLowerCase()]
+        }
+        return target['bash']
+    }
+})
+const markdownPrismJs = require('@11ty/eleventy-plugin-syntaxhighlight/src/markdownSyntaxHighlightOptions')
+const md = require('markdown-it')({
+    html: true
+});
+md.set({
+    highlight: markdownPrismJs()
+})
 
 function author(plugin, authorsMap) {
     if (plugin.maintainers && plugin.maintainers.find(user => user.username === 'nativescript-bot') || plugin.scope === 'nativescript') {
@@ -85,7 +107,7 @@ async function fetchAllNativeScriptPlugins() {
         })
         results.push(...res)
         offset += res.length + 1
-        // break;
+        //break;
         if (res.length < limit) {
             break;
         }
@@ -106,23 +128,23 @@ async function fetchAllNativeScriptPlugins() {
 }
 
 async function getPackageData(packageName) {
-    return {
-        name: packageName,
-        version: 'latest',
-        license: 'MIT',
-        readme: 'README'
-    }
-
     const res = await axios.get(`https://registry.npmjs.org/${packageName}`)
 
     const versions = Object.keys(res.data.versions)
     const latest = res.data.versions[versions[versions.length - 1]]
 
+    let readme = 'No README found.'
+    if (latest.readme) {
+        readme = latest.readme
+    } else if (res.data.readme) {
+        readme = res.data.readme
+    }
+
     return {
         name: packageName,
         version: latest.version,
         license: latest.license,
-        readme: latest.readme || res.data.readme
+        readme: md.render(readme)
     }
 }
 
@@ -138,6 +160,7 @@ function buildIndex(plugins) {
 
 async function run() {
     const authorsMap = {}
+    const pluginData = {}
     let plugins = await fetchAllNativeScriptPlugins()
     // console.log(plugins)
 
@@ -153,11 +176,10 @@ async function run() {
 
         return true
     })
-    // primary author from `plugin.author` field
-    // if it's not set, we fall back to the publisher
-    //
 
+    const promises = []
     for (const plugin of plugins) {
+        // console.log(`processing plugin ${plugins.indexOf(plugin)} out of ${plugins.length}`)
         author(plugin, authorsMap)
 
         if (!authorsMap[plugin.author.username]) {
@@ -168,8 +190,22 @@ async function run() {
         }
         authorsMap[plugin.author.username].plugins.push(plugin)
 
-        plugin.data = await getPackageData(plugin.name)
+        promises.push(async () => {
+            console.log(`processing plugin ${plugins.indexOf(plugin) + 1} out of ${plugins.length}`)
+            pluginData[plugin.name] = await getPackageData(plugin.name).catch(err => {
+                console.log('FAILED.', err)
+                plugin.data = {}
+            })
+        })
     }
+    const queue = new PQueue({concurrency: 10});
+    queue.on('next', () => {
+        console.log(`${queue.size}\t${queue.pending}`)
+        // console.log(`Task is completed.  Size: ${queue.size}  Pending: ${queue.pending}`);
+    });
+    await queue.addAll(promises)
+    await queue.onIdle();
+    console.log('done.')
 
     // remove duplicates if npm api returned something multiple times
     plugins = plugins.filter((plugin, index) => {
@@ -179,6 +215,7 @@ async function run() {
     const authors = Object.values(authorsMap)
 
     await fs.promises.writeFile(path.resolve(__dirname, 'data', 'plugins.json'), JSON.stringify(plugins, null, 2))
+    await fs.promises.writeFile(path.resolve(__dirname, 'data', 'pluginData.dat'), JSON.stringify(pluginData))
     await fs.promises.writeFile(path.resolve(__dirname, 'data', 'authors.json'), JSON.stringify(authors, null, 2))
 
     // build Fuse index

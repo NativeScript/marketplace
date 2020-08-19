@@ -38,42 +38,6 @@ permalink: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1
             {% endfor %}
         </ul>
 
-        <div class="text-center text-base">
-            <ol class="inline-flex mt-24">
-                <li>
-                    {% if pagination.href.previous %}
-                        <a class="inline-flex bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
-                           href="{{ pagination.href.previous }}">
-                            Prev
-                        </a>
-                    {% else %}
-                        <div class="inline-flex bg-gray-200 text-gray-600 font-bold py-2 px-4 rounded-l cursor-default">
-                            Prev
-                        </div>
-                    {% endif %}
-                </li>
-                {%- for pageEntry in pagination.pages %}
-                    <li>
-                        <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}
-                           class="inline-flex font-bold py-2 px-4 {% if page.url == pagination.hrefs[ loop.index0 ] %}bg-blue-500 text-white{% else %}bg-gray-300 hover:bg-gray-400 text-gray-800{% endif %}"
-                        >
-                            {{ loop.index }}
-                        </a>
-                    </li>
-                {%- endfor %}
-                <li>
-                    {% if pagination.href.next %}
-                        <a class="inline-flex bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r"
-                           href="{{ pagination.href.next }}">
-                            Next
-                        </a>
-                    {% else %}
-                        <div class="inline-flex bg-gray-200 text-gray-600 font-bold py-2 px-4 rounded-r cursor-default">
-                            Next
-                        </div>
-                    {% endif %}
-                </li>
-            </ol>
-        </div>
+        {% include "layouts/partials/pagination.njk" %}
     </article>
 </div>

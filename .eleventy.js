@@ -2,6 +2,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const striptags = require('striptags')
 
 module.exports = function(eleventyConfig) {
+    eleventyConfig.setTemplateFormats("njk,md");
     eleventyConfig.addPassthroughCopy({ "static/**/*": "." });
     eleventyConfig.addPlugin(syntaxHighlight)
     eleventyConfig.addNunjucksFilter('json', function(value) {
