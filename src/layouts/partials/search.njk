@@ -1,0 +1,32 @@
+<div x-data="searchData()"
+     x-init="$watch('query', value => {
+
+     })"
+     class="container mx-auto mt-10">
+    <form @submit.prevent="search($dispatch)" class="flex items-center">
+        <input class="block w-full border-b-4 border-ns-blue-light bg-transparent text-2xl placeholder-gray-700 px-4 py-2" placeholder="Search for plugins" x-model="query">
+    </form>
+    <ul>
+        <template x-for="result in results" :key="result.refIndex">
+            <li x-text="result.item.name"></li>
+        </template>
+    </ul>
+
+    <script>
+        function searchData() {
+            const plugins = {{ plugins | json | safe }}
+            const fuseIndex = {{ fuseIndex | json | safe }}
+            const fuse = new Fuse(plugins, {}, Fuse.parseIndex(fuseIndex))
+
+            return {
+                query: '',
+                results: [],
+                search($dispatch) {
+                    this.results = fuse.search(this.query)
+                    $dispatch('all-visible-change', this.results.length === 0)
+                    console.log(JSON.stringify(this.results))
+                }
+            }
+        }
+    </script>
+</div>

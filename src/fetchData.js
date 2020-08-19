@@ -2,6 +2,7 @@ const path = require('path')
 const fs = require('fs')
 const npmSearch = require('libnpmsearch')
 const axios = require('axios')
+const Fuse = require('fuse.js')
 
 function author(plugin, authorsMap) {
     if (plugin.maintainers && plugin.maintainers.find(user => user.username === 'nativescript-bot') || plugin.scope === 'nativescript') {
@@ -125,6 +126,16 @@ async function getPackageData(packageName) {
     }
 }
 
+function buildIndex(plugins) {
+    return Fuse.createIndex([
+        'name',
+        'keywords',
+        'description',
+        'author.name',
+        'author.username',
+    ], plugins)
+}
+
 async function run() {
     const authorsMap = {}
     let plugins = await fetchAllNativeScriptPlugins()
@@ -132,11 +143,11 @@ async function run() {
 
     plugins = plugins.filter(plugin => {
         // filter out packages that re-publish nativescript-vue (or similar)
-        if(plugin.author && plugin.author.name === 'Igor Randjelovic') {
+        if (plugin.author && plugin.author.name === 'Igor Randjelovic') {
             return plugin.maintainers && plugin.maintainers.some(m => m.username === 'rigor789')
         }
 
-        if(plugin.author && plugin.author.name === 'NativeScript Team') {
+        if (plugin.author && plugin.author.name === 'NativeScript Team') {
             return plugin.maintainers && plugin.maintainers.some(m => m.username === 'nativescript-bot')
         }
 
@@ -169,6 +180,10 @@ async function run() {
 
     await fs.promises.writeFile(path.resolve(__dirname, 'data', 'plugins.json'), JSON.stringify(plugins, null, 2))
     await fs.promises.writeFile(path.resolve(__dirname, 'data', 'authors.json'), JSON.stringify(authors, null, 2))
+
+    // build Fuse index
+    const fuseIndex = buildIndex(plugins).toJSON()
+    await fs.promises.writeFile(path.resolve(__dirname, 'data', 'fuseIndex.json'), JSON.stringify(fuseIndex, null, 2))
 }
 
 run().catch(err => {

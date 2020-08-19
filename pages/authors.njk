@@ -2,12 +2,14 @@
 title: Authors
 ---
 
-<h1 class="text-3xl text-gray-600 mt-10">Authors</h1>
+<article class="container mx-auto">
+    <h1 class="text-3xl text-gray-600 mt-10">Authors</h1>
 
-<ul class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-    {% for author in authors %}
-        <li>
-            <a href="/author/{{ author.username }}">{{ author.name }}</a>
-        </li>
-    {% endfor %}
-</ul>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        {% for author in authors %}
+            <li>
+                <a href="/author/{{ author.username }}">{{ author.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</article>

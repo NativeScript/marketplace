@@ -8,50 +8,54 @@ renderData:
     title: '{{ plugin.name }}'
 ---
 
-<div class="grid grid-cols-3 mt-10">
-    <div class="flex col-span-2">
-        <div class="w-16 h-16 plugin-image"></div>
-        <div class="ml-4">
-            <div class="text-4xl font-bold text-gray-900">{{ plugin.name }}</div>
-            <div class="text-sm text-gray-700">
-                {% if plugin.author %}
-                    <a href="/author/{{ plugin.publisher.username }}" class="hover:text-blue-800">by {{ plugin.author.name }}</a>
-                    <span> | </span>
-                {% endif %}
-                <span>v{{ plugin.version }}</span>
+<article class="container mx-auto">
+    <div class="grid grid-cols-3 mt-10">
+        <div class="flex col-span-2">
+            <div class="w-16 h-16 plugin-image"></div>
+            <div class="ml-4">
+                <div class="text-4xl font-bold text-gray-900">{{ plugin.name }}</div>
+                <div class="text-sm text-gray-700">
+                    {% if plugin.author %}
+                        <a href="/author/{{ plugin.publisher.username }}"
+                           class="hover:text-blue-800">by {{ plugin.author.name }}</a>
+                        <span> | </span>
+                    {% endif %}
+                    <span>v{{ plugin.version }}</span>
+                </div>
+                <div class="text-base text-gray-800 mt-2">
+                    {{ plugin.description | markdown | strip }}
+                </div>
+                <div class="flex space-x-2 mt-2">
+                    <div class="w-6 h-6 badge-android"></div>
+                    <div class="w-6 h-6 badge-ios"></div>
+                    <div class="w-6 h-6 badge-webpack"></div>
+                    <div class="w-6 h-6 badge-demos"></div>
+                    <div class="w-6 h-6 badge-license"></div>
+                    <div class="w-6 h-6 badge-version"></div>
+                    <div class="w-6 h-6 badge-typings"></div>
+                    <div class="w-6 h-6 badge-angular"></div>
+                    <div class="w-6 h-6 badge-vue"></div>
+                    <div class="w-6 h-6 badge-ci"></div>
+                    <div class="w-6 h-6 badge-popular"></div>
+                </div>
+                {# {{ plugin | json }} #}
             </div>
-            <div class="text-base text-gray-800 mt-2">
-                {{ plugin.description | markdown | strip }}
-            </div>
-            <div class="flex space-x-2 mt-2">
-                <div class="w-6 h-6 badge-android"></div>
-                <div class="w-6 h-6 badge-ios"></div>
-                <div class="w-6 h-6 badge-webpack"></div>
-                <div class="w-6 h-6 badge-demos"></div>
-                <div class="w-6 h-6 badge-license"></div>
-                <div class="w-6 h-6 badge-version"></div>
-                <div class="w-6 h-6 badge-typings"></div>
-                <div class="w-6 h-6 badge-angular"></div>
-                <div class="w-6 h-6 badge-vue"></div>
-                <div class="w-6 h-6 badge-ci"></div>
-                <div class="w-6 h-6 badge-popular"></div>
-            </div>
-            {# {{ plugin | json }} #}
+        </div>
+        <div>
+            <div class="border border-blue-500 text-blue-500 font-mono rounded px-4 py-2">npm i
+                --save {{ plugin.name }}</div>
+            <ul>
+                <li>Version: {{ plugin.version }}</li>
+                <li>GitHub: {{ plugin.links.repository }}</li>
+            </ul>
         </div>
     </div>
-    <div>
-        <div class="border border-blue-500 text-blue-500 font-mono rounded px-4 py-2">npm i --save {{ plugin.name }}</div>
-        <ul>
-            <li>Version: {{ plugin.version }}</li>
-            <li>GitHub: {{ plugin.links.repository }}</li>
-        </ul>
+
+    <div class="max-w-full prose prose-lg mt-24">
+        {{ plugin.data.readme | markdown | safe }}
     </div>
-</div>
 
-<div class="max-w-full prose prose-lg mt-24">
-    {{ plugin.data.readme | markdown | safe }}
-</div>
-
-<pre class="mt-4">
+    <pre class="mt-4">
 {{ plugin | json }}
 </pre>
+</article>
