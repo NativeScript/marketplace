@@ -21,23 +21,18 @@ permalink: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1
     </div>
 </div>
 
-<div x-data="{ allVisible: true }">
-    <div @all-visible-change.window="allVisible = $event.detail">
-        {% include "layouts/partials/search.njk" %}
-    </div>
+<article class="container mx-auto">
+    {% include "layouts/partials/search.njk" %}
 
-    <article class="container mx-auto" x-show="allVisible">
+    <h2 class="text-3xl text-gray-600 mt-10">All plugins ({{ plugins.length }})</h2>
 
-        <h2 class="text-3xl text-gray-600 mt-10">All plugins ({{ plugins.length }})</h2>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        {% for plugin in pagination.items %}
+            <li>
+                {% include "layouts/partials/plugin-box.njk" %}
+            </li>
+        {% endfor %}
+    </ul>
 
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-            {% for plugin in pagination.items %}
-                <li>
-                    {% include "layouts/partials/plugin-box.njk" %}
-                </li>
-            {% endfor %}
-        </ul>
-
-        {% include "layouts/partials/pagination.njk" %}
-    </article>
-</div>
+    {% include "layouts/partials/pagination.njk" %}
+</article>

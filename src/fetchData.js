@@ -4,26 +4,21 @@ const npmSearch = require('libnpmsearch')
 const axios = require('axios')
 const Fuse = require('fuse.js')
 const PQueue = require('p-queue').default
+const Gauge = require('gauge')
 
-// syntax highlighting for READMEs
 const Prism = require("prismjs");
-const langs = Prism.languages
-Prism.languages = new Proxy(langs, {
-    get(target, key) {
-        if (target[key]) {
-            return target[key]
-        } else if (target[key.toLowerCase()]) {
-            return target[key.toLowerCase()]
-        }
-        return target['bash']
-    }
-})
 const markdownPrismJs = require('@11ty/eleventy-plugin-syntaxhighlight/src/markdownSyntaxHighlightOptions')
 const md = require('markdown-it')({
     html: true
 });
+const highlightFunction =  markdownPrismJs()
 md.set({
-    highlight: markdownPrismJs()
+    highlight: (code, language) => {
+        if(!Prism.languages[language]) {
+            language = 'bash'
+        }
+        return highlightFunction(code, language)
+    }
 })
 
 function author(plugin, authorsMap) {
@@ -65,12 +60,12 @@ function author(plugin, authorsMap) {
             username: plugin.author.username
         }
     } else if (plugin.maintainers && plugin.maintainers.length === 1) {
-        let name = plugin.maintainers[0].username
-        if (plugin.author && plugin.author.name) {
-            name = plugin.author.name
-        }
+        // let name = plugin.maintainers[0].username
+        // if (plugin.author && plugin.author.name) {
+        //     name = plugin.author.name
+        // }
         plugin.author = {
-            name,//: plugin.maintainers[0].username,
+            name: plugin.maintainers[0].username,//: plugin.maintainers[0].username,
             username: plugin.maintainers[0].username
         }
     } else if (plugin.publisher) {
@@ -94,44 +89,61 @@ function author(plugin, authorsMap) {
     }
 }
 
+function keywords(plugin) {
+    let name = plugin.name
+    // remove scope from name
+    if(plugin.scope !== 'unscoped') {
+        name = plugin.name.substr(plugin.scope.length + 2)
+    }
+    const keywords = name.split('-')
+    plugin.keywords = (plugin.keywords || []).concat(keywords)
+}
+
 async function fetchAllNativeScriptPlugins() {
     const limit = 100
     let offset = 0
     const results = []
-
+    const gauge = new Gauge()
+    gauge.show('fetching results', 0)
     while (true) {
-        console.log(`fetching results [${offset}-${offset + limit}]`)
+        gauge.pulse(`[${offset}-${offset + limit}]`)
         const res = await npmSearch('nativescript', {
             limit,
             from: offset
         })
         results.push(...res)
         offset += res.length + 1
-        //break;
+        // break;
         if (res.length < limit) {
             break;
         }
     }
-
-    // results.map(plugin => {
-    //     if (!plugin.author) {
-    //         plugin.author = {
-    //             name: plugin.publisher.username,
-    //             email: plugin.publisher.email
-    //         }
-    //     } else {
-    //         plugin.author.publisher = plugin.publisher.username
-    //     }
-    // })
-
+    gauge.hide()
     return results
 }
 
-async function getPackageData(packageName) {
-    const res = await axios.get(`https://registry.npmjs.org/${packageName}`)
+async function getPackageDownloads(packageName, period) {
+    try {
+        const res = await axios.get(`https://api.npmjs.org/downloads/point/${period}/${packageName}`)
+        return res.data.downloads
+    } catch (e) {
+        return 0
+    }
+}
 
-    const versions = Object.keys(res.data.versions)
-    const latest = res.data.versions[versions[versions.length - 1]]
+async function getPackageDownloadStats(packageName) {
+    return {
+        lastDay: await getPackageDownloads(packageName, 'last-day'),
+        lastWeek: await getPackageDownloads(packageName, 'last-week'),
+        lastMonth: await getPackageDownloads(packageName, 'last-month'),
+    }
+}
+
+async function getPackageData(packageName) {
+    // todo: only re-fetch if updated
+    const res = await axios.get(`https://registry.npmjs.org/${packageName}`)
+    const downloadStats = await getPackageDownloadStats(packageName)
+    const latest = res.data.versions[res.data['dist-tags']['latest']]
 
     let readme = 'No README found.'
     if (latest.readme) {
@@ -144,17 +156,25 @@ async function getPackageData(packageName) {
         name: packageName,
         version: latest.version,
         license: latest.license,
-        readme: md.render(readme)
+        readme: md.render(readme),
+        downloadStats
     }
 }
 
 function buildIndex(plugins) {
     return Fuse.createIndex([
-        'name',
-        'keywords',
-        'description',
-        'author.name',
-        'author.username',
+        {
+            name: 'name',
+            weight: 10
+        },
+        {
+            name: 'keywords',
+            weight: 5
+        },
+        {
+            name: 'description',
+            weight: 1
+        }
     ], plugins)
 }
 
@@ -174,11 +194,21 @@ async function run() {
             return plugin.maintainers && plugin.maintainers.some(m => m.username === 'nativescript-bot')
         }
 
+        // ignore-list
+        if ([
+            'localized-strings'
+        ].includes(plugin.name)) {
+            return false
+        }
+
         return true
     })
 
     const promises = []
     for (const plugin of plugins) {
+        // optimize keywords
+        keywords(plugin)
+
         // console.log(`processing plugin ${plugins.indexOf(plugin)} out of ${plugins.length}`)
         author(plugin, authorsMap)
 
@@ -191,25 +221,45 @@ async function run() {
         authorsMap[plugin.author.username].plugins.push(plugin)
 
         promises.push(async () => {
-            console.log(`processing plugin ${plugins.indexOf(plugin) + 1} out of ${plugins.length}`)
-            pluginData[plugin.name] = await getPackageData(plugin.name).catch(err => {
+            // console.log(`processing plugin ${plugins.indexOf(plugin) + 1} out of ${plugins.length}`)
+            const data = await getPackageData(plugin.name).catch(err => {
                 console.log('FAILED.', err)
-                plugin.data = {}
+                return {
+                    name: plugin.name,
+                    version: plugin.version,
+                    license: '',
+                    readme: '',
+                    downloadStats: {
+                        lastDay: 0,
+                        lastWeek: 0,
+                        lastMonth: 0
+                    }
+                }
             })
+            pluginData[plugin.name] = data;
+            plugin.downloadStats = data.downloadStats
         })
     }
-    const queue = new PQueue({concurrency: 10});
+    const queue = new PQueue({concurrency: 20});
+    const gauge = new Gauge()
+    gauge.show('fetching data')
+    const total = promises.length
     queue.on('next', () => {
-        console.log(`${queue.size}\t${queue.pending}`)
-        // console.log(`Task is completed.  Size: ${queue.size}  Pending: ${queue.pending}`);
+        gauge.pulse()
+        gauge.show(`${total - queue.size} / ${total}`, 1 - (queue.size / total))
     });
     await queue.addAll(promises)
     await queue.onIdle();
-    console.log('done.')
+    gauge.hide()
 
     // remove duplicates if npm api returned something multiple times
     plugins = plugins.filter((plugin, index) => {
         return plugins.findIndex(p => p.name === plugin.name) === index
+    })
+
+    // sort plugins by download count
+    plugins.sort((a, b) => {
+        return b.downloadStats.lastMonth - a.downloadStats.lastMonth
     })
 
     const authors = Object.values(authorsMap)
