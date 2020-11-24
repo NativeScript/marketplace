@@ -44,14 +44,27 @@ renderData:
                     </div>
                 </div>
                 <div>
-                    <div class="border border-blue-500 text-blue-500 font-mono rounded px-4 py-2">npm i
-                        --save {{ plugin.name }}</div>
-                    <ul>
+                    <div class="border border-blue-500 text-blue-500 font-mono rounded px-4 py-2">
+                        npm i --save {{ plugin.name }}
+                    </div>
+                    <ul class="mt-4">
                         <li>Version: {{ plugin.version }}</li>
-                        <li>GitHub: {{ plugin.links.repository }}</li>
-                        <li>Downloads Last Day: {{ plugin.downloadStats.lastDay }}</li>
-                        <li>Downloads Last Week: {{ plugin.downloadStats.lastWeek }}</li>
-                        <li>Downloads Last Month: {{ plugin.downloadStats.lastMonth }}</li>
+                        <li>
+                            GitHub:
+                            <a target="_blank"
+                               rel="noopener"
+                               class="text-blue-700"
+                               href="{{ plugin.links.repository }}">
+                                {{ plugin.links.repository }}
+                            </a>
+                        </li>
+
+                        <li class="mt-2">Downloads:</li>
+                        <ul class="pl-2 font-mono tracking-tighter">
+                            <li>Last Day:&nbsp;&nbsp;&nbsp;{{ plugin.downloadStats.lastDay }}</li>
+                            <li>Last Week:&nbsp;&nbsp;{{ plugin.downloadStats.lastWeek }}</li>
+                            <li>Last Month:&nbsp;{{ plugin.downloadStats.lastMonth }}</li>
+                        </ul>
                     </ul>
                 </div>
             </div>
