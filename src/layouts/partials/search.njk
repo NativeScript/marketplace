@@ -61,35 +61,48 @@
 
     <script>
         function searchData() {
-            const plugins = {{ plugins | json | safe }}
-            const fuseIndex = {{ fuseIndex | json | safe }}
-            const options = {
-                includeScore: true,
-                useExtendedSearch: true,
-                minMatchCharLength: 2,
-                ignoreLocation: true,
-                keys: [
-                    {
-                        name: 'name',
-                        weight: 10
-                    },
-                    {
-                        name: 'keywords',
-                        weight: 5
-                    },
-                    {
-                        name: 'description',
-                        weight: 1
-                    }
-                ]
+            let fuse;
+            async function prepareFuse() {
+                if(fuse) {
+                    return fuse;
+                }
+                const plugins = await fetch('/api/plugins.json').then(res => res.json())
+                const fuseIndex = await fetch('/api/fuseIndex.json').then(res => res.json())
+                const options = {
+                    includeScore: true,
+                    useExtendedSearch: true,
+                    minMatchCharLength: 2,
+                    ignoreLocation: true,
+                    keys: [
+                        {
+                            name: 'name',
+                            weight: 10
+                        },
+                        {
+                            name: 'keywords',
+                            weight: 5
+                        },
+                        {
+                            name: 'description',
+                            weight: 1
+                        }
+                    ]
+                }
+                fuse = new Fuse(plugins, options, Fuse.parseIndex(fuseIndex))
+
+                return fuse;
             }
-            const fuse = new Fuse(plugins, options, Fuse.parseIndex(fuseIndex))
+
+            prepareFuse();
 
             return {
                 query: '',
                 results: [],
-                search() {
-                    const results = fuse.search(this.query) //`nativescript-${this.query}`)
+                async search() {
+                    const fuse = await prepareFuse();
+                    // console.log(fuse, this.query)
+                    const results = fuse.search(this.query)
+                    //`nativescript-${this.query}`)
 
                     // results.map(result => {
                     //     result.score *= (plugins.length - result.refIndex) / 100
@@ -97,7 +110,7 @@
                     // results.sort((a, b) => {
                     //     return b.score - a.score
                     // })
-                    console.log(results)
+                    // console.log({results})
                     this.results = results.slice(0, 50)
                 }
             }

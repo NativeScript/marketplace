@@ -18,7 +18,7 @@ renderData:
                         <div class="text-4xl font-bold text-gray-900">{{ plugin.name }}</div>
                         <div class="text-sm text-gray-700">
                             {% if plugin.author %}
-                                <a href="/author/{{ plugin.publisher.username }}"
+                                <a href="/author/{{ plugin.author.username }}"
                                    class="hover:text-blue-800">by {{ plugin.author.name }}</a>
                                 <span> | </span>
                             {% endif %}

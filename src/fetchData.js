@@ -80,6 +80,9 @@ function author(plugin, authorsMap) {
         }
     }
 
+    // replace invalid characters: '
+    plugin.author.username = plugin.author.username.replace('\'', '')
+
     // in case we already have this username - we want to use the same data
     if (authorsMap[plugin.author.username]) {
         plugin.author = {
@@ -257,12 +260,21 @@ async function run() {
         return plugins.findIndex(p => p.name === plugin.name) === index
     })
 
-    // sort plugins by download count
+    // sort plugins by name
     plugins.sort((a, b) => {
-        return b.downloadStats.lastMonth - a.downloadStats.lastMonth
+        return a.name.localeCompare(b.name)
     })
+    // pluginData.sort((a, b) => {
+    //   return a.name.localeCompare(b.name)
+    // })
 
     const authors = Object.values(authorsMap)
+
+    // sort authors by username
+    authors.sort((a, b) => {
+      return a.username.localeCompare(b.username)
+    })
+
 
     await fs.promises.writeFile(path.resolve(__dirname, 'data', 'plugins.json'), JSON.stringify(plugins, null, 2))
     await fs.promises.writeFile(path.resolve(__dirname, 'data', 'pluginData.dat'), JSON.stringify(pluginData))
