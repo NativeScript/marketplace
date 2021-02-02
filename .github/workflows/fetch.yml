@@ -1,8 +1,8 @@
 name: fetch
 
 on:
-#   schedule:
-#   - cron: "0 0 * * *"
+  schedule:
+  - cron: "0 8 * * *"
   workflow_dispatch:
 
 jobs:
