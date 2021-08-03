@@ -9258,7 +9258,7 @@
   {
     "name": "@nativescript-community/licenses",
     "scope": "nativescript-community",
-    "version": "1.1.10",
+    "version": "1.1.11",
     "description": "Nativescript plugin to generate licenses JSON files",
     "keywords": [
       "NativeScript",
@@ -9267,7 +9267,7 @@
       "iOS",
       "licenses"
     ],
-    "date": "2021-03-19T14:06:58.297Z",
+    "date": "2021-08-02T12:25:01.655Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Flicenses",
       "homepage": "https://github.com/nativescript-community/licenses",
@@ -9282,22 +9282,6 @@
       "email": "martin.guillon@akylas.fr"
     },
     "maintainers": [
-      {
-        "username": "tralves",
-        "email": "tralves@gmail.com"
-      },
-      {
-        "username": "rdlabo",
-        "email": "sakakibara@rdlabo.jp"
-      },
-      {
-        "username": "bradmartin",
-        "email": "bradwaynemartin@gmail.com"
-      },
-      {
-        "username": "cvietor",
-        "email": "cv@chris-vietor.de"
-      },
       {
         "username": "farfromrefuge",
         "email": "martin.guillon@akylas.fr"
@@ -9329,6 +9313,22 @@
       {
         "username": "keerl",
         "email": "karlschmaltz@gmail.com"
+      },
+      {
+        "username": "cvietor",
+        "email": "cv@chris-vietor.de"
+      },
+      {
+        "username": "bradmartin",
+        "email": "bradwaynemartin@gmail.com"
+      },
+      {
+        "username": "rdlabo",
+        "email": "sakakibara@rdlabo.jp"
+      },
+      {
+        "username": "tralves",
+        "email": "tralves@gmail.com"
       }
     ],
     "downloadStats": {
@@ -9665,6 +9665,87 @@
       "lastDay": 0,
       "lastWeek": 16,
       "lastMonth": 58
+    }
+  },
+  {
+    "name": "@nativescript-community/sensors",
+    "scope": "nativescript-community",
+    "version": "1.2.1",
+    "description": "Nativescript plugin for Carto Mobile SDK",
+    "keywords": [
+      "NativeScript",
+      "JavaScript",
+      "iOS",
+      "sensors"
+    ],
+    "date": "2021-03-20T16:09:24.548Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fsensors",
+      "homepage": "https://github.com/nativescript-community/sensors",
+      "bugs": "https://github.com/nativescript-community/sensors/issues"
+    },
+    "author": {
+      "name": "NativeScript Community",
+      "username": "nativescript-community"
+    },
+    "publisher": {
+      "username": "farfromrefuge",
+      "email": "martin.guillon@akylas.fr"
+    },
+    "maintainers": [
+      {
+        "username": "tralves",
+        "email": "tralves@gmail.com"
+      },
+      {
+        "username": "rdlabo",
+        "email": "sakakibara@rdlabo.jp"
+      },
+      {
+        "username": "bradmartin",
+        "email": "bradwaynemartin@gmail.com"
+      },
+      {
+        "username": "cvietor",
+        "email": "cv@chris-vietor.de"
+      },
+      {
+        "username": "farfromrefuge",
+        "email": "martin.guillon@akylas.fr"
+      },
+      {
+        "username": "triniwiz",
+        "email": "fortune.osei@yahoo.com"
+      },
+      {
+        "username": "eddyverbruggen",
+        "email": "eddyverbruggen@gmail.com"
+      },
+      {
+        "username": "rigor789",
+        "email": "shout@igor-randjelovic.com"
+      },
+      {
+        "username": "nathanaela",
+        "email": "nathan@master-technology.com"
+      },
+      {
+        "username": "walkerrunpdx",
+        "email": "walkerrunpdx@gmail.com"
+      },
+      {
+        "username": "dnr",
+        "email": "katsampasdr@gmail.com"
+      },
+      {
+        "username": "keerl",
+        "email": "karlschmaltz@gmail.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 28
     }
   },
   {
@@ -10106,7 +10187,10 @@
     "description": "Data-Mapper ORM for TypeScript, ES7, ES6, ES5. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, MongoDB databases.",
     "date": "2020-11-09T20:14:39.766Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/%40nativescript-community%2Ftypeorm"
+      "npm": "https://www.npmjs.com/package/%40nativescript-community%2Ftypeorm",
+      "homepage": "https://github.com/typeorm/typeorm#readme",
+      "repository": "https://github.com/typeorm/typeorm",
+      "bugs": "https://github.com/typeorm/typeorm/issues"
     },
     "author": {
       "name": "NativeScript Community",
@@ -10706,7 +10790,7 @@
   {
     "name": "@nativescript-community/ui-collectionview",
     "scope": "nativescript-community",
-    "version": "4.0.38",
+    "version": "4.0.39",
     "description": "Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.",
     "keywords": [
       "NativeScript",
@@ -10734,7 +10818,7 @@
       "ui",
       "collectionview"
     ],
-    "date": "2021-08-01T09:17:16.642Z",
+    "date": "2021-08-02T08:32:53.864Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-collectionview",
       "homepage": "https://github.com/nativescript-community/ui-collectionview#readme",
@@ -10808,7 +10892,7 @@
   {
     "name": "@nativescript-community/ui-collectionview-waterfall",
     "scope": "nativescript-community",
-    "version": "4.0.38",
+    "version": "4.0.39",
     "description": "[![npm downloads](https://img.shields.io/npm/dm/@nativescript-community/ui-collectionview-waterfall.svg)](https://www.npmjs.com/package/@nativescript-community/ui-collectionview-waterfall) [![npm downloads](https://img.shields.io/npm/dt/@nativescript-comm",
     "keywords": [
       "NativeScript",
@@ -10819,7 +10903,7 @@
       "collectionview",
       "waterfall"
     ],
-    "date": "2021-08-01T09:17:19.598Z",
+    "date": "2021-08-02T08:33:00.607Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-collectionview-waterfall",
       "homepage": "https://github.com/nativescript-community/ui-collectionview#readme",
@@ -11422,7 +11506,7 @@
   {
     "name": "@nativescript-community/ui-material-activityindicator",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Activity Indicator expresses an unspecified wait time.",
     "keywords": [
       "NativeScript",
@@ -11436,7 +11520,7 @@
       "material",
       "activityindicator"
     ],
-    "date": "2021-07-30T14:00:04.468Z",
+    "date": "2021-08-02T15:52:30.948Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-activityindicator",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -11510,7 +11594,7 @@
   {
     "name": "@nativescript-community/ui-material-bottom-navigation",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Bottom Navigation bars allow movement between primary destinations in an app. Tapping on a bottom navigation icon takes you directly to the associated view or refreshes the currently active view.",
     "keywords": [
       "NativeScript",
@@ -11530,7 +11614,7 @@
       "bottom",
       "navigation"
     ],
-    "date": "2021-07-30T13:59:59.032Z",
+    "date": "2021-08-02T15:52:31.367Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-bottom-navigation",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -11604,7 +11688,7 @@
   {
     "name": "@nativescript-community/ui-material-bottomnavigationbar",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Bottom Navigation bars allow movement between primary destinations in an app. Tapping on a bottom navigation icon takes you directly to the associated view or refreshes the currently active view.",
     "keywords": [
       "NativeScript",
@@ -11624,7 +11708,7 @@
       "material",
       "bottomnavigationbar"
     ],
-    "date": "2021-07-30T13:59:59.584Z",
+    "date": "2021-08-02T15:52:31.417Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-bottomnavigationbar",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -11698,7 +11782,7 @@
   {
     "name": "@nativescript-community/ui-material-bottomsheet",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Bottom Sheets slide up from the bottom of the screen to reveal more content. Bottom sheets integrate with the app to display supporting content or present deep-linked content from other apps.",
     "keywords": [
       "NativeScript",
@@ -11712,7 +11796,7 @@
       "material",
       "bottomsheet"
     ],
-    "date": "2021-07-30T14:00:05.087Z",
+    "date": "2021-08-02T15:52:31.919Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-bottomsheet",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -11786,7 +11870,7 @@
   {
     "name": "@nativescript-community/ui-material-button",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Buttons allow users to take actions, and make choices, with a single tap.",
     "keywords": [
       "NativeScript",
@@ -11800,7 +11884,7 @@
       "material",
       "button"
     ],
-    "date": "2021-07-30T13:59:59.763Z",
+    "date": "2021-08-02T15:52:31.438Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-button",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -11874,7 +11958,7 @@
   {
     "name": "@nativescript-community/ui-material-cardview",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Cards contain content and actions about a single subject.",
     "keywords": [
       "NativeScript",
@@ -11888,7 +11972,7 @@
       "material",
       "cardview"
     ],
-    "date": "2021-07-30T13:59:59.492Z",
+    "date": "2021-08-02T15:52:31.490Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-cardview",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -11962,7 +12046,7 @@
   {
     "name": "@nativescript-community/ui-material-core",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Core component",
     "keywords": [
       "NativeScript",
@@ -11973,7 +12057,7 @@
       "material",
       "core"
     ],
-    "date": "2021-07-30T13:59:55.002Z",
+    "date": "2021-08-02T15:52:27.943Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-core",
       "homepage": "https://github.com/nativescript-community/ui-material-components",
@@ -12047,7 +12131,7 @@
   {
     "name": "@nativescript-community/ui-material-dialogs",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.",
     "keywords": [
       "NativeScript",
@@ -12061,7 +12145,7 @@
       "material",
       "dialogs"
     ],
-    "date": "2021-07-30T14:00:05.052Z",
+    "date": "2021-08-02T15:52:40.711Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-dialogs",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12135,7 +12219,7 @@
   {
     "name": "@nativescript-community/ui-material-floatingactionbutton",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design FAB performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center.",
     "keywords": [
       "NativeScript",
@@ -12149,7 +12233,7 @@
       "material",
       "floatingactionbutton"
     ],
-    "date": "2021-07-30T13:59:59.424Z",
+    "date": "2021-08-02T15:52:31.398Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-floatingactionbutton",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12223,7 +12307,7 @@
   {
     "name": "@nativescript-community/ui-material-progress",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Progress view is a linear progress indicator that implements Material Design animation and layout.",
     "keywords": [
       "NativeScript",
@@ -12237,7 +12321,7 @@
       "material",
       "progress"
     ],
-    "date": "2021-07-30T13:59:59.306Z",
+    "date": "2021-08-02T15:52:32.048Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-progress",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12311,7 +12395,7 @@
   {
     "name": "@nativescript-community/ui-material-ripple",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "The Material Design Ripple component provides a radial action in the form of a visual ripple expanding outward from the user's touch. Ripple is a visual form of feedback for touch events providing users a clear signal that an element is being touched.",
     "keywords": [
       "NativeScript",
@@ -12325,7 +12409,7 @@
       "material",
       "ripple"
     ],
-    "date": "2021-07-30T13:59:58.991Z",
+    "date": "2021-08-02T15:52:31.318Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-ripple",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12399,7 +12483,7 @@
   {
     "name": "@nativescript-community/ui-material-slider",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Sliders allow users to make selections from a range of values.",
     "keywords": [
       "NativeScript",
@@ -12413,7 +12497,7 @@
       "material",
       "slider"
     ],
-    "date": "2021-07-30T13:59:59.558Z",
+    "date": "2021-08-02T15:52:31.354Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-slider",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12487,7 +12571,7 @@
   {
     "name": "@nativescript-community/ui-material-snackbar",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Snackbars provide brief messages about app processes at the bottom of the screen.",
     "keywords": [
       "NativeScript",
@@ -12501,7 +12585,7 @@
       "material",
       "snackbar"
     ],
-    "date": "2021-07-30T14:00:00.726Z",
+    "date": "2021-08-02T15:52:31.547Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-snackbar",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12575,7 +12659,7 @@
   {
     "name": "@nativescript-community/ui-material-speeddial",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "When pressed, the Material Design component can display three to six related actions in the form of a speed dial.",
     "keywords": [
       "NativeScript",
@@ -12589,7 +12673,7 @@
       "material",
       "speeddial"
     ],
-    "date": "2021-07-30T14:00:05.017Z",
+    "date": "2021-08-02T15:52:38.912Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-speeddial",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12663,7 +12747,7 @@
   {
     "name": "@nativescript-community/ui-material-tabs",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Tabs organize content across different screens, data sets, and other interactions.",
     "keywords": [
       "NativeScript",
@@ -12677,7 +12761,7 @@
       "material",
       "tabs"
     ],
-    "date": "2021-07-30T14:00:01.160Z",
+    "date": "2021-08-02T15:52:32.033Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-tabs",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12751,7 +12835,7 @@
   {
     "name": "@nativescript-community/ui-material-textfield",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Text fields allow users to input text into your app.",
     "keywords": [
       "NativeScript",
@@ -12765,7 +12849,7 @@
       "material",
       "textfield"
     ],
-    "date": "2021-07-30T14:00:00.616Z",
+    "date": "2021-08-02T15:52:36.474Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-textfield",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -12839,7 +12923,7 @@
   {
     "name": "@nativescript-community/ui-material-textview",
     "scope": "nativescript-community",
-    "version": "5.3.12",
+    "version": "5.3.14",
     "description": "Material Design Text views allow users to input text into your app.",
     "keywords": [
       "NativeScript",
@@ -12853,7 +12937,7 @@
       "material",
       "textview"
     ],
-    "date": "2021-07-30T13:59:59.028Z",
+    "date": "2021-08-02T15:52:35.839Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-material-textview",
       "homepage": "https://github.com/nativescript-community/ui-material-components/tree/master#readme",
@@ -15614,6 +15698,120 @@
       "lastDay": 0,
       "lastWeek": 0,
       "lastMonth": 102
+    }
+  },
+  {
+    "name": "@nativescript/canvas-phaser-ce",
+    "scope": "nativescript",
+    "version": "1.0.0-alpha7",
+    "description": "Tools for using Phaser-ce to build native 2D games in NativeScript 👾",
+    "keywords": [
+      "NativeScript",
+      "JavaScript",
+      "TypeScript",
+      "iOS",
+      "Android",
+      "canvas",
+      "phaser",
+      "ce"
+    ],
+    "date": "2021-04-07T07:49:41.722Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40nativescript%2Fcanvas-phaser-ce",
+      "homepage": "https://github.com/NativeScript/canvas",
+      "repository": "https://github.com/NativeScript/canvas",
+      "bugs": "https://github.com/NativeScript/canvas/issues"
+    },
+    "author": {
+      "name": "NativeScript Team",
+      "username": "nativescript"
+    },
+    "publisher": {
+      "username": "nativescript-bot",
+      "email": "oss@nativescript.org"
+    },
+    "maintainers": [
+      {
+        "username": "sis0k0",
+        "email": "stanimira.vlaeva@gmail.com"
+      },
+      {
+        "username": "tdermendjiev",
+        "email": "tdermendjievft@gmail.com"
+      },
+      {
+        "username": "nativescript-user",
+        "email": "nativescript@telerik.com"
+      },
+      {
+        "username": "tns-bot",
+        "email": "nativescript@telerik.com"
+      },
+      {
+        "username": "lini",
+        "email": "bit@gbg.bg"
+      },
+      {
+        "username": "tachev",
+        "email": "nevermindd7@gmail.com"
+      },
+      {
+        "username": "rosen-vladimirov",
+        "email": "vladimirov@progress.com"
+      },
+      {
+        "username": "stoskov",
+        "email": "s.toskov@gmail.com"
+      },
+      {
+        "username": "rosen_vladimirov",
+        "email": "rosen.vladimirov.91@gmail.com"
+      },
+      {
+        "username": "walkerrunpdx",
+        "email": "walkerrunpdx@gmail.com"
+      },
+      {
+        "username": "bradmartin",
+        "email": "bradwaynemartin@gmail.com"
+      },
+      {
+        "username": "nathanaela",
+        "email": "nathan@master-technology.com"
+      },
+      {
+        "username": "davecoffin",
+        "email": "dave@davecoffin.com"
+      },
+      {
+        "username": "rigor789",
+        "email": "shout@igor-randjelovic.com"
+      },
+      {
+        "username": "nativescript-bot",
+        "email": "oss@nativescript.org"
+      },
+      {
+        "username": "multishiv19",
+        "email": "sp@shiv19.com"
+      },
+      {
+        "username": "eddyverbruggen",
+        "email": "eddyverbruggen@gmail.com"
+      },
+      {
+        "username": "edusperoni",
+        "email": "edusperoni@gmail.com"
+      },
+      {
+        "username": "facetious",
+        "email": "Ian.MacDonald.facetious@gmail.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 106
     }
   },
   {
@@ -25072,75 +25270,6 @@
     }
   },
   {
-    "name": "@nstudio/nativescript-xavier-passport",
-    "scope": "nstudio",
-    "version": "2.0.2",
-    "description": "A Passport/MRZ reader for NativeScript",
-    "keywords": [
-      "NativeScript",
-      "Xavier",
-      "MRZ",
-      "JavaScript",
-      "Android",
-      "iOS",
-      "Passport",
-      "nativescript",
-      "xavier",
-      "passport"
-    ],
-    "date": "2019-04-14T06:55:29.049Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/%40nstudio%2Fnativescript-xavier-passport"
-    },
-    "author": {
-      "name": "nStudio",
-      "username": "nstudio"
-    },
-    "publisher": {
-      "username": "nathanaela",
-      "email": "nathan@master-technology.com"
-    },
-    "maintainers": [
-      {
-        "username": "triniwiz",
-        "email": "fortune.osei@yahoo.com"
-      },
-      {
-        "username": "davecoffin",
-        "email": "dave@davecoffin.com"
-      },
-      {
-        "username": "multishiv19",
-        "email": "sp@shiv19.com"
-      },
-      {
-        "username": "rigor789",
-        "email": "shout@igor-randjelovic.com"
-      },
-      {
-        "username": "alexziskind1",
-        "email": "alex@nuvious.com"
-      },
-      {
-        "username": "walkerrunpdx",
-        "email": "walkerrunpdx@gmail.com"
-      },
-      {
-        "username": "bradmartin",
-        "email": "bradwaynemartin@gmail.com"
-      },
-      {
-        "username": "nathanaela",
-        "email": "nathan@master-technology.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 4,
-      "lastMonth": 28
-    }
-  },
-  {
     "name": "@nstudio/root-detection",
     "scope": "nstudio",
     "version": "2.0.1",
@@ -26202,6 +26331,64 @@
     }
   },
   {
+    "name": "@progress-nativechat/nativescript-nativechat",
+    "scope": "progress-nativechat",
+    "version": "3.0.0",
+    "description": "NativeChat plugin for NativeScript",
+    "keywords": [
+      "NativeChat",
+      "Progress",
+      "NativeScript",
+      "JavaScript",
+      "Android",
+      "iOS",
+      "nativescript",
+      "nativechat"
+    ],
+    "date": "2019-11-27T09:19:51.881Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40progress-nativechat%2Fnativescript-nativechat",
+      "homepage": "https://github.com/darvinai/nativescript-plugin",
+      "repository": "https://github.com/darvinai/nativescript-plugin",
+      "bugs": "https://github.com/darvinai/nativescript-plugin/issues"
+    },
+    "author": {
+      "name": "progress-nativechat",
+      "username": "progress-nativechat"
+    },
+    "publisher": {
+      "username": "tsvetie",
+      "email": "tsvetelina.e.ivanova@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "darvin.ai",
+        "email": "support@nativechat.com"
+      },
+      {
+        "username": "kerezov",
+        "email": "d.kerezov@gmail.com"
+      },
+      {
+        "username": "nativechat",
+        "email": "support@nativechat.com"
+      },
+      {
+        "username": "tsvetan.milanov",
+        "email": "tsvetan.milanov17@gmail.com"
+      },
+      {
+        "username": "tsvetie",
+        "email": "tsvetelina.e.ivanova@gmail.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 5,
+      "lastWeek": 24,
+      "lastMonth": 186
+    }
+  },
+  {
     "name": "@progress/jsdo-angular",
     "scope": "progress",
     "version": "6.0.0",
@@ -26355,47 +26542,6 @@
       "lastDay": 0,
       "lastWeek": 3,
       "lastMonth": 27
-    }
-  },
-  {
-    "name": "@qlip/nativescript-badge",
-    "scope": "qlip",
-    "version": "1.0.2",
-    "description": "Add a plugin description",
-    "keywords": [
-      "NativeScript",
-      "JavaScript",
-      "TypeScript",
-      "iOS",
-      "Android",
-      "nativescript",
-      "badge"
-    ],
-    "date": "2020-10-29T13:28:56.289Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/%40qlip%2Fnativescript-badge",
-      "homepage": "https://github.com/NativeScript/plugins",
-      "repository": "https://github.com/NativeScript/plugins",
-      "bugs": "https://github.com/NativeScript/plugins/issues"
-    },
-    "author": {
-      "name": "qlip",
-      "username": "qlip"
-    },
-    "publisher": {
-      "username": "bluehunter99",
-      "email": "joeri.meijer2013@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "bluehunter99",
-        "email": "joeri.meijer2013@gmail.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 24
     }
   },
   {
@@ -27999,7 +28145,10 @@
     ],
     "date": "2021-04-24T20:08:09.043Z",
     "links": {
-      "npm": "https://www.npmjs.com/package/%40ticnat%2Fnativescript-image-cache"
+      "npm": "https://www.npmjs.com/package/%40ticnat%2Fnativescript-image-cache",
+      "homepage": "https://github.com/NativeScript/plugins",
+      "repository": "https://github.com/NativeScript/plugins",
+      "bugs": "https://github.com/NativeScript/plugins/issues"
     },
     "author": {
       "name": "ticnat",
@@ -31251,51 +31400,6 @@
       "lastDay": 0,
       "lastWeek": 9,
       "lastMonth": 37
-    }
-  },
-  {
-    "name": "fork-nativescript-slides",
-    "scope": "unscoped",
-    "version": "2.4.0",
-    "description": "NativeScript Slides plugin.",
-    "keywords": [
-      "NativeScript",
-      "JavaScript",
-      "Android",
-      "iOS",
-      "TypeScript",
-      "swipe slides",
-      "Slides",
-      "Carousel",
-      "fork",
-      "nativescript",
-      "slides"
-    ],
-    "date": "2021-02-24T07:29:52.372Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/fork-nativescript-slides",
-      "homepage": "https://github.com/JoshDSommer/nativescript-slides",
-      "repository": "https://github.com/angels2it/nativescript-slides",
-      "bugs": "https://github.com/JoshDSommer/nativescript-slides/issues"
-    },
-    "author": {
-      "name": "angels2it",
-      "username": "angels2it"
-    },
-    "publisher": {
-      "username": "angels2it",
-      "email": "angels2it@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "angels2it",
-        "email": "angels2it@gmail.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 2,
-      "lastMonth": 28
     }
   },
   {
@@ -37728,56 +37832,6 @@
       "lastDay": 0,
       "lastWeek": 4,
       "lastMonth": 25
-    }
-  },
-  {
-    "name": "nativescript-audio-with-pitch",
-    "scope": "unscoped",
-    "version": "1.0.1",
-    "description": "NativeScript plugin to record and play audio.",
-    "keywords": [
-      "NativeScript",
-      "JavaScript",
-      "TypeScript",
-      "Android",
-      "iOS",
-      "music",
-      "microphone",
-      "recorder",
-      "audio",
-      "nStudio",
-      "bradmartin",
-      "nathanwalker",
-      "nativescript",
-      "audio",
-      "with",
-      "pitch"
-    ],
-    "date": "2021-02-27T19:08:35.426Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/nativescript-audio-with-pitch",
-      "homepage": "https://github.com/entelostre/nativescript-audio",
-      "repository": "https://github.com/entelostre/nativescript-audio",
-      "bugs": "https://github.com/entelostre/nativescript-audio/issues"
-    },
-    "author": {
-      "name": "Fotis Mei",
-      "username": "tisfo"
-    },
-    "publisher": {
-      "username": "tisfo",
-      "email": "polosere22@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "tisfo",
-        "email": "polosere22@gmail.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 6,
-      "lastMonth": 28
     }
   },
   {
@@ -50326,7 +50380,7 @@
   {
     "name": "nativescript-firebase-updated-new",
     "scope": "unscoped",
-    "version": "1011.1.2",
+    "version": "1311.1.2",
     "description": "Fire. Base. Firebase!",
     "keywords": [
       "ecosystem:nativescript",
@@ -50363,7 +50417,7 @@
       "updated",
       "new"
     ],
-    "date": "2021-08-02T07:59:20.650Z",
+    "date": "2021-08-02T13:38:10.778Z",
     "links": {
       "npm": "https://www.npmjs.com/package/nativescript-firebase-updated-new",
       "homepage": "https://github.com/eddyverbruggen/nativescript-plugin-firebase",
@@ -52915,6 +52969,45 @@
       "lastDay": 1,
       "lastWeek": 3,
       "lastMonth": 25
+    }
+  },
+  {
+    "name": "nativescript-gtm",
+    "scope": "unscoped",
+    "version": "1.0.0",
+    "description": "Google Tag Manager plugin for Nativescript",
+    "keywords": [
+      "NativeScript",
+      "JavaScript",
+      "Android",
+      "iOS",
+      "nativescript",
+      "gtm"
+    ],
+    "date": "2019-06-19T09:25:35.233Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/nativescript-gtm",
+      "homepage": "https://github.com/pboulch/nativescript-gtm#readme",
+      "repository": "https://github.com/pboulch/nativescript-gtm"
+    },
+    "author": {
+      "name": "teammobilehw",
+      "username": "teammobilehw"
+    },
+    "publisher": {
+      "username": "teammobilehw",
+      "email": "team-mobile@regionsjob.com"
+    },
+    "maintainers": [
+      {
+        "username": "teammobilehw",
+        "email": "team-mobile@regionsjob.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 1,
+      "lastWeek": 28,
+      "lastMonth": 95
     }
   },
   {
@@ -56203,48 +56296,6 @@
       "lastDay": 1,
       "lastWeek": 3,
       "lastMonth": 25
-    }
-  },
-  {
-    "name": "nativescript-instagram-share",
-    "scope": "unscoped",
-    "version": "1.0.5",
-    "description": "Instagram share plugin will allow you to directly share image to instagram app.",
-    "keywords": [
-      "NativeScript",
-      "JavaScript",
-      "Android",
-      "iOS",
-      "Social Sharing",
-      "Instagram",
-      "nativescript",
-      "instagram",
-      "share"
-    ],
-    "date": "2018-04-08T10:59:29.610Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/nativescript-instagram-share",
-      "homepage": "https://github.com/bhavincb/nativescript-instagram-share",
-      "bugs": "https://github.com/bhavincb/nativescript-instagram-share/issues"
-    },
-    "author": {
-      "name": "Bhavin Jalodara",
-      "username": "bhavincb"
-    },
-    "publisher": {
-      "username": "bhavincb",
-      "email": "bhavin.jalodara@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "bhavincb",
-        "email": "bhavin.jalodara@gmail.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 5,
-      "lastWeek": 12,
-      "lastMonth": 40
     }
   },
   {
@@ -73450,9 +73501,9 @@
   {
     "name": "nativescript-set-version",
     "scope": "unscoped",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Set the version in package.json, app.gradle and info.plist",
-    "date": "2020-05-20T09:32:48.466Z",
+    "date": "2021-08-02T08:51:12.127Z",
     "links": {
       "npm": "https://www.npmjs.com/package/nativescript-set-version"
     },
@@ -78180,6 +78231,49 @@
     }
   },
   {
+    "name": "nativescript-temporary-key-storage",
+    "scope": "unscoped",
+    "version": "1.0.3",
+    "description": "A temporary encrypted key storage for Android and iOS.",
+    "keywords": [
+      "NativeScript",
+      "storage",
+      "key-storage",
+      "secure-storage",
+      "nativescript-storage",
+      "nativescript",
+      "temporary",
+      "key",
+      "storage"
+    ],
+    "date": "2021-02-21T15:00:31.962Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/nativescript-temporary-key-storage",
+      "homepage": "https://github.com/pierremacedo/nativescript-temporary-key-storage#readme",
+      "repository": "https://github.com/pierremacedo/nativescript-temporary-key-storage",
+      "bugs": "https://github.com/pierremacedo/nativescript-temporary-key-storage/issues"
+    },
+    "author": {
+      "name": "pierremg",
+      "username": "pierremg"
+    },
+    "publisher": {
+      "username": "pierremg",
+      "email": "pierremacedodev@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "pierremg",
+        "email": "pierremacedodev@gmail.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 0,
+      "lastWeek": 11,
+      "lastMonth": 37
+    }
+  },
+  {
     "name": "nativescript-tesseract-ios",
     "scope": "unscoped",
     "version": "1.0.8",
@@ -82018,46 +82112,6 @@
     }
   },
   {
-    "name": "nativescript-url-share",
-    "scope": "unscoped",
-    "version": "1.6.3",
-    "description": "A NativeScript module to use the native url sharing widget",
-    "keywords": [
-      "NativeScript",
-      "JavaScript",
-      "Android",
-      "iOS",
-      "nativescript",
-      "url",
-      "share"
-    ],
-    "date": "2020-06-03T10:38:39.419Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/nativescript-url-share",
-      "homepage": "https://github.com/vietlongn/nativescript-social-share",
-      "bugs": "https://github.com/vietlongn/nativescript-social-share/issues"
-    },
-    "author": {
-      "name": "vietlongn",
-      "username": "vietlongn"
-    },
-    "publisher": {
-      "username": "vietlongn",
-      "email": "vietlongn.dev@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "vietlongn",
-        "email": "vietlongn.dev@gmail.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 4,
-      "lastMonth": 31
-    }
-  },
-  {
     "name": "nativescript-urlhandler",
     "scope": "unscoped",
     "version": "1.3.0",
@@ -82877,6 +82931,51 @@
       "lastDay": 0,
       "lastWeek": 12,
       "lastMonth": 42
+    }
+  },
+  {
+    "name": "nativescript-volume",
+    "scope": "unscoped",
+    "version": "1.0.7",
+    "description": "NativeScript plugin that allows you to programmatically change the device volume.",
+    "keywords": [
+      "NativeScript",
+      "Volume",
+      "Volume Management",
+      "Programmatically Change Volume",
+      "JavaScript",
+      "TypeScript",
+      "Plugin",
+      "Android",
+      "iOS",
+      "nativescript",
+      "volume"
+    ],
+    "date": "2018-01-08T10:35:30.632Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/nativescript-volume",
+      "homepage": "https://github.com/BallisticPain/nativescript-volume",
+      "repository": "https://github.com/BallisticPain/nativescript-volume",
+      "bugs": "https://github.com/BallisticPain/nativescript-volume/issues"
+    },
+    "author": {
+      "name": "Jarvis",
+      "username": "ballisticpain"
+    },
+    "publisher": {
+      "username": "ballisticpain",
+      "email": "jarvis@vortexrevolutions.com"
+    },
+    "maintainers": [
+      {
+        "username": "ballisticpain",
+        "email": "jarvis@vortexrevolutions.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 0,
+      "lastWeek": 8,
+      "lastMonth": 37
     }
   },
   {
@@ -84861,6 +84960,51 @@
     }
   },
   {
+    "name": "nativescript-webworkers",
+    "scope": "unscoped",
+    "version": "2.0.0",
+    "description": "A WebWorker (thread) NativeScript module for Android and iOS",
+    "keywords": [
+      "NativeScript",
+      "webworkers",
+      "worker",
+      "thread",
+      "threads",
+      "iOS",
+      "Android",
+      "JavaScript",
+      "WebView",
+      "nativescript",
+      "webworkers"
+    ],
+    "date": "2019-04-23T03:46:17.707Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/nativescript-webworkers",
+      "homepage": "https://github.com/nathanaela/nativescript-webworkers",
+      "repository": "https://github.com/nathanaela/nativescript-webworkers",
+      "bugs": "https://github.com/nathanaela/nativescript-webworkers/issues"
+    },
+    "author": {
+      "name": "Nathanael Anderson",
+      "username": "nathanaela"
+    },
+    "publisher": {
+      "username": "nathanaela",
+      "email": "nathan@master-technology.com"
+    },
+    "maintainers": [
+      {
+        "username": "nathanaela",
+        "email": "nathan@master-technology.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 0,
+      "lastWeek": 14,
+      "lastMonth": 50
+    }
+  },
+  {
     "name": "nativescript-wechat",
     "scope": "unscoped",
     "version": "0.0.3",
@@ -86149,45 +86293,6 @@
     }
   },
   {
-    "name": "nativescript-xmpp",
-    "scope": "unscoped",
-    "version": "0.0.7",
-    "description": "NativeScript XMPP Client",
-    "keywords": [
-      "NativeScript",
-      "JavaScript",
-      "Android",
-      "iOS",
-      "nativescript",
-      "xmpp"
-    ],
-    "date": "2018-06-23T05:24:17.468Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/nativescript-xmpp",
-      "homepage": "https://github.com/triniwiz/nativescript-xmpp",
-      "bugs": "https://github.com/triniwiz/nativescript-xmpp/issues"
-    },
-    "author": {
-      "name": "triniwiz",
-      "username": "triniwiz"
-    },
-    "publisher": {
-      "username": "triniwiz",
-      "email": "fortune.osei@yahoo.com"
-    },
-    "maintainers": [
-      {
-        "username": "triniwiz",
-        "email": "fortune.osei@yahoo.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 9,
-      "lastMonth": 40
-    }
-  },
-  {
     "name": "nativescript-xmpp-client",
     "scope": "unscoped",
     "version": "1.2.0",
@@ -86964,6 +87069,48 @@
     }
   },
   {
+    "name": "nativescript-zxing",
+    "scope": "unscoped",
+    "version": "1.5.9",
+    "description": "A Simple ZXing barcode reader/writer",
+    "keywords": [
+      "NativeScript",
+      "Barcode",
+      "Development",
+      "JavaScript",
+      "Android",
+      "iOS",
+      "ZXing",
+      "nativescript",
+      "zxing"
+    ],
+    "date": "2019-07-31T07:08:39.949Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/nativescript-zxing",
+      "homepage": "https://git.proplugins.org/proplugins/nativescript-zxing",
+      "bugs": "https://git.proplugins.org/proplugins/nativescript-zxing/issues"
+    },
+    "author": {
+      "name": "Nathanael Anderson",
+      "username": "nathanaela"
+    },
+    "publisher": {
+      "username": "nathanaela",
+      "email": "nathan@master-technology.com"
+    },
+    "maintainers": [
+      {
+        "username": "nathanaela",
+        "email": "nathan@master-technology.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 3,
+      "lastWeek": 26,
+      "lastMonth": 72
+    }
+  },
+  {
     "name": "nativescript-zxing-compat",
     "scope": "unscoped",
     "version": "1.5.3",
@@ -87397,51 +87544,6 @@
       "lastDay": 0,
       "lastWeek": 2,
       "lastMonth": 24
-    }
-  },
-  {
-    "name": "ns-7-theme-builder",
-    "scope": "unscoped",
-    "version": "1.0.4",
-    "description": "Nativescript 7 theme builder",
-    "keywords": [
-      "Nativescript",
-      "Theme",
-      "Builder",
-      "cli",
-      "CLI",
-      "ns7",
-      "NS7",
-      "ns",
-      "7",
-      "theme",
-      "builder"
-    ],
-    "date": "2021-08-01T15:20:39.787Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/ns-7-theme-builder",
-      "homepage": "https://github.com/juancwu/ns7-theme-builder#readme",
-      "repository": "https://github.com/juancwu/ns7-theme-builder",
-      "bugs": "https://github.com/juancwu/ns7-theme-builder/issues"
-    },
-    "author": {
-      "name": "Juan Carlos Wu",
-      "username": "juancwu"
-    },
-    "publisher": {
-      "username": "juancwu",
-      "email": "jcwuchen00@gmail.com"
-    },
-    "maintainers": [
-      {
-        "username": "juancwu",
-        "email": "jcwuchen00@gmail.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 48,
-      "lastWeek": 61,
-      "lastMonth": 95
     }
   },
   {
