@@ -1142,9 +1142,9 @@
       {
         "name": "@akylas/nativescript",
         "scope": "akylas",
-        "version": "8.0.9",
+        "version": "8.0.10",
         "description": "A JavaScript library providing an easy to use api for interacting with iOS and Android platform APIs.",
-        "date": "2021-08-04T07:46:32.538Z",
+        "date": "2021-08-05T07:56:42.839Z",
         "links": {
           "npm": "https://www.npmjs.com/package/%40akylas%2Fnativescript",
           "homepage": "https://nativescript.org",
@@ -6524,52 +6524,6 @@
         }
       },
       {
-        "name": "@bigin/ns-url-handler",
-        "scope": "bigin",
-        "version": "1.0.6",
-        "description": "Add a plugin description",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "ns",
-          "url",
-          "handler"
-        ],
-        "date": "2020-10-13T03:00:55.430Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40bigin%2Fns-url-handler",
-          "homepage": "https://github.com/NativeScript/plugins",
-          "repository": "https://github.com/NativeScript/plugins",
-          "bugs": "https://github.com/NativeScript/plugins/issues"
-        },
-        "author": {
-          "name": "bigin",
-          "username": "bigin"
-        },
-        "publisher": {
-          "username": "tammai.bigin",
-          "email": "tam.mai@bigin.vn"
-        },
-        "maintainers": [
-          {
-            "username": "trinhnguyen1103",
-            "email": "trinh.nguyen@bigin.vn"
-          },
-          {
-            "username": "tammai.bigin",
-            "email": "tam.mai@bigin.vn"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 61,
-          "lastMonth": 125
-        }
-      },
-      {
         "name": "@bigin/ns-soft-keyboard",
         "scope": "bigin",
         "version": "2.0.8",
@@ -6752,6 +6706,53 @@
           "lastDay": 0,
           "lastWeek": 1,
           "lastMonth": 9
+        }
+      },
+      {
+        "name": "@bigin/ns-windowed-modal",
+        "scope": "bigin",
+        "version": "7.0.2",
+        "description": "Consistent modals for Android and iOS.",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Typescript",
+          "Android",
+          "iOS",
+          "Modal",
+          "ns",
+          "windowed",
+          "modal"
+        ],
+        "date": "2021-01-12T11:11:29.095Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40bigin%2Fns-windowed-modal",
+          "homepage": "https://github.com/mukaschultze/nativescript-windowed-modal",
+          "repository": "https://github.com/mukaschultze/nativescript-windowed-modal",
+          "bugs": "https://github.com/mukaschultze/nativescript-windowed-modal/issues"
+        },
+        "author": {
+          "name": "bigin",
+          "username": "bigin"
+        },
+        "publisher": {
+          "username": "tammai.bigin",
+          "email": "tam.mai@bigin.vn"
+        },
+        "maintainers": [
+          {
+            "username": "tammai.bigin",
+            "email": "tam.mai@bigin.vn"
+          },
+          {
+            "username": "trinhnguyen1103",
+            "email": "trinh.nguyen@bigin.vn"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 2,
+          "lastMonth": 16
         }
       },
       {
@@ -11839,6 +11840,53 @@
     ]
   },
   {
+    "name": "codeus",
+    "username": "codeus",
+    "plugins": [
+      {
+        "name": "@codeus/aria-print",
+        "scope": "codeus",
+        "version": "1.2.1",
+        "description": "Plugin that provides Aria POS with Print capabilities",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "aria",
+          "print"
+        ],
+        "date": "2021-03-08T11:33:48.634Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40codeus%2Faria-print",
+          "homepage": "https://github.com/NativeScript/plugins",
+          "repository": "https://github.com/NativeScript/plugins",
+          "bugs": "https://github.com/NativeScript/plugins/issues"
+        },
+        "author": {
+          "name": "codeus",
+          "username": "codeus"
+        },
+        "publisher": {
+          "username": "nikolalj",
+          "email": "nikola.ljumovic@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "nikolalj",
+            "email": "nikola.ljumovic@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 51,
+          "lastMonth": 232
+        }
+      }
+    ]
+  },
+  {
     "name": "codewezl",
     "username": "codewezl",
     "plugins": [
@@ -14090,6 +14138,10 @@
           "email": "dennisvandenberg@gmail.com"
         },
         "maintainers": [
+          {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
           {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
@@ -20472,6 +20524,10 @@
         },
         "maintainers": [
           {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
+          {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
           },
@@ -20716,6 +20772,10 @@
           "email": "b.ivanovic@levi9.com"
         },
         "maintainers": [
+          {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
           {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
@@ -20962,6 +21022,10 @@
         },
         "maintainers": [
           {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
+          {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
           },
@@ -21188,6 +21252,10 @@
           "email": "n.vukovic@levi9.com"
         },
         "maintainers": [
+          {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
           {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
@@ -21441,6 +21509,10 @@
         },
         "maintainers": [
           {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
+          {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
           },
@@ -21679,6 +21751,10 @@
           "email": "n.dekkers.91@gmail.com"
         },
         "maintainers": [
+          {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
           {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
@@ -21929,6 +22005,10 @@
           "email": "b.ivanovic@levi9.com"
         },
         "maintainers": [
+          {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
           {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
@@ -24122,53 +24202,6 @@
           "lastDay": 0,
           "lastWeek": 19,
           "lastMonth": 32
-        }
-      },
-      {
-        "name": "nativescript-akylas-pulltorefresh",
-        "scope": "unscoped",
-        "version": "2.3.2",
-        "description": "A NativeScript plugin to provide the Pull to Refresh control on any view.",
-        "keywords": [
-          "NativeScript",
-          "native",
-          "script",
-          "Pull Refresh",
-          "SwipeRefreshLayout",
-          "Material Design",
-          "UIRefreshControl",
-          "android",
-          "ios",
-          "bradmartin",
-          "nativescript",
-          "akylas",
-          "pulltorefresh"
-        ],
-        "date": "2020-02-26T16:46:15.270Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-akylas-pulltorefresh",
-          "homepage": "https://github.com/akylas/nativescript-pulltorefresh",
-          "repository": "https://github.com/akylas/nativescript-pulltorefresh",
-          "bugs": "https://github.com/akylas/nativescript-pulltorefresh/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 8,
-          "lastMonth": 12
         }
       },
       {
@@ -35052,49 +35085,6 @@
         }
       },
       {
-        "name": "@knotes/nativescript-camera-plus",
-        "scope": "knotes",
-        "version": "4.0.0",
-        "description": "An advanced, embeddable camera for NativeScript.",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "Camera",
-          "Camera Plus",
-          "nativescript",
-          "camera",
-          "plus"
-        ],
-        "date": "2021-01-16T21:12:22.533Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40knotes%2Fnativescript-camera-plus",
-          "homepage": "https://github.com/nstudio/nativescript-camera-plus",
-          "repository": "https://github.com/nstudio/nativescript-camera-plus",
-          "bugs": "https://github.com/nstudio/nativescript-camera-plus/issues"
-        },
-        "author": {
-          "name": "knotes",
-          "username": "knotes"
-        },
-        "publisher": {
-          "username": "knotes",
-          "email": "support@knotesapp.com"
-        },
-        "maintainers": [
-          {
-            "username": "knotes",
-            "email": "support@knotesapp.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 2,
-          "lastMonth": 23
-        }
-      },
-      {
         "name": "nativescript-social-share-knotes",
         "scope": "unscoped",
         "version": "1.7.0",
@@ -35366,6 +35356,48 @@
     "name": "ksin722",
     "username": "ksin722",
     "plugins": [
+      {
+        "name": "nativescript-pbkdf2",
+        "scope": "unscoped",
+        "version": "1.0.5",
+        "description": "This library provides the functionality of PBKDF2 with the ability to use any supported hashing algorithm returned from crypto.getHashes()",
+        "keywords": [
+          "pbkdf2",
+          "kdf",
+          "salt",
+          "hash",
+          "nativescript",
+          "nativescript-pbkdf2",
+          "nativescript",
+          "pbkdf2"
+        ],
+        "date": "2019-11-29T17:03:08.116Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-pbkdf2",
+          "homepage": "https://github.com/KGodSin/nativescript-pbkdf2",
+          "repository": "https://github.com/crypto-browserify/pbkdf2",
+          "bugs": "https://github.com/KGodSin/nativescript-pbkdf2"
+        },
+        "author": {
+          "name": "ksin722",
+          "username": "ksin722"
+        },
+        "publisher": {
+          "username": "ksin722",
+          "email": "kimhyuk722@live.co.kr"
+        },
+        "maintainers": [
+          {
+            "username": "ksin722",
+            "email": "kimhyuk722@live.co.kr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 14,
+          "lastMonth": 44
+        }
+      },
       {
         "name": "nativescrip-pbkdf2",
         "scope": "unscoped",
@@ -41363,6 +41395,47 @@
         }
       },
       {
+        "name": "nativescript-lazy",
+        "scope": "unscoped",
+        "version": "1.0.4",
+        "description": "A NativeScript module that provides an OOP version of the build-in lazy function.",
+        "keywords": [
+          "NativeScript",
+          "Lazy",
+          "Values",
+          "OOP",
+          "Classes",
+          "nativescript",
+          "lazy"
+        ],
+        "date": "2016-09-06T19:42:45.503Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-lazy",
+          "homepage": "https://github.com/mkloubert/nativescript-lazy",
+          "repository": "https://github.com/mkloubert/nativescript-lazy",
+          "bugs": "https://github.com/mkloubert/nativescript-lazy/issues"
+        },
+        "author": {
+          "name": "Marcel Joachim Kloubert",
+          "username": "mkloubert"
+        },
+        "publisher": {
+          "username": "mkloubert",
+          "email": "marcel.kloubert@gmx.net"
+        },
+        "maintainers": [
+          {
+            "username": "mkloubert",
+            "email": "marcel.kloubert@gmx.net"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 6,
+          "lastMonth": 28
+        }
+      },
+      {
         "name": "nativescript-routed-values",
         "scope": "unscoped",
         "version": "1.2.4",
@@ -44422,6 +44495,10 @@
         },
         "maintainers": [
           {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
+          {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
           },
@@ -45150,6 +45227,47 @@
           "lastDay": 0,
           "lastWeek": 66,
           "lastMonth": 506
+        }
+      },
+      {
+        "name": "tns-template-plugin",
+        "scope": "unscoped",
+        "version": "1.0.6",
+        "description": "A NativeScript plugin generator seed",
+        "keywords": [
+          "NativeScript",
+          "plugin",
+          "generator",
+          "seed",
+          "template",
+          "tns",
+          "template",
+          "plugin"
+        ],
+        "date": "2016-08-05T21:20:09.986Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/tns-template-plugin",
+          "homepage": "https://github.com/nathanaela/tns-template-plugin#readme",
+          "repository": "https://github.com/nathanaela/tns-template-plugin"
+        },
+        "author": {
+          "name": "Nathanael Anderson",
+          "username": "nathanaela"
+        },
+        "publisher": {
+          "username": "nathanaela",
+          "email": "nathan@master-technology.com"
+        },
+        "maintainers": [
+          {
+            "username": "nathanaela",
+            "email": "nathan@master-technology.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 4,
+          "lastMonth": 24
         }
       },
       {
@@ -61521,7 +61639,7 @@
       {
         "name": "@nativescript-community/text",
         "scope": "nativescript-community",
-        "version": "1.4.15",
+        "version": "1.4.18",
         "description": "Expands the capabilities of NativeScript's text property.",
         "keywords": [
           "NativeScript",
@@ -61530,7 +61648,7 @@
           "iOS",
           "text"
         ],
-        "date": "2021-08-04T06:42:23.423Z",
+        "date": "2021-08-04T14:26:04.371Z",
         "links": {
           "npm": "https://www.npmjs.com/package/%40nativescript-community%2Ftext",
           "homepage": "https://github.com/nativescript-community/text#readme",
@@ -61967,7 +62085,7 @@
       {
         "name": "@nativescript-community/ui-pager",
         "scope": "nativescript-community",
-        "version": "13.0.23",
+        "version": "13.0.24",
         "description": "A Carousel/Pager plugin for NativeScript.",
         "keywords": [
           "NativeScript",
@@ -61987,7 +62105,7 @@
           "ui",
           "pager"
         ],
-        "date": "2021-07-26T08:38:17.210Z",
+        "date": "2021-08-04T13:43:37.286Z",
         "links": {
           "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-pager",
           "homepage": "https://github.com/nativescript-community/ui-pager#readme",
@@ -63264,7 +63382,7 @@
       {
         "name": "@nativescript-community/ui-label",
         "scope": "nativescript-community",
-        "version": "1.1.18",
+        "version": "1.1.20",
         "description": "Alternative to the built-in NativeScript Label but with better performance and additional features such as HTML rendering and more.",
         "keywords": [
           "NativeScript",
@@ -63275,7 +63393,7 @@
           "ui",
           "label"
         ],
-        "date": "2021-08-04T06:44:07.169Z",
+        "date": "2021-08-04T13:41:29.698Z",
         "links": {
           "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-label",
           "homepage": "https://github.com/nativescript-community/ui-label#readme",
@@ -63522,7 +63640,7 @@
       {
         "name": "@nativescript-community/ui-canvaslabel",
         "scope": "nativescript-community",
-        "version": "1.0.57",
+        "version": "1.0.58",
         "description": "Alternative to the built-in NativeScript Label but uses canvas which allows extreme complexity and customization.",
         "keywords": [
           "NativeScript",
@@ -63534,7 +63652,7 @@
           "ui",
           "canvaslabel"
         ],
-        "date": "2021-07-06T15:31:19.681Z",
+        "date": "2021-08-04T13:43:55.568Z",
         "links": {
           "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-canvaslabel",
           "homepage": "https://github.com/nativescript-community/ui-canvaslabel#readme",
@@ -63550,22 +63668,6 @@
           "email": "martin.guillon@akylas.fr"
         },
         "maintainers": [
-          {
-            "username": "tralves",
-            "email": "tralves@gmail.com"
-          },
-          {
-            "username": "rdlabo",
-            "email": "sakakibara@rdlabo.jp"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "cvietor",
-            "email": "cv@chris-vietor.de"
-          },
           {
             "username": "farfromrefuge",
             "email": "martin.guillon@akylas.fr"
@@ -63597,6 +63699,22 @@
           {
             "username": "keerl",
             "email": "karlschmaltz@gmail.com"
+          },
+          {
+            "username": "cvietor",
+            "email": "cv@chris-vietor.de"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "rdlabo",
+            "email": "sakakibara@rdlabo.jp"
+          },
+          {
+            "username": "tralves",
+            "email": "tralves@gmail.com"
           }
         ],
         "downloadStats": {
@@ -72159,50 +72277,6 @@
         }
       },
       {
-        "name": "nativescript-intermec-printer",
-        "scope": "unscoped",
-        "version": "1.0.2",
-        "description": "Plugin for integrating nativescript apps with intermec Pr3 Printer.",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "intermec",
-          "intermec",
-          "pr3",
-          "nativescript",
-          "intermec",
-          "printer"
-        ],
-        "date": "2020-04-30T10:13:43.720Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-intermec-printer",
-          "homepage": "https://github.com/OPADA-Eng/nativescript-intermec-printer#readme",
-          "repository": "https://github.com/OPADA-Eng/nativescript-intermec-printer",
-          "bugs": "https://github.com/OPADA-Eng/nativescript-intermec-printer/issues"
-        },
-        "author": {
-          "name": "opada-eng",
-          "username": "opada-eng"
-        },
-        "publisher": {
-          "username": "opada-eng",
-          "email": "m.opada.albosh@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "opada-eng",
-            "email": "m.opada.albosh@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 3,
-          "lastWeek": 8,
-          "lastMonth": 32
-        }
-      },
-      {
         "name": "nativescript-woosim-printer-i350",
         "scope": "unscoped",
         "version": "1.0.0",
@@ -80168,65 +80242,6 @@
         }
       },
       {
-        "name": "mobile-cli-lib",
-        "scope": "unscoped",
-        "version": "0.22.0",
-        "description": "common lib used by different CLI",
-        "keywords": [
-          "cordova",
-          "appbuilder",
-          "telerik",
-          "mobile",
-          "nativescript",
-          "Proton",
-          "mobile",
-          "cli",
-          "lib"
-        ],
-        "date": "2016-12-15T10:38:09.849Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/mobile-cli-lib",
-          "homepage": "https://github.com/telerik/mobile-cli-lib#readme",
-          "repository": "https://github.com/telerik/mobile-cli-lib",
-          "bugs": "https://github.com/telerik/mobile-cli-lib/issues"
-        },
-        "author": {
-          "name": "rosen-vladimirov",
-          "username": "rosen-vladimirov"
-        },
-        "publisher": {
-          "username": "rosen-vladimirov",
-          "email": "rosen.vladimirov.91@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "rosen_vladimirov",
-            "email": "rosen.vladimirov.91@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 45,
-          "lastMonth": 223
-        }
-      },
-      {
         "name": "ios-working-with-sandbox-plugin",
         "scope": "unscoped",
         "version": "1.0.2",
@@ -82058,7 +82073,10 @@
         ],
         "date": "2020-12-04T01:17:24.442Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40sec-spec%2Fns7-lib-ng-oauth-mobile-service"
+          "npm": "https://www.npmjs.com/package/%40sec-spec%2Fns7-lib-ng-oauth-mobile-service",
+          "homepage": "https://github.com/NativeScript/plugins",
+          "repository": "https://github.com/NativeScript/plugins",
+          "bugs": "https://github.com/NativeScript/plugins/issues"
         },
         "author": {
           "name": "sec-spec",
@@ -82070,8 +82088,8 @@
         },
         "maintainers": [
           {
-            "username": "brentrucker",
-            "email": "brucker@sis.us"
+            "username": "rolando.toledo.sis",
+            "email": "rtoledodelvalle@sis.us"
           },
           {
             "username": "pclark-sis",
@@ -82104,6 +82122,10 @@
           {
             "username": "abos",
             "email": "abos@sis.us"
+          },
+          {
+            "username": "brentrucker",
+            "email": "brucker@sis.us"
           }
         ],
         "downloadStats": {
@@ -82131,7 +82153,10 @@
         ],
         "date": "2020-12-09T03:12:43.806Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40sec-spec%2Flib-ng-oauth-mobile-service"
+          "npm": "https://www.npmjs.com/package/%40sec-spec%2Flib-ng-oauth-mobile-service",
+          "homepage": "https://github.com/NativeScript/plugins",
+          "repository": "https://github.com/NativeScript/plugins",
+          "bugs": "https://github.com/NativeScript/plugins/issues"
         },
         "author": {
           "name": "sec-spec",
@@ -82143,8 +82168,8 @@
         },
         "maintainers": [
           {
-            "username": "brentrucker",
-            "email": "brucker@sis.us"
+            "username": "rolando.toledo.sis",
+            "email": "rtoledodelvalle@sis.us"
           },
           {
             "username": "pclark-sis",
@@ -82177,6 +82202,10 @@
           {
             "username": "abos",
             "email": "abos@sis.us"
+          },
+          {
+            "username": "brentrucker",
+            "email": "brucker@sis.us"
           }
         ],
         "downloadStats": {
@@ -84861,6 +84890,10 @@
         },
         "maintainers": [
           {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
+          {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
           },
@@ -85110,6 +85143,10 @@
           "email": "spike1292@gmail.com"
         },
         "maintainers": [
+          {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
           {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
@@ -85395,6 +85432,10 @@
         },
         "maintainers": [
           {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
+          {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
           },
@@ -85638,6 +85679,10 @@
           "email": "spike1292@gmail.com"
         },
         "maintainers": [
+          {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
           {
             "username": "jayanti88",
             "email": "jayanti.kumari@essent.nl"
@@ -90777,7 +90822,7 @@
       {
         "name": "@triniwiz/nativescript-stripe",
         "scope": "triniwiz",
-        "version": "7.0.0-beta-4",
+        "version": "7.0.0",
         "description": "NativeScript Stripe SDK",
         "keywords": [
           "NativeScript",
@@ -90789,7 +90834,7 @@
           "nativescript",
           "stripe"
         ],
-        "date": "2021-05-29T07:06:10.576Z",
+        "date": "2021-08-04T20:28:57.279Z",
         "links": {
           "npm": "https://www.npmjs.com/package/%40triniwiz%2Fnativescript-stripe",
           "homepage": "https://github.com/triniwiz/nativescript-plugins#readme",
