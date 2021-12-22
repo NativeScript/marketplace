@@ -5771,56 +5771,6 @@
       "i": 97,
       "$": {
         "0": {
-          "v": "@enduco/nativescript-facebook",
-          "n": 1
-        },
-        "1": [
-          {
-            "v": "facebook",
-            "i": 6,
-            "n": 1
-          },
-          {
-            "v": "nativescript",
-            "i": 5,
-            "n": 1
-          },
-          {
-            "v": "Android",
-            "i": 4,
-            "n": 1
-          },
-          {
-            "v": "iOS",
-            "i": 3,
-            "n": 1
-          },
-          {
-            "v": "TypeScript",
-            "i": 2,
-            "n": 1
-          },
-          {
-            "v": "JavaScript",
-            "i": 1,
-            "n": 1
-          },
-          {
-            "v": "NativeScript",
-            "i": 0,
-            "n": 1
-          }
-        ],
-        "2": {
-          "v": "Add a plugin description",
-          "n": 0.5
-        }
-      }
-    },
-    {
-      "i": 98,
-      "$": {
-        "0": {
           "v": "@enduco/nativescript-health-data",
           "n": 1
         },
@@ -5873,7 +5823,7 @@
       }
     },
     {
-      "i": 99,
+      "i": 98,
       "$": {
         "0": {
           "v": "@enduco/nativescript-mapbox",
@@ -5928,7 +5878,7 @@
       }
     },
     {
-      "i": 100,
+      "i": 99,
       "$": {
         "0": {
           "v": "@enduco/nativescript-mixpanel",
@@ -5978,7 +5928,7 @@
       }
     },
     {
-      "i": 101,
+      "i": 100,
       "$": {
         "0": {
           "v": "@enduco/ui-pager",
@@ -6073,7 +6023,7 @@
       }
     },
     {
-      "i": 102,
+      "i": 101,
       "$": {
         "0": {
           "v": "@essent/nativescript-adobe-experience-cloud",
@@ -6138,7 +6088,7 @@
       }
     },
     {
-      "i": 103,
+      "i": 102,
       "$": {
         "0": {
           "v": "@essent/nativescript-flashlight",
@@ -6183,7 +6133,7 @@
       }
     },
     {
-      "i": 104,
+      "i": 103,
       "$": {
         "0": {
           "v": "@essent/nativescript-loading-indicator",
@@ -6213,7 +6163,7 @@
       }
     },
     {
-      "i": 105,
+      "i": 104,
       "$": {
         "0": {
           "v": "@essent/nativescript-ng-sentry",
@@ -6283,7 +6233,7 @@
       }
     },
     {
-      "i": 106,
+      "i": 105,
       "$": {
         "0": {
           "v": "@essent/nativescript-salesforce-dmp",
@@ -6343,7 +6293,7 @@
       }
     },
     {
-      "i": 107,
+      "i": 106,
       "$": {
         "0": {
           "v": "@essent/nativescript-videoplayer",
@@ -6413,7 +6363,7 @@
       }
     },
     {
-      "i": 108,
+      "i": 107,
       "$": {
         "0": {
           "v": "@exeleon/nativescript-svg",
@@ -6463,7 +6413,7 @@
       }
     },
     {
-      "i": 109,
+      "i": 108,
       "$": {
         "0": {
           "v": "@fallen90/nativescript-template-generate",
@@ -6493,7 +6443,7 @@
       }
     },
     {
-      "i": 110,
+      "i": 109,
       "$": {
         "0": {
           "v": "@fermuch/nativescript-markdown-view",
@@ -6543,7 +6493,7 @@
       }
     },
     {
-      "i": 111,
+      "i": 110,
       "$": {
         "0": {
           "v": "@fiftoine/loopback-sdk-builder",
@@ -6603,7 +6553,7 @@
       }
     },
     {
-      "i": 112,
+      "i": 111,
       "$": {
         "0": {
           "v": "@finalsite/rich-text-editor",
@@ -6658,7 +6608,7 @@
       }
     },
     {
-      "i": 113,
+      "i": 112,
       "$": {
         "0": {
           "v": "@finanzritter/nativescript-pdf-view",
@@ -6718,7 +6668,7 @@
       }
     },
     {
-      "i": 114,
+      "i": 113,
       "$": {
         "0": {
           "v": "@finanzritter/nativescript-sentry",
@@ -6764,6 +6714,66 @@
         "2": {
           "v": "Sentry.io NativeScript plugin.",
           "n": 0.577
+        }
+      }
+    },
+    {
+      "i": 114,
+      "$": {
+        "0": {
+          "v": "@finanzritter/nativescript-share-file",
+          "n": 1
+        },
+        "1": [
+          {
+            "v": "file",
+            "i": 8,
+            "n": 1
+          },
+          {
+            "v": "share",
+            "i": 7,
+            "n": 1
+          },
+          {
+            "v": "nativescript",
+            "i": 6,
+            "n": 1
+          },
+          {
+            "v": "iOS",
+            "i": 5,
+            "n": 1
+          },
+          {
+            "v": "share",
+            "i": 4,
+            "n": 1
+          },
+          {
+            "v": "file",
+            "i": 3,
+            "n": 1
+          },
+          {
+            "v": "Android",
+            "i": 2,
+            "n": 1
+          },
+          {
+            "v": "JavaScript",
+            "i": 1,
+            "n": 1
+          },
+          {
+            "v": "NativeScript",
+            "i": 0,
+            "n": 1
+          }
+        ],
+        "2": {
+          "v": "Send and share files to other apps in NativeScript using native OS APIs.",
+          "n": 0.277
         }
       }
     },
@@ -7891,6 +7901,61 @@
       "i": 133,
       "$": {
         "0": {
+          "v": "@imagene.me/nativescript-ox-button",
+          "n": 1
+        },
+        "1": [
+          {
+            "v": "button",
+            "i": 7,
+            "n": 1
+          },
+          {
+            "v": "ox",
+            "i": 6,
+            "n": 1
+          },
+          {
+            "v": "nativescript",
+            "i": 5,
+            "n": 1
+          },
+          {
+            "v": "Android",
+            "i": 4,
+            "n": 1
+          },
+          {
+            "v": "iOS",
+            "i": 3,
+            "n": 1
+          },
+          {
+            "v": "TypeScript",
+            "i": 2,
+            "n": 1
+          },
+          {
+            "v": "JavaScript",
+            "i": 1,
+            "n": 1
+          },
+          {
+            "v": "NativeScript",
+            "i": 0,
+            "n": 1
+          }
+        ],
+        "2": {
+          "v": "IOS Custom Button Plugin",
+          "n": 0.5
+        }
+      }
+    },
+    {
+      "i": 134,
+      "$": {
+        "0": {
           "v": "@imagene.me/nativescript-shadow",
           "n": 1
         },
@@ -7938,7 +8003,7 @@
       }
     },
     {
-      "i": 134,
+      "i": 135,
       "$": {
         "0": {
           "v": "@imagene.me/nativescript-toast",
@@ -7988,7 +8053,7 @@
       }
     },
     {
-      "i": 135,
+      "i": 136,
       "$": {
         "0": {
           "v": "@iplab/ngx-l10n",
@@ -8093,7 +8158,7 @@
       }
     },
     {
-      "i": 136,
+      "i": 137,
       "$": {
         "0": {
           "v": "@irman/nativescript-ng2-slides",
@@ -8123,7 +8188,7 @@
       }
     },
     {
-      "i": 137,
+      "i": 138,
       "$": {
         "0": {
           "v": "@irman/nativescript-screen-orientation",
@@ -8173,7 +8238,7 @@
       }
     },
     {
-      "i": 138,
+      "i": 139,
       "$": {
         "0": {
           "v": "@jadoux/loopback-sdk-builder",
@@ -8233,7 +8298,7 @@
       }
     },
     {
-      "i": 139,
+      "i": 140,
       "$": {
         "0": {
           "v": "@jbento/nativescript-sendbird",
@@ -8283,7 +8348,7 @@
       }
     },
     {
-      "i": 140,
+      "i": 141,
       "$": {
         "0": {
           "v": "@jnorkus/nativescript-ngx-shadow",
@@ -8333,7 +8398,7 @@
       }
     },
     {
-      "i": 141,
+      "i": 142,
       "$": {
         "0": {
           "v": "@jnorkus/nativescript-svg",
@@ -8383,7 +8448,7 @@
       }
     },
     {
-      "i": 142,
+      "i": 143,
       "$": {
         "0": {
           "v": "@jorwoody/nativescript-contacts",
@@ -8428,7 +8493,7 @@
       }
     },
     {
-      "i": 143,
+      "i": 144,
       "$": {
         "0": {
           "v": "@juit/nativescript-barcodeview",
@@ -8473,7 +8538,7 @@
       }
     },
     {
-      "i": 144,
+      "i": 145,
       "$": {
         "0": {
           "v": "@juit/nativescript-local-notifications",
@@ -8523,7 +8588,7 @@
       }
     },
     {
-      "i": 145,
+      "i": 146,
       "$": {
         "0": {
           "v": "@kefah/nativescript-uuid",
@@ -8573,7 +8638,7 @@
       }
     },
     {
-      "i": 146,
+      "i": 147,
       "$": {
         "0": {
           "v": "@klippa/nativescript-http",
@@ -8618,7 +8683,7 @@
       }
     },
     {
-      "i": 147,
+      "i": 148,
       "$": {
         "0": {
           "v": "@klippa/nativescript-login",
@@ -8663,7 +8728,7 @@
       }
     },
     {
-      "i": 148,
+      "i": 149,
       "$": {
         "0": {
           "v": "@knotes/nativescript-camera-plus",
@@ -8723,7 +8788,7 @@
       }
     },
     {
-      "i": 149,
+      "i": 150,
       "$": {
         "0": {
           "v": "@knotes/nativescript-clipboard",
@@ -8778,7 +8843,7 @@
       }
     },
     {
-      "i": 150,
+      "i": 151,
       "$": {
         "0": {
           "v": "@knotes/nativescript-cscreenshot",
@@ -8838,7 +8903,7 @@
       }
     },
     {
-      "i": 151,
+      "i": 152,
       "$": {
         "0": {
           "v": "@knotes/nativescript-generate-pdf",
@@ -8893,7 +8958,7 @@
       }
     },
     {
-      "i": 152,
+      "i": 153,
       "$": {
         "0": {
           "v": "@knotes/nativescript-keyboard-toolbar",
@@ -8963,7 +9028,7 @@
       }
     },
     {
-      "i": 153,
+      "i": 154,
       "$": {
         "0": {
           "v": "@knotes/nativescript-share-file",
@@ -9023,7 +9088,7 @@
       }
     },
     {
-      "i": 154,
+      "i": 155,
       "$": {
         "0": {
           "v": "@kopis/eamplugin",
@@ -9068,7 +9133,7 @@
       }
     },
     {
-      "i": 155,
+      "i": 156,
       "$": {
         "0": {
           "v": "@la-corp/la-barcodescanner-lib-aar",
@@ -9113,7 +9178,7 @@
       }
     },
     {
-      "i": 156,
+      "i": 157,
       "$": {
         "0": {
           "v": "@localization/l10n",
@@ -9228,7 +9293,7 @@
       }
     },
     {
-      "i": 157,
+      "i": 158,
       "$": {
         "0": {
           "v": "@lupascudan/loopback-sdk-builder",
@@ -9288,7 +9353,7 @@
       }
     },
     {
-      "i": 158,
+      "i": 159,
       "$": {
         "0": {
           "v": "@mabs.dk/nativescript-animejs",
@@ -9353,7 +9418,7 @@
       }
     },
     {
-      "i": 159,
+      "i": 160,
       "$": {
         "0": {
           "v": "@mapo80/nativescript-ngx-shadow",
@@ -9403,7 +9468,7 @@
       }
     },
     {
-      "i": 160,
+      "i": 161,
       "$": {
         "0": {
           "v": "@mapo80/nativescript-range-seek-bar",
@@ -9458,7 +9523,7 @@
       }
     },
     {
-      "i": 161,
+      "i": 162,
       "$": {
         "0": {
           "v": "@martin-juul/nativescript-astreamer",
@@ -9543,7 +9608,7 @@
       }
     },
     {
-      "i": 162,
+      "i": 163,
       "$": {
         "0": {
           "v": "@martinbuezas/nativescript-filepicker",
@@ -9593,7 +9658,7 @@
       }
     },
     {
-      "i": 163,
+      "i": 164,
       "$": {
         "0": {
           "v": "@martinbuezas/nativescript-share-file",
@@ -9653,7 +9718,7 @@
       }
     },
     {
-      "i": 164,
+      "i": 165,
       "$": {
         "0": {
           "v": "@martinbuezas/nativescript-social-login",
@@ -9728,7 +9793,7 @@
       }
     },
     {
-      "i": 165,
+      "i": 166,
       "$": {
         "0": {
           "v": "@mashdog/nativescript-accordion",
@@ -9778,7 +9843,7 @@
       }
     },
     {
-      "i": 166,
+      "i": 167,
       "$": {
         "0": {
           "v": "@mashdog/nativescript-photoviewer",
@@ -9858,7 +9923,7 @@
       }
     },
     {
-      "i": 167,
+      "i": 168,
       "$": {
         "0": {
           "v": "@master.technology/permissions",
@@ -9908,7 +9973,7 @@
       }
     },
     {
-      "i": 168,
+      "i": 169,
       "$": {
         "0": {
           "v": "@master.technology/websockets",
@@ -9968,7 +10033,7 @@
       }
     },
     {
-      "i": 169,
+      "i": 170,
       "$": {
         "0": {
           "v": "@maximl/nativescript-dev-appium",
@@ -10013,7 +10078,7 @@
       }
     },
     {
-      "i": 170,
+      "i": 171,
       "$": {
         "0": {
           "v": "@mdnx/loopback-sdk-builder",
@@ -10073,7 +10138,7 @@
       }
     },
     {
-      "i": 171,
+      "i": 172,
       "$": {
         "0": {
           "v": "@mean-expert/loopback-sdk-builder",
@@ -10133,7 +10198,7 @@
       }
     },
     {
-      "i": 172,
+      "i": 173,
       "$": {
         "0": {
           "v": "@mehyaa/nativescript-common",
@@ -10158,7 +10223,7 @@
       }
     },
     {
-      "i": 173,
+      "i": 174,
       "$": {
         "0": {
           "v": "@melonwd/melonalert",
@@ -10178,7 +10243,7 @@
       }
     },
     {
-      "i": 174,
+      "i": 175,
       "$": {
         "0": {
           "v": "@melonwd/nativescript-masked-text-field",
@@ -10248,7 +10313,7 @@
       }
     },
     {
-      "i": 175,
+      "i": 176,
       "$": {
         "0": {
           "v": "@meysam1369/justfortest",
@@ -10273,7 +10338,7 @@
       }
     },
     {
-      "i": 176,
+      "i": 177,
       "$": {
         "0": {
           "v": "@mhtghn/nativescript-highcharts",
@@ -10323,7 +10388,7 @@
       }
     },
     {
-      "i": 177,
+      "i": 178,
       "$": {
         "0": {
           "v": "@microexcel-csd/nativescript-create-pdf",
@@ -10373,7 +10438,7 @@
       }
     },
     {
-      "i": 178,
+      "i": 179,
       "$": {
         "0": {
           "v": "@microexcel-csd/nativescript-hide-action-bar",
@@ -10408,7 +10473,7 @@
       }
     },
     {
-      "i": 179,
+      "i": 180,
       "$": {
         "0": {
           "v": "@mrtechsupport/firebase",
@@ -10573,7 +10638,7 @@
       }
     },
     {
-      "i": 180,
+      "i": 181,
       "$": {
         "0": {
           "v": "@msaelices/nativescript-radiobutton",
@@ -10613,7 +10678,7 @@
       }
     },
     {
-      "i": 181,
+      "i": 182,
       "$": {
         "0": {
           "v": "@muse.js/nativescript",
@@ -10633,7 +10698,7 @@
       }
     },
     {
-      "i": 182,
+      "i": 183,
       "$": {
         "0": {
           "v": "@nano-sql/adapter-sqlite-nativescript",
@@ -10723,7 +10788,7 @@
       }
     },
     {
-      "i": 183,
+      "i": 184,
       "$": {
         "0": {
           "v": "@nativescript-community/algolia",
@@ -10773,7 +10838,7 @@
       }
     },
     {
-      "i": 184,
+      "i": 185,
       "$": {
         "0": {
           "v": "@nativescript-community/appurl",
@@ -10803,7 +10868,7 @@
       }
     },
     {
-      "i": 185,
+      "i": 186,
       "$": {
         "0": {
           "v": "@nativescript-community/ble",
@@ -10873,7 +10938,7 @@
       }
     },
     {
-      "i": 186,
+      "i": 187,
       "$": {
         "0": {
           "v": "@nativescript-community/capacitor-plugins",
@@ -10898,7 +10963,7 @@
       }
     },
     {
-      "i": 187,
+      "i": 188,
       "$": {
         "0": {
           "v": "@nativescript-community/css-theme",
@@ -10943,7 +11008,7 @@
       }
     },
     {
-      "i": 188,
+      "i": 189,
       "$": {
         "0": {
           "v": "@nativescript-community/drawingpad",
@@ -10998,7 +11063,7 @@
       }
     },
     {
-      "i": 189,
+      "i": 190,
       "$": {
         "0": {
           "v": "@nativescript-community/extendedinfo",
@@ -11038,7 +11103,7 @@
       }
     },
     {
-      "i": 190,
+      "i": 191,
       "$": {
         "0": {
           "v": "@nativescript-community/flipper",
@@ -11088,7 +11153,7 @@
       }
     },
     {
-      "i": 191,
+      "i": 192,
       "$": {
         "0": {
           "v": "@nativescript-community/fonticon",
@@ -11143,7 +11208,7 @@
       }
     },
     {
-      "i": 192,
+      "i": 193,
       "$": {
         "0": {
           "v": "@nativescript-community/geocoding",
@@ -11203,7 +11268,7 @@
       }
     },
     {
-      "i": 193,
+      "i": 194,
       "$": {
         "0": {
           "v": "@nativescript-community/gesturehandler",
@@ -11253,7 +11318,7 @@
       }
     },
     {
-      "i": 194,
+      "i": 195,
       "$": {
         "0": {
           "v": "@nativescript-community/gps",
@@ -11293,7 +11358,7 @@
       }
     },
     {
-      "i": 195,
+      "i": 196,
       "$": {
         "0": {
           "v": "@nativescript-community/https",
@@ -11378,7 +11443,7 @@
       }
     },
     {
-      "i": 196,
+      "i": 197,
       "$": {
         "0": {
           "v": "@nativescript-community/insomnia",
@@ -11428,7 +11493,7 @@
       }
     },
     {
-      "i": 197,
+      "i": 198,
       "$": {
         "0": {
           "v": "@nativescript-community/l",
@@ -11493,7 +11558,7 @@
       }
     },
     {
-      "i": 198,
+      "i": 199,
       "$": {
         "0": {
           "v": "@nativescript-community/licenses",
@@ -11533,7 +11598,7 @@
       }
     },
     {
-      "i": 199,
+      "i": 200,
       "$": {
         "0": {
           "v": "@nativescript-community/observable",
@@ -11573,7 +11638,7 @@
       }
     },
     {
-      "i": 200,
+      "i": 201,
       "$": {
         "0": {
           "v": "@nativescript-community/perms",
@@ -11618,7 +11683,7 @@
       }
     },
     {
-      "i": 201,
+      "i": 202,
       "$": {
         "0": {
           "v": "@nativescript-community/preferences",
@@ -11673,7 +11738,7 @@
       }
     },
     {
-      "i": 202,
+      "i": 203,
       "$": {
         "0": {
           "v": "@nativescript-community/push",
@@ -11713,7 +11778,7 @@
       }
     },
     {
-      "i": 203,
+      "i": 204,
       "$": {
         "0": {
           "v": "@nativescript-community/sensors",
@@ -11748,7 +11813,7 @@
       }
     },
     {
-      "i": 204,
+      "i": 205,
       "$": {
         "0": {
           "v": "@nativescript-community/sentry",
@@ -11798,7 +11863,7 @@
       }
     },
     {
-      "i": 205,
+      "i": 206,
       "$": {
         "0": {
           "v": "@nativescript-community/sqlite",
@@ -11838,7 +11903,7 @@
       }
     },
     {
-      "i": 206,
+      "i": 207,
       "$": {
         "0": {
           "v": "@nativescript-community/systemui",
@@ -11893,7 +11958,7 @@
       }
     },
     {
-      "i": 207,
+      "i": 208,
       "$": {
         "0": {
           "v": "@nativescript-community/text",
@@ -11933,7 +11998,7 @@
       }
     },
     {
-      "i": 208,
+      "i": 209,
       "$": {
         "0": {
           "v": "@nativescript-community/texttospeech",
@@ -11978,7 +12043,7 @@
       }
     },
     {
-      "i": 209,
+      "i": 210,
       "$": {
         "0": {
           "v": "@nativescript-community/tween",
@@ -12073,7 +12138,7 @@
       }
     },
     {
-      "i": 210,
+      "i": 211,
       "$": {
         "0": {
           "v": "@nativescript-community/typeorm",
@@ -12093,7 +12158,7 @@
       }
     },
     {
-      "i": 211,
+      "i": 212,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-barcodeview",
@@ -12248,7 +12313,7 @@
       }
     },
     {
-      "i": 212,
+      "i": 213,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-blurview",
@@ -12293,7 +12358,7 @@
       }
     },
     {
-      "i": 213,
+      "i": 214,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-canvas",
@@ -12343,7 +12408,7 @@
       }
     },
     {
-      "i": 214,
+      "i": 215,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-canvaslabel",
@@ -12398,7 +12463,7 @@
       }
     },
     {
-      "i": 215,
+      "i": 216,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-carto",
@@ -12478,7 +12543,7 @@
       }
     },
     {
-      "i": 216,
+      "i": 217,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-chart",
@@ -12528,7 +12593,7 @@
       }
     },
     {
-      "i": 217,
+      "i": 218,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-collectionview",
@@ -12663,7 +12728,7 @@
       }
     },
     {
-      "i": 218,
+      "i": 219,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-collectionview-waterfall",
@@ -12713,7 +12778,7 @@
       }
     },
     {
-      "i": 219,
+      "i": 220,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-document-picker",
@@ -12773,7 +12838,7 @@
       }
     },
     {
-      "i": 220,
+      "i": 221,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-drawer",
@@ -12883,7 +12948,7 @@
       }
     },
     {
-      "i": 221,
+      "i": 222,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-image",
@@ -12958,7 +13023,7 @@
       }
     },
     {
-      "i": 222,
+      "i": 223,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-label",
@@ -13008,7 +13073,7 @@
       }
     },
     {
-      "i": 223,
+      "i": 224,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-lottie",
@@ -13073,7 +13138,7 @@
       }
     },
     {
-      "i": 224,
+      "i": 225,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-mapbox",
@@ -13143,7 +13208,7 @@
       }
     },
     {
-      "i": 225,
+      "i": 226,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-activityindicator",
@@ -13208,7 +13273,7 @@
       }
     },
     {
-      "i": 226,
+      "i": 227,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-bottom-navigation",
@@ -13303,7 +13368,7 @@
       }
     },
     {
-      "i": 227,
+      "i": 228,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-bottomnavigationbar",
@@ -13398,7 +13463,7 @@
       }
     },
     {
-      "i": 228,
+      "i": 229,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-bottomsheet",
@@ -13463,7 +13528,7 @@
       }
     },
     {
-      "i": 229,
+      "i": 230,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-button",
@@ -13528,7 +13593,7 @@
       }
     },
     {
-      "i": 230,
+      "i": 231,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-cardview",
@@ -13593,7 +13658,7 @@
       }
     },
     {
-      "i": 231,
+      "i": 232,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-core",
@@ -13643,7 +13708,7 @@
       }
     },
     {
-      "i": 232,
+      "i": 233,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-dialogs",
@@ -13708,7 +13773,7 @@
       }
     },
     {
-      "i": 233,
+      "i": 234,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-floatingactionbutton",
@@ -13773,7 +13838,7 @@
       }
     },
     {
-      "i": 234,
+      "i": 235,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-progress",
@@ -13838,7 +13903,7 @@
       }
     },
     {
-      "i": 235,
+      "i": 236,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-ripple",
@@ -13903,7 +13968,7 @@
       }
     },
     {
-      "i": 236,
+      "i": 237,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-slider",
@@ -13968,7 +14033,7 @@
       }
     },
     {
-      "i": 237,
+      "i": 238,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-snackbar",
@@ -14033,7 +14098,7 @@
       }
     },
     {
-      "i": 238,
+      "i": 239,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-speeddial",
@@ -14098,7 +14163,7 @@
       }
     },
     {
-      "i": 239,
+      "i": 240,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-tabs",
@@ -14163,7 +14228,7 @@
       }
     },
     {
-      "i": 240,
+      "i": 241,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-textfield",
@@ -14228,7 +14293,7 @@
       }
     },
     {
-      "i": 241,
+      "i": 242,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-material-textview",
@@ -14293,7 +14358,7 @@
       }
     },
     {
-      "i": 242,
+      "i": 243,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-neumorphiclayout",
@@ -14348,7 +14413,7 @@
       }
     },
     {
-      "i": 243,
+      "i": 244,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-pager",
@@ -14468,7 +14533,7 @@
       }
     },
     {
-      "i": 244,
+      "i": 245,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-persistent-bottomsheet",
@@ -14548,7 +14613,7 @@
       }
     },
     {
-      "i": 245,
+      "i": 246,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-pulltorefresh",
@@ -14623,7 +14688,7 @@
       }
     },
     {
-      "i": 246,
+      "i": 247,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-share-file",
@@ -14683,7 +14748,7 @@
       }
     },
     {
-      "i": 247,
+      "i": 248,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-social-share",
@@ -14728,7 +14793,7 @@
       }
     },
     {
-      "i": 248,
+      "i": 249,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-svg",
@@ -14778,7 +14843,7 @@
       }
     },
     {
-      "i": 249,
+      "i": 250,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-vue-unlock-slider",
@@ -14833,7 +14898,7 @@
       }
     },
     {
-      "i": 250,
+      "i": 251,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-webview",
@@ -14953,7 +15018,7 @@
       }
     },
     {
-      "i": 251,
+      "i": 252,
       "$": {
         "0": {
           "v": "@nativescript-community/ui-webview-rtc",
@@ -15003,7 +15068,7 @@
       }
     },
     {
-      "i": 252,
+      "i": 253,
       "$": {
         "0": {
           "v": "@nativescript-community/universal-links",
@@ -15078,7 +15143,7 @@
       }
     },
     {
-      "i": 253,
+      "i": 254,
       "$": {
         "0": {
           "v": "@nativescript-copilot/vue",
@@ -15148,7 +15213,7 @@
       }
     },
     {
-      "i": 254,
+      "i": 255,
       "$": {
         "0": {
           "v": "@nativescript-dev/multiple-environments",
@@ -15173,7 +15238,7 @@
       }
     },
     {
-      "i": 255,
+      "i": 256,
       "$": {
         "0": {
           "v": "@nativescript-pusher/beams",
@@ -15213,7 +15278,7 @@
       }
     },
     {
-      "i": 256,
+      "i": 257,
       "$": {
         "0": {
           "v": "@nativescript-pusher/channels",
@@ -15253,7 +15318,7 @@
       }
     },
     {
-      "i": 257,
+      "i": 258,
       "$": {
         "0": {
           "v": "@nativescript-rtl/ui",
@@ -15313,7 +15378,7 @@
       }
     },
     {
-      "i": 258,
+      "i": 259,
       "$": {
         "0": {
           "v": "@nativescript-vue/compiler",
@@ -15338,7 +15403,7 @@
       }
     },
     {
-      "i": 259,
+      "i": 260,
       "$": {
         "0": {
           "v": "@nativescript-vue/runtime",
@@ -15363,7 +15428,7 @@
       }
     },
     {
-      "i": 260,
+      "i": 261,
       "$": {
         "0": {
           "v": "@nativescript-vue/shared",
@@ -15388,7 +15453,7 @@
       }
     },
     {
-      "i": 261,
+      "i": 262,
       "$": {
         "0": {
           "v": "@nativescript-vue/template-blank",
@@ -15418,7 +15483,7 @@
       }
     },
     {
-      "i": 262,
+      "i": 263,
       "$": {
         "0": {
           "v": "@nativescript/android",
@@ -15438,7 +15503,7 @@
       }
     },
     {
-      "i": 263,
+      "i": 264,
       "$": {
         "0": {
           "v": "@nativescript/angular",
@@ -15464,7 +15529,7 @@
       }
     },
     {
-      "i": 264,
+      "i": 265,
       "$": {
         "0": {
           "v": "@nativescript/animated-circle",
@@ -15519,7 +15584,7 @@
       }
     },
     {
-      "i": 265,
+      "i": 266,
       "$": {
         "0": {
           "v": "@nativescript/appavailability",
@@ -15564,7 +15629,7 @@
       }
     },
     {
-      "i": 266,
+      "i": 267,
       "$": {
         "0": {
           "v": "@nativescript/apple-pay",
@@ -15614,7 +15679,7 @@
       }
     },
     {
-      "i": 267,
+      "i": 268,
       "$": {
         "0": {
           "v": "@nativescript/appsync",
@@ -15674,7 +15739,7 @@
       }
     },
     {
-      "i": 268,
+      "i": 269,
       "$": {
         "0": {
           "v": "@nativescript/appversion",
@@ -15729,7 +15794,7 @@
       }
     },
     {
-      "i": 269,
+      "i": 270,
       "$": {
         "0": {
           "v": "@nativescript/auto-fit-text",
@@ -15789,7 +15854,7 @@
       }
     },
     {
-      "i": 270,
+      "i": 271,
       "$": {
         "0": {
           "v": "@nativescript/background-http",
@@ -15849,7 +15914,7 @@
       }
     },
     {
-      "i": 271,
+      "i": 272,
       "$": {
         "0": {
           "v": "@nativescript/biometrics",
@@ -15894,7 +15959,7 @@
       }
     },
     {
-      "i": 272,
+      "i": 273,
       "$": {
         "0": {
           "v": "@nativescript/brightness",
@@ -15939,7 +16004,7 @@
       }
     },
     {
-      "i": 273,
+      "i": 274,
       "$": {
         "0": {
           "v": "@nativescript/camera",
@@ -15994,7 +16059,7 @@
       }
     },
     {
-      "i": 274,
+      "i": 275,
       "$": {
         "0": {
           "v": "@nativescript/canvas",
@@ -16039,7 +16104,7 @@
       }
     },
     {
-      "i": 275,
+      "i": 276,
       "$": {
         "0": {
           "v": "@nativescript/canvas-babylon",
@@ -16089,7 +16154,7 @@
       }
     },
     {
-      "i": 276,
+      "i": 277,
       "$": {
         "0": {
           "v": "@nativescript/canvas-media",
@@ -16139,7 +16204,7 @@
       }
     },
     {
-      "i": 277,
+      "i": 278,
       "$": {
         "0": {
           "v": "@nativescript/canvas-phaser",
@@ -16189,7 +16254,7 @@
       }
     },
     {
-      "i": 278,
+      "i": 279,
       "$": {
         "0": {
           "v": "@nativescript/canvas-phaser-ce",
@@ -16244,7 +16309,7 @@
       }
     },
     {
-      "i": 279,
+      "i": 280,
       "$": {
         "0": {
           "v": "@nativescript/canvas-pixi",
@@ -16294,7 +16359,7 @@
       }
     },
     {
-      "i": 280,
+      "i": 281,
       "$": {
         "0": {
           "v": "@nativescript/canvas-polyfill",
@@ -16344,7 +16409,7 @@
       }
     },
     {
-      "i": 281,
+      "i": 282,
       "$": {
         "0": {
           "v": "@nativescript/canvas-three",
@@ -16394,7 +16459,7 @@
       }
     },
     {
-      "i": 282,
+      "i": 283,
       "$": {
         "0": {
           "v": "@nativescript/capacitor",
@@ -16429,7 +16494,7 @@
       }
     },
     {
-      "i": 283,
+      "i": 284,
       "$": {
         "0": {
           "v": "@nativescript/capacitor-embed",
@@ -16454,7 +16519,7 @@
       }
     },
     {
-      "i": 284,
+      "i": 285,
       "$": {
         "0": {
           "v": "@nativescript/cloud-extension",
@@ -16475,7 +16540,7 @@
       }
     },
     {
-      "i": 285,
+      "i": 286,
       "$": {
         "0": {
           "v": "@nativescript/core",
@@ -16495,7 +16560,7 @@
       }
     },
     {
-      "i": 286,
+      "i": 287,
       "$": {
         "0": {
           "v": "@nativescript/core-widgets",
@@ -16520,7 +16585,7 @@
       }
     },
     {
-      "i": 287,
+      "i": 288,
       "$": {
         "0": {
           "v": "@nativescript/datetimepicker",
@@ -16580,7 +16645,7 @@
       }
     },
     {
-      "i": 288,
+      "i": 289,
       "$": {
         "0": {
           "v": "@nativescript/debug-ios",
@@ -16630,7 +16695,7 @@
       }
     },
     {
-      "i": 289,
+      "i": 290,
       "$": {
         "0": {
           "v": "@nativescript/detox",
@@ -16695,7 +16760,7 @@
       }
     },
     {
-      "i": 290,
+      "i": 291,
       "$": {
         "0": {
           "v": "@nativescript/directions",
@@ -16740,7 +16805,7 @@
       }
     },
     {
-      "i": 291,
+      "i": 292,
       "$": {
         "0": {
           "v": "@nativescript/doctor",
@@ -16775,7 +16840,7 @@
       }
     },
     {
-      "i": 292,
+      "i": 293,
       "$": {
         "0": {
           "v": "@nativescript/email",
@@ -16840,7 +16905,7 @@
       }
     },
     {
-      "i": 293,
+      "i": 294,
       "$": {
         "0": {
           "v": "@nativescript/eslint-plugin",
@@ -16880,7 +16945,7 @@
       }
     },
     {
-      "i": 294,
+      "i": 295,
       "$": {
         "0": {
           "v": "@nativescript/facebook",
@@ -16925,7 +16990,7 @@
       }
     },
     {
-      "i": 295,
+      "i": 296,
       "$": {
         "0": {
           "v": "@nativescript/fingerprint-auth",
@@ -16975,7 +17040,7 @@
       }
     },
     {
-      "i": 296,
+      "i": 297,
       "$": {
         "0": {
           "v": "@nativescript/firebase",
@@ -17140,7 +17205,7 @@
       }
     },
     {
-      "i": 297,
+      "i": 298,
       "$": {
         "0": {
           "v": "@nativescript/firebase-admob",
@@ -17190,7 +17255,7 @@
       }
     },
     {
-      "i": 298,
+      "i": 299,
       "$": {
         "0": {
           "v": "@nativescript/firebase-analytics",
@@ -17240,7 +17305,7 @@
       }
     },
     {
-      "i": 299,
+      "i": 300,
       "$": {
         "0": {
           "v": "@nativescript/firebase-app-check",
@@ -17295,7 +17360,7 @@
       }
     },
     {
-      "i": 300,
+      "i": 301,
       "$": {
         "0": {
           "v": "@nativescript/firebase-auth",
@@ -17345,7 +17410,7 @@
       }
     },
     {
-      "i": 301,
+      "i": 302,
       "$": {
         "0": {
           "v": "@nativescript/firebase-core",
@@ -17395,7 +17460,7 @@
       }
     },
     {
-      "i": 302,
+      "i": 303,
       "$": {
         "0": {
           "v": "@nativescript/firebase-crashlytics",
@@ -17445,7 +17510,7 @@
       }
     },
     {
-      "i": 303,
+      "i": 304,
       "$": {
         "0": {
           "v": "@nativescript/firebase-database",
@@ -17495,7 +17560,7 @@
       }
     },
     {
-      "i": 304,
+      "i": 305,
       "$": {
         "0": {
           "v": "@nativescript/firebase-dynamic-links",
@@ -17550,7 +17615,7 @@
       }
     },
     {
-      "i": 305,
+      "i": 306,
       "$": {
         "0": {
           "v": "@nativescript/firebase-firestore",
@@ -17600,7 +17665,7 @@
       }
     },
     {
-      "i": 306,
+      "i": 307,
       "$": {
         "0": {
           "v": "@nativescript/firebase-functions",
@@ -17650,7 +17715,7 @@
       }
     },
     {
-      "i": 307,
+      "i": 308,
       "$": {
         "0": {
           "v": "@nativescript/firebase-in-app-messaging",
@@ -17710,7 +17775,7 @@
       }
     },
     {
-      "i": 308,
+      "i": 309,
       "$": {
         "0": {
           "v": "@nativescript/firebase-installations",
@@ -17760,7 +17825,7 @@
       }
     },
     {
-      "i": 309,
+      "i": 310,
       "$": {
         "0": {
           "v": "@nativescript/firebase-messaging",
@@ -17810,7 +17875,7 @@
       }
     },
     {
-      "i": 310,
+      "i": 311,
       "$": {
         "0": {
           "v": "@nativescript/firebase-performance",
@@ -17856,61 +17921,6 @@
         "2": {
           "v": "NativeScript Firebase - Performancee",
           "n": 0.5
-        }
-      }
-    },
-    {
-      "i": 311,
-      "$": {
-        "0": {
-          "v": "@nativescript/firebase-remote-config",
-          "n": 1
-        },
-        "1": [
-          {
-            "v": "config",
-            "i": 7,
-            "n": 1
-          },
-          {
-            "v": "remote",
-            "i": 6,
-            "n": 1
-          },
-          {
-            "v": "firebase",
-            "i": 5,
-            "n": 1
-          },
-          {
-            "v": "Android",
-            "i": 4,
-            "n": 1
-          },
-          {
-            "v": "iOS",
-            "i": 3,
-            "n": 1
-          },
-          {
-            "v": "TypeScript",
-            "i": 2,
-            "n": 1
-          },
-          {
-            "v": "JavaScript",
-            "i": 1,
-            "n": 1
-          },
-          {
-            "v": "NativeScript",
-            "i": 0,
-            "n": 1
-          }
-        ],
-        "2": {
-          "v": "ANativeScript Firebase - Remote Config",
-          "n": 0.447
         }
       }
     },
@@ -26269,71 +26279,6 @@
       "i": 459,
       "$": {
         "0": {
-          "v": "@rob4226/nstudio-nativescript-snackbar",
-          "n": 1
-        },
-        "1": [
-          {
-            "v": "snackbar",
-            "i": 9,
-            "n": 1
-          },
-          {
-            "v": "nativescript",
-            "i": 8,
-            "n": 1
-          },
-          {
-            "v": "nstudio",
-            "i": 7,
-            "n": 1
-          },
-          {
-            "v": "material design",
-            "i": 6,
-            "n": 0.707
-          },
-          {
-            "v": "ios",
-            "i": 5,
-            "n": 1
-          },
-          {
-            "v": "android",
-            "i": 4,
-            "n": 1
-          },
-          {
-            "v": "snackbar",
-            "i": 3,
-            "n": 1
-          },
-          {
-            "v": "TypeScript",
-            "i": 2,
-            "n": 1
-          },
-          {
-            "v": "JavaScript",
-            "i": 1,
-            "n": 1
-          },
-          {
-            "v": "NativeScript",
-            "i": 0,
-            "n": 1
-          }
-        ],
-        "2": {
-          "v": "A NativeScript plugin for the Material Design SnackBar.",
-          "n": 0.354
-        }
-      }
-    },
-    {
-      "i": 460,
-      "$": {
-        "0": {
           "v": "@sammoore/nativescript-image-swipe",
           "n": 1
         },
@@ -26396,7 +26341,7 @@
       }
     },
     {
-      "i": 461,
+      "i": 460,
       "$": {
         "0": {
           "v": "@schoolsquirrel/emoji-picker",
@@ -26446,7 +26391,7 @@
       }
     },
     {
-      "i": 462,
+      "i": 461,
       "$": {
         "0": {
           "v": "@schoolsquirrel/letter-avatar",
@@ -26501,7 +26446,7 @@
       }
     },
     {
-      "i": 463,
+      "i": 462,
       "$": {
         "0": {
           "v": "@sczerniawski/nativescript-social-login",
@@ -26566,7 +26511,7 @@
       }
     },
     {
-      "i": 464,
+      "i": 463,
       "$": {
         "0": {
           "v": "@sec-spec/lib-ng-oauth-mobile-service",
@@ -26631,7 +26576,7 @@
       }
     },
     {
-      "i": 465,
+      "i": 464,
       "$": {
         "0": {
           "v": "@sec-spec/ns7-lib-ng-oauth-mobile-service",
@@ -26701,7 +26646,7 @@
       }
     },
     {
-      "i": 466,
+      "i": 465,
       "$": {
         "0": {
           "v": "@sergeymell/nativescript-color-wheel",
@@ -26756,7 +26701,7 @@
       }
     },
     {
-      "i": 467,
+      "i": 466,
       "$": {
         "0": {
           "v": "@sergeymell/nativescript-svg",
@@ -26806,7 +26751,7 @@
       }
     },
     {
-      "i": 468,
+      "i": 467,
       "$": {
         "0": {
           "v": "@shumih/nativescript-segmented-bar",
@@ -26856,7 +26801,7 @@
       }
     },
     {
-      "i": 469,
+      "i": 468,
       "$": {
         "0": {
           "v": "@sirl-io/loopback-sdk-builder",
@@ -26916,7 +26861,7 @@
       }
     },
     {
-      "i": 470,
+      "i": 469,
       "$": {
         "0": {
           "v": "@skhye05/multi-select",
@@ -26991,7 +26936,7 @@
       }
     },
     {
-      "i": 471,
+      "i": 470,
       "$": {
         "0": {
           "v": "@smallstack/frontend-nativescript",
@@ -27016,7 +26961,7 @@
       }
     },
     {
-      "i": 472,
+      "i": 471,
       "$": {
         "0": {
           "v": "@smallstack/nativescript",
@@ -27036,7 +26981,7 @@
       }
     },
     {
-      "i": 473,
+      "i": 472,
       "$": {
         "0": {
           "v": "@softpak/jsdo-core",
@@ -27081,7 +27026,7 @@
       }
     },
     {
-      "i": 474,
+      "i": 473,
       "$": {
         "0": {
           "v": "@souriscloud/nativescript-bitmap-factory",
@@ -27191,7 +27136,7 @@
       }
     },
     {
-      "i": 475,
+      "i": 474,
       "$": {
         "0": {
           "v": "@souriscloud/nativescript-google-maps-sdk",
@@ -27251,7 +27196,7 @@
       }
     },
     {
-      "i": 476,
+      "i": 475,
       "$": {
         "0": {
           "v": "@spartadigital/nativescript-ns-wikitude",
@@ -27306,7 +27251,7 @@
       }
     },
     {
-      "i": 477,
+      "i": 476,
       "$": {
         "0": {
           "v": "@speigg/nativescript-urlhandler",
@@ -27341,7 +27286,7 @@
       }
     },
     {
-      "i": 478,
+      "i": 477,
       "$": {
         "0": {
           "v": "@spryteam/nativescript-oauth2",
@@ -27416,7 +27361,7 @@
       }
     },
     {
-      "i": 479,
+      "i": 478,
       "$": {
         "0": {
           "v": "@squirrel-social/contacts",
@@ -27461,7 +27406,7 @@
       }
     },
     {
-      "i": 480,
+      "i": 479,
       "$": {
         "0": {
           "v": "@swtc/brorand",
@@ -27511,7 +27456,7 @@
       }
     },
     {
-      "i": 481,
+      "i": 480,
       "$": {
         "0": {
           "v": "@swtc/nativescript",
@@ -27546,7 +27491,7 @@
       }
     },
     {
-      "i": 482,
+      "i": 481,
       "$": {
         "0": {
           "v": "@synerty/nativescript-camera",
@@ -27606,7 +27551,7 @@
       }
     },
     {
-      "i": 483,
+      "i": 482,
       "$": {
         "0": {
           "v": "@synerty/ng2-balloon-msg-ns",
@@ -27676,7 +27621,7 @@
       }
     },
     {
-      "i": 484,
+      "i": 483,
       "$": {
         "0": {
           "v": "@synerty/peek-ns-update",
@@ -27731,7 +27676,7 @@
       }
     },
     {
-      "i": 485,
+      "i": 484,
       "$": {
         "0": {
           "v": "@synerty/peek-util-ns",
@@ -27761,7 +27706,7 @@
       }
     },
     {
-      "i": 486,
+      "i": 485,
       "$": {
         "0": {
           "v": "@synerty/peek-web-ns",
@@ -27791,7 +27736,7 @@
       }
     },
     {
-      "i": 487,
+      "i": 486,
       "$": {
         "0": {
           "v": "@taybull/nativescript-contacts",
@@ -27836,7 +27781,7 @@
       }
     },
     {
-      "i": 488,
+      "i": 487,
       "$": {
         "0": {
           "v": "@tbaluyan/loopback-sdk-builder",
@@ -27896,7 +27841,7 @@
       }
     },
     {
-      "i": 489,
+      "i": 488,
       "$": {
         "0": {
           "v": "@tdallau/nativescript",
@@ -27941,7 +27886,7 @@
       }
     },
     {
-      "i": 490,
+      "i": 489,
       "$": {
         "0": {
           "v": "@tealium/nativescript-plugin",
@@ -27991,7 +27936,7 @@
       }
     },
     {
-      "i": 491,
+      "i": 490,
       "$": {
         "0": {
           "v": "@teammaestro/nativescript-svg",
@@ -28041,7 +27986,7 @@
       }
     },
     {
-      "i": 492,
+      "i": 491,
       "$": {
         "0": {
           "v": "@ticnat/nativescript-image-cache",
@@ -28096,7 +28041,7 @@
       }
     },
     {
-      "i": 493,
+      "i": 492,
       "$": {
         "0": {
           "v": "@ticnat/nativescript-intermec-printer",
@@ -28151,7 +28096,7 @@
       }
     },
     {
-      "i": 494,
+      "i": 493,
       "$": {
         "0": {
           "v": "@ticnat/nativescript-searchable-select",
@@ -28211,7 +28156,7 @@
       }
     },
     {
-      "i": 495,
+      "i": 494,
       "$": {
         "0": {
           "v": "@ticnat/nativescript-sewoo-printer",
@@ -28266,7 +28211,7 @@
       }
     },
     {
-      "i": 496,
+      "i": 495,
       "$": {
         "0": {
           "v": "@ticnat/nativescript-woosim-printer",
@@ -28321,7 +28266,7 @@
       }
     },
     {
-      "i": 497,
+      "i": 496,
       "$": {
         "0": {
           "v": "@tjw-dev/nativescript-microsoft-appcenter",
@@ -28401,7 +28346,7 @@
       }
     },
     {
-      "i": 498,
+      "i": 497,
       "$": {
         "0": {
           "v": "@toolisticon/nativescript-buildhelper",
@@ -28441,7 +28386,7 @@
       }
     },
     {
-      "i": 499,
+      "i": 498,
       "$": {
         "0": {
           "v": "@tralves/shadowed-label",
@@ -28496,7 +28441,7 @@
       }
     },
     {
-      "i": 500,
+      "i": 499,
       "$": {
         "0": {
           "v": "@tremho/jove-app-template",
@@ -28566,7 +28511,7 @@
       }
     },
     {
-      "i": 501,
+      "i": 500,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-accelerometer",
@@ -28616,7 +28561,7 @@
       }
     },
     {
-      "i": 502,
+      "i": 501,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-couchbase",
@@ -28691,7 +28636,7 @@
       }
     },
     {
-      "i": 503,
+      "i": 502,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-downloader",
@@ -28741,7 +28686,7 @@
       }
     },
     {
-      "i": 504,
+      "i": 503,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-ffmpeg",
@@ -28791,7 +28736,7 @@
       }
     },
     {
-      "i": 505,
+      "i": 504,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-image-cache-it",
@@ -28851,7 +28796,7 @@
       }
     },
     {
-      "i": 506,
+      "i": 505,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-image-zoom",
@@ -28906,7 +28851,7 @@
       }
     },
     {
-      "i": 507,
+      "i": 506,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-nested-scrollview",
@@ -28961,7 +28906,7 @@
       }
     },
     {
-      "i": 508,
+      "i": 507,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-opentok",
@@ -29011,7 +28956,7 @@
       }
     },
     {
-      "i": 509,
+      "i": 508,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-pager",
@@ -29116,7 +29061,7 @@
       }
     },
     {
-      "i": 510,
+      "i": 509,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-pusher-channels",
@@ -29171,7 +29116,7 @@
       }
     },
     {
-      "i": 511,
+      "i": 510,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-socketio",
@@ -29281,7 +29226,7 @@
       }
     },
     {
-      "i": 512,
+      "i": 511,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-star-ratings",
@@ -29336,7 +29281,7 @@
       }
     },
     {
-      "i": 513,
+      "i": 512,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-stripe",
@@ -29391,7 +29336,7 @@
       }
     },
     {
-      "i": 514,
+      "i": 513,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-supabase",
@@ -29441,7 +29386,7 @@
       }
     },
     {
-      "i": 515,
+      "i": 514,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-supabase-gotrue",
@@ -29496,7 +29441,7 @@
       }
     },
     {
-      "i": 516,
+      "i": 515,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-supabase-realtime",
@@ -29551,7 +29496,7 @@
       }
     },
     {
-      "i": 517,
+      "i": 516,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-supabase-storage",
@@ -29606,7 +29551,7 @@
       }
     },
     {
-      "i": 518,
+      "i": 517,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-toasty",
@@ -29661,7 +29606,7 @@
       }
     },
     {
-      "i": 519,
+      "i": 518,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-tooltip",
@@ -29716,7 +29661,7 @@
       }
     },
     {
-      "i": 520,
+      "i": 519,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-videorecorder",
@@ -29776,7 +29721,7 @@
       }
     },
     {
-      "i": 521,
+      "i": 520,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-yogalayout",
@@ -29841,7 +29786,7 @@
       }
     },
     {
-      "i": 522,
+      "i": 521,
       "$": {
         "0": {
           "v": "@triniwiz/nativescript-youtubeplayer",
@@ -29896,7 +29841,7 @@
       }
     },
     {
-      "i": 523,
+      "i": 522,
       "$": {
         "0": {
           "v": "@vallemar/localize",
@@ -29937,6 +29882,56 @@
         "2": {
           "v": "i18n plugin for NativeScript using native capabilities of each platform.",
           "n": 0.316
+        }
+      }
+    },
+    {
+      "i": 523,
+      "$": {
+        "0": {
+          "v": "@viostec/nativescript-helloworld",
+          "n": 1
+        },
+        "1": [
+          {
+            "v": "helloworld",
+            "i": 6,
+            "n": 1
+          },
+          {
+            "v": "nativescript",
+            "i": 5,
+            "n": 1
+          },
+          {
+            "v": "Android",
+            "i": 4,
+            "n": 1
+          },
+          {
+            "v": "iOS",
+            "i": 3,
+            "n": 1
+          },
+          {
+            "v": "TypeScript",
+            "i": 2,
+            "n": 1
+          },
+          {
+            "v": "JavaScript",
+            "i": 1,
+            "n": 1
+          },
+          {
+            "v": "NativeScript",
+            "i": 0,
+            "n": 1
+          }
+        ],
+        "2": {
+          "v": "Plugin para nativescript 7 teste",
+          "n": 0.447
         }
       }
     },
@@ -84075,6 +84070,61 @@
       "i": 1503,
       "$": {
         "0": {
+          "v": "nativescript-ripple2",
+          "n": 1
+        },
+        "1": [
+          {
+            "v": "ripple2",
+            "i": 7,
+            "n": 1
+          },
+          {
+            "v": "nativescript",
+            "i": 6,
+            "n": 1
+          },
+          {
+            "v": "TypeScript",
+            "i": 5,
+            "n": 1
+          },
+          {
+            "v": "Ripple",
+            "i": 4,
+            "n": 1
+          },
+          {
+            "v": "Material Design",
+            "i": 3,
+            "n": 0.707
+          },
+          {
+            "v": "Android",
+            "i": 2,
+            "n": 1
+          },
+          {
+            "v": "JavaScript",
+            "i": 1,
+            "n": 1
+          },
+          {
+            "v": "NativeScript",
+            "i": 0,
+            "n": 1
+          }
+        ],
+        "2": {
+          "v": "NativeScript plugin to add Material Design ripple effects to any layout.",
+          "n": 0.302
+        }
+      }
+    },
+    {
+      "i": 1504,
+      "$": {
+        "0": {
           "v": "nativescript-root-detection",
           "n": 1
         },
@@ -84122,7 +84172,7 @@
       }
     },
     {
-      "i": 1504,
+      "i": 1505,
       "$": {
         "0": {
           "v": "nativescript-rootbeer",
@@ -84157,7 +84207,7 @@
       }
     },
     {
-      "i": 1505,
+      "i": 1506,
       "$": {
         "0": {
           "v": "nativescript-rotate-3d",
@@ -84222,7 +84272,7 @@
       }
     },
     {
-      "i": 1506,
+      "i": 1507,
       "$": {
         "0": {
           "v": "nativescript-routed-values",
@@ -84277,7 +84327,7 @@
       }
     },
     {
-      "i": 1507,
+      "i": 1508,
       "$": {
         "0": {
           "v": "nativescript-router",
@@ -84322,7 +84372,7 @@
       }
     },
     {
-      "i": 1508,
+      "i": 1509,
       "$": {
         "0": {
           "v": "nativescript-rsa",
@@ -84367,7 +84417,7 @@
       }
     },
     {
-      "i": 1509,
+      "i": 1510,
       "$": {
         "0": {
           "v": "nativescript-safetynet-helper",
@@ -84417,7 +84467,7 @@
       }
     },
     {
-      "i": 1510,
+      "i": 1511,
       "$": {
         "0": {
           "v": "nativescript-sak-components",
@@ -84467,7 +84517,7 @@
       }
     },
     {
-      "i": 1511,
+      "i": 1512,
       "$": {
         "0": {
           "v": "nativescript-sak-fit-text",
@@ -84522,7 +84572,7 @@
       }
     },
     {
-      "i": 1512,
+      "i": 1513,
       "$": {
         "0": {
           "v": "nativescript-salesforce-sdk",
@@ -84572,7 +84622,7 @@
       }
     },
     {
-      "i": 1513,
+      "i": 1514,
       "$": {
         "0": {
           "v": "nativescript-sample",
@@ -84702,7 +84752,7 @@
       }
     },
     {
-      "i": 1514,
+      "i": 1515,
       "$": {
         "0": {
           "v": "nativescript-sample-demo",
@@ -84752,7 +84802,7 @@
       }
     },
     {
-      "i": 1515,
+      "i": 1516,
       "$": {
         "0": {
           "v": "nativescript-sass",
@@ -84777,7 +84827,7 @@
       }
     },
     {
-      "i": 1516,
+      "i": 1517,
       "$": {
         "0": {
           "v": "nativescript-sazmand-version",
@@ -84827,7 +84877,7 @@
       }
     },
     {
-      "i": 1517,
+      "i": 1518,
       "$": {
         "0": {
           "v": "nativescript-scratchview",
@@ -84882,7 +84932,7 @@
       }
     },
     {
-      "i": 1518,
+      "i": 1519,
       "$": {
         "0": {
           "v": "nativescript-screen-orientation",
@@ -84932,7 +84982,7 @@
       }
     },
     {
-      "i": 1519,
+      "i": 1520,
       "$": {
         "0": {
           "v": "nativescript-screenshot",
@@ -84972,7 +85022,7 @@
       }
     },
     {
-      "i": 1520,
+      "i": 1521,
       "$": {
         "0": {
           "v": "nativescript-sd-camera",
@@ -85002,7 +85052,7 @@
       }
     },
     {
-      "i": 1521,
+      "i": 1522,
       "$": {
         "0": {
           "v": "nativescript-sdk-utility",
@@ -85052,7 +85102,7 @@
       }
     },
     {
-      "i": 1522,
+      "i": 1523,
       "$": {
         "0": {
           "v": "nativescript-search-view",
@@ -85102,7 +85152,7 @@
       }
     },
     {
-      "i": 1523,
+      "i": 1524,
       "$": {
         "0": {
           "v": "nativescript-sectioned-list-view",
@@ -85162,7 +85212,7 @@
       }
     },
     {
-      "i": 1524,
+      "i": 1525,
       "$": {
         "0": {
           "v": "nativescript-secure-android-keystore",
@@ -85217,7 +85267,7 @@
       }
     },
     {
-      "i": 1525,
+      "i": 1526,
       "$": {
         "0": {
           "v": "nativescript-secure-storage",
@@ -85292,7 +85342,7 @@
       }
     },
     {
-      "i": 1526,
+      "i": 1527,
       "$": {
         "0": {
           "v": "nativescript-security",
@@ -85342,7 +85392,7 @@
       }
     },
     {
-      "i": 1527,
+      "i": 1528,
       "$": {
         "0": {
           "v": "nativescript-segment",
@@ -85387,7 +85437,7 @@
       }
     },
     {
-      "i": 1528,
+      "i": 1529,
       "$": {
         "0": {
           "v": "nativescript-segment-view",
@@ -85442,7 +85492,7 @@
       }
     },
     {
-      "i": 1529,
+      "i": 1530,
       "$": {
         "0": {
           "v": "nativescript-sensors",
@@ -85482,7 +85532,7 @@
       }
     },
     {
-      "i": 1530,
+      "i": 1531,
       "$": {
         "0": {
           "v": "nativescript-sentry",
@@ -85532,7 +85582,7 @@
       }
     },
     {
-      "i": 1531,
+      "i": 1532,
       "$": {
         "0": {
           "v": "nativescript-sentry-temp",
@@ -85587,7 +85637,7 @@
       }
     },
     {
-      "i": 1532,
+      "i": 1533,
       "$": {
         "0": {
           "v": "nativescript-sentry.io",
@@ -85657,7 +85707,7 @@
       }
     },
     {
-      "i": 1533,
+      "i": 1534,
       "$": {
         "0": {
           "v": "nativescript-set-version",
@@ -85687,7 +85737,7 @@
       }
     },
     {
-      "i": 1534,
+      "i": 1535,
       "$": {
         "0": {
           "v": "nativescript-sewoo-printer",
@@ -85737,7 +85787,7 @@
       }
     },
     {
-      "i": 1535,
+      "i": 1536,
       "$": {
         "0": {
           "v": "nativescript-sexy-button",
@@ -85787,7 +85837,7 @@
       }
     },
     {
-      "i": 1536,
+      "i": 1537,
       "$": {
         "0": {
           "v": "nativescript-shadowed-label",
@@ -85852,7 +85902,7 @@
       }
     },
     {
-      "i": 1537,
+      "i": 1538,
       "$": {
         "0": {
           "v": "nativescript-share-file",
@@ -85912,7 +85962,7 @@
       }
     },
     {
-      "i": 1538,
+      "i": 1539,
       "$": {
         "0": {
           "v": "nativescript-share-file-enduco",
@@ -85977,7 +86027,7 @@
       }
     },
     {
-      "i": 1539,
+      "i": 1540,
       "$": {
         "0": {
           "v": "nativescript-share-file-knotes",
@@ -86042,7 +86092,7 @@
       }
     },
     {
-      "i": 1540,
+      "i": 1541,
       "$": {
         "0": {
           "v": "nativescript-shared-notification-delegate",
@@ -86097,7 +86147,7 @@
       }
     },
     {
-      "i": 1541,
+      "i": 1542,
       "$": {
         "0": {
           "v": "nativescript-shatterview",
@@ -86147,7 +86197,7 @@
       }
     },
     {
-      "i": 1542,
+      "i": 1543,
       "$": {
         "0": {
           "v": "nativescript-shimmer",
@@ -86207,7 +86257,7 @@
       }
     },
     {
-      "i": 1543,
+      "i": 1544,
       "$": {
         "0": {
           "v": "nativescript-shimmer-enduco",
@@ -86272,7 +86322,7 @@
       }
     },
     {
-      "i": 1544,
+      "i": 1545,
       "$": {
         "0": {
           "v": "nativescript-shine-button",
@@ -86322,7 +86372,7 @@
       }
     },
     {
-      "i": 1545,
+      "i": 1546,
       "$": {
         "0": {
           "v": "nativescript-sidedrawer",
@@ -86412,7 +86462,7 @@
       }
     },
     {
-      "i": 1546,
+      "i": 1547,
       "$": {
         "0": {
           "v": "nativescript-signalr",
@@ -86462,7 +86512,7 @@
       }
     },
     {
-      "i": 1547,
+      "i": 1548,
       "$": {
         "0": {
           "v": "nativescript-signalr-core",
@@ -86532,7 +86582,7 @@
       }
     },
     {
-      "i": 1548,
+      "i": 1549,
       "$": {
         "0": {
           "v": "nativescript-signaturepad",
@@ -86597,7 +86647,7 @@
       }
     },
     {
-      "i": 1549,
+      "i": 1550,
       "$": {
         "0": {
           "v": "nativescript-signatureview",
@@ -86618,7 +86668,7 @@
       }
     },
     {
-      "i": 1550,
+      "i": 1551,
       "$": {
         "0": {
           "v": "nativescript-signingpad",
@@ -86673,7 +86723,7 @@
       }
     },
     {
-      "i": 1551,
+      "i": 1552,
       "$": {
         "0": {
           "v": "nativescript-sim-info",
@@ -86843,7 +86893,7 @@
       }
     },
     {
-      "i": 1552,
+      "i": 1553,
       "$": {
         "0": {
           "v": "nativescript-simple-filepicker",
@@ -86893,7 +86943,7 @@
       }
     },
     {
-      "i": 1553,
+      "i": 1554,
       "$": {
         "0": {
           "v": "nativescript-simple-fileshare",
@@ -86943,7 +86993,7 @@
       }
     },
     {
-      "i": 1554,
+      "i": 1555,
       "$": {
         "0": {
           "v": "nativescript-simple-libsodium",
@@ -86998,7 +87048,7 @@
       }
     },
     {
-      "i": 1555,
+      "i": 1556,
       "$": {
         "0": {
           "v": "nativescript-simple-networking",
@@ -87058,7 +87108,7 @@
       }
     },
     {
-      "i": 1556,
+      "i": 1557,
       "$": {
         "0": {
           "v": "nativescript-simple-permissions",
@@ -87108,7 +87158,7 @@
       }
     },
     {
-      "i": 1557,
+      "i": 1558,
       "$": {
         "0": {
           "v": "nativescript-simple-webview",
@@ -87158,7 +87208,7 @@
       }
     },
     {
-      "i": 1558,
+      "i": 1559,
       "$": {
         "0": {
           "v": "nativescript-simplecam",
@@ -87179,7 +87229,7 @@
       }
     },
     {
-      "i": 1559,
+      "i": 1560,
       "$": {
         "0": {
           "v": "nativescript-sinch",
@@ -87219,7 +87269,7 @@
       }
     },
     {
-      "i": 1560,
+      "i": 1561,
       "$": {
         "0": {
           "v": "nativescript-skygear-sdk",
@@ -87269,7 +87319,7 @@
       }
     },
     {
-      "i": 1561,
+      "i": 1562,
       "$": {
         "0": {
           "v": "nativescript-slider",
@@ -87319,7 +87369,7 @@
       }
     },
     {
-      "i": 1562,
+      "i": 1563,
       "$": {
         "0": {
           "v": "nativescript-slider-test",
@@ -87374,7 +87424,7 @@
       }
     },
     {
-      "i": 1563,
+      "i": 1564,
       "$": {
         "0": {
           "v": "nativescript-slides",
@@ -87439,7 +87489,7 @@
       }
     },
     {
-      "i": 1564,
+      "i": 1565,
       "$": {
         "0": {
           "v": "nativescript-slides-d4w",
@@ -87509,7 +87559,7 @@
       }
     },
     {
-      "i": 1565,
+      "i": 1566,
       "$": {
         "0": {
           "v": "nativescript-slideshow-busy-indicator",
@@ -87574,7 +87624,7 @@
       }
     },
     {
-      "i": 1566,
+      "i": 1567,
       "$": {
         "0": {
           "v": "nativescript-sms-inbox",
@@ -87634,7 +87684,7 @@
       }
     },
     {
-      "i": 1567,
+      "i": 1568,
       "$": {
         "0": {
           "v": "nativescript-sms-receiver",
@@ -87684,7 +87734,7 @@
       }
     },
     {
-      "i": 1568,
+      "i": 1569,
       "$": {
         "0": {
           "v": "nativescript-snapkit",
@@ -87729,7 +87779,7 @@
       }
     },
     {
-      "i": 1569,
+      "i": 1570,
       "$": {
         "0": {
           "v": "nativescript-social-login",
@@ -87794,7 +87844,7 @@
       }
     },
     {
-      "i": 1570,
+      "i": 1571,
       "$": {
         "0": {
           "v": "nativescript-social-login-linkedin",
@@ -87864,7 +87914,7 @@
       }
     },
     {
-      "i": 1571,
+      "i": 1572,
       "$": {
         "0": {
           "v": "nativescript-social-login-v2",
@@ -87934,7 +87984,7 @@
       }
     },
     {
-      "i": 1572,
+      "i": 1573,
       "$": {
         "0": {
           "v": "nativescript-social-share",
@@ -87984,7 +88034,7 @@
       }
     },
     {
-      "i": 1573,
+      "i": 1574,
       "$": {
         "0": {
           "v": "nativescript-social-share-knotes",
@@ -88039,7 +88089,7 @@
       }
     },
     {
-      "i": 1574,
+      "i": 1575,
       "$": {
         "0": {
           "v": "nativescript-social-share-ns-7",
@@ -88099,7 +88149,7 @@
       }
     },
     {
-      "i": 1575,
+      "i": 1576,
       "$": {
         "0": {
           "v": "nativescript-socket.io",
@@ -88174,7 +88224,7 @@
       }
     },
     {
-      "i": 1576,
+      "i": 1577,
       "$": {
         "0": {
           "v": "nativescript-socketio",
@@ -88284,7 +88334,7 @@
       }
     },
     {
-      "i": 1577,
+      "i": 1578,
       "$": {
         "0": {
           "v": "nativescript-soft-keyboard",
@@ -88349,7 +88399,7 @@
       }
     },
     {
-      "i": 1578,
+      "i": 1579,
       "$": {
         "0": {
           "v": "nativescript-sonar",
@@ -88370,7 +88420,7 @@
       }
     },
     {
-      "i": 1579,
+      "i": 1580,
       "$": {
         "0": {
           "v": "nativescript-sonos",
@@ -88420,7 +88470,7 @@
       }
     },
     {
-      "i": 1580,
+      "i": 1581,
       "$": {
         "0": {
           "v": "nativescript-sound",
@@ -88460,7 +88510,7 @@
       }
     },
     {
-      "i": 1581,
+      "i": 1582,
       "$": {
         "0": {
           "v": "nativescript-sound-kak",
@@ -88505,7 +88555,7 @@
       }
     },
     {
-      "i": 1582,
+      "i": 1583,
       "$": {
         "0": {
           "v": "nativescript-speech-recognition",
@@ -88575,7 +88625,7 @@
       }
     },
     {
-      "i": 1583,
+      "i": 1584,
       "$": {
         "0": {
           "v": "nativescript-splashscreen",
@@ -88625,7 +88675,7 @@
       }
     },
     {
-      "i": 1584,
+      "i": 1585,
       "$": {
         "0": {
           "v": "nativescript-spotify",
@@ -88685,7 +88735,7 @@
       }
     },
     {
-      "i": 1585,
+      "i": 1586,
       "$": {
         "0": {
           "v": "nativescript-spotify-auth",
@@ -88715,7 +88765,7 @@
       }
     },
     {
-      "i": 1586,
+      "i": 1587,
       "$": {
         "0": {
           "v": "nativescript-spring-oauth2",
@@ -88741,7 +88791,7 @@
       }
     },
     {
-      "i": 1587,
+      "i": 1588,
       "$": {
         "0": {
           "v": "nativescript-sqlcipher",
@@ -88796,7 +88846,7 @@
       }
     },
     {
-      "i": 1588,
+      "i": 1589,
       "$": {
         "0": {
           "v": "nativescript-sqlite",
@@ -88881,7 +88931,7 @@
       }
     },
     {
-      "i": 1589,
+      "i": 1590,
       "$": {
         "0": {
           "v": "nativescript-sqlite-access",
@@ -88936,7 +88986,7 @@
       }
     },
     {
-      "i": 1590,
+      "i": 1591,
       "$": {
         "0": {
           "v": "nativescript-square-plugin",
@@ -88986,7 +89036,7 @@
       }
     },
     {
-      "i": 1591,
+      "i": 1592,
       "$": {
         "0": {
           "v": "nativescript-square-reader",
@@ -89031,7 +89081,7 @@
       }
     },
     {
-      "i": 1592,
+      "i": 1593,
       "$": {
         "0": {
           "v": "nativescript-ssdp",
@@ -89052,7 +89102,7 @@
       }
     },
     {
-      "i": 1593,
+      "i": 1594,
       "$": {
         "0": {
           "v": "nativescript-sse",
@@ -89117,7 +89167,7 @@
       }
     },
     {
-      "i": 1594,
+      "i": 1595,
       "$": {
         "0": {
           "v": "nativescript-ssi-awesome-webview",
@@ -89202,7 +89252,7 @@
       }
     },
     {
-      "i": 1595,
+      "i": 1596,
       "$": {
         "0": {
           "v": "nativescript-ssi-i18n",
@@ -89242,7 +89292,7 @@
       }
     },
     {
-      "i": 1596,
+      "i": 1597,
       "$": {
         "0": {
           "v": "nativescript-ssi-local-notifications",
@@ -89292,7 +89342,7 @@
       }
     },
     {
-      "i": 1597,
+      "i": 1598,
       "$": {
         "0": {
           "v": "nativescript-ssi-push-notifications",
@@ -89327,7 +89377,7 @@
       }
     },
     {
-      "i": 1598,
+      "i": 1599,
       "$": {
         "0": {
           "v": "nativescript-ssi-tv",
@@ -89377,7 +89427,7 @@
       }
     },
     {
-      "i": 1599,
+      "i": 1600,
       "$": {
         "0": {
           "v": "nativescript-ssl-pinning",
@@ -89462,7 +89512,7 @@
       }
     },
     {
-      "i": 1600,
+      "i": 1601,
       "$": {
         "0": {
           "v": "nativescript-ssoauth",
@@ -89537,7 +89587,7 @@
       }
     },
     {
-      "i": 1601,
+      "i": 1602,
       "$": {
         "0": {
           "v": "nativescript-stage-facebook-login",
@@ -89572,7 +89622,7 @@
       }
     },
     {
-      "i": 1602,
+      "i": 1603,
       "$": {
         "0": {
           "v": "nativescript-star-printer",
@@ -89647,7 +89697,7 @@
       }
     },
     {
-      "i": 1603,
+      "i": 1604,
       "$": {
         "0": {
           "v": "nativescript-star-ratings",
@@ -89697,7 +89747,7 @@
       }
     },
     {
-      "i": 1604,
+      "i": 1605,
       "$": {
         "0": {
           "v": "nativescript-star-ratings-ext",
@@ -89752,7 +89802,7 @@
       }
     },
     {
-      "i": 1605,
+      "i": 1606,
       "$": {
         "0": {
           "v": "nativescript-stario",
@@ -89797,7 +89847,7 @@
       }
     },
     {
-      "i": 1606,
+      "i": 1607,
       "$": {
         "0": {
           "v": "nativescript-starter-kits",
@@ -89827,7 +89877,7 @@
       }
     },
     {
-      "i": 1607,
+      "i": 1608,
       "$": {
         "0": {
           "v": "nativescript-status-bar",
@@ -89872,7 +89922,7 @@
       }
     },
     {
-      "i": 1608,
+      "i": 1609,
       "$": {
         "0": {
           "v": "nativescript-statusbar",
@@ -89927,7 +89977,7 @@
       }
     },
     {
-      "i": 1609,
+      "i": 1610,
       "$": {
         "0": {
           "v": "nativescript-stomp-client",
@@ -89987,7 +90037,7 @@
       }
     },
     {
-      "i": 1610,
+      "i": 1611,
       "$": {
         "0": {
           "v": "nativescript-stomp-connector",
@@ -90037,7 +90087,7 @@
       }
     },
     {
-      "i": 1611,
+      "i": 1612,
       "$": {
         "0": {
           "v": "nativescript-store-ratings",
@@ -90087,7 +90137,7 @@
       }
     },
     {
-      "i": 1612,
+      "i": 1613,
       "$": {
         "0": {
           "v": "nativescript-store-update",
@@ -90162,7 +90212,7 @@
       }
     },
     {
-      "i": 1613,
+      "i": 1614,
       "$": {
         "0": {
           "v": "nativescript-strapi",
@@ -90217,7 +90267,7 @@
       }
     },
     {
-      "i": 1614,
+      "i": 1615,
       "$": {
         "0": {
           "v": "nativescript-stringformat",
@@ -90257,7 +90307,7 @@
       }
     },
     {
-      "i": 1615,
+      "i": 1616,
       "$": {
         "0": {
           "v": "nativescript-stripe",
@@ -90312,7 +90362,7 @@
       }
     },
     {
-      "i": 1616,
+      "i": 1617,
       "$": {
         "0": {
           "v": "nativescript-stripe-sdk",
@@ -90362,7 +90412,7 @@
       }
     },
     {
-      "i": 1617,
+      "i": 1618,
       "$": {
         "0": {
           "v": "nativescript-svg",
@@ -90412,7 +90462,7 @@
       }
     },
     {
-      "i": 1618,
+      "i": 1619,
       "$": {
         "0": {
           "v": "nativescript-svg-hw",
@@ -90467,7 +90517,7 @@
       }
     },
     {
-      "i": 1619,
+      "i": 1620,
       "$": {
         "0": {
           "v": "nativescript-sweet-alert",
@@ -90522,7 +90572,7 @@
       }
     },
     {
-      "i": 1620,
+      "i": 1621,
       "$": {
         "0": {
           "v": "nativescript-swift-2.3",
@@ -90552,7 +90602,7 @@
       }
     },
     {
-      "i": 1621,
+      "i": 1622,
       "$": {
         "0": {
           "v": "nativescript-swift-3.0",
@@ -90582,7 +90632,7 @@
       }
     },
     {
-      "i": 1622,
+      "i": 1623,
       "$": {
         "0": {
           "v": "nativescript-swipe-card",
@@ -90632,7 +90682,7 @@
       }
     },
     {
-      "i": 1623,
+      "i": 1624,
       "$": {
         "0": {
           "v": "nativescript-swipe-layout",
@@ -90692,7 +90742,7 @@
       }
     },
     {
-      "i": 1624,
+      "i": 1625,
       "$": {
         "0": {
           "v": "nativescript-swiper",
@@ -90742,7 +90792,7 @@
       }
     },
     {
-      "i": 1625,
+      "i": 1626,
       "$": {
         "0": {
           "v": "nativescript-swiss-army-knife",
@@ -90822,7 +90872,7 @@
       }
     },
     {
-      "i": 1626,
+      "i": 1627,
       "$": {
         "0": {
           "v": "nativescript-swypelab-toasty",
@@ -90877,7 +90927,7 @@
       }
     },
     {
-      "i": 1627,
+      "i": 1628,
       "$": {
         "0": {
           "v": "nativescript-syntax-highlighter",
@@ -90927,7 +90977,7 @@
       }
     },
     {
-      "i": 1628,
+      "i": 1629,
       "$": {
         "0": {
           "v": "nativescript-systemui",
@@ -90982,7 +91032,7 @@
       }
     },
     {
-      "i": 1629,
+      "i": 1630,
       "$": {
         "0": {
           "v": "nativescript-tailwind",
@@ -91037,7 +91087,7 @@
       }
     },
     {
-      "i": 1630,
+      "i": 1631,
       "$": {
         "0": {
           "v": "nativescript-tappy",
@@ -91082,7 +91132,7 @@
       }
     },
     {
-      "i": 1631,
+      "i": 1632,
       "$": {
         "0": {
           "v": "nativescript-taptic-engine",
@@ -91142,7 +91192,7 @@
       }
     },
     {
-      "i": 1632,
+      "i": 1633,
       "$": {
         "0": {
           "v": "nativescript-task-dispatcher",
@@ -91192,7 +91242,7 @@
       }
     },
     {
-      "i": 1633,
+      "i": 1634,
       "$": {
         "0": {
           "v": "nativescript-taskpie",
@@ -91247,7 +91297,7 @@
       }
     },
     {
-      "i": 1634,
+      "i": 1635,
       "$": {
         "0": {
           "v": "nativescript-tasks",
@@ -91327,7 +91377,7 @@
       }
     },
     {
-      "i": 1635,
+      "i": 1636,
       "$": {
         "0": {
           "v": "nativescript-telegram-image-picker",
@@ -91407,7 +91457,7 @@
       }
     },
     {
-      "i": 1636,
+      "i": 1637,
       "$": {
         "0": {
           "v": "nativescript-telephony",
@@ -91502,7 +91552,7 @@
       }
     },
     {
-      "i": 1637,
+      "i": 1638,
       "$": {
         "0": {
           "v": "nativescript-telerik-analytics",
@@ -91557,7 +91607,7 @@
       }
     },
     {
-      "i": 1638,
+      "i": 1639,
       "$": {
         "0": {
           "v": "nativescript-telerik-reporting",
@@ -91612,7 +91662,7 @@
       }
     },
     {
-      "i": 1639,
+      "i": 1640,
       "$": {
         "0": {
           "v": "nativescript-temp-sms",
@@ -91662,7 +91712,7 @@
       }
     },
     {
-      "i": 1640,
+      "i": 1641,
       "$": {
         "0": {
           "v": "nativescript-template-drawer",
@@ -91692,7 +91742,7 @@
       }
     },
     {
-      "i": 1641,
+      "i": 1642,
       "$": {
         "0": {
           "v": "nativescript-template-drawer-ts",
@@ -91762,7 +91812,7 @@
       }
     },
     {
-      "i": 1642,
+      "i": 1643,
       "$": {
         "0": {
           "v": "nativescript-template-generate",
@@ -91792,7 +91842,7 @@
       }
     },
     {
-      "i": 1643,
+      "i": 1644,
       "$": {
         "0": {
           "v": "nativescript-template-groceries",
@@ -91822,7 +91872,7 @@
       }
     },
     {
-      "i": 1644,
+      "i": 1645,
       "$": {
         "0": {
           "v": "nativescript-template-ng-groceries",
@@ -91862,7 +91912,7 @@
       }
     },
     {
-      "i": 1645,
+      "i": 1646,
       "$": {
         "0": {
           "v": "nativescript-template-ng-tutorial",
@@ -91897,7 +91947,7 @@
       }
     },
     {
-      "i": 1646,
+      "i": 1647,
       "$": {
         "0": {
           "v": "nativescript-template-tutorial",
@@ -91927,7 +91977,7 @@
       }
     },
     {
-      "i": 1647,
+      "i": 1648,
       "$": {
         "0": {
           "v": "nativescript-temporary-key-storage",
@@ -91987,7 +92037,7 @@
       }
     },
     {
-      "i": 1648,
+      "i": 1649,
       "$": {
         "0": {
           "v": "nativescript-tesseract-ios",
@@ -92037,7 +92087,7 @@
       }
     },
     {
-      "i": 1649,
+      "i": 1650,
       "$": {
         "0": {
           "v": "nativescript-test",
@@ -92082,7 +92132,7 @@
       }
     },
     {
-      "i": 1650,
+      "i": 1651,
       "$": {
         "0": {
           "v": "nativescript-test-plug",
@@ -92132,7 +92182,7 @@
       }
     },
     {
-      "i": 1651,
+      "i": 1652,
       "$": {
         "0": {
           "v": "nativescript-test-xss",
@@ -92182,7 +92232,7 @@
       }
     },
     {
-      "i": 1652,
+      "i": 1653,
       "$": {
         "0": {
           "v": "nativescript-test-xss2",
@@ -92212,7 +92262,7 @@
       }
     },
     {
-      "i": 1653,
+      "i": 1654,
       "$": {
         "0": {
           "v": "nativescript-testfairy",
@@ -92262,7 +92312,7 @@
       }
     },
     {
-      "i": 1654,
+      "i": 1655,
       "$": {
         "0": {
           "v": "nativescript-teststudio",
@@ -92302,7 +92352,7 @@
       }
     },
     {
-      "i": 1655,
+      "i": 1656,
       "$": {
         "0": {
           "v": "nativescript-text-justify",
@@ -92352,7 +92402,7 @@
       }
     },
     {
-      "i": 1656,
+      "i": 1657,
       "$": {
         "0": {
           "v": "nativescript-textdrawable",
@@ -92392,7 +92442,7 @@
       }
     },
     {
-      "i": 1657,
+      "i": 1658,
       "$": {
         "0": {
           "v": "nativescript-textfield-ex",
@@ -92442,7 +92492,7 @@
       }
     },
     {
-      "i": 1658,
+      "i": 1659,
       "$": {
         "0": {
           "v": "nativescript-textfield-ng",
@@ -92472,7 +92522,7 @@
       }
     },
     {
-      "i": 1659,
+      "i": 1660,
       "$": {
         "0": {
           "v": "nativescript-textinputlayout",
@@ -92542,7 +92592,7 @@
       }
     },
     {
-      "i": 1660,
+      "i": 1661,
       "$": {
         "0": {
           "v": "nativescript-textinputlayout-v2",
@@ -92617,7 +92667,7 @@
       }
     },
     {
-      "i": 1661,
+      "i": 1662,
       "$": {
         "0": {
           "v": "nativescript-texttospeech",
@@ -92667,7 +92717,7 @@
       }
     },
     {
-      "i": 1662,
+      "i": 1663,
       "$": {
         "0": {
           "v": "nativescript-texttospeech-enduco",
@@ -92722,7 +92772,7 @@
       }
     },
     {
-      "i": 1663,
+      "i": 1664,
       "$": {
         "0": {
           "v": "nativescript-tglib",
@@ -92777,7 +92827,7 @@
       }
     },
     {
-      "i": 1664,
+      "i": 1665,
       "$": {
         "0": {
           "v": "nativescript-theme-christmas",
@@ -92807,7 +92857,7 @@
       }
     },
     {
-      "i": 1665,
+      "i": 1666,
       "$": {
         "0": {
           "v": "nativescript-theme-core",
@@ -92837,7 +92887,7 @@
       }
     },
     {
-      "i": 1666,
+      "i": 1667,
       "$": {
         "0": {
           "v": "nativescript-themes",
@@ -92897,7 +92947,7 @@
       }
     },
     {
-      "i": 1667,
+      "i": 1668,
       "$": {
         "0": {
           "v": "nativescript-three",
@@ -92942,7 +92992,7 @@
       }
     },
     {
-      "i": 1668,
+      "i": 1669,
       "$": {
         "0": {
           "v": "nativescript-timedatepicker",
@@ -92972,7 +93022,7 @@
       }
     },
     {
-      "i": 1669,
+      "i": 1670,
       "$": {
         "0": {
           "v": "nativescript-timedatepicker-renet",
@@ -93007,7 +93057,7 @@
       }
     },
     {
-      "i": 1670,
+      "i": 1671,
       "$": {
         "0": {
           "v": "nativescript-timepicker-slider",
@@ -93042,7 +93092,7 @@
       }
     },
     {
-      "i": 1671,
+      "i": 1672,
       "$": {
         "0": {
           "v": "nativescript-tinyengine",
@@ -93087,7 +93137,7 @@
       }
     },
     {
-      "i": 1672,
+      "i": 1673,
       "$": {
         "0": {
           "v": "nativescript-toast",
@@ -93132,7 +93182,7 @@
       }
     },
     {
-      "i": 1673,
+      "i": 1674,
       "$": {
         "0": {
           "v": "nativescript-toast-plugin",
@@ -93182,7 +93232,7 @@
       }
     },
     {
-      "i": 1674,
+      "i": 1675,
       "$": {
         "0": {
           "v": "nativescript-toasts",
@@ -93222,7 +93272,7 @@
       }
     },
     {
-      "i": 1675,
+      "i": 1676,
       "$": {
         "0": {
           "v": "nativescript-toasty",
@@ -93272,7 +93322,7 @@
       }
     },
     {
-      "i": 1676,
+      "i": 1677,
       "$": {
         "0": {
           "v": "nativescript-toasty-ns-7",
@@ -93332,7 +93382,7 @@
       }
     },
     {
-      "i": 1677,
+      "i": 1678,
       "$": {
         "0": {
           "v": "nativescript-toolbar",
@@ -93377,7 +93427,7 @@
       }
     },
     {
-      "i": 1678,
+      "i": 1679,
       "$": {
         "0": {
           "v": "nativescript-toolbox",
@@ -93662,7 +93712,7 @@
       }
     },
     {
-      "i": 1679,
+      "i": 1680,
       "$": {
         "0": {
           "v": "nativescript-toolbox-ssi",
@@ -93952,7 +94002,7 @@
       }
     },
     {
-      "i": 1680,
+      "i": 1681,
       "$": {
         "0": {
           "v": "nativescript-toolbox-sw",
@@ -94242,7 +94292,7 @@
       }
     },
     {
-      "i": 1681,
+      "i": 1682,
       "$": {
         "0": {
           "v": "nativescript-tooltip",
@@ -94292,7 +94342,7 @@
       }
     },
     {
-      "i": 1682,
+      "i": 1683,
       "$": {
         "0": {
           "v": "nativescript-tooltip-ns",
@@ -94342,7 +94392,7 @@
       }
     },
     {
-      "i": 1683,
+      "i": 1684,
       "$": {
         "0": {
           "v": "nativescript-touchid",
@@ -94397,7 +94447,7 @@
       }
     },
     {
-      "i": 1684,
+      "i": 1685,
       "$": {
         "0": {
           "v": "nativescript-trace-raven",
@@ -94462,7 +94512,7 @@
       }
     },
     {
-      "i": 1685,
+      "i": 1686,
       "$": {
         "0": {
           "v": "nativescript-trace-sentry",
@@ -94522,7 +94572,7 @@
       }
     },
     {
-      "i": 1686,
+      "i": 1687,
       "$": {
         "0": {
           "v": "nativescript-tracing",
@@ -94557,7 +94607,7 @@
       }
     },
     {
-      "i": 1687,
+      "i": 1688,
       "$": {
         "0": {
           "v": "nativescript-transcoder",
@@ -94612,7 +94662,7 @@
       }
     },
     {
-      "i": 1688,
+      "i": 1689,
       "$": {
         "0": {
           "v": "nativescript-tslib",
@@ -94637,7 +94687,7 @@
       }
     },
     {
-      "i": 1689,
+      "i": 1690,
       "$": {
         "0": {
           "v": "nativescript-tsx",
@@ -94662,7 +94712,7 @@
       }
     },
     {
-      "i": 1690,
+      "i": 1691,
       "$": {
         "0": {
           "v": "nativescript-tus-client",
@@ -94722,7 +94772,7 @@
       }
     },
     {
-      "i": 1691,
+      "i": 1692,
       "$": {
         "0": {
           "v": "nativescript-tus-upload",
@@ -94772,7 +94822,7 @@
       }
     },
     {
-      "i": 1692,
+      "i": 1693,
       "$": {
         "0": {
           "v": "nativescript-tween",
@@ -94817,7 +94867,7 @@
       }
     },
     {
-      "i": 1693,
+      "i": 1694,
       "$": {
         "0": {
           "v": "nativescript-tweenjs",
@@ -94862,7 +94912,7 @@
       }
     },
     {
-      "i": 1694,
+      "i": 1695,
       "$": {
         "0": {
           "v": "nativescript-twilio",
@@ -94912,7 +94962,7 @@
       }
     },
     {
-      "i": 1695,
+      "i": 1696,
       "$": {
         "0": {
           "v": "nativescript-twilio-plugin",
@@ -94962,7 +95012,7 @@
       }
     },
     {
-      "i": 1696,
+      "i": 1697,
       "$": {
         "0": {
           "v": "nativescript-twilio-v2oip",
@@ -95012,7 +95062,7 @@
       }
     },
     {
-      "i": 1697,
+      "i": 1698,
       "$": {
         "0": {
           "v": "nativescript-twilio-video",
@@ -95062,7 +95112,7 @@
       }
     },
     {
-      "i": 1698,
+      "i": 1699,
       "$": {
         "0": {
           "v": "nativescript-twitter",
@@ -95087,7 +95137,7 @@
       }
     },
     {
-      "i": 1699,
+      "i": 1700,
       "$": {
         "0": {
           "v": "nativescript-twitter-updated",
@@ -95117,7 +95167,7 @@
       }
     },
     {
-      "i": 1700,
+      "i": 1701,
       "$": {
         "0": {
           "v": "nativescript-twitterbang",
@@ -95177,7 +95227,7 @@
       }
     },
     {
-      "i": 1701,
+      "i": 1702,
       "$": {
         "0": {
           "v": "nativescript-typedoc-theme",
@@ -95232,7 +95282,7 @@
       }
     },
     {
-      "i": 1702,
+      "i": 1703,
       "$": {
         "0": {
           "v": "nativescript-uber",
@@ -95282,7 +95332,7 @@
       }
     },
     {
-      "i": 1703,
+      "i": 1704,
       "$": {
         "0": {
           "v": "nativescript-uberx",
@@ -95332,7 +95382,7 @@
       }
     },
     {
-      "i": 1704,
+      "i": 1705,
       "$": {
         "0": {
           "v": "nativescript-ui-autocomplete",
@@ -95383,61 +95433,6 @@
         "2": {
           "v": "Improve data entry speed and accuracy by triggering auto-completion for text entries.",
           "n": 0.289
-        }
-      }
-    },
-    {
-      "i": 1705,
-      "$": {
-        "0": {
-          "v": "nativescript-ui-calendar",
-          "n": 1
-        },
-        "1": [
-          {
-            "v": "calendar",
-            "i": 7,
-            "n": 1
-          },
-          {
-            "v": "ui",
-            "i": 6,
-            "n": 1
-          },
-          {
-            "v": "nativescript",
-            "i": 5,
-            "n": 1
-          },
-          {
-            "v": "Android",
-            "i": 4,
-            "n": 1
-          },
-          {
-            "v": "iOS",
-            "i": 3,
-            "n": 1
-          },
-          {
-            "v": "TypeScript",
-            "i": 2,
-            "n": 1
-          },
-          {
-            "v": "JavaScript",
-            "i": 1,
-            "n": 1
-          },
-          {
-            "v": "NativeScript",
-            "i": 0,
-            "n": 1
-          }
-        ],
-        "2": {
-          "v": "Month, year, week and day views. Single, multiple and range date Selection. Special and disabled dates.",
-          "n": 0.25
         }
       }
     },
