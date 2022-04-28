@@ -228,7 +228,7 @@
         },
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 5,
+          "lastWeek": 1,
           "lastMonth": 49
         }
       },
@@ -920,9 +920,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 166,
+          "lastWeek": 638,
+          "lastMonth": 2639
         }
       },
       {
@@ -959,6 +959,53 @@
           {
             "username": "adel12790",
             "email": "adel12790@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "adilek",
+    "username": "adilek",
+    "plugins": [
+      {
+        "name": "@adilek/fetch-task",
+        "scope": "adilek",
+        "version": "1.0.4",
+        "description": "Add a plugin description",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "fetch",
+          "task"
+        ],
+        "date": "2022-04-27T13:33:49.509Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40adilek%2Ffetch-task",
+          "homepage": "https://github.com/AthiraLekshmiCV/background-fetch",
+          "repository": "https://github.com/AthiraLekshmiCV/background-fetch",
+          "bugs": "https://github.com/AthiraLekshmiCV/background-fetch/issues/issues"
+        },
+        "author": {
+          "name": "adilek",
+          "username": "adilek"
+        },
+        "publisher": {
+          "username": "adilek",
+          "email": "andnlnbn18@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "adilek",
+            "email": "andnlnbn18@gmail.com"
           }
         ],
         "downloadStats": {
@@ -1361,7 +1408,7 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 3,
+          "lastWeek": 0,
           "lastMonth": 43
         }
       },
@@ -2551,7 +2598,7 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
+          "lastDay": 3,
           "lastWeek": 5,
           "lastMonth": 126
         }
@@ -6501,8 +6548,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 3,
-          "lastMonth": 16
+          "lastWeek": 0,
+          "lastMonth": 15
         }
       }
     ]
@@ -6640,9 +6687,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 13,
-          "lastWeek": 94,
-          "lastMonth": 0
+          "lastDay": 40,
+          "lastWeek": 113,
+          "lastMonth": 644
         }
       },
       {
@@ -6964,9 +7011,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 10,
+          "lastWeek": 16,
+          "lastMonth": 121
         }
       },
       {
@@ -7192,54 +7239,6 @@
           "nativescript",
           "whatsapp",
           "template"
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
-        "name": "nativescript-ng-shadow",
-        "scope": "unscoped",
-        "version": "2.1.0",
-        "description": "Angular directive to apply shadows to native elements according to the elevation level guidelines of material design specification",
-        "keywords": [
-          "NativeScript",
-          "{N}",
-          "Angular",
-          "TypeScript",
-          "JavaScript",
-          "Material Design",
-          "MD",
-          "Elevation",
-          "Shadow",
-          "Android",
-          "iOS",
-          "nativescript",
-          "ng",
-          "shadow"
-        ],
-        "date": "2017-12-31T05:38:42.455Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-ng-shadow",
-          "homepage": "https://github.com/Especializa/nativescript-ng-shadow",
-          "repository": "https://github.com/Especializa/nativescript-ng-shadow",
-          "bugs": "https://github.com/Especializa/nativescript-ng-shadow/issues"
-        },
-        "author": {
-          "name": "berardo",
-          "username": "berardo"
-        },
-        "publisher": {
-          "username": "berardo",
-          "email": "joseberardo@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "berardo",
-            "email": "joseberardo@gmail.com"
-          }
         ],
         "downloadStats": {
           "lastDay": 0,
@@ -8122,26 +8121,27 @@
     "username": "binarynate",
     "plugins": [
       {
-        "name": "nativescript-component",
+        "name": "nativescript-midi",
         "scope": "unscoped",
-        "version": "1.2.0",
-        "description": "A module for easily creating reusable NativeScript components without Angular.",
+        "version": "0.0.6",
+        "description": "A NativeScript plugin for communicating with MIDI devices (e.g. musical instruments or apps).",
         "keywords": [
           "NativeScript",
-          "component",
-          "reusable",
-          "core",
-          "Ember",
-          "UI",
+          "MIDI",
+          "music",
+          "keyboard",
+          "musical",
+          "instrument",
+          "iOS",
           "nativescript",
-          "component"
+          "midi"
         ],
-        "date": "2017-04-05T02:18:09.146Z",
+        "date": "2018-01-03T00:52:29.959Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-component",
-          "homepage": "https://github.com/BinaryNate/nativescript-component#readme",
-          "repository": "https://github.com/BinaryNate/nativescript-component",
-          "bugs": "https://github.com/BinaryNate/nativescript-component/issues"
+          "npm": "https://www.npmjs.com/package/nativescript-midi",
+          "homepage": "https://github.com/BinaryNate/nativescript-midi#readme",
+          "repository": "https://github.com/BinaryNate/nativescript-midi",
+          "bugs": "https://github.com/BinaryNate/nativescript-midi/issues"
         },
         "author": {
           "name": "binarynate",
@@ -8164,27 +8164,34 @@
         }
       },
       {
-        "name": "nativescript-midi",
+        "name": "nativescript-utilities",
         "scope": "unscoped",
-        "version": "0.0.6",
-        "description": "A NativeScript plugin for communicating with MIDI devices (e.g. musical instruments or apps).",
+        "version": "0.1.0",
+        "description": "A collection of reusable NativeScript utility classes and functions.",
         "keywords": [
           "NativeScript",
-          "MIDI",
-          "music",
-          "keyboard",
-          "musical",
-          "instrument",
-          "iOS",
+          "Uint8Array",
+          "ArrayBuffer",
+          "Reference",
+          "Pointer",
+          "convert",
+          "conversion",
+          "logger",
+          "util",
+          "utility",
+          "utilities",
+          "functions",
+          "classes",
+          "interop",
           "nativescript",
-          "midi"
+          "utilities"
         ],
-        "date": "2018-01-03T00:52:29.959Z",
+        "date": "2017-01-10T03:33:09.277Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-midi",
-          "homepage": "https://github.com/BinaryNate/nativescript-midi#readme",
-          "repository": "https://github.com/BinaryNate/nativescript-midi",
-          "bugs": "https://github.com/BinaryNate/nativescript-midi/issues"
+          "npm": "https://www.npmjs.com/package/nativescript-utilities",
+          "homepage": "https://github.com/BinaryNate/nativescript-utilities#readme",
+          "repository": "https://github.com/BinaryNate/nativescript-utilities",
+          "bugs": "https://github.com/BinaryNate/nativescript-utilities/issues"
         },
         "author": {
           "name": "binarynate",
@@ -8561,9 +8568,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 103,
-          "lastWeek": 456,
-          "lastMonth": 2455
+          "lastDay": 54,
+          "lastWeek": 389,
+          "lastMonth": 2356
         }
       },
       {
@@ -8605,9 +8612,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 219,
-          "lastWeek": 1058,
-          "lastMonth": 4862
+          "lastDay": 209,
+          "lastWeek": 1006,
+          "lastMonth": 4741
         }
       },
       {
@@ -8664,9 +8671,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 11,
-          "lastWeek": 187,
-          "lastMonth": 1146
+          "lastDay": 35,
+          "lastWeek": 200,
+          "lastMonth": 1153
         }
       },
       {
@@ -9757,6 +9764,43 @@
           "lastWeek": 0,
           "lastMonth": 0
         }
+      },
+      {
+        "name": "nativescript-nsoauth",
+        "scope": "unscoped",
+        "version": "0.0.10035",
+        "description": "Your awesome NativeScript plugin.",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "nsoauth"
+        ],
+        "date": "2019-06-16T13:29:54.090Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-nsoauth"
+        },
+        "author": {
+          "name": "brandless",
+          "username": "brandless"
+        },
+        "publisher": {
+          "username": "brandless",
+          "email": "joshcomley@googlemail.com"
+        },
+        "maintainers": [
+          {
+            "username": "brandless",
+            "email": "joshcomley@googlemail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
       }
     ]
   },
@@ -10161,7 +10205,7 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 0,
+          "lastWeek": 4,
           "lastMonth": 28
         }
       }
@@ -12876,7 +12920,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 2,
-          "lastMonth": 29
+          "lastMonth": 27
         }
       },
       {
@@ -13360,51 +13404,9 @@
     ]
   },
   {
-    "name": "comporell",
+    "name": "Trevize Daneel",
     "username": "comporell",
     "plugins": [
-      {
-        "name": "@comporell/nativescript-mht-printer",
-        "scope": "comporell",
-        "version": "1.2.1",
-        "description": "Nativescript MeiHengTong MHT Bluetooth Label Printer Plugin",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "nativescript",
-          "mht",
-          "printer"
-        ],
-        "date": "2021-08-01T16:43:40.897Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40comporell%2Fnativescript-mht-printer",
-          "homepage": "https://github.com/comporell/nativescript-mht-printer",
-          "repository": "https://github.com/comporell/nativescript-mht-printer",
-          "bugs": "https://github.com/comporell/nativescript-mht-printer/issues"
-        },
-        "author": {
-          "name": "comporell",
-          "username": "comporell"
-        },
-        "publisher": {
-          "username": "comporell",
-          "email": "comporell@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "comporell",
-            "email": "comporell@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
       {
         "name": "nativescript-mht-printer",
         "scope": "unscoped",
@@ -13426,7 +13428,7 @@
           "bugs": "https://github.com/comporell/nativescript-mht-printer/issues"
         },
         "author": {
-          "name": "comporell",
+          "name": "Trevize Daneel",
           "username": "comporell"
         },
         "publisher": {
@@ -13836,8 +13838,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastWeek": 52,
+          "lastMonth": 143
         }
       },
       {
@@ -14354,9 +14356,9 @@
           "username": "daravind"
         },
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 1,
+          "lastWeek": 10,
+          "lastMonth": 28
         }
       }
     ]
@@ -15109,9 +15111,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 844,
-          "lastMonth": 0
+          "lastDay": 129,
+          "lastWeek": 788,
+          "lastMonth": 4412
         }
       },
       {
@@ -15802,52 +15804,6 @@
     ]
   },
   {
-    "name": "dev4s",
-    "username": "dev4s",
-    "plugins": [
-      {
-        "name": "nativescript-fonticon-dev4s",
-        "scope": "unscoped",
-        "version": "2.0.3",
-        "description": "Use custom font icon collections seamlessly with NativeScript",
-        "keywords": [
-          "nativescript-fonticon",
-          "dev4s",
-          "nativescript",
-          "nativescript",
-          "fonticon",
-          "dev4s"
-        ],
-        "date": "2020-10-15T04:12:39.119Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-fonticon-dev4s",
-          "homepage": "https://github.com/dev4s/nativescript-fonticon#readme",
-          "repository": "https://github.com/dev4s/nativescript-fonticon",
-          "bugs": "https://github.com/dev4s/nativescript-fonticon/issues"
-        },
-        "author": {
-          "name": "dev4s",
-          "username": "dev4s"
-        },
-        "publisher": {
-          "username": "dev4s",
-          "email": "ttofel@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "dev4s",
-            "email": "ttofel@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
     "name": "developerwym",
     "username": "developerwym",
     "plugins": [
@@ -16277,6 +16233,49 @@
           {
             "username": "dicksmith",
             "email": "npmjs@dicksmith.ca"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "dieover",
+    "username": "dieover",
+    "plugins": [
+      {
+        "name": "@dieover/helloworld",
+        "scope": "dieover",
+        "version": "1.0.5",
+        "description": "Add a plugin description",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "helloworld"
+        ],
+        "date": "2021-12-12T05:02:07.338Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40dieover%2Fhelloworld"
+        },
+        "author": {
+          "name": "dieover",
+          "username": "dieover"
+        },
+        "publisher": {
+          "username": "lennonmilicic",
+          "email": "lennonmilicic@hotmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "lennonmilicic",
+            "email": "lennonmilicic@hotmail.com"
           }
         ],
         "downloadStats": {
@@ -16836,7 +16835,7 @@
       {
         "name": "ebs-nativescript-exoplayer",
         "scope": "unscoped",
-        "version": "5.0.14",
+        "version": "5.0.16",
         "description": "NativeScript plugin that uses the ExoPlayer video player on Android and AVPlayerViewController on iOS to play local and remote videos.",
         "keywords": [
           "NativeScript",
@@ -16852,7 +16851,7 @@
           "nativescript",
           "exoplayer"
         ],
-        "date": "2022-04-21T09:18:09.508Z",
+        "date": "2022-04-27T10:26:24.231Z",
         "links": {
           "npm": "https://www.npmjs.com/package/ebs-nativescript-exoplayer",
           "homepage": "https://github.com/nstudio/nativescript-plugins",
@@ -17437,47 +17436,6 @@
         }
       },
       {
-        "name": "nativescript-loading-indicator-ssi",
-        "scope": "unscoped",
-        "version": "2.5.2",
-        "description": "A NativeScript plugin for showing an overlayed loading indicator.",
-        "keywords": [
-          "NativeScript",
-          "loading-indicator",
-          "Loading",
-          "Progress",
-          "MBProgressHUD",
-          "ProgressDialog",
-          "nativescript",
-          "loading",
-          "indicator",
-          "ssi"
-        ],
-        "date": "2017-07-23T21:53:48.146Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-loading-indicator-ssi"
-        },
-        "author": {
-          "name": "dnelson-simplec",
-          "username": "dnelson-simplec"
-        },
-        "publisher": {
-          "username": "dnelson-simplec",
-          "email": "dnelson@simplec.com"
-        },
-        "maintainers": [
-          {
-            "username": "dnelson-simplec",
-            "email": "dnelson@simplec.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
         "name": "nativescript-orientation-ssi",
         "scope": "unscoped",
         "version": "2.2.5",
@@ -17975,9 +17933,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 27,
-          "lastWeek": 180,
-          "lastMonth": 732
+          "lastDay": 12,
+          "lastWeek": 96,
+          "lastMonth": 731
         }
       },
       {
@@ -18216,54 +18174,6 @@
     "name": "dsvishchov",
     "username": "dsvishchov",
     "plugins": [
-      {
-        "name": "@dsvishchov/nativescript-audio",
-        "scope": "dsvishchov",
-        "version": "6.2.1",
-        "description": "NativeScript plugin to record and play audio.",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "Android",
-          "iOS",
-          "music",
-          "microphone",
-          "recorder",
-          "audio",
-          "nStudio",
-          "bradmartin",
-          "nathanwalker",
-          "nativescript",
-          "audio"
-        ],
-        "date": "2021-01-29T18:23:02.809Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40dsvishchov%2Fnativescript-audio",
-          "homepage": "https://github.com/nstudio/nativescript-audio",
-          "repository": "https://github.com/nstudio/nativescript-audio",
-          "bugs": "https://github.com/nstudio/nativescript-audio/issues"
-        },
-        "author": {
-          "name": "dsvishchov",
-          "username": "dsvishchov"
-        },
-        "publisher": {
-          "username": "dsvishchov",
-          "email": "dsvishchov@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "dsvishchov",
-            "email": "dsvishchov@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
       {
         "name": "@dsvishchov/nativescript-loading-indicator",
         "scope": "dsvishchov",
@@ -18794,7 +18704,7 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 9,
+          "lastWeek": 3,
           "lastMonth": 31
         }
       }
@@ -18860,9 +18770,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 81,
-          "lastWeek": 337,
-          "lastMonth": 1935
+          "lastDay": 119,
+          "lastWeek": 365,
+          "lastMonth": 1970
         }
       },
       {
@@ -18906,8 +18816,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 22,
+          "lastDay": 2,
+          "lastWeek": 24,
           "lastMonth": 80
         }
       },
@@ -18953,9 +18863,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 33,
-          "lastMonth": 236
+          "lastDay": 11,
+          "lastWeek": 30,
+          "lastMonth": 232
         }
       },
       {
@@ -19000,8 +18910,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 237,
-          "lastWeek": 1233,
+          "lastDay": 305,
+          "lastWeek": 1239,
           "lastMonth": 5425
         }
       },
@@ -19043,9 +18953,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 97,
-          "lastWeek": 427,
-          "lastMonth": 2210
+          "lastDay": 55,
+          "lastWeek": 379,
+          "lastMonth": 2100
         }
       },
       {
@@ -19085,9 +18995,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 205,
-          "lastWeek": 1056,
-          "lastMonth": 4541
+          "lastDay": 237,
+          "lastWeek": 1042,
+          "lastMonth": 4528
         }
       },
       {
@@ -19151,9 +19061,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 60,
-          "lastWeek": 693,
-          "lastMonth": 2539
+          "lastDay": 94,
+          "lastWeek": 658,
+          "lastMonth": 2582
         }
       },
       {
@@ -19194,9 +19104,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 62,
+          "lastWeek": 292,
+          "lastMonth": 1749
         }
       },
       {
@@ -24474,9 +24384,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 74,
-          "lastMonth": 267
+          "lastDay": 0,
+          "lastWeek": 73,
+          "lastMonth": 262
         }
       },
       {
@@ -24514,30 +24424,29 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 112,
-          "lastMonth": 468
+          "lastDay": 5,
+          "lastWeek": 114,
+          "lastMonth": 470
         }
       },
       {
-        "name": "nativescript-material-dialogs",
+        "name": "nativescript-htmllabel",
         "scope": "unscoped",
-        "version": "3.3.2",
-        "description": "Material Dialogs component",
+        "version": "1.0.41",
+        "description": "Nativescript label implementation supporting HTML",
         "keywords": [
           "NativeScript",
           "JavaScript",
           "Android",
           "iOS",
           "nativescript",
-          "material",
-          "dialogs"
+          "htmllabel"
         ],
-        "date": "2021-01-07T08:35:04.528Z",
+        "date": "2020-07-26T09:37:03.733Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-dialogs",
-          "homepage": "https://github.com/Akylas/nativescript-material-components",
-          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
+          "npm": "https://www.npmjs.com/package/nativescript-htmllabel",
+          "homepage": "https://github.com/Akylas/nativescript-label",
+          "bugs": "https://github.com/Akylas/nativescript-label/issues"
         },
         "author": {
           "name": "farfromrefuge",
@@ -24554,9 +24463,49 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 4,
-          "lastMonth": 443
+          "lastDay": 0,
+          "lastWeek": 2,
+          "lastMonth": 134
+        }
+      },
+      {
+        "name": "nativescript-canvaslabel",
+        "scope": "unscoped",
+        "version": "1.0.10",
+        "description": "[![npm downloads](https://img.shields.io/npm/dm/nativescript-canvaslabel.svg)](https://www.npmjs.com/package/nativescript-canvaslabel) [![npm downloads](https://img.shields.io/npm/dt/nativescript-canvaslabel.svg)](https://www.npmjs.com/package/nativescrip",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "canvaslabel"
+        ],
+        "date": "2020-07-22T14:27:33.507Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-canvaslabel",
+          "homepage": "https://github.com/farfromrefug/nativescript-canvaslabel#readme",
+          "repository": "https://github.com/farfromrefug/nativescript-canvaslabel",
+          "bugs": "https://github.com/farfromrefug/nativescript-canvaslabel/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 12,
+          "lastMonth": 77
         }
       },
       {
@@ -24595,7 +24544,7 @@
         ],
         "downloadStats": {
           "lastDay": 1,
-          "lastWeek": 105,
+          "lastWeek": 106,
           "lastMonth": 428
         }
       },
@@ -24634,16 +24583,16 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 4,
-          "lastWeek": 115,
-          "lastMonth": 548
+          "lastDay": 6,
+          "lastWeek": 18,
+          "lastMonth": 528
         }
       },
       {
-        "name": "nativescript-material-textview",
+        "name": "nativescript-material-button",
         "scope": "unscoped",
         "version": "3.3.2",
-        "description": "Material textview component",
+        "description": "Material button component",
         "keywords": [
           "NativeScript",
           "JavaScript",
@@ -24651,11 +24600,11 @@
           "iOS",
           "nativescript",
           "material",
-          "textview"
+          "button"
         ],
-        "date": "2021-01-07T08:34:55.303Z",
+        "date": "2021-01-07T08:34:55.362Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-textview",
+          "npm": "https://www.npmjs.com/package/nativescript-material-button",
           "homepage": "https://github.com/Akylas/nativescript-material-components",
           "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
         },
@@ -24674,9 +24623,249 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 1,
-          "lastMonth": 109
+          "lastDay": 2,
+          "lastWeek": 105,
+          "lastMonth": 441
+        }
+      },
+      {
+        "name": "nativescript-material-activityindicator",
+        "scope": "unscoped",
+        "version": "3.3.2",
+        "description": "Material ActivityIndicator component",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "material",
+          "activityindicator"
+        ],
+        "date": "2021-01-07T08:34:55.012Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-material-activityindicator",
+          "homepage": "https://github.com/Akylas/nativescript-material-components",
+          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 2,
+          "lastWeek": 4,
+          "lastMonth": 419
+        }
+      },
+      {
+        "name": "nativescript-material-progress",
+        "scope": "unscoped",
+        "version": "3.3.2",
+        "description": "Material progress component",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "material",
+          "progress"
+        ],
+        "date": "2021-01-07T08:34:55.204Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-material-progress",
+          "homepage": "https://github.com/Akylas/nativescript-material-components",
+          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 1,
+          "lastWeek": 103,
+          "lastMonth": 421
+        }
+      },
+      {
+        "name": "nativescript-material-ripple",
+        "scope": "unscoped",
+        "version": "3.3.2",
+        "description": "Material ripple component",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "material",
+          "ripple"
+        ],
+        "date": "2021-01-07T08:34:55.247Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-material-ripple",
+          "homepage": "https://github.com/Akylas/nativescript-material-components",
+          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 2,
+          "lastWeek": 106,
+          "lastMonth": 433
+        }
+      },
+      {
+        "name": "nativescript-material-floatingactionbutton",
+        "scope": "unscoped",
+        "version": "3.3.2",
+        "description": "Material floatingactionbutton component",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "material",
+          "floatingactionbutton"
+        ],
+        "date": "2021-01-07T08:35:02.918Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-material-floatingactionbutton",
+          "homepage": "https://github.com/Akylas/nativescript-material-components",
+          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 2,
+          "lastWeek": 4,
+          "lastMonth": 419
+        }
+      },
+      {
+        "name": "nativescript-material-slider",
+        "scope": "unscoped",
+        "version": "3.3.2",
+        "description": "Material slider component",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "material",
+          "slider"
+        ],
+        "date": "2021-01-07T08:34:55.896Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-material-slider",
+          "homepage": "https://github.com/Akylas/nativescript-material-components",
+          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 1,
+          "lastWeek": 103,
+          "lastMonth": 419
+        }
+      },
+      {
+        "name": "nativescript-material-dialogs",
+        "scope": "unscoped",
+        "version": "3.3.2",
+        "description": "Material Dialogs component",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "material",
+          "dialogs"
+        ],
+        "date": "2021-01-07T08:35:04.528Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-material-dialogs",
+          "homepage": "https://github.com/Akylas/nativescript-material-components",
+          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 2,
+          "lastWeek": 5,
+          "lastMonth": 444
         }
       },
       {
@@ -24714,7 +24903,7 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
+          "lastDay": 1,
           "lastWeek": 110,
           "lastMonth": 434
         }
@@ -24761,16 +24950,16 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 51,
-          "lastMonth": 223
+          "lastDay": 4,
+          "lastWeek": 54,
+          "lastMonth": 226
         }
       },
       {
-        "name": "nativescript-material-ripple",
+        "name": "nativescript-material-textview",
         "scope": "unscoped",
         "version": "3.3.2",
-        "description": "Material ripple component",
+        "description": "Material textview component",
         "keywords": [
           "NativeScript",
           "JavaScript",
@@ -24778,11 +24967,11 @@
           "iOS",
           "nativescript",
           "material",
-          "ripple"
+          "textview"
         ],
-        "date": "2021-01-07T08:34:55.247Z",
+        "date": "2021-01-07T08:34:55.303Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-ripple",
+          "npm": "https://www.npmjs.com/package/nativescript-material-textview",
           "homepage": "https://github.com/Akylas/nativescript-material-components",
           "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
         },
@@ -24801,209 +24990,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 104,
-          "lastMonth": 432
-        }
-      },
-      {
-        "name": "nativescript-material-floatingactionbutton",
-        "scope": "unscoped",
-        "version": "3.3.2",
-        "description": "Material floatingactionbutton component",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "material",
-          "floatingactionbutton"
-        ],
-        "date": "2021-01-07T08:35:02.918Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-floatingactionbutton",
-          "homepage": "https://github.com/Akylas/nativescript-material-components",
-          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 101,
-          "lastMonth": 418
-        }
-      },
-      {
-        "name": "nativescript-material-button",
-        "scope": "unscoped",
-        "version": "3.3.2",
-        "description": "Material button component",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "material",
-          "button"
-        ],
-        "date": "2021-01-07T08:34:55.362Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-button",
-          "homepage": "https://github.com/Akylas/nativescript-material-components",
-          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 104,
-          "lastMonth": 440
-        }
-      },
-      {
-        "name": "nativescript-material-slider",
-        "scope": "unscoped",
-        "version": "3.3.2",
-        "description": "Material slider component",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "material",
-          "slider"
-        ],
-        "date": "2021-01-07T08:34:55.896Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-slider",
-          "homepage": "https://github.com/Akylas/nativescript-material-components",
-          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 102,
-          "lastMonth": 419
-        }
-      },
-      {
-        "name": "nativescript-material-activityindicator",
-        "scope": "unscoped",
-        "version": "3.3.2",
-        "description": "Material ActivityIndicator component",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "material",
-          "activityindicator"
-        ],
-        "date": "2021-01-07T08:34:55.012Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-activityindicator",
-          "homepage": "https://github.com/Akylas/nativescript-material-components",
-          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 102,
-          "lastMonth": 419
-        }
-      },
-      {
-        "name": "nativescript-material-progress",
-        "scope": "unscoped",
-        "version": "3.3.2",
-        "description": "Material progress component",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "material",
-          "progress"
-        ],
-        "date": "2021-01-07T08:34:55.204Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-progress",
-          "homepage": "https://github.com/Akylas/nativescript-material-components",
-          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 103,
-          "lastMonth": 421
+          "lastDay": 34,
+          "lastWeek": 35,
+          "lastMonth": 142
         }
       },
       {
@@ -25041,88 +25030,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 1,
+          "lastDay": 1,
+          "lastWeek": 2,
           "lastMonth": 72
-        }
-      },
-      {
-        "name": "nativescript-htmllabel",
-        "scope": "unscoped",
-        "version": "1.0.41",
-        "description": "Nativescript label implementation supporting HTML",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "htmllabel"
-        ],
-        "date": "2020-07-26T09:37:03.733Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-htmllabel",
-          "homepage": "https://github.com/Akylas/nativescript-label",
-          "bugs": "https://github.com/Akylas/nativescript-label/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 44,
-          "lastMonth": 135
-        }
-      },
-      {
-        "name": "nativescript-canvaslabel",
-        "scope": "unscoped",
-        "version": "1.0.10",
-        "description": "[![npm downloads](https://img.shields.io/npm/dm/nativescript-canvaslabel.svg)](https://www.npmjs.com/package/nativescript-canvaslabel) [![npm downloads](https://img.shields.io/npm/dt/nativescript-canvaslabel.svg)](https://www.npmjs.com/package/nativescrip",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "canvaslabel"
-        ],
-        "date": "2020-07-22T14:27:33.507Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-canvaslabel",
-          "homepage": "https://github.com/farfromrefug/nativescript-canvaslabel#readme",
-          "repository": "https://github.com/farfromrefug/nativescript-canvaslabel",
-          "bugs": "https://github.com/farfromrefug/nativescript-canvaslabel/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 12,
-          "lastMonth": 0
         }
       },
       {
@@ -25289,46 +25199,6 @@
         }
       },
       {
-        "name": "nativescript-material-core",
-        "scope": "unscoped",
-        "version": "3.3.2",
-        "description": "Material Core component",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "material",
-          "core"
-        ],
-        "date": "2021-01-07T08:34:51.216Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-core",
-          "homepage": "https://github.com/Akylas/nativescript-material-components",
-          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
         "name": "nativescript-akylas-lottie",
         "scope": "unscoped",
         "version": "4.0.14",
@@ -25352,6 +25222,46 @@
           "homepage": "https://github.com/farfromrefug/nativescript-lottie",
           "repository": "https://github.com/farfromrefug/nativescript-lottie",
           "bugs": "https://github.com/farfromrefug/nativescript-lottie/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "nativescript-material-core",
+        "scope": "unscoped",
+        "version": "3.3.2",
+        "description": "Material Core component",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "material",
+          "core"
+        ],
+        "date": "2021-01-07T08:34:51.216Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-material-core",
+          "homepage": "https://github.com/Akylas/nativescript-material-components",
+          "bugs": "https://github.com/Akylas/nativescript-material-components/issues"
         },
         "author": {
           "name": "farfromrefuge",
@@ -26674,6 +26584,79 @@
         }
       },
       {
+        "name": "nativescript-document-picker",
+        "scope": "unscoped",
+        "version": "1.0.7",
+        "description": "File Picker",
+        "keywords": [
+          "ecosystem:NativeScript",
+          "NativeScript",
+          "nativescript",
+          "document",
+          "picker"
+        ],
+        "date": "2020-03-28T14:50:38.763Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-document-picker",
+          "homepage": "https://github.com/farfromrefug/nativescript-document-picker",
+          "repository": "https://github.com/farfromrefug/nativescript-document-picker",
+          "bugs": "https://github.com/farfromrefug/nativescript-document-picker/issues"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "nativescript-akylas-webpack-template",
+        "scope": "unscoped",
+        "version": "1.0.15",
+        "date": "2020-01-28T08:57:00.034Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-akylas-webpack-template"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "keywords": [
+          "nativescript",
+          "akylas",
+          "webpack",
+          "template"
+        ],
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
         "name": "nativescript-akylas-fonticon",
         "scope": "unscoped",
         "version": "2.0.7",
@@ -27088,9 +27071,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 33,
-          "lastWeek": 161,
-          "lastMonth": 710
+          "lastDay": 53,
+          "lastWeek": 174,
+          "lastMonth": 670
         }
       },
       {
@@ -27230,7 +27213,7 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
+          "lastDay": 26,
           "lastWeek": 0,
           "lastMonth": 0
         }
@@ -27409,9 +27392,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 9,
-          "lastWeek": 186,
-          "lastMonth": 601
+          "lastDay": 16,
+          "lastWeek": 194,
+          "lastMonth": 574
         }
       },
       {
@@ -29075,50 +29058,6 @@
     ]
   },
   {
-    "name": "giorgiopiatti",
-    "username": "giorgiopiatti",
-    "plugins": [
-      {
-        "name": "nativescript-ngx-slides-plugin",
-        "scope": "unscoped",
-        "version": "1.0.1",
-        "description": "NativeScript + Angular version of the slides",
-        "date": "2018-04-12T16:31:53.550Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-ngx-slides-plugin",
-          "homepage": "https://github.com/TheOriginalJosh/nativescript-ngx-slides#readme",
-          "repository": "https://github.com/TheOriginalJosh/nativescript-ngx-slides",
-          "bugs": "https://github.com/TheOriginalJosh/nativescript-ngx-slides/issues"
-        },
-        "author": {
-          "name": "giorgiopiatti",
-          "username": "giorgiopiatti"
-        },
-        "publisher": {
-          "username": "giorgiopiatti",
-          "email": "giorgio-piatti@outlook.com"
-        },
-        "maintainers": [
-          {
-            "username": "giorgiopiatti",
-            "email": "giorgio-piatti@outlook.com"
-          }
-        ],
-        "keywords": [
-          "nativescript",
-          "ngx",
-          "slides",
-          "plugin"
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
     "name": "giovannicandido",
     "username": "giovannicandido",
     "plugins": [
@@ -29329,7 +29268,7 @@
       {
         "name": "nativescript-plugin-appsflyer",
         "scope": "unscoped",
-        "version": "6.3.2",
+        "version": "6.5.4",
         "description": "Appsflyer SDK for NativeScript applications",
         "keywords": [
           "appsflyer",
@@ -29338,7 +29277,7 @@
           "plugin",
           "appsflyer"
         ],
-        "date": "2021-06-28T12:38:44.050Z",
+        "date": "2022-04-27T15:37:54.516Z",
         "links": {
           "npm": "https://www.npmjs.com/package/nativescript-plugin-appsflyer",
           "homepage": "https://github.com/AppsFlyerSDK/nativescript-plugin-appsflyer#readme",
@@ -29415,9 +29354,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 53,
-          "lastMonth": 245
+          "lastDay": 2,
+          "lastWeek": 45,
+          "lastMonth": 226
         }
       },
       {
@@ -29931,7 +29870,7 @@
           "username": "hamdiwanis"
         },
         "downloadStats": {
-          "lastDay": 0,
+          "lastDay": 19,
           "lastWeek": 0,
           "lastMonth": 0
         }
@@ -31126,7 +31065,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
-          "lastMonth": 9
+          "lastMonth": 8
         }
       },
       {
@@ -31258,22 +31197,22 @@
         }
       },
       {
-        "name": "nativescript-easy-getui",
+        "name": "nativescript-easy-utils",
         "scope": "unscoped",
-        "version": "3.0.0",
-        "description": "提供即时消息推送集成个推",
+        "version": "1.0.0",
+        "description": "提供重操作逻辑",
         "keywords": [
-          "getui",
+          "xmpp",
           "im",
           "cat",
           "NativeScript",
           "nativescript",
           "easy",
-          "getui"
+          "utils"
         ],
-        "date": "2018-10-22T07:04:17.604Z",
+        "date": "2018-10-22T07:07:21.162Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-easy-getui",
+          "npm": "https://www.npmjs.com/package/nativescript-easy-utils",
           "homepage": "http://nativescript.github.io"
         },
         "author": {
@@ -31297,22 +31236,22 @@
         }
       },
       {
-        "name": "nativescript-easy-utils",
+        "name": "nativescript-easy-getui",
         "scope": "unscoped",
-        "version": "1.0.0",
-        "description": "提供重操作逻辑",
+        "version": "3.0.0",
+        "description": "提供即时消息推送集成个推",
         "keywords": [
-          "xmpp",
+          "getui",
           "im",
           "cat",
           "NativeScript",
           "nativescript",
           "easy",
-          "utils"
+          "getui"
         ],
-        "date": "2018-10-22T07:07:21.162Z",
+        "date": "2018-10-22T07:04:17.604Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-easy-utils",
+          "npm": "https://www.npmjs.com/package/nativescript-easy-getui",
           "homepage": "http://nativescript.github.io"
         },
         "author": {
@@ -31419,9 +31358,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 119,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 74,
+          "lastWeek": 618,
+          "lastMonth": 3316
         }
       },
       {
@@ -32312,8 +32251,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 9,
-          "lastMonth": 61
+          "lastWeek": 8,
+          "lastMonth": 60
         }
       },
       {
@@ -32614,9 +32553,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
+          "lastDay": 0,
           "lastWeek": 9,
-          "lastMonth": 31
+          "lastMonth": 30
         }
       },
       {
@@ -33353,9 +33292,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 1,
-          "lastMonth": 298
+          "lastDay": 88,
+          "lastWeek": 88,
+          "lastMonth": 385
         }
       },
       {
@@ -33401,7 +33340,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 12,
-          "lastMonth": 0
+          "lastMonth": 48
         }
       },
       {
@@ -33448,8 +33387,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastWeek": 4,
+          "lastMonth": 20
         }
       },
       {
@@ -33709,55 +33648,6 @@
           "nativescript",
           "dev",
           "version"
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Javierpal",
-    "username": "javierpal",
-    "plugins": [
-      {
-        "name": "nativescript-cscreenshot",
-        "scope": "unscoped",
-        "version": "1.2.1",
-        "description": "Your Take a View Screenshot Nativescript Plugin!",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "Nativescript Screenshot",
-          "Nativescript CScreenshot",
-          "Screenshot",
-          "nativescript",
-          "cscreenshot"
-        ],
-        "date": "2021-05-21T03:21:09.781Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-cscreenshot",
-          "homepage": "https://github.com/Javierpal/nativescript-cscreenshot",
-          "repository": "https://github.com/Javierpal/nativescript-cscreenshot",
-          "bugs": "https://github.com/Javierpal/nativescript-cscreenshot/issues"
-        },
-        "author": {
-          "name": "Javierpal",
-          "username": "javierpal"
-        },
-        "publisher": {
-          "username": "javierpal",
-          "email": "Farjav_rnr@hotmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "javierpal",
-            "email": "Farjav_rnr@hotmail.com"
-          }
         ],
         "downloadStats": {
           "lastDay": 0,
@@ -34791,8 +34681,8 @@
         ],
         "downloadStats": {
           "lastDay": 1,
-          "lastWeek": 3,
-          "lastMonth": 134
+          "lastWeek": 4,
+          "lastMonth": 135
         }
       }
     ]
@@ -34882,8 +34772,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 7,
+          "lastDay": 1,
+          "lastWeek": 8,
           "lastMonth": 26
         }
       },
@@ -34923,9 +34813,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
+          "lastDay": 0,
           "lastWeek": 26,
-          "lastMonth": 96
+          "lastMonth": 95
         }
       },
       {
@@ -34991,6 +34881,47 @@
           "npm": "https://www.npmjs.com/package/nativescript-android-advanced-webview",
           "homepage": "https://github.com/jibon57/nativescript-android-advanced-webview",
           "bugs": "https://github.com/jibon57/nativescript-android-advanced-webview/issues"
+        },
+        "author": {
+          "name": "Jibon L. Costa",
+          "username": "jibon57"
+        },
+        "publisher": {
+          "username": "jibon57",
+          "email": "jiboncosta57@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "jibon57",
+            "email": "jiboncosta57@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "nativescript-wechat-login",
+        "scope": "unscoped",
+        "version": "1.0.6",
+        "description": "Wechat Login plugin for nativescript.",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "wechat",
+          "wechat login",
+          "wechat login nativescript",
+          "nativescript",
+          "wechat",
+          "login"
+        ],
+        "date": "2020-02-05T16:09:07.450Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-wechat-login"
         },
         "author": {
           "name": "Jibon L. Costa",
@@ -35275,7 +35206,7 @@
       {
         "name": "@joaotomaz/nativescript-run-cli",
         "scope": "joaotomaz",
-        "version": "1.0.1-alpha.1",
+        "version": "1.0.1-alpha.2",
         "description": "A CLI for NativeScript Run and Debug",
         "keywords": [
           "cli",
@@ -35284,7 +35215,7 @@
           "run",
           "cli"
         ],
-        "date": "2022-04-01T09:42:00.389Z",
+        "date": "2022-04-27T11:52:14.477Z",
         "links": {
           "npm": "https://www.npmjs.com/package/%40joaotomaz%2Fnativescript-run-cli"
         },
@@ -35756,9 +35687,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 9,
-          "lastMonth": 31
+          "lastDay": 3,
+          "lastWeek": 11,
+          "lastMonth": 33
         }
       },
       {
@@ -37019,7 +36950,7 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
+          "lastDay": 4,
           "lastWeek": 0,
           "lastMonth": 0
         }
@@ -37359,9 +37290,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 11,
-          "lastWeek": 75,
-          "lastMonth": 346
+          "lastDay": 7,
+          "lastWeek": 67,
+          "lastMonth": 338
         }
       },
       {
@@ -37623,9 +37554,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 19,
-          "lastWeek": 188,
-          "lastMonth": 637
+          "lastDay": 22,
+          "lastWeek": 162,
+          "lastMonth": 634
         }
       },
       {
@@ -37675,9 +37606,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 21,
-          "lastWeek": 113,
-          "lastMonth": 472
+          "lastDay": 13,
+          "lastWeek": 111,
+          "lastMonth": 473
         }
       }
     ]
@@ -37723,9 +37654,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
+          "lastDay": 0,
           "lastWeek": 3,
-          "lastMonth": 17
+          "lastMonth": 16
         }
       },
       {
@@ -39059,6 +38990,41 @@
           "lastWeek": 0,
           "lastMonth": 0
         }
+      },
+      {
+        "name": "nativescript-timedatepicker-renet",
+        "scope": "unscoped",
+        "version": "1.2.1",
+        "description": "A NativeScript module providing native Android time and date pickers",
+        "keywords": [
+          "NativeScript",
+          "nativescript",
+          "timedatepicker",
+          "renet"
+        ],
+        "date": "2016-11-24T01:26:24.265Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-timedatepicker-renet"
+        },
+        "author": {
+          "name": "leocaseiro",
+          "username": "leocaseiro"
+        },
+        "publisher": {
+          "username": "leocaseiro",
+          "email": "leobok@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "leocaseiro",
+            "email": "leobok@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
       }
     ]
   },
@@ -39440,9 +39406,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 5,
-          "lastMonth": 25
+          "lastDay": 2,
+          "lastWeek": 7,
+          "lastMonth": 26
         }
       }
     ]
@@ -39624,8 +39590,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 12,
-          "lastMonth": 52
+          "lastWeek": 2,
+          "lastMonth": 51
         }
       },
       {
@@ -39666,9 +39632,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 22
+          "lastDay": 1,
+          "lastWeek": 1,
+          "lastMonth": 23
         }
       },
       {
@@ -39880,47 +39846,6 @@
             "email": "software@luciditysoftware.com.au"
           }
         ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
-        "name": "acs-bluetooth",
-        "scope": "unscoped",
-        "version": "1.0.0",
-        "description": "Bluetooth module for connecting to ACS scanner with NativeScript",
-        "keywords": [
-          "Android",
-          "NativeScript",
-          "Bluetooth",
-          "ACS",
-          "ACR1255U-J1",
-          "acs",
-          "bluetooth"
-        ],
-        "date": "2017-03-13T23:56:25.191Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/acs-bluetooth",
-          "homepage": "https://github.com/luciditysoftware/ACSBluetooth",
-          "repository": "https://github.com/luciditysoftware/ACSBluetooth",
-          "bugs": "https://github.com/luciditysoftware/ACSBluetooth/issues"
-        },
-        "publisher": {
-          "username": "luciditysoftware",
-          "email": "software@luciditysoftware.com.au"
-        },
-        "maintainers": [
-          {
-            "username": "luciditysoftware",
-            "email": "software@luciditysoftware.com.au"
-          }
-        ],
-        "author": {
-          "name": "luciditysoftware",
-          "username": "luciditysoftware"
-        },
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
@@ -40152,7 +40077,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 1,
-          "lastMonth": 9
+          "lastMonth": 8
         }
       },
       {
@@ -40892,9 +40817,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 65,
-          "lastWeek": 398,
-          "lastMonth": 1712
+          "lastDay": 81,
+          "lastWeek": 397,
+          "lastMonth": 1727
         }
       }
     ]
@@ -41026,9 +40951,56 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 91,
-          "lastWeek": 847,
-          "lastMonth": 0
+          "lastDay": 94,
+          "lastWeek": 667,
+          "lastMonth": 4090
+        }
+      },
+      {
+        "name": "nativescript-photoviewer",
+        "scope": "unscoped",
+        "version": "3.0.1",
+        "description": "A simple Photo-viewer component for NativeScript based on NYTPhotoViewer pod for iOS and ImageGalleryViewer for Android.",
+        "keywords": [
+          "NativeScript",
+          "Photo",
+          "Photos",
+          "Image",
+          "Images",
+          "Preview",
+          "Gallery",
+          "Development",
+          "JavaScript",
+          "iOS",
+          "Android",
+          "nativescript",
+          "photoviewer"
+        ],
+        "date": "2021-04-14T09:12:50.925Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-photoviewer",
+          "homepage": "https://github.com/manijak/nativescript-photoviewer",
+          "repository": "https://github.com/manijak/nativescript-photoviewer",
+          "bugs": "https://github.com/manijak/nativescript-photoviewer/issues"
+        },
+        "author": {
+          "name": "manijak",
+          "username": "manijak"
+        },
+        "publisher": {
+          "username": "manijak",
+          "email": "erkocevic@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "manijak",
+            "email": "erkocevic@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 16,
+          "lastMonth": 117
         }
       },
       {
@@ -42331,9 +42303,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 348,
-          "lastWeek": 1493,
-          "lastMonth": 6433
+          "lastDay": 400,
+          "lastWeek": 1547,
+          "lastMonth": 6484
         }
       },
       {
@@ -42374,9 +42346,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 15,
-          "lastWeek": 78,
-          "lastMonth": 315
+          "lastDay": 1,
+          "lastWeek": 57,
+          "lastMonth": 307
         }
       }
     ]
@@ -42518,9 +42490,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 144,
-          "lastWeek": 662,
-          "lastMonth": 2649
+          "lastDay": 171,
+          "lastWeek": 664,
+          "lastMonth": 2631
         }
       },
       {
@@ -42848,8 +42820,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 2,
+          "lastDay": 1,
+          "lastWeek": 3,
           "lastMonth": 18
         }
       }
@@ -43132,9 +43104,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 107,
-          "lastWeek": 780,
-          "lastMonth": 3373
+          "lastDay": 175,
+          "lastWeek": 767,
+          "lastMonth": 3429
         }
       }
     ]
@@ -44214,6 +44186,64 @@
           {
             "username": "mintyweazel",
             "email": "npm_dev@yahoo.co.jp"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "mkapostolov",
+    "username": "mkapostolov",
+    "plugins": [
+      {
+        "name": "kinvey-nativescript-sdk",
+        "scope": "unscoped",
+        "version": "7.0.1",
+        "description": "Kinvey JavaScript SDK for NativeScript applications.",
+        "keywords": [
+          "Kinvey",
+          "JavaScript",
+          "NativeScript",
+          "kinvey",
+          "nativescript",
+          "sdk"
+        ],
+        "date": "2022-04-27T12:42:59.193Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/kinvey-nativescript-sdk",
+          "homepage": "https://github.com/Kinvey/js-sdk/tree/master/packages/nativescript-sdk",
+          "repository": "https://github.com/Kinvey/js-sdk",
+          "bugs": "https://github.com/Kinvey/js-sdk/issues"
+        },
+        "author": {
+          "name": "mkapostolov",
+          "username": "mkapostolov"
+        },
+        "publisher": {
+          "username": "mkapostolov",
+          "email": "martin.apostolov@progress.com"
+        },
+        "maintainers": [
+          {
+            "username": "kinvey",
+            "email": "opensource@kinvey.com"
+          },
+          {
+            "username": "dimofeev",
+            "email": "dimo.mitev@progress.com"
+          },
+          {
+            "username": "tsakata1",
+            "email": "tsvetomir.nedyalkov@gmail.com"
+          },
+          {
+            "username": "mkapostolov",
+            "email": "martin.apostolov@progress.com"
           }
         ],
         "downloadStats": {
@@ -46173,9 +46203,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 108,
-          "lastWeek": 640,
-          "lastMonth": 2465
+          "lastDay": 95,
+          "lastWeek": 597,
+          "lastMonth": 2455
         }
       }
     ]
@@ -46424,9 +46454,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 223,
-          "lastWeek": 901,
-          "lastMonth": 3601
+          "lastDay": 209,
+          "lastWeek": 895,
+          "lastMonth": 3587
         }
       },
       {
@@ -46484,9 +46514,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 76,
-          "lastWeek": 179,
-          "lastMonth": 961
+          "lastDay": 17,
+          "lastWeek": 171,
+          "lastMonth": 931
         }
       },
       {
@@ -48220,9 +48250,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 790,
-          "lastWeek": 3713,
-          "lastMonth": 16399
+          "lastDay": 890,
+          "lastWeek": 3702,
+          "lastMonth": 16444
         }
       },
       {
@@ -48268,9 +48298,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 246,
-          "lastWeek": 1139,
-          "lastMonth": 5988
+          "lastDay": 152,
+          "lastWeek": 969,
+          "lastMonth": 5763
         }
       },
       {
@@ -48312,9 +48342,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 310,
-          "lastWeek": 1532,
-          "lastMonth": 6374
+          "lastDay": 309,
+          "lastWeek": 1492,
+          "lastMonth": 6347
         }
       },
       {
@@ -48357,9 +48387,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 14,
-          "lastWeek": 126,
-          "lastMonth": 811
+          "lastDay": 25,
+          "lastWeek": 133,
+          "lastMonth": 810
         }
       },
       {
@@ -48400,8 +48430,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 2,
-          "lastMonth": 75
+          "lastWeek": 1,
+          "lastMonth": 74
         }
       },
       {
@@ -48439,9 +48469,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 42,
+          "lastWeek": 189,
+          "lastMonth": 1012
         }
       },
       {
@@ -49302,9 +49332,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 560,
-          "lastWeek": 5235,
-          "lastMonth": 22268
+          "lastDay": 605,
+          "lastWeek": 5108,
+          "lastMonth": 22169
         }
       },
       {
@@ -49383,9 +49413,9 @@
           "core"
         ],
         "downloadStats": {
-          "lastDay": 408,
-          "lastWeek": 2115,
-          "lastMonth": 8203
+          "lastDay": 455,
+          "lastWeek": 2074,
+          "lastMonth": 8252
         }
       },
       {
@@ -49463,9 +49493,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 37,
-          "lastWeek": 275,
-          "lastMonth": 1300
+          "lastDay": 28,
+          "lastWeek": 259,
+          "lastMonth": 1291
         }
       },
       {
@@ -49543,9 +49573,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 13,
-          "lastWeek": 160,
-          "lastMonth": 655
+          "lastDay": 29,
+          "lastWeek": 165,
+          "lastMonth": 667
         }
       },
       {
@@ -49625,9 +49655,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 21,
-          "lastWeek": 149,
-          "lastMonth": 745
+          "lastDay": 29,
+          "lastWeek": 148,
+          "lastMonth": 729
         }
       },
       {
@@ -49703,9 +49733,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 147,
-          "lastWeek": 688,
-          "lastMonth": 4355
+          "lastDay": 181,
+          "lastWeek": 681,
+          "lastMonth": 4432
         }
       },
       {
@@ -49794,9 +49824,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 20,
-          "lastWeek": 174,
-          "lastMonth": 727
+          "lastDay": 19,
+          "lastWeek": 127,
+          "lastMonth": 733
         }
       },
       {
@@ -49874,9 +49904,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 36,
-          "lastWeek": 436,
-          "lastMonth": 1558
+          "lastDay": 12,
+          "lastWeek": 419,
+          "lastMonth": 1541
         }
       },
       {
@@ -49952,9 +49982,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 372,
-          "lastWeek": 1796,
-          "lastMonth": 8177
+          "lastDay": 375,
+          "lastWeek": 1754,
+          "lastMonth": 8099
         }
       },
       {
@@ -50030,9 +50060,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 462,
-          "lastWeek": 2257,
-          "lastMonth": 10812
+          "lastDay": 443,
+          "lastWeek": 2093,
+          "lastMonth": 10673
         }
       },
       {
@@ -50110,9 +50140,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 364,
-          "lastMonth": 1138
+          "lastDay": 64,
+          "lastWeek": 427,
+          "lastMonth": 1200
         }
       },
       {
@@ -50191,9 +50221,9 @@
           "username": "nativescript"
         },
         "downloadStats": {
-          "lastDay": 91,
-          "lastWeek": 696,
-          "lastMonth": 4686
+          "lastDay": 839,
+          "lastWeek": 1348,
+          "lastMonth": 5423
         }
       },
       {
@@ -50300,9 +50330,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 202,
-          "lastWeek": 1020,
-          "lastMonth": 3960
+          "lastDay": 138,
+          "lastWeek": 1031,
+          "lastMonth": 3983
         }
       },
       {
@@ -50408,9 +50438,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 326,
-          "lastWeek": 1597,
-          "lastMonth": 6530
+          "lastDay": 352,
+          "lastWeek": 1552,
+          "lastMonth": 6516
         }
       },
       {
@@ -50488,9 +50518,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 19,
-          "lastWeek": 108,
-          "lastMonth": 573
+          "lastDay": 29,
+          "lastWeek": 105,
+          "lastMonth": 568
         }
       },
       {
@@ -50577,9 +50607,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 218,
-          "lastWeek": 3429,
-          "lastMonth": 10116
+          "lastDay": 212,
+          "lastWeek": 2276,
+          "lastMonth": 10198
         }
       },
       {
@@ -50652,9 +50682,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
+          "lastDay": 0,
           "lastWeek": 9,
-          "lastMonth": 96
+          "lastMonth": 68
         }
       },
       {
@@ -50729,9 +50759,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 6,
-          "lastWeek": 59,
-          "lastMonth": 294
+          "lastDay": 5,
+          "lastWeek": 54,
+          "lastMonth": 283
         }
       },
       {
@@ -50800,9 +50830,9 @@
           "theme"
         ],
         "downloadStats": {
-          "lastDay": 439,
-          "lastWeek": 2483,
-          "lastMonth": 11626
+          "lastDay": 477,
+          "lastWeek": 2352,
+          "lastMonth": 11560
         }
       },
       {
@@ -50904,9 +50934,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 152,
-          "lastWeek": 643,
-          "lastMonth": 2523
+          "lastDay": 65,
+          "lastWeek": 614,
+          "lastMonth": 2511
         }
       },
       {
@@ -50994,9 +51024,9 @@
           "widgets"
         ],
         "downloadStats": {
-          "lastDay": 433,
-          "lastWeek": 3216,
-          "lastMonth": 14542
+          "lastDay": 515,
+          "lastWeek": 2489,
+          "lastMonth": 14672
         }
       },
       {
@@ -51071,9 +51101,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 2,
-          "lastMonth": 18
+          "lastDay": 2,
+          "lastWeek": 4,
+          "lastMonth": 19
         }
       },
       {
@@ -51156,9 +51186,9 @@
           "username": "nativescript"
         },
         "downloadStats": {
-          "lastDay": 455,
-          "lastWeek": 6173,
-          "lastMonth": 18686
+          "lastDay": 526,
+          "lastWeek": 4314,
+          "lastMonth": 18816
         }
       },
       {
@@ -51241,9 +51271,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 8,
-          "lastMonth": 81
+          "lastDay": 2,
+          "lastWeek": 9,
+          "lastMonth": 80
         }
       },
       {
@@ -51344,9 +51374,9 @@
           "username": "nativescript"
         },
         "downloadStats": {
-          "lastDay": 685,
-          "lastWeek": 3530,
-          "lastMonth": 16836
+          "lastDay": 694,
+          "lastWeek": 3418,
+          "lastMonth": 16599
         }
       },
       {
@@ -51422,9 +51452,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 554,
-          "lastWeek": 2867,
-          "lastMonth": 13624
+          "lastDay": 577,
+          "lastWeek": 2719,
+          "lastMonth": 13473
         }
       },
       {
@@ -51530,9 +51560,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 15,
-          "lastWeek": 199,
-          "lastMonth": 661
+          "lastDay": 25,
+          "lastWeek": 217,
+          "lastMonth": 680
         }
       },
       {
@@ -51606,9 +51636,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1292,
-          "lastWeek": 7523,
-          "lastMonth": 33126
+          "lastDay": 1261,
+          "lastWeek": 6842,
+          "lastMonth": 33063
         }
       },
       {
@@ -51678,9 +51708,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 534,
-          "lastWeek": 3012,
-          "lastMonth": 13094
+          "lastDay": 518,
+          "lastWeek": 2868,
+          "lastMonth": 13051
         }
       },
       {
@@ -51789,9 +51819,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 170,
-          "lastWeek": 862,
-          "lastMonth": 4155
+          "lastDay": 112,
+          "lastWeek": 724,
+          "lastMonth": 3997
         }
       },
       {
@@ -51897,9 +51927,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 272,
+          "lastWeek": 1355,
+          "lastMonth": 6377
         }
       },
       {
@@ -52007,7 +52037,7 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 82,
+          "lastWeek": 0,
           "lastMonth": 0
         }
       },
@@ -52110,9 +52140,9 @@
           "username": "nativescript"
         },
         "downloadStats": {
-          "lastDay": 688,
-          "lastWeek": 3549,
-          "lastMonth": 0
+          "lastDay": 700,
+          "lastWeek": 3448,
+          "lastMonth": 16711
         }
       },
       {
@@ -52189,9 +52219,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 297,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 331,
+          "lastWeek": 1475,
+          "lastMonth": 6561
         }
       },
       {
@@ -52293,9 +52323,9 @@
           "username": "nativescript"
         },
         "downloadStats": {
-          "lastDay": 692,
-          "lastWeek": 3547,
-          "lastMonth": 0
+          "lastDay": 715,
+          "lastWeek": 3454,
+          "lastMonth": 16746
         }
       },
       {
@@ -52371,9 +52401,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 97,
+          "lastWeek": 392,
+          "lastMonth": 2182
         }
       },
       {
@@ -52481,9 +52511,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 56,
-          "lastWeek": 309,
-          "lastMonth": 0
+          "lastDay": 35,
+          "lastWeek": 282,
+          "lastMonth": 1294
         }
       },
       {
@@ -52591,9 +52621,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 371,
+          "lastWeek": 1652,
+          "lastMonth": 7107
         }
       },
       {
@@ -52703,9 +52733,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 1,
+          "lastWeek": 23,
+          "lastMonth": 101
         }
       },
       {
@@ -52814,9 +52844,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 155,
+          "lastWeek": 909,
+          "lastMonth": 5074
         }
       },
       {
@@ -52892,125 +52922,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
-        "name": "@nativescript/template-blank-vue",
-        "scope": "nativescript",
-        "version": "8.2.0",
-        "description": "Blank template for NativeScript apps using Vue.",
-        "keywords": [
-          "nstudio",
-          "nativescript",
-          "mobile",
-          "{N}",
-          "tns",
-          "vue",
-          "nativescript-vue",
-          "template",
-          "master-detail",
-          "detail",
-          "category-general",
-          "template",
-          "blank",
-          "vue"
-        ],
-        "date": "2022-03-09T00:34:45.275Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript%2Ftemplate-blank-vue",
-          "homepage": "https://github.com/NativeScript/nativescript-app-templates",
-          "repository": "https://github.com/NativeScript/nativescript-app-templates",
-          "bugs": "https://github.com/NativeScript/NativeScript/issues"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "nativescript-bot",
-          "email": "oss@nativescript.org"
-        },
-        "maintainers": [
-          {
-            "username": "nativescript-user",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "tachev",
-            "email": "nevermindd7@gmail.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "rosen_vladimirov",
-            "email": "rosen.vladimirov.91@gmail.com"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "davecoffin",
-            "email": "dave@davecoffin.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "multishiv19",
-            "email": "sp@shiv19.com"
-          },
-          {
-            "username": "eddyverbruggen",
-            "email": "eddyverbruggen@gmail.com"
-          },
-          {
-            "username": "edusperoni",
-            "email": "edusperoni@gmail.com"
-          },
-          {
-            "username": "facetious",
-            "email": "Ian.MacDonald.facetious@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 27,
+          "lastWeek": 261,
+          "lastMonth": 1459
         }
       },
       {
@@ -53122,9 +53036,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 9,
+          "lastWeek": 59,
+          "lastMonth": 245
         }
       },
       {
@@ -53232,8 +53146,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
+          "lastDay": 8,
+          "lastWeek": 51,
           "lastMonth": 0
         }
       },
@@ -53343,7 +53257,7 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
+          "lastDay": 4,
           "lastWeek": 0,
           "lastMonth": 0
         }
@@ -53429,8 +53343,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastWeek": 37,
+          "lastMonth": 174
         }
       },
       {
@@ -53506,9 +53420,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 12,
+          "lastWeek": 132,
+          "lastMonth": 770
         }
       },
       {
@@ -53618,7 +53532,7 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
+          "lastDay": 1,
           "lastWeek": 0,
           "lastMonth": 0
         }
@@ -53729,7 +53643,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
-          "lastMonth": 0
+          "lastMonth": 1839
         }
       },
       {
@@ -55234,30 +55148,25 @@
         }
       },
       {
-        "name": "@nativescript/template-master-detail",
+        "name": "@nativescript/fingerprint-auth",
         "scope": "nativescript",
-        "version": "8.2.0",
-        "description": "Master-detail interface to display collection of items from json collection and inspect and edit selected item properties.",
+        "version": "8.1.0",
+        "description": "A biometric authentication plugin for use in NativeScript apps",
         "keywords": [
-          "nstudio",
-          "nativescript",
-          "mobile",
-          "{N}",
-          "tns",
-          "template",
-          "master-details",
-          "detail",
-          "category-general",
-          "template",
-          "master",
-          "detail"
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "fingerprint",
+          "auth"
         ],
-        "date": "2022-03-09T00:35:06.103Z",
+        "date": "2021-11-24T17:32:57.090Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript%2Ftemplate-master-detail",
-          "homepage": "https://github.com/NativeScript/nativescript-app-templates",
-          "repository": "https://github.com/NativeScript/nativescript-app-templates",
-          "bugs": "https://github.com/NativeScript/NativeScript/issues"
+          "npm": "https://www.npmjs.com/package/%40nativescript%2Ffingerprint-auth",
+          "homepage": "https://github.com/NativeScript/plugins",
+          "repository": "https://github.com/NativeScript/plugins",
+          "bugs": "https://github.com/NativeScript/plugins/issues"
         },
         "author": {
           "name": "NativeScript Team",
@@ -55348,25 +55257,30 @@
         }
       },
       {
-        "name": "@nativescript/fingerprint-auth",
+        "name": "@nativescript/template-master-detail",
         "scope": "nativescript",
-        "version": "8.1.0",
-        "description": "A biometric authentication plugin for use in NativeScript apps",
+        "version": "8.2.0",
+        "description": "Master-detail interface to display collection of items from json collection and inspect and edit selected item properties.",
         "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "fingerprint",
-          "auth"
+          "nstudio",
+          "nativescript",
+          "mobile",
+          "{N}",
+          "tns",
+          "template",
+          "master-details",
+          "detail",
+          "category-general",
+          "template",
+          "master",
+          "detail"
         ],
-        "date": "2021-11-24T17:32:57.090Z",
+        "date": "2022-03-09T00:35:06.103Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript%2Ffingerprint-auth",
-          "homepage": "https://github.com/NativeScript/plugins",
-          "repository": "https://github.com/NativeScript/plugins",
-          "bugs": "https://github.com/NativeScript/plugins/issues"
+          "npm": "https://www.npmjs.com/package/%40nativescript%2Ftemplate-master-detail",
+          "homepage": "https://github.com/NativeScript/nativescript-app-templates",
+          "repository": "https://github.com/NativeScript/nativescript-app-templates",
+          "bugs": "https://github.com/NativeScript/NativeScript/issues"
         },
         "author": {
           "name": "NativeScript Team",
@@ -60768,79 +60682,6 @@
         }
       },
       {
-        "name": "nativescript-dev-typescript",
-        "scope": "unscoped",
-        "version": "0.10.0",
-        "description": "TypeScript support for NativeScript projects. Install using `tns install typescript`.",
-        "date": "2019-05-30T11:55:08.469Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-dev-typescript",
-          "homepage": "https://github.com/NativeScript/nativescript-dev-typescript#readme",
-          "repository": "https://github.com/NativeScript/nativescript-dev-typescript",
-          "bugs": "https://github.com/NativeScript/nativescript-dev-typescript/issues"
-        },
-        "publisher": {
-          "username": "tns-bot",
-          "email": "nativescript@telerik.com"
-        },
-        "maintainers": [
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "keywords": [
-          "nativescript",
-          "dev",
-          "typescript"
-        ],
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
         "name": "@nativescript/picker",
         "scope": "nativescript",
         "version": "4.0.1",
@@ -60942,6 +60783,79 @@
             "email": "stanimira.vlaeva@gmail.com"
           }
         ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "nativescript-dev-typescript",
+        "scope": "unscoped",
+        "version": "0.10.0",
+        "description": "TypeScript support for NativeScript projects. Install using `tns install typescript`.",
+        "date": "2019-05-30T11:55:08.469Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-dev-typescript",
+          "homepage": "https://github.com/NativeScript/nativescript-dev-typescript#readme",
+          "repository": "https://github.com/NativeScript/nativescript-dev-typescript",
+          "bugs": "https://github.com/NativeScript/nativescript-dev-typescript/issues"
+        },
+        "publisher": {
+          "username": "tns-bot",
+          "email": "nativescript@telerik.com"
+        },
+        "maintainers": [
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
+          }
+        ],
+        "keywords": [
+          "nativescript",
+          "dev",
+          "typescript"
+        ],
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
@@ -63810,7 +63724,7 @@
         }
       },
       {
-        "name": "tns-template-drawer-navigation-ts",
+        "name": "tns-template-drawer-navigation-ng",
         "scope": "unscoped",
         "version": "6.5.4",
         "description": "Side navigation template",
@@ -63818,6 +63732,7 @@
           "nstudio",
           "nativescript",
           "mobile",
+          "angular",
           "{N}",
           "tns",
           "template",
@@ -63828,11 +63743,11 @@
           "template",
           "drawer",
           "navigation",
-          "ts"
+          "ng"
         ],
-        "date": "2020-06-07T16:19:31.751Z",
+        "date": "2020-06-07T16:19:30.286Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/tns-template-drawer-navigation-ts",
+          "npm": "https://www.npmjs.com/package/tns-template-drawer-navigation-ng",
           "homepage": "https://github.com/NativeScript/nativescript-app-templates",
           "repository": "https://github.com/NativeScript/nativescript-app-templates",
           "bugs": "https://github.com/NativeScript/NativeScript/issues"
@@ -63894,7 +63809,7 @@
         }
       },
       {
-        "name": "tns-template-drawer-navigation-ng",
+        "name": "tns-template-drawer-navigation-ts",
         "scope": "unscoped",
         "version": "6.5.4",
         "description": "Side navigation template",
@@ -63902,7 +63817,6 @@
           "nstudio",
           "nativescript",
           "mobile",
-          "angular",
           "{N}",
           "tns",
           "template",
@@ -63913,11 +63827,11 @@
           "template",
           "drawer",
           "navigation",
-          "ng"
+          "ts"
         ],
-        "date": "2020-06-07T16:19:30.286Z",
+        "date": "2020-06-07T16:19:31.751Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/tns-template-drawer-navigation-ng",
+          "npm": "https://www.npmjs.com/package/tns-template-drawer-navigation-ts",
           "homepage": "https://github.com/NativeScript/nativescript-app-templates",
           "repository": "https://github.com/NativeScript/nativescript-app-templates",
           "bugs": "https://github.com/NativeScript/NativeScript/issues"
@@ -66493,79 +66407,6 @@
         }
       },
       {
-        "name": "nativescript-dev-coffeescript",
-        "scope": "unscoped",
-        "version": "0.0.6",
-        "description": "CoffeeScript support for NativeScript projects.",
-        "date": "2015-12-08T12:08:12.661Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-dev-coffeescript",
-          "homepage": "https://github.com/NativeScript/nativescript-dev-coffeescript#readme",
-          "repository": "https://github.com/NativeScript/nativescript-dev-coffeescript",
-          "bugs": "https://github.com/NativeScript/nativescript-dev-coffeescript/issues"
-        },
-        "publisher": {
-          "username": "jasssonpet",
-          "email": "jasssonpet@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "keywords": [
-          "nativescript",
-          "dev",
-          "coffeescript"
-        ],
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
         "name": "nativescript-dev-jade",
         "scope": "unscoped",
         "version": "0.0.6",
@@ -66627,6 +66468,79 @@
           "nativescript",
           "dev",
           "jade"
+        ],
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "nativescript-dev-coffeescript",
+        "scope": "unscoped",
+        "version": "0.0.6",
+        "description": "CoffeeScript support for NativeScript projects.",
+        "date": "2015-12-08T12:08:12.661Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-dev-coffeescript",
+          "homepage": "https://github.com/NativeScript/nativescript-dev-coffeescript#readme",
+          "repository": "https://github.com/NativeScript/nativescript-dev-coffeescript",
+          "bugs": "https://github.com/NativeScript/nativescript-dev-coffeescript/issues"
+        },
+        "publisher": {
+          "username": "jasssonpet",
+          "email": "jasssonpet@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
+          }
+        ],
+        "keywords": [
+          "nativescript",
+          "dev",
+          "coffeescript"
         ],
         "author": {
           "name": "NativeScript Team",
@@ -68274,9 +68188,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 353,
-          "lastWeek": 1615,
-          "lastMonth": 7463
+          "lastDay": 327,
+          "lastWeek": 1514,
+          "lastMonth": 7356
         }
       },
       {
@@ -68375,9 +68289,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 106,
-          "lastWeek": 592,
-          "lastMonth": 3204
+          "lastDay": 98,
+          "lastWeek": 550,
+          "lastMonth": 3059
         }
       },
       {
@@ -68474,9 +68388,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 47,
-          "lastWeek": 220,
-          "lastMonth": 1402
+          "lastDay": 96,
+          "lastWeek": 251,
+          "lastMonth": 1432
         }
       },
       {
@@ -68575,9 +68489,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 34,
-          "lastWeek": 244,
-          "lastMonth": 986
+          "lastDay": 14,
+          "lastWeek": 223,
+          "lastMonth": 979
         }
       },
       {
@@ -68679,9 +68593,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 17,
-          "lastWeek": 261,
-          "lastMonth": 1260
+          "lastDay": 9,
+          "lastWeek": 67,
+          "lastMonth": 1236
         }
       },
       {
@@ -68783,9 +68697,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 184,
-          "lastWeek": 360,
-          "lastMonth": 1679
+          "lastDay": 33,
+          "lastWeek": 305,
+          "lastMonth": 1652
         }
       },
       {
@@ -68901,9 +68815,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 8,
+          "lastDay": 18,
           "lastWeek": 47,
-          "lastMonth": 469
+          "lastMonth": 481
         }
       },
       {
@@ -69007,9 +68921,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 211,
-          "lastWeek": 630,
-          "lastMonth": 2579
+          "lastDay": 172,
+          "lastWeek": 665,
+          "lastMonth": 2665
         }
       },
       {
@@ -69112,9 +69026,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 76,
-          "lastWeek": 385,
-          "lastMonth": 2095
+          "lastDay": 30,
+          "lastWeek": 325,
+          "lastMonth": 1984
         }
       },
       {
@@ -69210,9 +69124,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 7,
-          "lastWeek": 28,
-          "lastMonth": 182
+          "lastDay": 24,
+          "lastWeek": 47,
+          "lastMonth": 206
         }
       },
       {
@@ -69314,9 +69228,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 160,
-          "lastWeek": 886,
-          "lastMonth": 4340
+          "lastDay": 120,
+          "lastWeek": 751,
+          "lastMonth": 4278
         }
       },
       {
@@ -69418,9 +69332,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 64,
-          "lastWeek": 640,
-          "lastMonth": 2796
+          "lastDay": 75,
+          "lastWeek": 542,
+          "lastMonth": 2759
         }
       },
       {
@@ -69520,9 +69434,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 48,
-          "lastMonth": 256
+          "lastDay": 1,
+          "lastWeek": 49,
+          "lastMonth": 255
         }
       },
       {
@@ -69621,9 +69535,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 89,
-          "lastWeek": 116,
-          "lastMonth": 421
+          "lastDay": 17,
+          "lastWeek": 129,
+          "lastMonth": 432
         }
       },
       {
@@ -69721,9 +69635,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 21,
+          "lastDay": 14,
           "lastWeek": 87,
-          "lastMonth": 451
+          "lastMonth": 453
         }
       },
       {
@@ -69827,9 +69741,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 35,
-          "lastWeek": 130,
-          "lastMonth": 550
+          "lastDay": 11,
+          "lastWeek": 99,
+          "lastMonth": 538
         }
       },
       {
@@ -69937,9 +69851,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 96,
-          "lastWeek": 443,
-          "lastMonth": 2534
+          "lastDay": 179,
+          "lastWeek": 501,
+          "lastMonth": 2574
         }
       },
       {
@@ -70041,9 +69955,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 9,
-          "lastWeek": 257,
-          "lastMonth": 1246
+          "lastDay": 19,
+          "lastWeek": 209,
+          "lastMonth": 1230
         }
       },
       {
@@ -70146,8 +70060,8 @@
         ],
         "downloadStats": {
           "lastDay": 80,
-          "lastWeek": 384,
-          "lastMonth": 1676
+          "lastWeek": 365,
+          "lastMonth": 1689
         }
       },
       {
@@ -70267,9 +70181,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 43,
-          "lastWeek": 112,
-          "lastMonth": 724
+          "lastDay": 36,
+          "lastWeek": 130,
+          "lastMonth": 732
         }
       },
       {
@@ -70374,9 +70288,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 2,
-          "lastMonth": 106
+          "lastDay": 36,
+          "lastWeek": 38,
+          "lastMonth": 142
         }
       },
       {
@@ -70478,9 +70392,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 191,
-          "lastWeek": 415,
-          "lastMonth": 1859
+          "lastDay": 49,
+          "lastWeek": 373,
+          "lastMonth": 1862
         }
       },
       {
@@ -70593,9 +70507,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 9,
-          "lastWeek": 98,
-          "lastMonth": 474
+          "lastDay": 20,
+          "lastWeek": 109,
+          "lastMonth": 477
         }
       },
       {
@@ -70694,9 +70608,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 14,
-          "lastWeek": 226,
-          "lastMonth": 1064
+          "lastDay": 84,
+          "lastWeek": 286,
+          "lastMonth": 1144
         }
       },
       {
@@ -70804,9 +70718,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 95,
-          "lastWeek": 665,
-          "lastMonth": 2752
+          "lastDay": 123,
+          "lastWeek": 568,
+          "lastMonth": 2703
         }
       },
       {
@@ -70910,9 +70824,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 25,
-          "lastWeek": 143,
-          "lastMonth": 574
+          "lastDay": 8,
+          "lastWeek": 129,
+          "lastMonth": 556
         }
       },
       {
@@ -71012,8 +70926,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 4,
-          "lastMonth": 80
+          "lastWeek": 3,
+          "lastMonth": 79
         }
       },
       {
@@ -71114,7 +71028,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 7,
-          "lastMonth": 49
+          "lastMonth": 48
         }
       },
       {
@@ -71215,7 +71129,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 8,
-          "lastMonth": 47
+          "lastMonth": 46
         }
       },
       {
@@ -71318,8 +71232,8 @@
         ],
         "downloadStats": {
           "lastDay": 20,
-          "lastWeek": 146,
-          "lastMonth": 1300
+          "lastWeek": 98,
+          "lastMonth": 1288
         }
       },
       {
@@ -71421,9 +71335,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 7,
-          "lastWeek": 80,
-          "lastMonth": 888
+          "lastDay": 2,
+          "lastWeek": 41,
+          "lastMonth": 870
         }
       },
       {
@@ -71525,9 +71439,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 14,
-          "lastWeek": 84,
-          "lastMonth": 917
+          "lastDay": 2,
+          "lastWeek": 45,
+          "lastMonth": 895
         }
       },
       {
@@ -71629,9 +71543,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 156,
-          "lastWeek": 229,
-          "lastMonth": 1092
+          "lastDay": 7,
+          "lastWeek": 188,
+          "lastMonth": 1080
         }
       },
       {
@@ -71730,9 +71644,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 27,
-          "lastMonth": 91
+          "lastDay": 1,
+          "lastWeek": 28,
+          "lastMonth": 92
         }
       },
       {
@@ -71829,8 +71743,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 9,
+          "lastDay": 1,
+          "lastWeek": 7,
           "lastMonth": 37
         }
       },
@@ -71940,8 +71854,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 62,
+          "lastDay": 0,
+          "lastWeek": 60,
           "lastMonth": 146
         }
       },
@@ -72044,9 +71958,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 151,
-          "lastMonth": 539
+          "lastDay": 1,
+          "lastWeek": 114,
+          "lastMonth": 538
         }
       },
       {
@@ -72148,9 +72062,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 8,
-          "lastWeek": 211,
-          "lastMonth": 719
+          "lastDay": 4,
+          "lastWeek": 175,
+          "lastMonth": 720
         }
       },
       {
@@ -72252,8 +72166,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 5,
-          "lastWeek": 201,
+          "lastDay": 4,
+          "lastWeek": 170,
           "lastMonth": 697
         }
       },
@@ -72356,9 +72270,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 52,
-          "lastMonth": 515
+          "lastDay": 4,
+          "lastWeek": 18,
+          "lastMonth": 517
         }
       },
       {
@@ -72559,7 +72473,7 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 6,
+          "lastWeek": 4,
           "lastMonth": 21
         }
       },
@@ -72759,9 +72673,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 47,
-          "lastWeek": 224,
-          "lastMonth": 1039
+          "lastDay": 61,
+          "lastWeek": 207,
+          "lastMonth": 1073
         }
       },
       {
@@ -72860,9 +72774,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 271,
-          "lastWeek": 1701,
-          "lastMonth": 7845
+          "lastDay": 260,
+          "lastWeek": 1335,
+          "lastMonth": 7628
         }
       },
       {
@@ -72957,9 +72871,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 64,
+          "lastWeek": 503,
+          "lastMonth": 2726
         }
       },
       {
@@ -73072,9 +72986,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 19,
+          "lastWeek": 46,
+          "lastMonth": 233
         }
       },
       {
@@ -73173,9 +73087,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 16,
+          "lastWeek": 102,
+          "lastMonth": 621
         }
       },
       {
@@ -74624,105 +74538,6 @@
           "homepage": "https://github.com/nativescript-community/appurl",
           "repository": "https://github.com/nativescript-community/appurl",
           "bugs": "https://github.com/nativescript-community/appurl/issues"
-        },
-        "author": {
-          "name": "NativeScript Community",
-          "username": "nativescript-community"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "sebjean",
-            "email": "contact@sebjean.com"
-          },
-          {
-            "username": "cjohn001",
-            "email": "christoph_john@gmx.de"
-          },
-          {
-            "username": "edusperoni",
-            "email": "edusperoni@gmail.com"
-          },
-          {
-            "username": "asharghi",
-            "email": "a.sharghi.mail@gmail.com"
-          },
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          },
-          {
-            "username": "triniwiz",
-            "email": "fortune.osei@yahoo.com"
-          },
-          {
-            "username": "eddyverbruggen",
-            "email": "eddyverbruggen@gmail.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nathanaela",
-            "email": "nathan@master-technology.com"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "dnr",
-            "email": "katsampasdr@gmail.com"
-          },
-          {
-            "username": "keerl",
-            "email": "karlschmaltz@gmail.com"
-          },
-          {
-            "username": "cvietor",
-            "email": "cv@chris-vietor.de"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "rdlabo",
-            "email": "sakakibara@rdlabo.jp"
-          },
-          {
-            "username": "tralves",
-            "email": "tralves@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
-        "name": "@nativescript-community/ui-blurview",
-        "scope": "nativescript-community",
-        "version": "1.2.2",
-        "description": "A blurview plugin",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "ui",
-          "blurview"
-        ],
-        "date": "2021-03-26T12:17:14.846Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript-community%2Fui-blurview",
-          "homepage": "https://github.com/nativescript-community/ui-blurview",
-          "bugs": "https://github.com/nativescript-community/ui-blurview/issues"
         },
         "author": {
           "name": "NativeScript Community",
@@ -76543,7 +76358,7 @@
         },
         "downloadStats": {
           "lastDay": 2,
-          "lastWeek": 66,
+          "lastWeek": 68,
           "lastMonth": 902
         }
       }
@@ -78165,9 +77980,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 149,
-          "lastWeek": 746,
-          "lastMonth": 2919
+          "lastDay": 140,
+          "lastWeek": 719,
+          "lastMonth": 2977
         }
       },
       {
@@ -78237,9 +78052,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 151,
-          "lastWeek": 748,
-          "lastMonth": 2818
+          "lastDay": 139,
+          "lastWeek": 721,
+          "lastMonth": 2876
         }
       },
       {
@@ -78310,8 +78125,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 412,
-          "lastWeek": 2281,
+          "lastDay": 288,
+          "lastWeek": 2100,
           "lastMonth": 8347
         }
       },
@@ -78380,9 +78195,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 122,
-          "lastWeek": 621,
-          "lastMonth": 3162
+          "lastDay": 128,
+          "lastWeek": 587,
+          "lastMonth": 3155
         }
       },
       {
@@ -78454,9 +78269,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 301,
-          "lastWeek": 2143,
-          "lastMonth": 7709
+          "lastDay": 282,
+          "lastWeek": 1967,
+          "lastMonth": 7716
         }
       },
       {
@@ -78525,9 +78340,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 183,
+          "lastWeek": 961,
+          "lastMonth": 5479
         }
       },
       {
@@ -81707,7 +81522,7 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 22,
+          "lastWeek": 11,
           "lastMonth": 73
         }
       },
@@ -81761,8 +81576,8 @@
         ],
         "downloadStats": {
           "lastDay": 1,
-          "lastWeek": 12,
-          "lastMonth": 94
+          "lastWeek": 13,
+          "lastMonth": 95
         }
       }
     ]
@@ -83479,9 +83294,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 9,
-          "lastMonth": 26
+          "lastDay": 1,
+          "lastWeek": 5,
+          "lastMonth": 25
         }
       }
     ]
@@ -84996,9 +84811,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 169,
-          "lastWeek": 1073,
-          "lastMonth": 4126
+          "lastDay": 229,
+          "lastWeek": 1052,
+          "lastMonth": 4083
         }
       },
       {
@@ -85614,7 +85429,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 1,
-          "lastMonth": 23
+          "lastMonth": 21
         }
       },
       {
@@ -87709,9 +87524,52 @@
           "magic"
         ],
         "downloadStats": {
-          "lastDay": 34,
-          "lastWeek": 42,
-          "lastMonth": 183
+          "lastDay": 0,
+          "lastWeek": 40,
+          "lastMonth": 182
+        }
+      },
+      {
+        "name": "nativescript-swipe-layout",
+        "scope": "unscoped",
+        "version": "2.0.1",
+        "description": "Easy Swipe Layout for NativeScript",
+        "keywords": [
+          "NativeScript",
+          "Swipe",
+          "JavaScript",
+          "TypeScrip",
+          "Android",
+          "iOS",
+          "nativescript",
+          "swipe",
+          "layout"
+        ],
+        "date": "2021-03-15T08:49:43.614Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-swipe-layout",
+          "homepage": "https://github.com/rhanb/nativescript-swipe-layout",
+          "repository": "https://github.com/rhanb/nativescript-swipe-layout",
+          "bugs": "https://github.com/rhanb/nativescript-swipe-layout/issues"
+        },
+        "author": {
+          "name": "rhanbIT",
+          "username": "rhanb"
+        },
+        "publisher": {
+          "username": "rhanb",
+          "email": "aniel.jeanbaptiste@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "rhanb",
+            "email": "aniel.jeanbaptiste@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       },
       {
@@ -88205,9 +88063,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 318,
-          "lastWeek": 1735,
-          "lastMonth": 8233
+          "lastDay": 360,
+          "lastWeek": 1667,
+          "lastMonth": 8185
         }
       },
       {
@@ -88875,7 +88733,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 11,
-          "lastMonth": 49
+          "lastMonth": 44
         }
       }
     ]
@@ -89559,7 +89417,7 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
+          "lastDay": 1,
           "lastWeek": 0,
           "lastMonth": 0
         }
@@ -90519,8 +90377,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 5,
-          "lastWeek": 27,
+          "lastDay": 4,
+          "lastWeek": 28,
           "lastMonth": 384
         }
       },
@@ -90740,9 +90598,9 @@
           "auth"
         ],
         "downloadStats": {
-          "lastDay": 1,
+          "lastDay": 0,
           "lastWeek": 2,
-          "lastMonth": 11
+          "lastMonth": 9
         }
       }
     ]
@@ -91281,9 +91139,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 266,
+          "lastWeek": 1223,
+          "lastMonth": 4925
         }
       }
     ]
@@ -91560,9 +91418,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 174,
-          "lastWeek": 937,
-          "lastMonth": 3758
+          "lastDay": 198,
+          "lastWeek": 903,
+          "lastMonth": 3731
         }
       }
     ]
@@ -92120,9 +91978,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
+          "lastDay": 0,
           "lastWeek": 2,
-          "lastMonth": 40
+          "lastMonth": 38
         }
       },
       {
@@ -92785,6 +92643,47 @@
     "username": "sergeymell",
     "plugins": [
       {
+        "name": "@sergeymell/nativescript-svg",
+        "scope": "sergeymell",
+        "version": "1.1.2",
+        "description": "Nativescript SVG plugin",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "nativescript",
+          "svg"
+        ],
+        "date": "2021-07-26T16:19:03.899Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40sergeymell%2Fnativescript-svg",
+          "homepage": "https://github.com/SergeyMell/nativescript-plugins",
+          "repository": "https://github.com/SergeyMell/nativescript-plugins",
+          "bugs": "https://github.com/SergeyMell/nativescript-plugins/issues"
+        },
+        "author": {
+          "name": "sergeymell",
+          "username": "sergeymell"
+        },
+        "publisher": {
+          "username": "sergey-mell",
+          "email": "sergey.mell@agilie.com"
+        },
+        "maintainers": [
+          {
+            "username": "sergey-mell",
+            "email": "sergey.mell@agilie.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
         "name": "@sergeymell/nativescript-color-wheel",
         "scope": "sergeymell",
         "version": "1.0.15",
@@ -93045,9 +92944,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 3,
+          "lastWeek": 32,
+          "lastMonth": 166
         }
       },
       {
@@ -93435,9 +93334,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 228,
+          "lastWeek": 986,
+          "lastMonth": 4393
         }
       },
       {
@@ -93920,46 +93819,6 @@
         "date": "2016-06-06T02:20:48.558Z",
         "links": {
           "npm": "https://www.npmjs.com/package/nativescript-shatterview"
-        },
-        "author": {
-          "name": "Steve McNiven-Scott",
-          "username": "sitefinitysteve"
-        },
-        "publisher": {
-          "username": "sitefinitysteve",
-          "email": "steve@sitefinitysteve.com"
-        },
-        "maintainers": [
-          {
-            "username": "sitefinitysteve",
-            "email": "steve@sitefinitysteve.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
-        "name": "nativescript-foaas",
-        "scope": "unscoped",
-        "version": "1.0.5",
-        "description": "Foaas wrapper for nativescript, both really good and really bad for demos",
-        "keywords": [
-          "NativeScript",
-          "FOAAS",
-          "iOS",
-          "Android",
-          "nativescript",
-          "foaas"
-        ],
-        "date": "2016-02-26T01:19:21.122Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-foaas",
-          "homepage": "https://github.com/sitefinitysteve/nativescript-foaas#readme",
-          "repository": "https://github.com/sitefinitysteve/nativescript-foaas",
-          "bugs": "https://github.com/sitefinitysteve/nativescript-foaas/issues"
         },
         "author": {
           "name": "Steve McNiven-Scott",
@@ -97739,7 +97598,7 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 13,
+          "lastWeek": 0,
           "lastMonth": 77
         }
       },
@@ -97826,7 +97685,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 4,
-          "lastMonth": 25
+          "lastMonth": 24
         }
       }
     ]
@@ -98958,7 +98817,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 21,
-          "lastMonth": 84
+          "lastMonth": 82
         }
       }
     ]
@@ -102004,9 +101863,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 102,
-          "lastWeek": 114,
-          "lastMonth": 592
+          "lastDay": 2,
+          "lastWeek": 109,
+          "lastMonth": 581
         }
       },
       {
@@ -102046,7 +101905,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 3,
-          "lastMonth": 19
+          "lastMonth": 18
         }
       },
       {
@@ -102090,9 +101949,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 6,
-          "lastMonth": 0
+          "lastDay": 4,
+          "lastWeek": 8,
+          "lastMonth": 206
         }
       },
       {
@@ -102150,9 +102009,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 23,
-          "lastWeek": 146,
-          "lastMonth": 0
+          "lastDay": 13,
+          "lastWeek": 143,
+          "lastMonth": 611
         }
       },
       {
@@ -102199,9 +102058,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
+          "lastDay": 10,
+          "lastWeek": 183,
+          "lastMonth": 767
         }
       },
       {
@@ -102245,7 +102104,7 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 0,
+          "lastDay": 9,
           "lastWeek": 0,
           "lastMonth": 0
         }
@@ -103420,24 +103279,24 @@
         }
       },
       {
-        "name": "nativescript-image-zoom",
+        "name": "nativescript-three",
         "scope": "unscoped",
-        "version": "3.0.3",
-        "description": "Zoom enabled ImageView for NativeScript",
+        "version": "1.0.0-alpha3",
+        "description": "Utilities for using THREE.js on NativeScript",
         "keywords": [
           "NativeScript",
           "JavaScript",
           "Android",
           "iOS",
           "nativescript",
-          "image",
-          "zoom"
+          "three"
         ],
-        "date": "2018-10-23T02:34:10.612Z",
+        "date": "2020-08-26T09:24:44.326Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-image-zoom",
-          "homepage": "https://github.com/triniwiz/nativescript-image-zoom",
-          "bugs": "https://github.com/triniwiz/nativescript-image-zoom/issues"
+          "npm": "https://www.npmjs.com/package/nativescript-three",
+          "homepage": "https://github.com/triniwiz/nativescript-three",
+          "repository": "https://github.com/triniwiz/nativescript-three",
+          "bugs": "https://github.com/triniwiz/nativescript-three/issues"
         },
         "author": {
           "name": "Osei Fortune",
@@ -103460,24 +103319,24 @@
         }
       },
       {
-        "name": "nativescript-three",
+        "name": "nativescript-image-zoom",
         "scope": "unscoped",
-        "version": "1.0.0-alpha3",
-        "description": "Utilities for using THREE.js on NativeScript",
+        "version": "3.0.3",
+        "description": "Zoom enabled ImageView for NativeScript",
         "keywords": [
           "NativeScript",
           "JavaScript",
           "Android",
           "iOS",
           "nativescript",
-          "three"
+          "image",
+          "zoom"
         ],
-        "date": "2020-08-26T09:24:44.326Z",
+        "date": "2018-10-23T02:34:10.612Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-three",
-          "homepage": "https://github.com/triniwiz/nativescript-three",
-          "repository": "https://github.com/triniwiz/nativescript-three",
-          "bugs": "https://github.com/triniwiz/nativescript-three/issues"
+          "npm": "https://www.npmjs.com/package/nativescript-image-zoom",
+          "homepage": "https://github.com/triniwiz/nativescript-image-zoom",
+          "bugs": "https://github.com/triniwiz/nativescript-image-zoom/issues"
         },
         "author": {
           "name": "Osei Fortune",
@@ -105018,64 +104877,6 @@
           {
             "username": "tronix117",
             "email": "jeremy@trufier.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
-    "name": "tsakata1",
-    "username": "tsakata1",
-    "plugins": [
-      {
-        "name": "kinvey-nativescript-sdk",
-        "scope": "unscoped",
-        "version": "7.0.0",
-        "description": "Kinvey JavaScript SDK for NativeScript applications.",
-        "keywords": [
-          "Kinvey",
-          "JavaScript",
-          "NativeScript",
-          "kinvey",
-          "nativescript",
-          "sdk"
-        ],
-        "date": "2021-07-30T07:47:24.312Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/kinvey-nativescript-sdk",
-          "homepage": "https://github.com/Kinvey/js-sdk/tree/master/packages/nativescript-sdk",
-          "repository": "https://github.com/Kinvey/js-sdk",
-          "bugs": "https://github.com/Kinvey/js-sdk/issues"
-        },
-        "author": {
-          "name": "tsakata1",
-          "username": "tsakata1"
-        },
-        "publisher": {
-          "username": "tsakata1",
-          "email": "tsvetomir.nedyalkov@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "kinvey",
-            "email": "opensource@kinvey.com"
-          },
-          {
-            "username": "dimofeev",
-            "email": "dimo.mitev@progress.com"
-          },
-          {
-            "username": "tsakata1",
-            "email": "tsvetomir.nedyalkov@gmail.com"
-          },
-          {
-            "username": "mkapostolov",
-            "email": "martin.apostolov@progress.com"
           }
         ],
         "downloadStats": {
@@ -106698,7 +106499,7 @@
           "advanced"
         ],
         "downloadStats": {
-          "lastDay": 6,
+          "lastDay": 0,
           "lastWeek": 6,
           "lastMonth": 30
         }
@@ -107311,8 +107112,8 @@
           "username": "voicethread"
         },
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 3,
+          "lastDay": 0,
+          "lastWeek": 2,
           "lastMonth": 10
         }
       }
@@ -107594,9 +107395,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 3,
+          "lastDay": 5,
           "lastWeek": 19,
-          "lastMonth": 162
+          "lastMonth": 161
         }
       },
       {
@@ -108469,9 +108270,98 @@
     ]
   },
   {
-    "name": "whinsler",
+    "name": "whins",
     "username": "whinsler",
     "plugins": [
+      {
+        "name": "nativescript-toolbox-sw",
+        "scope": "unscoped",
+        "version": "3.0.4",
+        "description": "Fork of nativescript-toolbox - A NativeScript module that is a composition of useful classes, tools and helpers.",
+        "keywords": [
+          "NativeScript",
+          "Tools",
+          "Toolbox",
+          "Helpers",
+          "Classes",
+          "Android",
+          "SQLite",
+          "iOS",
+          "Strings",
+          "Formatting",
+          "Router",
+          "Routes",
+          "States",
+          "Values",
+          "Enumerables",
+          "Arrays",
+          "Lists",
+          "Collections",
+          "Sequences",
+          "LINQ",
+          "Bitmaps",
+          "Images",
+          "Functions",
+          "Batches",
+          "Executions",
+          "API",
+          "HTTP",
+          "REST",
+          "JSON",
+          "XML",
+          "Objects",
+          "StatusBar",
+          "GUID",
+          "UUID",
+          "Orientation",
+          "Device",
+          "Settings",
+          "Clipboard",
+          "Sleep",
+          "Awake",
+          "Modes",
+          "Email",
+          "Wifi",
+          "Connectivity",
+          "Markdown",
+          "Vibration",
+          "Vibrate",
+          "HTML",
+          "Maruku",
+          "Gruber",
+          "Parser",
+          "Lazy",
+          "nativescript",
+          "toolbox",
+          "sw"
+        ],
+        "date": "2017-12-25T09:24:35.446Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-toolbox-sw",
+          "homepage": "https://github.com/whins/nativescript-toolbox",
+          "repository": "https://github.com/whins/nativescript-toolbox",
+          "bugs": "https://github.com/whins/nativescript-toolbox/issues"
+        },
+        "author": {
+          "name": "whins",
+          "username": "whinsler"
+        },
+        "publisher": {
+          "username": "whins",
+          "email": "whinsler@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "whinsler",
+            "email": "whinsler@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
       {
         "name": "nativescript-comments-sw",
         "scope": "unscoped",
@@ -108496,7 +108386,7 @@
           "bugs": "https://github.com/moayadnajd/nativescript-comments/issues"
         },
         "author": {
-          "name": "whinsler",
+          "name": "whins",
           "username": "whinsler"
         },
         "publisher": {
@@ -109841,9 +109731,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 6,
+          "lastDay": 1,
           "lastWeek": 71,
-          "lastMonth": 258
+          "lastMonth": 255
         }
       }
     ]
@@ -109892,9 +109782,9 @@
           "username": "yerol"
         },
         "downloadStats": {
-          "lastDay": 6,
-          "lastWeek": 37,
-          "lastMonth": 119
+          "lastDay": 2,
+          "lastWeek": 33,
+          "lastMonth": 120
         }
       },
       {
