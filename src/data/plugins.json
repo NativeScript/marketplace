@@ -428,8 +428,8 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 5,
+      "lastDay": 1,
+      "lastWeek": 6,
       "lastMonth": 20
     }
   },
@@ -520,8 +520,8 @@
     ],
     "downloadStats": {
       "lastDay": 4,
-      "lastWeek": 114,
-      "lastMonth": 406
+      "lastWeek": 118,
+      "lastMonth": 407
     }
   },
   {
@@ -563,8 +563,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 3,
-      "lastMonth": 17
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -660,9 +660,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 24,
-      "lastMonth": 96
+      "lastDay": 2,
+      "lastWeek": 26,
+      "lastMonth": 0
     }
   },
   {
@@ -2499,8 +2499,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 7,
-      "lastMonth": 62
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -3130,9 +3130,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 14,
-      "lastWeek": 490,
-      "lastMonth": 2274
+      "lastDay": 2,
+      "lastWeek": 492,
+      "lastMonth": 2147
     }
   },
   {
@@ -3534,7 +3534,7 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 4,
+      "lastWeek": 1,
       "lastMonth": 17
     }
   },
@@ -4016,7 +4016,7 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 5,
+      "lastWeek": 1,
       "lastMonth": 17
     }
   },
@@ -4099,7 +4099,7 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 4,
+      "lastWeek": 1,
       "lastMonth": 14
     }
   },
@@ -5697,7 +5697,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 1,
       "lastMonth": 23
     }
@@ -7699,6 +7699,295 @@
     }
   },
   {
+    "name": "@essent/nativescript-videoplayer",
+    "scope": "essent",
+    "version": "5.0.0",
+    "description": "A NativeScript plugin that uses the native video players to play local and remote videos.",
+    "keywords": [
+      "NativeScript",
+      "Android",
+      "iOS",
+      "TypeScript",
+      "video",
+      "video player",
+      "movie",
+      "bradmartin",
+      "nStudio",
+      "nativescript",
+      "videoplayer"
+    ],
+    "date": "2020-06-02T07:00:13.652Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40essent%2Fnativescript-videoplayer",
+      "homepage": "https://github.com/Essent/nativescript-videoplayer",
+      "repository": "https://github.com/Essent/nativescript-videoplayer",
+      "bugs": "https://github.com/Essent/nativescript-videoplayer/issues"
+    },
+    "author": {
+      "name": "essent",
+      "username": "essent"
+    },
+    "publisher": {
+      "username": "pbozin",
+      "email": "pecila@gmail.com"
+    },
+    "maintainers": [
+      {
+        "username": "sanjaikumarsankar",
+        "email": "sanjai.sankar@essent.nl"
+      },
+      {
+        "username": "essent-mobile-app-team",
+        "email": "essent-app@essent.nl"
+      },
+      {
+        "username": "ruben.tenhove-tno",
+        "email": "ruben.tenhove@tno.nl"
+      },
+      {
+        "username": "jelle-tno",
+        "email": "jelle.nauta@tno.nl"
+      },
+      {
+        "username": "thomastno",
+        "email": "thomas.rooijakkers@tno.nl"
+      },
+      {
+        "username": "evelinevisee",
+        "email": "eveline.visee@essent.nl"
+      },
+      {
+        "username": "thijsvanerp",
+        "email": "thijs.erp@essent.nl"
+      },
+      {
+        "username": "jharskamp",
+        "email": "mjharskamp@gmail.com"
+      },
+      {
+        "username": "m71629",
+        "email": "marloes.van.bragt@essent.nl"
+      },
+      {
+        "username": "frwielstra",
+        "email": "fr.wielstra@gmail.com"
+      },
+      {
+        "username": "joren-navara",
+        "email": "joren.verbaandert@navara.nl"
+      },
+      {
+        "username": "thomas_smeele",
+        "email": "thomas.smeele@hotmail.com"
+      },
+      {
+        "username": "btaluy",
+        "email": "berfu.taluy@gmail.com"
+      },
+      {
+        "username": "geert.rutten",
+        "email": "geert.rutten@navara.nl"
+      },
+      {
+        "username": "vincentbitter",
+        "email": "vincent@vincentbitter.nl"
+      },
+      {
+        "username": "falcoworkstno",
+        "email": "federico.falconieri@tno.nl"
+      },
+      {
+        "username": "cdebruin",
+        "email": "corne1988@gmail.com"
+      },
+      {
+        "username": "niek-essent",
+        "email": "niek.heezemans@essent.nl"
+      },
+      {
+        "username": "bas.woud",
+        "email": "bas.woud@essent.nl"
+      },
+      {
+        "username": "wesley.quintor",
+        "email": "wveenendaal@quintor.nl"
+      },
+      {
+        "username": "snorvisable",
+        "email": "b.kardol@hotmail.com"
+      },
+      {
+        "username": "pcmulder",
+        "email": "pcmulder89@gmail.com"
+      },
+      {
+        "username": "jphoiting",
+        "email": "janpieter.hoiting@essent.nl"
+      },
+      {
+        "username": "tomvoigt",
+        "email": "tom.voigt@essent.nl"
+      },
+      {
+        "username": "baudin999",
+        "email": "ckelkboom+npm@gmail.com"
+      },
+      {
+        "username": "lmeijdam",
+        "email": "lmeijdam90@gmail.com"
+      },
+      {
+        "username": "petervdwal",
+        "email": "peter.van.der.wal@essent.nl"
+      },
+      {
+        "username": "jboeijenga",
+        "email": "jboeijenga@gmail.com"
+      },
+      {
+        "username": "essent-bot",
+        "email": "jeroen.bertels@essent.nl"
+      },
+      {
+        "username": "vani.anandamurthy",
+        "email": "vani.anandamurthy@essent.nl"
+      },
+      {
+        "username": "jayanti88",
+        "email": "jayanti.kumari@essent.nl"
+      },
+      {
+        "username": "dylankruyff",
+        "email": "dylan.kruyff@navara.nl"
+      },
+      {
+        "username": "abhinandan.nasalapure.essent",
+        "email": "abhinandan.nasalapure@essent.nl"
+      },
+      {
+        "username": "pavandara",
+        "email": "pavanprata.dara@essent.nl"
+      },
+      {
+        "username": "jeroenvanderlast",
+        "email": "jeroen.van.der.last@navara.nl"
+      },
+      {
+        "username": "c.elshof",
+        "email": "c.elshof@quintor.nl"
+      },
+      {
+        "username": "thedcsherman",
+        "email": "thedcsherman@gmail.com"
+      },
+      {
+        "username": "lucashorward",
+        "email": "lucas.horward@gmail.com"
+      },
+      {
+        "username": "natasa",
+        "email": "n.vukovic@levi9.com"
+      },
+      {
+        "username": "bojan80",
+        "email": "b.rajin@levi9.com"
+      },
+      {
+        "username": "hannahmauritz",
+        "email": "ha.mauritz@essent.nl"
+      },
+      {
+        "username": "dbeaart",
+        "email": "dyon@beaart.nl"
+      },
+      {
+        "username": "tophernl",
+        "email": "chris@topher.nl"
+      },
+      {
+        "username": "ariska.keldermann.essent",
+        "email": "ariska.keldermann@essent.nl"
+      },
+      {
+        "username": "nimitha",
+        "email": "nimitha.joy@essent.nl"
+      },
+      {
+        "username": "markdanney",
+        "email": "ui919173@rwe.com"
+      },
+      {
+        "username": "sridharsekar",
+        "email": "sekar.sridhar@essent.nl"
+      },
+      {
+        "username": "mvlagen",
+        "email": "mark.van.lagen@essent.nl"
+      },
+      {
+        "username": "emielvanrijn",
+        "email": "emiel.van.rijn@essent.nl"
+      },
+      {
+        "username": "n9iels",
+        "email": "n.i.vdveer@gmail.com"
+      },
+      {
+        "username": "j.miletic",
+        "email": "j.miletic@levi9.com"
+      },
+      {
+        "username": "koengriffioenessent",
+        "email": "koen.griffioen@essent.nl"
+      },
+      {
+        "username": "geert-navara",
+        "email": "geert.beuneker@navara.nl"
+      },
+      {
+        "username": "davidfesten",
+        "email": "jubilee.curbing.0h@icloud.com"
+      },
+      {
+        "username": "gijsbertvancorstanje_essent",
+        "email": "gijsbert.van.corstanje@essent.nl"
+      },
+      {
+        "username": "lucaclae",
+        "email": "lucaclae@gmail.com"
+      },
+      {
+        "username": "ui929171",
+        "email": "olga.bielkina@essent.nl"
+      },
+      {
+        "username": "m.cetkovic",
+        "email": "m.cetkovic@levi9.com"
+      },
+      {
+        "username": "mleen",
+        "email": "marleen.van.dijk@essent.nl"
+      },
+      {
+        "username": "nielsvdhorst",
+        "email": "niels.vander.horst@essent.nl"
+      },
+      {
+        "username": "stfnvar",
+        "email": "stefans94@hotmail.com"
+      },
+      {
+        "username": "walkerrunpdx",
+        "email": "walkerrunpdx@gmail.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
+    }
+  },
+  {
     "name": "@exeleon/nativescript-svg",
     "scope": "exeleon",
     "version": "1.0.1",
@@ -7992,9 +8281,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 222,
-      "lastMonth": 1284
+      "lastDay": 4,
+      "lastWeek": 226,
+      "lastMonth": 1196
     }
   },
   {
@@ -8801,9 +9090,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 2,
-      "lastMonth": 26
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -9279,9 +9568,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 7,
-      "lastMonth": 59
+      "lastMonth": 58
     }
   },
   {
@@ -10004,9 +10293,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 95,
-      "lastMonth": 333
+      "lastMonth": 327
     }
   },
   {
@@ -10097,9 +10386,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 12,
-      "lastWeek": 114,
-      "lastMonth": 621
+      "lastDay": 3,
+      "lastWeek": 113,
+      "lastMonth": 594
     }
   },
   {
@@ -10149,7 +10438,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4,
+      "lastDay": 0,
       "lastWeek": 11,
       "lastMonth": 78
     }
@@ -10235,8 +10524,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 12
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -11064,7 +11353,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 1,
       "lastMonth": 19
     }
@@ -11104,7 +11393,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 2,
       "lastMonth": 8
     }
@@ -11645,7 +11934,7 @@
     "downloadStats": {
       "lastDay": 0,
       "lastWeek": 0,
-      "lastMonth": 29
+      "lastMonth": 28
     }
   },
   {
@@ -12001,9 +12290,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 10,
-      "lastWeek": 184,
-      "lastMonth": 753
+      "lastDay": 9,
+      "lastWeek": 191,
+      "lastMonth": 738
     }
   },
   {
@@ -13044,9 +13333,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 18,
-      "lastWeek": 397,
-      "lastMonth": 2034
+      "lastDay": 8,
+      "lastWeek": 405,
+      "lastMonth": 1958
     }
   },
   {
@@ -13467,9 +13756,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 28,
-      "lastMonth": 117
+      "lastDay": 7,
+      "lastWeek": 35,
+      "lastMonth": 124
     }
   },
   {
@@ -13569,9 +13858,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 47,
-      "lastMonth": 117
+      "lastDay": 6,
+      "lastWeek": 53,
+      "lastMonth": 123
     }
   },
   {
@@ -13679,9 +13968,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 8,
-      "lastMonth": 31
+      "lastDay": 4,
+      "lastWeek": 12,
+      "lastMonth": 34
     }
   },
   {
@@ -13780,9 +14069,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 23,
-      "lastWeek": 456,
-      "lastMonth": 2249
+      "lastDay": 8,
+      "lastWeek": 462,
+      "lastMonth": 2160
     }
   },
   {
@@ -13884,9 +14173,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 21,
-      "lastWeek": 1648,
-      "lastMonth": 7252
+      "lastDay": 15,
+      "lastWeek": 1649,
+      "lastMonth": 6958
     }
   },
   {
@@ -14089,9 +14378,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 7,
-      "lastWeek": 86,
-      "lastMonth": 290
+      "lastDay": 3,
+      "lastWeek": 87,
+      "lastMonth": 291
     }
   },
   {
@@ -14295,9 +14584,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4,
-      "lastWeek": 837,
-      "lastMonth": 3532
+      "lastDay": 9,
+      "lastWeek": 844,
+      "lastMonth": 0
     }
   },
   {
@@ -14607,9 +14896,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 29,
-      "lastWeek": 441,
-      "lastMonth": 2154
+      "lastDay": 15,
+      "lastWeek": 438,
+      "lastMonth": 2090
     }
   },
   {
@@ -14711,9 +15000,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 24,
-      "lastMonth": 86
+      "lastDay": 2,
+      "lastWeek": 26,
+      "lastMonth": 88
     }
   },
   {
@@ -15258,9 +15547,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 6,
-      "lastWeek": 230,
-      "lastMonth": 930
+      "lastDay": 9,
+      "lastWeek": 237,
+      "lastMonth": 912
     }
   },
   {
@@ -15364,9 +15653,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
-      "lastWeek": 22,
-      "lastMonth": 219
+      "lastDay": 7,
+      "lastWeek": 29,
+      "lastMonth": 224
     }
   },
   {
@@ -15475,9 +15764,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 46,
-      "lastMonth": 175
+      "lastDay": 7,
+      "lastWeek": 53,
+      "lastMonth": 182
     }
   },
   {
@@ -15580,9 +15869,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 157,
-      "lastMonth": 558
+      "lastDay": 7,
+      "lastWeek": 163,
+      "lastMonth": 560
     }
   },
   {
@@ -15702,9 +15991,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 15,
-      "lastMonth": 46
+      "lastDay": 2,
+      "lastWeek": 17,
+      "lastMonth": 48
     }
   },
   {
@@ -15824,9 +16113,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4,
-      "lastWeek": 154,
-      "lastMonth": 703
+      "lastDay": 10,
+      "lastWeek": 163,
+      "lastMonth": 698
     }
   },
   {
@@ -15929,9 +16218,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 71,
-      "lastMonth": 280
+      "lastDay": 8,
+      "lastWeek": 78,
+      "lastMonth": 284
     }
   },
   {
@@ -16036,9 +16325,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
+      "lastDay": 3,
       "lastWeek": 392,
-      "lastMonth": 1564
+      "lastMonth": 1498
     }
   },
   {
@@ -16263,9 +16552,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 7,
-      "lastWeek": 213,
-      "lastMonth": 936
+      "lastDay": 16,
+      "lastWeek": 216,
+      "lastMonth": 938
     }
   },
   {
@@ -16374,9 +16663,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 27,
-      "lastMonth": 251
+      "lastDay": 6,
+      "lastWeek": 29,
+      "lastMonth": 252
     }
   },
   {
@@ -16479,9 +16768,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4,
-      "lastWeek": 78,
-      "lastMonth": 962
+      "lastDay": 8,
+      "lastWeek": 86,
+      "lastMonth": 877
     }
   },
   {
@@ -16587,9 +16876,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
-      "lastWeek": 350,
-      "lastMonth": 1316
+      "lastDay": 13,
+      "lastWeek": 360,
+      "lastMonth": 1279
     }
   },
   {
@@ -16696,9 +16985,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 17,
-      "lastWeek": 340,
-      "lastMonth": 1890
+      "lastDay": 8,
+      "lastWeek": 346,
+      "lastMonth": 1824
     }
   },
   {
@@ -16804,9 +17093,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 16,
-      "lastWeek": 170,
-      "lastMonth": 1432
+      "lastDay": 7,
+      "lastWeek": 173,
+      "lastMonth": 1430
     }
   },
   {
@@ -16918,9 +17207,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 10,
-      "lastWeek": 553,
-      "lastMonth": 3664
+      "lastDay": 14,
+      "lastWeek": 555,
+      "lastMonth": 3517
     }
   },
   {
@@ -17032,9 +17321,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 15,
-      "lastWeek": 385,
-      "lastMonth": 2860
+      "lastDay": 10,
+      "lastWeek": 393,
+      "lastMonth": 2790
     }
   },
   {
@@ -17140,9 +17429,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 31,
-      "lastWeek": 866,
-      "lastMonth": 4183
+      "lastDay": 15,
+      "lastWeek": 868,
+      "lastMonth": 4086
     }
   },
   {
@@ -17248,9 +17537,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 17,
+      "lastDay": 10,
       "lastWeek": 268,
-      "lastMonth": 1603
+      "lastMonth": 1596
     }
   },
   {
@@ -17356,9 +17645,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 68,
-      "lastMonth": 1277
+      "lastDay": 8,
+      "lastWeek": 74,
+      "lastMonth": 1273
     }
   },
   {
@@ -17461,9 +17750,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 52,
-      "lastWeek": 1643,
-      "lastMonth": 8321
+      "lastDay": 33,
+      "lastWeek": 0,
+      "lastMonth": 8057
     }
   },
   {
@@ -17675,9 +17964,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 98,
-      "lastMonth": 970
+      "lastDay": 11,
+      "lastWeek": 105,
+      "lastMonth": 976
     }
   },
   {
@@ -17783,9 +18072,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 6,
-      "lastWeek": 103,
-      "lastMonth": 1136
+      "lastDay": 9,
+      "lastWeek": 111,
+      "lastMonth": 1137
     }
   },
   {
@@ -17891,9 +18180,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
-      "lastWeek": 24,
-      "lastMonth": 1066
+      "lastDay": 11,
+      "lastWeek": 30,
+      "lastMonth": 1070
     }
   },
   {
@@ -17999,9 +18288,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 18,
-      "lastWeek": 351,
-      "lastMonth": 2025
+      "lastDay": 17,
+      "lastWeek": 347,
+      "lastMonth": 2007
     }
   },
   {
@@ -18107,9 +18396,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 85,
-      "lastMonth": 1115
+      "lastDay": 7,
+      "lastWeek": 91,
+      "lastMonth": 1118
     }
   },
   {
@@ -18215,9 +18504,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 16,
-      "lastWeek": 247,
-      "lastMonth": 1454
+      "lastDay": 9,
+      "lastWeek": 248,
+      "lastMonth": 1457
     }
   },
   {
@@ -18323,9 +18612,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 17,
-      "lastMonth": 676
+      "lastDay": 11,
+      "lastWeek": 24,
+      "lastMonth": 684
     }
   },
   {
@@ -18431,9 +18720,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 20,
-      "lastWeek": 746,
-      "lastMonth": 4100
+      "lastDay": 22,
+      "lastWeek": 747,
+      "lastMonth": 4010
     }
   },
   {
@@ -18539,9 +18828,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 17,
-      "lastWeek": 292,
-      "lastMonth": 1858
+      "lastDay": 8,
+      "lastWeek": 293,
+      "lastMonth": 1852
     }
   },
   {
@@ -18647,9 +18936,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 16,
-      "lastWeek": 219,
-      "lastMonth": 1417
+      "lastDay": 7,
+      "lastWeek": 222,
+      "lastMonth": 1420
     }
   },
   {
@@ -18754,8 +19043,8 @@
     ],
     "downloadStats": {
       "lastDay": 2,
-      "lastWeek": 19,
-      "lastMonth": 80
+      "lastWeek": 21,
+      "lastMonth": 82
     }
   },
   {
@@ -18872,9 +19161,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 294,
-      "lastMonth": 1287
+      "lastDay": 9,
+      "lastWeek": 300,
+      "lastMonth": 1246
     }
   },
   {
@@ -19212,9 +19501,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 13,
+      "lastDay": 12,
       "lastWeek": 459,
-      "lastMonth": 2374
+      "lastMonth": 2290
     }
   },
   {
@@ -19327,9 +19616,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 13,
-      "lastMonth": 43
+      "lastDay": 2,
+      "lastWeek": 15,
+      "lastMonth": 45
     }
   },
   {
@@ -19865,9 +20154,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 6,
-      "lastWeek": 257,
-      "lastMonth": 878
+      "lastDay": 7,
+      "lastWeek": 264,
+      "lastMonth": 0
     }
   },
   {
@@ -19970,9 +20259,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 7,
-      "lastMonth": 62
+      "lastDay": 5,
+      "lastWeek": 12,
+      "lastMonth": 66
     }
   },
   {
@@ -20080,9 +20369,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 36,
-      "lastMonth": 262
+      "lastDay": 8,
+      "lastWeek": 40,
+      "lastMonth": 264
     }
   },
   {
@@ -20190,9 +20479,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 8,
-      "lastWeek": 234,
-      "lastMonth": 1007
+      "lastDay": 10,
+      "lastWeek": 240,
+      "lastMonth": 999
     }
   },
   {
@@ -20296,9 +20585,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 5,
-      "lastMonth": 8
+      "lastDay": 7,
+      "lastWeek": 12,
+      "lastMonth": 15
     }
   },
   {
@@ -20808,9 +21097,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 115,
-      "lastWeek": 3097,
-      "lastMonth": 13203
+      "lastDay": 120,
+      "lastWeek": 3138,
+      "lastMonth": 12765
     }
   },
   {
@@ -21454,9 +21743,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 37,
-      "lastWeek": 1120,
-      "lastMonth": 4421
+      "lastDay": 16,
+      "lastWeek": 1123,
+      "lastMonth": 4228
     }
   },
   {
@@ -21778,9 +22067,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
-      "lastWeek": 931,
-      "lastMonth": 3916
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -23158,9 +23447,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1510,
-      "lastWeek": 7957,
-      "lastMonth": 32393
+      "lastDay": 362,
+      "lastWeek": 8120,
+      "lastMonth": 31712
     }
   },
   {
@@ -23917,9 +24206,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 7,
-      "lastWeek": 396,
-      "lastMonth": 1587
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -24021,9 +24310,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 15,
-      "lastWeek": 382,
-      "lastMonth": 1426
+      "lastDay": 11,
+      "lastWeek": 387,
+      "lastMonth": 1374
     }
   },
   {
@@ -26454,6 +26743,119 @@
     }
   },
   {
+    "name": "@nativescript/google-maps",
+    "scope": "nativescript",
+    "version": "1.4.7",
+    "description": "Google Maps SDK",
+    "keywords": [
+      "NativeScript",
+      "JavaScript",
+      "TypeScript",
+      "iOS",
+      "Android",
+      "Google",
+      "Maps",
+      "API",
+      "SDK",
+      "google",
+      "maps"
+    ],
+    "date": "2022-09-23T18:07:27.629Z",
+    "links": {
+      "npm": "https://www.npmjs.com/package/%40nativescript%2Fgoogle-maps",
+      "homepage": "https://github.com/NativeScript/plugins",
+      "repository": "https://github.com/NativeScript/plugins",
+      "bugs": "https://github.com/NativeScript/plugins/issues"
+    },
+    "author": {
+      "name": "NativeScript Team",
+      "username": "nativescript"
+    },
+    "publisher": {
+      "username": "nativescript-bot",
+      "email": "oss@nativescript.org"
+    },
+    "maintainers": [
+      {
+        "username": "nativescript-user",
+        "email": "nativescript@telerik.com"
+      },
+      {
+        "username": "tns-bot",
+        "email": "nativescript@telerik.com"
+      },
+      {
+        "username": "lini",
+        "email": "bit@gbg.bg"
+      },
+      {
+        "username": "tachev",
+        "email": "nevermindd7@gmail.com"
+      },
+      {
+        "username": "rosen-vladimirov",
+        "email": "vladimirov@progress.com"
+      },
+      {
+        "username": "stoskov",
+        "email": "s.toskov@gmail.com"
+      },
+      {
+        "username": "rosen_vladimirov",
+        "email": "rosen.vladimirov.91@gmail.com"
+      },
+      {
+        "username": "walkerrunpdx",
+        "email": "walkerrunpdx@gmail.com"
+      },
+      {
+        "username": "bradmartin",
+        "email": "bradwaynemartin@gmail.com"
+      },
+      {
+        "username": "davecoffin",
+        "email": "dave@davecoffin.com"
+      },
+      {
+        "username": "rigor789",
+        "email": "shout@igor-randjelovic.com"
+      },
+      {
+        "username": "nativescript-bot",
+        "email": "oss@nativescript.org"
+      },
+      {
+        "username": "multishiv19",
+        "email": "sp@shiv19.com"
+      },
+      {
+        "username": "eddyverbruggen",
+        "email": "eddyverbruggen@gmail.com"
+      },
+      {
+        "username": "edusperoni",
+        "email": "edusperoni@gmail.com"
+      },
+      {
+        "username": "facetious",
+        "email": "Ian.MacDonald.facetious@gmail.com"
+      },
+      {
+        "username": "tdermendjiev",
+        "email": "tdermendjievft@gmail.com"
+      },
+      {
+        "username": "sis0k0",
+        "email": "stanimira.vlaeva@gmail.com"
+      }
+    ],
+    "downloadStats": {
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
+    }
+  },
+  {
     "name": "@nativescript/google-pay",
     "scope": "nativescript",
     "version": "0.1.2",
@@ -26987,9 +27389,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 10,
+      "lastDay": 0,
       "lastWeek": 1698,
-      "lastMonth": 6818
+      "lastMonth": 0
     }
   },
   {
@@ -28722,9 +29124,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 41,
-      "lastWeek": 890,
-      "lastMonth": 3468
+      "lastDay": 50,
+      "lastWeek": 922,
+      "lastMonth": 3389
     }
   },
   {
@@ -29983,9 +30385,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 11,
-      "lastMonth": 117
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -30543,9 +30945,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 9,
-      "lastWeek": 58,
-      "lastMonth": 291
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -31183,7 +31585,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 5,
+      "lastDay": 0,
       "lastWeek": 0,
       "lastMonth": 0
     }
@@ -31291,8 +31693,8 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 12,
-      "lastWeek": 102,
+      "lastDay": 0,
+      "lastWeek": 0,
       "lastMonth": 0
     }
   },
@@ -32374,9 +32776,9 @@
       "theme"
     ],
     "downloadStats": {
-      "lastDay": 125,
-      "lastWeek": 2578,
-      "lastMonth": 10091
+      "lastDay": 81,
+      "lastWeek": 2571,
+      "lastMonth": 9765
     }
   },
   {
@@ -32768,9 +33170,9 @@
       "username": "nativescript"
     },
     "downloadStats": {
-      "lastDay": 145,
-      "lastWeek": 4266,
-      "lastMonth": 16485
+      "lastDay": 106,
+      "lastWeek": 4280,
+      "lastMonth": 15872
     }
   },
   {
@@ -32872,9 +33274,9 @@
       "username": "nativescript"
     },
     "downloadStats": {
-      "lastDay": 144,
-      "lastWeek": 4306,
-      "lastMonth": 16626
+      "lastDay": 105,
+      "lastWeek": 4319,
+      "lastMonth": 0
     }
   },
   {
@@ -32976,9 +33378,9 @@
       "username": "nativescript"
     },
     "downloadStats": {
-      "lastDay": 144,
-      "lastWeek": 4302,
-      "lastMonth": 16600
+      "lastDay": 106,
+      "lastWeek": 4317,
+      "lastMonth": 0
     }
   },
   {
@@ -33294,9 +33696,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
-      "lastWeek": 225,
-      "lastMonth": 934
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -33499,9 +33901,9 @@
       "username": "nativescript"
     },
     "downloadStats": {
-      "lastDay": 266,
-      "lastWeek": 6676,
-      "lastMonth": 26477
+      "lastDay": 248,
+      "lastWeek": 6721,
+      "lastMonth": 25703
     }
   },
   {
@@ -33872,9 +34274,9 @@
   {
     "name": "@ngx-formly/nativescript",
     "scope": "ngx-formly",
-    "version": "6.0.0",
+    "version": "6.0.1",
     "description": "Formly is a dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms.",
-    "date": "2022-08-28T20:28:39.633Z",
+    "date": "2022-10-09T20:29:33.694Z",
     "links": {
       "npm": "https://www.npmjs.com/package/%40ngx-formly%2Fnativescript",
       "homepage": "https://github.com/ngx-formly/ngx-formly#readme",
@@ -33903,9 +34305,9 @@
       "username": "ngx-formly"
     },
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 166,
-      "lastMonth": 888
+      "lastDay": 407,
+      "lastWeek": 429,
+      "lastMonth": 1282
     }
   },
   {
@@ -34131,9 +34533,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 150,
-      "lastMonth": 1113
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -34387,9 +34789,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 8,
-      "lastWeek": 466,
-      "lastMonth": 2194
+      "lastDay": 5,
+      "lastWeek": 468,
+      "lastMonth": 2142
     }
   },
   {
@@ -34738,9 +35140,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 7,
-      "lastWeek": 466,
-      "lastMonth": 2202
+      "lastDay": 3,
+      "lastWeek": 463,
+      "lastMonth": 2148
     }
   },
   {
@@ -35037,9 +35439,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 9,
-      "lastWeek": 114,
-      "lastMonth": 830
+      "lastDay": 0,
+      "lastWeek": 111,
+      "lastMonth": 771
     }
   },
   {
@@ -36104,9 +36506,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 16,
-      "lastWeek": 764,
-      "lastMonth": 3046
+      "lastDay": 7,
+      "lastWeek": 763,
+      "lastMonth": 2980
     }
   },
   {
@@ -36730,9 +37132,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 14,
-      "lastWeek": 493,
-      "lastMonth": 2347
+      "lastDay": 2,
+      "lastWeek": 492,
+      "lastMonth": 2264
     }
   },
   {
@@ -37084,9 +37486,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 53,
-      "lastWeek": 1247,
-      "lastMonth": 5726
+      "lastDay": 58,
+      "lastWeek": 1243,
+      "lastMonth": 5469
     }
   },
   {
@@ -37158,9 +37560,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 62,
-      "lastWeek": 1314,
-      "lastMonth": 5577
+      "lastDay": 60,
+      "lastWeek": 1304,
+      "lastMonth": 5440
     }
   },
   {
@@ -37473,7 +37875,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
+      "lastDay": 0,
       "lastWeek": 3,
       "lastMonth": 60
     }
@@ -38234,7 +38636,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 1,
       "lastMonth": 10
     }
@@ -40086,9 +40488,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 3,
-      "lastMonth": 11
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -40210,7 +40612,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
+      "lastDay": 0,
       "lastWeek": 3,
       "lastMonth": 12
     }
@@ -40245,7 +40647,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 16,
+      "lastDay": 0,
       "lastWeek": 16,
       "lastMonth": 60
     }
@@ -41110,9 +41512,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 52,
-      "lastMonth": 323
+      "lastDay": 0,
+      "lastWeek": 30,
+      "lastMonth": 310
     }
   },
   {
@@ -42950,9 +43352,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 122,
-      "lastMonth": 364
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -44011,7 +44413,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 8,
       "lastMonth": 43
     }
@@ -44250,7 +44652,7 @@
       "username": "daravind"
     },
     "downloadStats": {
-      "lastDay": 5,
+      "lastDay": 0,
       "lastWeek": 8,
       "lastMonth": 26
     }
@@ -44284,7 +44686,7 @@
       "username": "enricodeleo"
     },
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 3,
       "lastMonth": 17
     }
@@ -44321,8 +44723,8 @@
       "advanced"
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 4,
+      "lastDay": 0,
+      "lastWeek": 3,
       "lastMonth": 27
     }
   },
@@ -44693,9 +45095,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4,
-      "lastWeek": 62,
-      "lastMonth": 267
+      "lastDay": 6,
+      "lastWeek": 61,
+      "lastMonth": 271
     }
   },
   {
@@ -45480,9 +45882,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
+      "lastDay": 1,
       "lastWeek": 2,
-      "lastMonth": 10
+      "lastMonth": 11
     }
   },
   {
@@ -46014,9 +46416,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 74
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 68
     }
   },
   {
@@ -46686,8 +47088,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 50
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -46862,45 +47264,6 @@
     }
   },
   {
-    "name": "n-mobile",
-    "scope": "unscoped",
-    "version": "1.0.1",
-    "description": "Mobile application framework using Nativescript and Vue",
-    "keywords": [
-      "mobile",
-      "nativescript",
-      "vue",
-      "n",
-      "mobile"
-    ],
-    "date": "2020-02-19T09:41:44.409Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/n-mobile",
-      "homepage": "https://github.com/nivinjoseph/n-mobile#readme",
-      "repository": "https://github.com/nivinjoseph/n-mobile",
-      "bugs": "https://github.com/nivinjoseph/n-mobile/issues"
-    },
-    "author": {
-      "name": "nivinjoseph",
-      "username": "nivinjoseph"
-    },
-    "publisher": {
-      "username": "nivinjoseph",
-      "email": "nivinjoseph@outlook.com"
-    },
-    "maintainers": [
-      {
-        "username": "nivinjoseph",
-        "email": "nivinjoseph@outlook.com"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 0,
-      "lastMonth": 0
-    }
-  },
-  {
     "name": "n7-google-places-autocomplete",
     "scope": "unscoped",
     "version": "1.0.11",
@@ -46981,9 +47344,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 6
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 7
     }
   },
   {
@@ -47173,9 +47536,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 155,
-      "lastWeek": 3129,
-      "lastMonth": 18039
+      "lastDay": 186,
+      "lastWeek": 3027,
+      "lastMonth": 17736
     }
   },
   {
@@ -47260,9 +47623,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 11
+      "lastDay": 1,
+      "lastWeek": 3,
+      "lastMonth": 12
     }
   },
   {
@@ -47495,9 +47858,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 8,
-      "lastMonth": 80
+      "lastDay": 1,
+      "lastWeek": 9,
+      "lastMonth": 78
     }
   },
   {
@@ -47969,9 +48332,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 5,
       "lastWeek": 37,
-      "lastMonth": 175
+      "lastMonth": 178
     }
   },
   {
@@ -48013,9 +48376,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 12,
+      "lastDay": 1,
       "lastWeek": 1021,
-      "lastMonth": 4530
+      "lastMonth": 4307
     }
   },
   {
@@ -48229,8 +48592,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 25
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -48960,9 +49323,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 5
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 6
     }
   },
   {
@@ -49171,8 +49534,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 15,
-      "lastMonth": 84
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -49249,8 +49612,8 @@
     ],
     "downloadStats": {
       "lastDay": 20,
-      "lastWeek": 1166,
-      "lastMonth": 4774
+      "lastWeek": 1161,
+      "lastMonth": 4727
     }
   },
   {
@@ -49285,9 +49648,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 5,
-      "lastMonth": 26
+      "lastDay": 1,
+      "lastWeek": 4,
+      "lastMonth": 27
     }
   },
   {
@@ -49811,9 +50174,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 47
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 48
     }
   },
   {
@@ -50581,9 +50944,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 88,
-      "lastMonth": 357
+      "lastDay": 7,
+      "lastWeek": 91,
+      "lastMonth": 361
     }
   },
   {
@@ -50704,8 +51067,8 @@
     ],
     "downloadStats": {
       "lastDay": 1,
-      "lastWeek": 3,
-      "lastMonth": 53
+      "lastWeek": 4,
+      "lastMonth": 54
     }
   },
   {
@@ -51115,9 +51478,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 13,
-      "lastMonth": 286
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -51198,9 +51561,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 14,
-      "lastWeek": 304,
-      "lastMonth": 1088
+      "lastDay": 3,
+      "lastWeek": 298,
+      "lastMonth": 1048
     }
   },
   {
@@ -51281,9 +51644,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 6,
-      "lastMonth": 39
+      "lastDay": 1,
+      "lastWeek": 7,
+      "lastMonth": 40
     }
   },
   {
@@ -51441,9 +51804,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 8
+      "lastDay": 1,
+      "lastWeek": 3,
+      "lastMonth": 9
     }
   },
   {
@@ -51501,9 +51864,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 7,
-      "lastWeek": 271,
-      "lastMonth": 1034
+      "lastDay": 4,
+      "lastWeek": 269,
+      "lastMonth": 993
     }
   },
   {
@@ -51640,8 +52003,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 29
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -51996,9 +52359,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 6,
-      "lastWeek": 190,
-      "lastMonth": 678
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -52289,9 +52652,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 9
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 11
     }
   },
   {
@@ -52630,8 +52993,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 13
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -52886,9 +53249,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 10
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 12
     }
   },
   {
@@ -53182,9 +53545,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
-      "lastWeek": 89,
-      "lastMonth": 445
+      "lastDay": 5,
+      "lastWeek": 86,
+      "lastMonth": 443
     }
   },
   {
@@ -53257,9 +53620,9 @@
       "push"
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 23
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 25
     }
   },
   {
@@ -53292,9 +53655,9 @@
       "ins"
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 5,
-      "lastMonth": 63
+      "lastDay": 3,
+      "lastWeek": 7,
+      "lastMonth": 66
     }
   },
   {
@@ -53333,9 +53696,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 12
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 14
     }
   },
   {
@@ -53430,9 +53793,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 9,
-      "lastWeek": 271,
-      "lastMonth": 1084
+      "lastDay": 3,
+      "lastWeek": 273,
+      "lastMonth": 1055
     }
   },
   {
@@ -54111,7 +54474,7 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 0,
       "lastWeek": 0,
       "lastMonth": 0
     }
@@ -54197,9 +54560,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 7
+      "lastDay": 3,
+      "lastWeek": 4,
+      "lastMonth": 10
     }
   },
   {
@@ -54244,9 +54607,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 43,
-      "lastMonth": 131
+      "lastDay": 4,
+      "lastWeek": 46,
+      "lastMonth": 132
     }
   },
   {
@@ -54335,9 +54698,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 8
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 10
     }
   },
   {
@@ -54379,8 +54742,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 7,
-      "lastMonth": 51
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -54903,8 +55266,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 91,
-      "lastMonth": 165
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -54948,9 +55311,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 12
+      "lastDay": 3,
+      "lastWeek": 4,
+      "lastMonth": 15
     }
   },
   {
@@ -55159,9 +55522,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4,
-      "lastWeek": 137,
-      "lastMonth": 647
+      "lastDay": 7,
+      "lastWeek": 136,
+      "lastMonth": 625
     }
   },
   {
@@ -55375,8 +55738,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 18
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -55822,9 +56185,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 121,
-      "lastMonth": 720
+      "lastDay": 8,
+      "lastWeek": 123,
+      "lastMonth": 709
     }
   },
   {
@@ -56220,8 +56583,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 6,
-      "lastMonth": 53
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -56631,9 +56994,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 5,
-      "lastWeek": 1249,
-      "lastMonth": 5189
+      "lastDay": 11,
+      "lastWeek": 1255,
+      "lastMonth": 4958
     }
   },
   {
@@ -56704,9 +57067,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
-      "lastWeek": 40,
-      "lastMonth": 236
+      "lastDay": 2,
+      "lastWeek": 42,
+      "lastMonth": 235
     }
   },
   {
@@ -56834,9 +57197,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 11
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 12
     }
   },
   {
@@ -57035,9 +57398,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 12
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 13
     }
   },
   {
@@ -57074,9 +57437,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 10,
-      "lastMonth": 107
+      "lastDay": 2,
+      "lastWeek": 12,
+      "lastMonth": 108
     }
   },
   {
@@ -57199,9 +57562,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 26
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 28
     }
   },
   {
@@ -57368,9 +57731,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 12
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 14
     }
   },
   {
@@ -57926,9 +58289,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 9,
-      "lastMonth": 44
+      "lastDay": 2,
+      "lastWeek": 11,
+      "lastMonth": 45
     }
   },
   {
@@ -58761,8 +59124,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 7
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -58966,9 +59329,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 135,
-      "lastMonth": 930
+      "lastDay": 4,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -59294,9 +59657,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 2,
       "lastWeek": 149,
-      "lastMonth": 720
+      "lastMonth": 715
     }
   },
   {
@@ -60273,9 +60636,9 @@
       "username": "nativescript"
     },
     "downloadStats": {
-      "lastDay": 10,
-      "lastWeek": 508,
-      "lastMonth": 4414
+      "lastDay": 27,
+      "lastWeek": 523,
+      "lastMonth": 4396
     }
   },
   {
@@ -60577,9 +60940,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 45,
-      "lastMonth": 126
+      "lastDay": 5,
+      "lastWeek": 46,
+      "lastMonth": 131
     }
   },
   {
@@ -61345,9 +61708,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 11,
-      "lastMonth": 48
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -61430,8 +61793,8 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 8,
+      "lastDay": 2,
+      "lastWeek": 10,
       "lastMonth": 49
     }
   },
@@ -61471,9 +61834,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 1005,
-      "lastMonth": 4022
+      "lastDay": 5,
+      "lastWeek": 1008,
+      "lastMonth": 3849
     }
   },
   {
@@ -61923,9 +62286,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 3,
-      "lastWeek": 69,
-      "lastMonth": 242
+      "lastDay": 5,
+      "lastWeek": 70,
+      "lastMonth": 244
     }
   },
   {
@@ -62013,9 +62376,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
+      "lastDay": 5,
       "lastWeek": 99,
-      "lastMonth": 443
+      "lastMonth": 423
     }
   },
   {
@@ -62053,9 +62416,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 11
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 12
     }
   },
   {
@@ -62171,9 +62534,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 35
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 36
     }
   },
   {
@@ -62494,9 +62857,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 8,
-      "lastWeek": 119,
-      "lastMonth": 753
+      "lastDay": 5,
+      "lastWeek": 124,
+      "lastMonth": 731
     }
   },
   {
@@ -62537,9 +62900,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 10
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 11
     }
   },
   {
@@ -62816,8 +63179,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 11,
-      "lastMonth": 126
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -63142,9 +63505,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 22
+      "lastDay": 4,
+      "lastWeek": 5,
+      "lastMonth": 26
     }
   },
   {
@@ -63433,8 +63796,8 @@
     ],
     "downloadStats": {
       "lastDay": 9,
-      "lastWeek": 1196,
-      "lastMonth": 5120
+      "lastWeek": 1199,
+      "lastMonth": 4899
     }
   },
   {
@@ -63713,9 +64076,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 9,
-      "lastMonth": 56
+      "lastDay": 3,
+      "lastWeek": 12,
+      "lastMonth": 59
     }
   },
   {
@@ -63804,9 +64167,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 103,
-      "lastMonth": 398
+      "lastDay": 3,
+      "lastWeek": 105,
+      "lastMonth": 386
     }
   },
   {
@@ -64791,8 +65154,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 15
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -64910,9 +65273,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 7,
-      "lastWeek": 163,
-      "lastMonth": 596
+      "lastDay": 8,
+      "lastWeek": 165,
+      "lastMonth": 593
     }
   },
   {
@@ -65069,9 +65432,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 78,
-      "lastMonth": 451
+      "lastDay": 2,
+      "lastWeek": 80,
+      "lastMonth": 428
     }
   },
   {
@@ -65526,9 +65889,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
+      "lastDay": 4,
       "lastWeek": 94,
-      "lastMonth": 375
+      "lastMonth": 372
     }
   },
   {
@@ -65611,9 +65974,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 708,
-      "lastMonth": 2924
+      "lastDay": 4,
+      "lastWeek": 712,
+      "lastMonth": 2791
     }
   },
   {
@@ -66278,9 +66641,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 3,
-      "lastMonth": 21
+      "lastDay": 4,
+      "lastWeek": 7,
+      "lastMonth": 0
     }
   },
   {
@@ -66360,9 +66723,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
+      "lastDay": 1,
       "lastWeek": 5,
-      "lastMonth": 63
+      "lastMonth": 62
     }
   },
   {
@@ -66645,9 +67008,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 25,
-      "lastMonth": 111
+      "lastDay": 6,
+      "lastWeek": 31,
+      "lastMonth": 115
     }
   },
   {
@@ -67574,8 +67937,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 9,
-      "lastMonth": 107
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -68310,9 +68673,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 17,
-      "lastMonth": 154
+      "lastDay": 2,
+      "lastWeek": 18,
+      "lastMonth": 156
     }
   },
   {
@@ -68481,9 +68844,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 3,
-      "lastMonth": 18
+      "lastDay": 2,
+      "lastWeek": 5,
+      "lastMonth": 20
     }
   },
   {
@@ -68689,9 +69052,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 3,
-      "lastMonth": 34
+      "lastDay": 2,
+      "lastWeek": 5,
+      "lastMonth": 36
     }
   },
   {
@@ -68827,9 +69190,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 855,
-      "lastMonth": 3578
+      "lastDay": 4,
+      "lastWeek": 858,
+      "lastMonth": 3403
     }
   },
   {
@@ -69038,9 +69401,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 98,
-      "lastMonth": 468
+      "lastDay": 7,
+      "lastWeek": 101,
+      "lastMonth": 470
     }
   },
   {
@@ -69516,9 +69879,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 24,
-      "lastWeek": 650,
-      "lastMonth": 2997
+      "lastDay": 6,
+      "lastWeek": 651,
+      "lastMonth": 2886
     }
   },
   {
@@ -69642,9 +70005,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 67,
-      "lastMonth": 463
+      "lastDay": 3,
+      "lastWeek": 70,
+      "lastMonth": 433
     }
   },
   {
@@ -70183,9 +70546,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 14,
-      "lastWeek": 464,
-      "lastMonth": 2409
+      "lastDay": 15,
+      "lastWeek": 468,
+      "lastMonth": 2313
     }
   },
   {
@@ -72151,9 +72514,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 54,
-      "lastMonth": 291
+      "lastDay": 3,
+      "lastWeek": 57,
+      "lastMonth": 290
     }
   },
   {
@@ -72192,8 +72555,8 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
+      "lastDay": 1,
+      "lastWeek": 3,
       "lastMonth": 9
     }
   },
@@ -72557,9 +72920,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 23,
-      "lastMonth": 181
+      "lastDay": 4,
+      "lastWeek": 21,
+      "lastMonth": 185
     }
   },
   {
@@ -72602,8 +72965,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 108
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -73347,8 +73710,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 7,
-      "lastMonth": 89
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -73664,9 +74027,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 5,
-      "lastMonth": 141
+      "lastDay": 2,
+      "lastWeek": 7,
+      "lastMonth": 143
     }
   },
   {
@@ -74039,9 +74402,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 165,
-      "lastMonth": 850
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -74160,9 +74523,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 730,
-      "lastMonth": 3071
+      "lastDay": 1,
+      "lastWeek": 731,
+      "lastMonth": 2932
     }
   },
   {
@@ -74792,8 +75155,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 8,
-      "lastMonth": 18
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -76521,8 +76884,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 46,
-      "lastMonth": 134
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -76876,9 +77239,9 @@
       "magic"
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 38
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 40
     }
   },
   {
@@ -76920,7 +77283,7 @@
     ],
     "downloadStats": {
       "lastDay": 1,
-      "lastWeek": 17,
+      "lastWeek": 16,
       "lastMonth": 69
     }
   },
@@ -76960,9 +77323,9 @@
       "magic"
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 11,
-      "lastMonth": 75
+      "lastDay": 3,
+      "lastWeek": 14,
+      "lastMonth": 78
     }
   },
   {
@@ -77042,9 +77405,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 19
+      "lastDay": 6,
+      "lastWeek": 8,
+      "lastMonth": 25
     }
   },
   {
@@ -77434,9 +77797,9 @@
       "library"
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 45
+      "lastDay": 3,
+      "lastWeek": 4,
+      "lastMonth": 48
     }
   },
   {
@@ -77697,9 +78060,9 @@
       "slides"
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 10,
-      "lastMonth": 108
+      "lastDay": 3,
+      "lastWeek": 8,
+      "lastMonth": 110
     }
   },
   {
@@ -78258,9 +78621,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 4
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 5
     }
   },
   {
@@ -78343,9 +78706,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 12,
+      "lastDay": 2,
       "lastWeek": 328,
-      "lastMonth": 1655
+      "lastMonth": 1579
     }
   },
   {
@@ -78477,9 +78840,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
+      "lastDay": 2,
       "lastWeek": 7,
-      "lastMonth": 36
+      "lastMonth": 38
     }
   },
   {
@@ -78555,9 +78918,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 33,
-      "lastMonth": 74
+      "lastDay": 1,
+      "lastWeek": 34,
+      "lastMonth": 73
     }
   },
   {
@@ -78843,8 +79206,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 24
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -79428,50 +79791,6 @@
     }
   },
   {
-    "name": "nativescript-opentok-arth",
-    "scope": "unscoped",
-    "version": "1.7.2",
-    "description": "Integrates OpenTok for NativeScript.",
-    "keywords": [
-      "NativeScript",
-      "OpenTok",
-      "TokBox",
-      "JavaScript",
-      "Android",
-      "iOS",
-      "{N}",
-      "nativescript",
-      "opentok",
-      "arth"
-    ],
-    "date": "2017-11-14T08:53:47.141Z",
-    "links": {
-      "npm": "https://www.npmjs.com/package/nativescript-opentok-arth",
-      "homepage": "https://github.com/tushar-1health/nativescript-opentok",
-      "repository": "https://github.com/tushar-1health/nativescript-opentok",
-      "bugs": "https://github.com/tushar-1health/nativescript-opentok/issues"
-    },
-    "author": {
-      "name": "Tushar Deo",
-      "username": "tushar-1health"
-    },
-    "publisher": {
-      "username": "tushar-1health",
-      "email": "tushar@arth.tech"
-    },
-    "maintainers": [
-      {
-        "username": "tushar-1health",
-        "email": "tushar@arth.tech"
-      }
-    ],
-    "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 0,
-      "lastMonth": 0
-    }
-  },
-  {
     "name": "nativescript-opentok-arthtech",
     "scope": "unscoped",
     "version": "2.1.4",
@@ -79724,9 +80043,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 105,
-      "lastMonth": 455
+      "lastDay": 2,
+      "lastWeek": 103,
+      "lastMonth": 445
     }
   },
   {
@@ -79959,9 +80278,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 28
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 30
     }
   },
   {
@@ -80292,9 +80611,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 31,
-      "lastMonth": 80
+      "lastDay": 2,
+      "lastWeek": 33,
+      "lastMonth": 82
     }
   },
   {
@@ -80413,9 +80732,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 5,
-      "lastMonth": 22
+      "lastDay": 3,
+      "lastWeek": 7,
+      "lastMonth": 25
     }
   },
   {
@@ -80616,9 +80935,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 244,
-      "lastMonth": 1219
+      "lastDay": 4,
+      "lastWeek": 247,
+      "lastMonth": 1147
     }
   },
   {
@@ -81307,9 +81626,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
+      "lastDay": 4,
       "lastWeek": 11,
-      "lastMonth": 132
+      "lastMonth": 136
     }
   },
   {
@@ -81457,9 +81776,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4,
-      "lastWeek": 612,
-      "lastMonth": 2696
+      "lastDay": 14,
+      "lastWeek": 610,
+      "lastMonth": 2581
     }
   },
   {
@@ -81676,9 +81995,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 15,
-      "lastMonth": 94
+      "lastDay": 5,
+      "lastWeek": 20,
+      "lastMonth": 99
     }
   },
   {
@@ -82554,9 +82873,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 5,
-      "lastWeek": 226,
-      "lastMonth": 1084
+      "lastDay": 16,
+      "lastWeek": 224,
+      "lastMonth": 1089
     }
   },
   {
@@ -83140,9 +83459,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 5
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 7
     }
   },
   {
@@ -83268,9 +83587,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 6
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 8
     }
   },
   {
@@ -83469,7 +83788,7 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
+      "lastWeek": 0,
       "lastMonth": 0
     }
   },
@@ -83781,8 +84100,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 4,
-      "lastMonth": 53
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -83949,8 +84268,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 6,
-      "lastMonth": 54
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -83991,9 +84310,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 9
+      "lastDay": 4,
+      "lastWeek": 5,
+      "lastMonth": 13
     }
   },
   {
@@ -84073,9 +84392,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 16,
-      "lastMonth": 105
+      "lastDay": 5,
+      "lastWeek": 20,
+      "lastMonth": 108
     }
   },
   {
@@ -84650,8 +84969,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 25,
-      "lastMonth": 93
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -86155,9 +86474,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4,
-      "lastWeek": 101,
-      "lastMonth": 530
+      "lastDay": 10,
+      "lastWeek": 105,
+      "lastMonth": 521
     }
   },
   {
@@ -86355,9 +86674,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 159,
-      "lastMonth": 717
+      "lastDay": 6,
+      "lastWeek": 165,
+      "lastMonth": 658
     }
   },
   {
@@ -86442,9 +86761,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 11
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 13
     }
   },
   {
@@ -86687,9 +87006,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 9
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 11
     }
   },
   {
@@ -86988,8 +87307,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 18
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -87670,9 +87989,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 3,
-      "lastMonth": 66
+      "lastDay": 3,
+      "lastWeek": 6,
+      "lastMonth": 68
     }
   },
   {
@@ -87802,9 +88121,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 4,
-      "lastMonth": 27
+      "lastDay": 2,
+      "lastWeek": 6,
+      "lastMonth": 29
     }
   },
   {
@@ -87941,9 +88260,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 3,
-      "lastMonth": 70
+      "lastDay": 3,
+      "lastWeek": 6,
+      "lastMonth": 73
     }
   },
   {
@@ -88072,9 +88391,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 55,
-      "lastMonth": 258
+      "lastDay": 4,
+      "lastWeek": 59,
+      "lastMonth": 259
     }
   },
   {
@@ -88251,8 +88570,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 8,
-      "lastMonth": 68
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -88311,8 +88630,8 @@
     ],
     "downloadStats": {
       "lastDay": 3,
-      "lastWeek": 55,
-      "lastMonth": 313
+      "lastWeek": 56,
+      "lastMonth": 310
     }
   },
   {
@@ -88564,9 +88883,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 14
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 16
     }
   },
   {
@@ -88644,9 +88963,9 @@
       "auth"
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 6
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 8
     }
   },
   {
@@ -88734,9 +89053,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 37,
-      "lastWeek": 802,
-      "lastMonth": 3973
+      "lastDay": 8,
+      "lastWeek": 801,
+      "lastMonth": 3802
     }
   },
   {
@@ -88896,9 +89215,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 10,
-      "lastMonth": 29
+      "lastDay": 3,
+      "lastWeek": 11,
+      "lastMonth": 32
     }
   },
   {
@@ -89274,9 +89593,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 3,
-      "lastMonth": 49
+      "lastDay": 2,
+      "lastWeek": 5,
+      "lastMonth": 50
     }
   },
   {
@@ -89318,9 +89637,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 4,
-      "lastMonth": 24
+      "lastDay": 2,
+      "lastWeek": 5,
+      "lastMonth": 26
     }
   },
   {
@@ -89487,9 +89806,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 16,
-      "lastMonth": 107
+      "lastDay": 2,
+      "lastWeek": 18,
+      "lastMonth": 109
     }
   },
   {
@@ -89537,9 +89856,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 17,
-      "lastMonth": 78
+      "lastDay": 3,
+      "lastWeek": 20,
+      "lastMonth": 81
     }
   },
   {
@@ -89832,9 +90151,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 53
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 55
     }
   },
   {
@@ -90122,9 +90441,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 12
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 14
     }
   },
   {
@@ -90166,8 +90485,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 11
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -90300,9 +90619,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 11
+      "lastDay": 1,
+      "lastWeek": 3,
+      "lastMonth": 12
     }
   },
   {
@@ -90633,9 +90952,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 10
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 12
     }
   },
   {
@@ -90680,9 +90999,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 2,
-      "lastMonth": 15
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 17
     }
   },
   {
@@ -90778,8 +91097,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 11,
-      "lastMonth": 30
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -91274,9 +91593,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 13
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 15
     }
   },
   {
@@ -91426,9 +91745,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 4,
-      "lastMonth": 27
+      "lastDay": 3,
+      "lastWeek": 6,
+      "lastMonth": 30
     }
   },
   {
@@ -91542,9 +91861,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 6
+      "lastDay": 3,
+      "lastWeek": 4,
+      "lastMonth": 9
     }
   },
   {
@@ -91756,9 +92075,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 19,
-      "lastMonth": 72
+      "lastDay": 3,
+      "lastWeek": 22,
+      "lastMonth": 61
     }
   },
   {
@@ -91958,9 +92277,9 @@
       "core"
     ],
     "downloadStats": {
-      "lastDay": 54,
-      "lastWeek": 2260,
-      "lastMonth": 8165
+      "lastDay": 80,
+      "lastWeek": 2297,
+      "lastMonth": 7976
     }
   },
   {
@@ -92000,9 +92319,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 3,
-      "lastMonth": 18
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 19
     }
   },
   {
@@ -92352,9 +92671,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 2,
-      "lastWeek": 103,
-      "lastMonth": 504
+      "lastDay": 9,
+      "lastWeek": 105,
+      "lastMonth": 505
     }
   },
   {
@@ -92524,8 +92843,8 @@
     ],
     "downloadStats": {
       "lastDay": 2,
-      "lastWeek": 9,
-      "lastMonth": 103
+      "lastWeek": 8,
+      "lastMonth": 105
     }
   },
   {
@@ -92779,8 +93098,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 5,
-      "lastMonth": 22
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -93727,9 +94046,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 6,
-      "lastWeek": 661,
-      "lastMonth": 2376
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -93883,9 +94202,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 55,
-      "lastWeek": 3496,
-      "lastMonth": 13748
+      "lastDay": 51,
+      "lastWeek": 3475,
+      "lastMonth": 13156
     }
   },
   {
@@ -94160,9 +94479,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 43,
-      "lastWeek": 2610,
-      "lastMonth": 10689
+      "lastDay": 30,
+      "lastWeek": 2609,
+      "lastMonth": 10298
     }
   },
   {
@@ -94238,9 +94557,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 25,
-      "lastWeek": 2057,
-      "lastMonth": 8190
+      "lastDay": 27,
+      "lastWeek": 2029,
+      "lastMonth": 7911
     }
   },
   {
@@ -94983,9 +95302,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 14,
-      "lastWeek": 337,
-      "lastMonth": 1879
+      "lastDay": 4,
+      "lastWeek": 334,
+      "lastMonth": 1808
     }
   },
   {
@@ -95382,8 +95701,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 12
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -95426,9 +95745,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 44,
-      "lastMonth": 229
+      "lastDay": 4,
+      "lastWeek": 46,
+      "lastMonth": 230
     }
   },
   {
@@ -95526,9 +95845,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 8,
-      "lastWeek": 357,
-      "lastMonth": 1263
+      "lastDay": 6,
+      "lastWeek": 361,
+      "lastMonth": 1234
     }
   },
   {
@@ -95621,9 +95940,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 2,
-      "lastMonth": 61
+      "lastDay": 3,
+      "lastWeek": 5,
+      "lastMonth": 64
     }
   },
   {
@@ -95661,9 +95980,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 15
+      "lastDay": 2,
+      "lastWeek": 4,
+      "lastMonth": 17
     }
   },
   {
@@ -95954,9 +96273,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 36,
-      "lastWeek": 1697,
-      "lastMonth": 6927
+      "lastDay": 20,
+      "lastWeek": 1676,
+      "lastMonth": 6653
     }
   },
   {
@@ -96713,8 +97032,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 716,
-      "lastMonth": 2989
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -96963,9 +97282,9 @@
       "username": "yerol"
     },
     "downloadStats": {
-      "lastDay": 0,
+      "lastDay": 1,
       "lastWeek": 10,
-      "lastMonth": 56
+      "lastMonth": 57
     }
   },
   {
@@ -97163,9 +97482,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 8
+      "lastDay": 1,
+      "lastWeek": 2,
+      "lastMonth": 9
     }
   },
   {
@@ -97505,8 +97824,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 7,
-      "lastMonth": 75
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -97917,9 +98236,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 33,
-      "lastWeek": 1179,
-      "lastMonth": 4424
+      "lastDay": 10,
+      "lastWeek": 1182,
+      "lastMonth": 4262
     }
   },
   {
@@ -98443,9 +98762,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 23,
-      "lastWeek": 169,
-      "lastMonth": 1002
+      "lastDay": 0,
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -99477,9 +99796,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 4916,
-      "lastWeek": 24700,
-      "lastMonth": 117820
+      "lastDay": 4898,
+      "lastWeek": 26675,
+      "lastMonth": 118892
     }
   },
   {
@@ -99719,9 +100038,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 14,
-      "lastMonth": 73
+      "lastDay": 1,
+      "lastWeek": 15,
+      "lastMonth": 74
     }
   },
   {
@@ -99762,8 +100081,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 47
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -100225,9 +100544,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 17,
-      "lastMonth": 113
+      "lastDay": 1,
+      "lastWeek": 18,
+      "lastMonth": 110
     }
   },
   {
@@ -100550,9 +100869,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 1,
-      "lastMonth": 7
+      "lastDay": 2,
+      "lastWeek": 3,
+      "lastMonth": 9
     }
   },
   {
@@ -101333,8 +101652,8 @@
     ],
     "downloadStats": {
       "lastDay": 1,
-      "lastWeek": 1,
-      "lastMonth": 13
+      "lastWeek": 2,
+      "lastMonth": 14
     }
   },
   {
@@ -101525,9 +101844,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 0,
-      "lastMonth": 14
+      "lastDay": 3,
+      "lastWeek": 3,
+      "lastMonth": 17
     }
   },
   {
@@ -101895,9 +102214,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 1,
-      "lastWeek": 5,
-      "lastMonth": 17
+      "lastDay": 2,
+      "lastWeek": 6,
+      "lastMonth": 18
     }
   },
   {
@@ -102372,8 +102691,8 @@
     ],
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 6,
-      "lastMonth": 16
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
@@ -103084,9 +103403,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 0,
-      "lastWeek": 2,
-      "lastMonth": 12
+      "lastDay": 4,
+      "lastWeek": 6,
+      "lastMonth": 16
     }
   },
   {
@@ -103765,9 +104084,9 @@
       "username": "nativescript"
     },
     "downloadStats": {
-      "lastDay": 79,
-      "lastWeek": 1791,
-      "lastMonth": 16295
+      "lastDay": 72,
+      "lastWeek": 1811,
+      "lastMonth": 16196
     }
   },
   {
@@ -104253,7 +104572,7 @@
     "downloadStats": {
       "lastDay": 0,
       "lastWeek": 8,
-      "lastMonth": 2343
+      "lastMonth": 2342
     }
   },
   {
@@ -104676,9 +104995,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 14,
-      "lastWeek": 673,
-      "lastMonth": 9162
+      "lastDay": 12,
+      "lastWeek": 664,
+      "lastMonth": 9035
     }
   },
   {
@@ -106571,7 +106890,7 @@
     "downloadStats": {
       "lastDay": 0,
       "lastWeek": 2,
-      "lastMonth": 7
+      "lastMonth": 0
     }
   },
   {
@@ -107385,9 +107704,9 @@
       }
     ],
     "downloadStats": {
-      "lastDay": 507,
-      "lastWeek": 5373,
-      "lastMonth": 15286
+      "lastDay": 729,
+      "lastWeek": 5246,
+      "lastMonth": 15994
     }
   },
   {
@@ -107682,8 +108001,8 @@
     },
     "downloadStats": {
       "lastDay": 0,
-      "lastWeek": 4,
-      "lastMonth": 24
+      "lastWeek": 0,
+      "lastMonth": 0
     }
   },
   {
