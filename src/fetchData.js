@@ -199,7 +199,8 @@ async function run() {
 
         // ignore-list
         if ([
-            'localized-strings'
+            'localized-strings',
+            'nativescript-xmpp-client',
         ].includes(plugin.name)) {
             return false
         }
