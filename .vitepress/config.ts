@@ -33,7 +33,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Autors", link: "/autors" },
+      { text: "Authors", link: "/authors" },
       { text: "Publish your package", link: "/publish-package" },
       {
         text: "NativeScript",

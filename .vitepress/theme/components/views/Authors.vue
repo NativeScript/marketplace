@@ -33,7 +33,7 @@ function getBadgeChars(name: string) {
 <template>
   <div class="p-4 px-[1.1rem] md:px-[32px]">
     <div>
-      <h2 class="text-2xl font-bold">Plugis Autors</h2>
+      <h2 class="text-2xl font-bold">Plugis Authors</h2>
       <div class="relative grow md:grow-0 lg:grow mt-6">
         <Search v-model="search" placeholder="Search a autor"></Search>
       </div>
