@@ -5,24 +5,12 @@ import  axios from "axios"
 import  Fuse from "fuse.js"
 import  PQueue from "p-queue"
 import  Gauge from "gauge"
-
-
 import { createMarkdownRenderer} from "vitepress"
 import {fileURLToPath} from 'url';
-const __filename = fileURLToPath(import.meta.url);
 
-// 👇️ "/home/john/Desktop/javascript"
+const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-/* 
-  hljs.registerLanguage(
-    'vue',
-    require('highlight.js/lib/languages/javascript')
-  ) */
-/* const md = require('markdown-it')({
-    html: true
-}); */
-/* const highlightFunction =  markdownPrismJs()
- */
+
 const baseAlias = ["javascript", "xml", "typescript", "vue", "svelte", "js", "ts", "bash"]
 const languageAlias = {"cli": "bash", "nativesript": "typescript", "efml": "html", "script": "bash", "xmlns": "xml", ".env": "bash", "plist": "bash", "gradle": "bash", "terminal": "bash", "(terminal)": "bash"}
 Object.keys(JSON.parse(JSON.stringify(languageAlias))).forEach(key =>{
