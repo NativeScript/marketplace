@@ -1,25 +1,39 @@
-const path = require('path')
-const fs = require('fs')
-const npmSearch = require('libnpmsearch')
-const axios = require('axios')
-const Fuse = require('fuse.js')
-const PQueue = require('p-queue').default
-const Gauge = require('gauge')
+import  path from "path"
+import  fs from "fs"
+import  npmSearch from "libnpmsearch"
+import  axios from "axios"
+import  Fuse from "fuse.js"
+import  PQueue from "p-queue"
+import  Gauge from "gauge"
 
-const Prism = require("prismjs");
-const markdownPrismJs = require('@11ty/eleventy-plugin-syntaxhighlight/src/markdownSyntaxHighlightOptions')
-const md = require('markdown-it')({
+
+import { createMarkdownRenderer} from "vitepress"
+import {fileURLToPath} from 'url';
+const __filename = fileURLToPath(import.meta.url);
+
+// 👇️ "/home/john/Desktop/javascript"
+const __dirname = path.dirname(__filename);
+/* 
+  hljs.registerLanguage(
+    'vue',
+    require('highlight.js/lib/languages/javascript')
+  ) */
+/* const md = require('markdown-it')({
     html: true
-});
-const highlightFunction =  markdownPrismJs()
-md.set({
-    highlight: (code, language) => {
-        if(!Prism.languages[language]) {
-            language = 'bash'
-        }
-        return highlightFunction(code, language)
-    }
+}); */
+/* const highlightFunction =  markdownPrismJs()
+ */
+const baseAlias = ["javascript", "xml", "typescript", "vue", "svelte", "js", "ts", "bash"]
+const languageAlias = {"cli": "bash", "nativesript": "typescript", "efml": "html", "script": "bash", "xmlns": "xml", ".env": "bash", "plist": "bash", "gradle": "bash", "terminal": "bash", "(terminal)": "bash"}
+Object.keys(JSON.parse(JSON.stringify(languageAlias))).forEach(key =>{
+    languageAlias[`(${key})`] = languageAlias[key]
 })
+baseAlias.forEach(key =>{
+    languageAlias[`(${key})`] = key
+})
+
+const md = await createMarkdownRenderer("./", {languageAlias}, "/"); 
+
 
 function author(plugin, authorsMap) {
     if (plugin.maintainers && plugin.maintainers.find(user => user.username === 'nativescript-bot') || plugin.scope === 'nativescript') {

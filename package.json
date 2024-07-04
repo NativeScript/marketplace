@@ -4,24 +4,31 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "eleventy",
     "dev": "eleventy --serve",
-    "fetch": "node src/fetchData.js"
+    "fetch": "node src/fetchData.js",
+    "docs:dev": "vitepress dev --host 0.0.0.0",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview --host 0.0.0.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
-  },
-  "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "autoprefixer": "^10.4.19",
+    "markdown-it": "^14.1.0",
+    "markdown-it-highlightjs": "^4.1.0",
+    "p-queue": "^8.0.1",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "vitepress": "^1.2.3",
     "axios": "^0.19.2",
     "fuse.js": "^6.4.1",
     "gauge": "^3.0.0",
     "libnpmsearch": "^3.0.0",
-    "markdown-it": "^12.0.2",
-    "p-queue": "^6.6.1",
     "package-json": "^6.5.0",
-    "prismjs": "^1.22.0",
     "striptags": "^3.1.1"
-  }
+  },
+  "dependencies": {}
 }

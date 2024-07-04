@@ -1,0 +1,157 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+ @layer base{
+/*   @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+ */
+  .nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.jetbrains-mono {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  :root {
+    --ns-color: theme(colors.ns);
+    --bg-primary: theme(colors.primary);
+    --bg-secondary: theme(colors.secondary);
+    
+    --vp-c-brand: var(--ns-color);
+    --vp-c-brand-light: var(--ns-color);
+    --vp-c-brand-lighter: var(--ns-color);
+    --vp-c-brand-lightest: #bcc0ff;
+    --vp-c-brand-dark: var(--ns-color);
+    --vp-c-brand-darker: var(--ns-color);
+    --vp-c-brand-dimm: var(--ns-color);
+    --vp-c-bg: var(--bg-primary);
+    --vp-c-bg-secondary: var(--bg-secondary);
+    --vp-code-copy-code-bg: var(--vp-c-bg);
+    --vp-c-brand-1: var(--ns-color);
+    --vp-code-font-size: 0.95rem;
+    --vp-code-color: var(--ns-color);
+    --vp-c-bg-elv: var(--vp-c-bg);
+    --vp-c-gutter: var(--vp-c-bg);
+    --vp-c-bg-soft: var(--vp-c-bg);
+    --vp-c-border: var(--vp-c-bg-secondary);
+    --vp-c-divider: var(--vp-c-bg-secondary);
+  }
+ }
+
+ /* CUSTOM */
+.VPNavBar .container{
+  max-width: 100% !important;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.markdown-body{
+  background-color: transparent !important;
+  overflow: auto;
+}
+.markdown-body table tr,
+.markdown-body table th,
+.shiki.shiki-themes{
+  background-color: var(--vp-c-bg-secondary) !important;
+}
+.vp-doc div[class*='language-'], .vp-block{
+  margin: 0 !important;
+}
+
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 0px 0 16px !important;
+  }
+}
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: var(--vp-c-brand-light);
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-border: var(--vp-c-brand-light);
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+  --vp-button-brand-active-border: var(--vp-c-brand-light);
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd34fe 30%,
+    #41d1ff
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #bd34fe 50%,
+    #47caff 50%
+  );
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+}
+
+.dark {
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand) !important;
+}
