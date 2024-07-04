@@ -1,5 +1,5 @@
 
-import json from "../src/data/authors.json";
+import json from "../../src/data/authors.json";
 
 export default {
     paths() {

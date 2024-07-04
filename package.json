@@ -6,16 +6,12 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "eleventy",
-    "dev": "eleventy --serve",
     "fetch": "node src/fetchData.js",
     "docs:dev": "vitepress dev --host 0.0.0.0",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview --host 0.0.0.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "autoprefixer": "^10.4.19",
     "markdown-it": "^14.1.0",
     "markdown-it-highlightjs": "^4.1.0",

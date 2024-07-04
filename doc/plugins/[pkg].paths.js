@@ -1,5 +1,5 @@
 
-import json from "../src/data/plugins.json";
+import json from "../../src/data/plugins.json";
 
 export default {
     paths() {

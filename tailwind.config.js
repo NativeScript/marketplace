@@ -7,7 +7,8 @@ export default {
       colors: {
         'ns': '#65adf1',
         "primary": "#0f172a",
-        "secondary": "#18233f"
+        "secondary": "#18233f",
+        "table-divider": "#202e52"
       },
     },
   },

@@ -32,7 +32,8 @@
     --ns-color: theme(colors.ns);
     --bg-primary: theme(colors.primary);
     --bg-secondary: theme(colors.secondary);
-    
+    --color-table-divider: theme(colors.table-divider);
+
     --vp-c-brand: var(--ns-color);
     --vp-c-brand-light: var(--ns-color);
     --vp-c-brand-lighter: var(--ns-color);
@@ -55,6 +56,7 @@
  }
 
  /* CUSTOM */
+
 .VPNavBar .container{
   max-width: 100% !important;
 }
@@ -73,6 +75,12 @@
 .markdown-body table th,
 .shiki.shiki-themes{
   background-color: var(--vp-c-bg-secondary) !important;
+}
+.vp-doc tr {
+  border-top: 1px solid var(--color-table-divider) !important;
+}
+.vp-doc th, .vp-doc td {
+  border: 1px solid var(--color-table-divider);
 }
 .vp-doc div[class*='language-'], .vp-block{
   margin: 0 !important;

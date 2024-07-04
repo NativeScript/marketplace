@@ -17,34 +17,28 @@ const dataSort = computed(() =>
       v-for="(plugin, i) in dataSort"
       :key="i"
       :href="'/plugins/' + plugin.name"
-      class=""
+      class="rounded-xl p-3 bg-secondary flex flex-col justify-between h-full"
+      style="box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, 0.1)"
     >
-      <div
-        class="rounded-xl p-3 bg-secondary flex flex-col justify-between h-full"
-        style="box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, 0.1)"
-      >
+      <div>
+        <div class="font-bold text-lg">{{ plugin.name }}</div>
+        <div class="text-gray-400 mt-2 line-clamp-2">
+          {{ plugin.description }}
+        </div>
+      </div>
+      <div class="flex justify-between items-center mt-4">
         <div>
-          <div class="font-bold text-lg">{{ plugin.name }}</div>
-          <div class="text-gray-400 mt-2 line-clamp-2">
-            {{ plugin.description }}
+          <div class="inline-flex justify-center items-center text-[14px]">
+            <span>{{ plugin.downloadStats.lastMonth }}</span>
+            <Icon icon="download" style="font-size: 18px" />
+          </div>
+          <div class="inline-flex justify-center items-center ml-2 text-[14px]">
+            <span>v.{{ plugin.version }}</span>
           </div>
         </div>
-        <div class="flex justify-between items-center mt-4">
-          <div>
-            <div class="inline-flex justify-center items-center text-[14px]">
-              <span>{{ plugin.downloadStats.lastMonth }}</span>
-              <Icon icon="download" style="font-size: 18px" />
-            </div>
-            <div
-              class="inline-flex justify-center items-center ml-2 text-[14px]"
-            >
-              <span>v.{{ plugin.version }}v</span>
-            </div>
-          </div>
-          <div class="text-gray-400 inline-flex items-center">
-            <Icon icon="person" style="font-size: 18px" />
-            by {{ plugin.author.username }}
-          </div>
+        <div class="text-gray-400 inline-flex items-center">
+          <Icon icon="person" style="font-size: 18px" />
+          by {{ plugin.author.username }}
         </div>
       </div>
     </a>

@@ -2,6 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcDir: "./doc",
+  outDir: "./dist",
   lang: "en-US",
   appearance: "force-dark",
   title: "NativeScript Marketplace",
