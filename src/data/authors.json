@@ -3061,6 +3061,62 @@
     ]
   },
   {
+    "name": "alogent",
+    "username": "alogent",
+    "plugins": [
+      {
+        "name": "@alogent/nativescript-zelle-coop",
+        "scope": "alogent",
+        "version": "3.0.2",
+        "description": "Add a plugin description",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "nativescript",
+          "zelle",
+          "coop"
+        ],
+        "date": "2023-07-13T17:14:26.896Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40alogent%2Fnativescript-zelle-coop",
+          "homepage": "https://github.com/NativeScript/plugins",
+          "repository": "https://github.com/NativeScript/plugins",
+          "bugs": "https://github.com/NativeScript/plugins/issues"
+        },
+        "author": {
+          "name": "alogent",
+          "username": "alogent"
+        },
+        "publisher": {
+          "username": "jason_alogent",
+          "email": "jason.deering@alogent.com"
+        },
+        "maintainers": [
+          {
+            "username": "alogentdigital",
+            "email": "digitaldev@alogent.com"
+          },
+          {
+            "username": "jason_alogent",
+            "email": "jason.deering@alogent.com"
+          },
+          {
+            "username": "downtap",
+            "email": "patrick.downey@alogent.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
     "name": "Alogent",
     "username": "alogentdigital",
     "plugins": [
@@ -3296,46 +3352,6 @@
     ]
   },
   {
-    "name": "altech",
-    "username": "altech",
-    "plugins": [
-      {
-        "name": "@altech/keepup-interfaces-tns",
-        "scope": "altech",
-        "version": "4.0.0",
-        "description": "Interfaces para ser usadas en Nativescript con Angular",
-        "date": "2019-08-14T22:32:18.993Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40altech%2Fkeepup-interfaces-tns"
-        },
-        "author": {
-          "name": "altech",
-          "username": "altech"
-        },
-        "publisher": {
-          "username": "neryortez",
-          "email": "neryortez@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "neryortez",
-            "email": "neryortez@gmail.com"
-          }
-        ],
-        "keywords": [
-          "keepup",
-          "interfaces",
-          "tns"
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
     "name": "amarseelam",
     "username": "amarseelam",
     "plugins": [
@@ -3419,55 +3435,6 @@
           {
             "username": "aminebizid",
             "email": "amine.bizid@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Vladimir Amiorkov",
-    "username": "amiorkov",
-    "plugins": [
-      {
-        "name": "nativescript-dev-app-id-changer",
-        "scope": "unscoped",
-        "version": "0.0.5",
-        "description": "The purpose of this package is to add an random string at the end if your app's ID.",
-        "keywords": [
-          "NativeScript",
-          "Android",
-          "iOS",
-          "id",
-          "application",
-          "app",
-          "nativescript",
-          "dev",
-          "app",
-          "id",
-          "changer"
-        ],
-        "date": "2019-10-18T11:10:49.904Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-dev-app-id-changer",
-          "homepage": "https://github.com/VladimirAmiorkov/nativescript-dev-app-id-changer"
-        },
-        "author": {
-          "name": "Vladimir Amiorkov",
-          "username": "amiorkov"
-        },
-        "publisher": {
-          "username": "amiorkov",
-          "email": "v.amiorkov@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "amiorkov",
-            "email": "v.amiorkov@gmail.com"
           }
         ],
         "downloadStats": {
@@ -4278,46 +4245,6 @@
         }
       },
       {
-        "name": "@angelengineering/downloader",
-        "scope": "angelengineering",
-        "version": "1.2.0",
-        "description": "File download plugin for Nativescript applications",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "downloader"
-        ],
-        "date": "2024-04-20T20:07:11.290Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40angelengineering%2Fdownloader",
-          "homepage": "https://github.com/AngelEngineering/nativescript-plugins/blob/main/packages/downloader/README.md",
-          "repository": "https://github.com/AngelEngineering/nativescript-plugins",
-          "bugs": "https://github.com/AngelEngineering/nativescript-plugins/issues"
-        },
-        "author": {
-          "name": "angelengineering",
-          "username": "angelengineering"
-        },
-        "publisher": {
-          "username": "angelengineering",
-          "email": "angel@angelengineering.com"
-        },
-        "maintainers": [
-          {
-            "username": "angelengineering",
-            "email": "angel@angelengineering.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 4,
-          "lastWeek": 5,
-          "lastMonth": 16
-        }
-      },
-      {
         "name": "@angelengineering/audio-recorder",
         "scope": "angelengineering",
         "version": "1.2.0",
@@ -4355,6 +4282,47 @@
         "downloadStats": {
           "lastDay": 2,
           "lastWeek": 4,
+          "lastMonth": 9
+        }
+      },
+      {
+        "name": "@angelengineering/audio-player",
+        "scope": "angelengineering",
+        "version": "1.2.0",
+        "description": "Audio player plugin for Nativescript applications",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "audio",
+          "player"
+        ],
+        "date": "2024-04-17T22:45:10.518Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40angelengineering%2Faudio-player",
+          "homepage": "https://github.com/AngelEngineering/nativescript-plugins/blob/main/packages/audio-player/README.md",
+          "repository": "https://github.com/AngelEngineering/nativescript-plugins",
+          "bugs": "https://github.com/AngelEngineering/nativescript-plugins/issues"
+        },
+        "author": {
+          "name": "angelengineering",
+          "username": "angelengineering"
+        },
+        "publisher": {
+          "username": "angelengineering",
+          "email": "angel@angelengineering.com"
+        },
+        "maintainers": [
+          {
+            "username": "angelengineering",
+            "email": "angel@angelengineering.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 2,
+          "lastWeek": 3,
           "lastMonth": 9
         }
       },
@@ -5055,6 +5023,45 @@
           "homepage": "https://github.com/NativeScript/plugins",
           "repository": "https://github.com/NativeScript/plugins",
           "bugs": "https://github.com/NativeScript/plugins/issues"
+        },
+        "author": {
+          "name": "aquinn",
+          "username": "aquinn"
+        },
+        "publisher": {
+          "username": "aquinn",
+          "email": "aquinn@softworks.com"
+        },
+        "maintainers": [
+          {
+            "username": "aquinn",
+            "email": "aquinn@softworks.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "@aquinn/inappbrowser",
+        "scope": "aquinn",
+        "version": "1.0.2",
+        "description": "Add a plugin description",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "inappbrowser"
+        ],
+        "date": "2020-09-28T12:43:26.780Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40aquinn%2Finappbrowser",
+          "homepage": "https://github.com/NativeScript/plugins",
+          "repository": "https://github.com/NativeScript/plugins"
         },
         "author": {
           "name": "aquinn",
@@ -8068,6 +8075,51 @@
     ]
   },
   {
+    "name": "beeman",
+    "username": "beeman",
+    "plugins": [
+      {
+        "name": "tns-template-chat-ui",
+        "scope": "unscoped",
+        "version": "1.0.0",
+        "description": "🗣UI for a messaging app using NativeScript + Angular",
+        "keywords": [
+          "ux-preview",
+          "chat",
+          "messaging",
+          "social",
+          "tns",
+          "template",
+          "chat",
+          "ui"
+        ],
+        "date": "2019-09-30T22:44:26.748Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/tns-template-chat-ui"
+        },
+        "publisher": {
+          "username": "beeman",
+          "email": "borggreve@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "beeman",
+            "email": "borggreve@gmail.com"
+          }
+        ],
+        "author": {
+          "name": "beeman",
+          "username": "beeman"
+        },
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
     "name": "bellalmohamed",
     "username": "bellalmohamed",
     "plugins": [
@@ -9771,7 +9823,7 @@
         }
       },
       {
-        "name": "@bizappzone/castle-ui-ns-layout",
+        "name": "@bizappzone/castle-ui-ns-button",
         "scope": "bizappzone",
         "version": "1.0.2",
         "description": "Add a plugin description",
@@ -9784,54 +9836,11 @@
           "castle",
           "ui",
           "ns",
-          "layout"
+          "button"
         ],
-        "date": "2024-02-20T14:54:27.300Z",
+        "date": "2024-02-20T14:53:53.718Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40bizappzone%2Fcastle-ui-ns-layout",
-          "homepage": "https://github.com/bizappzone/castle-ns-plugins",
-          "repository": "https://github.com/bizappzone/castle-ns-plugins",
-          "bugs": "https://github.com/bizappzone/castle-ns-plugins/issues"
-        },
-        "author": {
-          "name": "bizappzone",
-          "username": "bizappzone"
-        },
-        "publisher": {
-          "username": "bizappzone-aj",
-          "email": "aj@bizappzone.com"
-        },
-        "maintainers": [
-          {
-            "username": "bizappzone-aj",
-            "email": "aj@bizappzone.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 3,
-          "lastMonth": 7
-        }
-      },
-      {
-        "name": "@bizappzone/castle-ui-ns-search",
-        "scope": "bizappzone",
-        "version": "1.0.2",
-        "description": "Add a plugin description",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "castle",
-          "ui",
-          "ns",
-          "search"
-        ],
-        "date": "2024-02-20T14:54:31.319Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40bizappzone%2Fcastle-ui-ns-search",
+          "npm": "https://www.npmjs.com/package/%40bizappzone%2Fcastle-ui-ns-button",
           "homepage": "https://github.com/bizappzone/castle-ns-plugins",
           "repository": "https://github.com/bizappzone/castle-ns-plugins",
           "bugs": "https://github.com/bizappzone/castle-ns-plugins/issues"
@@ -9853,7 +9862,7 @@
         "downloadStats": {
           "lastDay": 1,
           "lastWeek": 2,
-          "lastMonth": 6
+          "lastMonth": 7
         }
       },
       {
@@ -9900,7 +9909,7 @@
         }
       },
       {
-        "name": "@bizappzone/castle-ui-ns-button",
+        "name": "@bizappzone/castle-ui-ns-search",
         "scope": "bizappzone",
         "version": "1.0.2",
         "description": "Add a plugin description",
@@ -9913,11 +9922,11 @@
           "castle",
           "ui",
           "ns",
-          "button"
+          "search"
         ],
-        "date": "2024-02-20T14:53:53.718Z",
+        "date": "2024-02-20T14:54:31.319Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40bizappzone%2Fcastle-ui-ns-button",
+          "npm": "https://www.npmjs.com/package/%40bizappzone%2Fcastle-ui-ns-search",
           "homepage": "https://github.com/bizappzone/castle-ns-plugins",
           "repository": "https://github.com/bizappzone/castle-ns-plugins",
           "bugs": "https://github.com/bizappzone/castle-ns-plugins/issues"
@@ -9939,6 +9948,49 @@
         "downloadStats": {
           "lastDay": 1,
           "lastWeek": 2,
+          "lastMonth": 6
+        }
+      },
+      {
+        "name": "@bizappzone/castle-ui-ns-layout",
+        "scope": "bizappzone",
+        "version": "1.0.2",
+        "description": "Add a plugin description",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "castle",
+          "ui",
+          "ns",
+          "layout"
+        ],
+        "date": "2024-02-20T14:54:27.300Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40bizappzone%2Fcastle-ui-ns-layout",
+          "homepage": "https://github.com/bizappzone/castle-ns-plugins",
+          "repository": "https://github.com/bizappzone/castle-ns-plugins",
+          "bugs": "https://github.com/bizappzone/castle-ns-plugins/issues"
+        },
+        "author": {
+          "name": "bizappzone",
+          "username": "bizappzone"
+        },
+        "publisher": {
+          "username": "bizappzone-aj",
+          "email": "aj@bizappzone.com"
+        },
+        "maintainers": [
+          {
+            "username": "bizappzone-aj",
+            "email": "aj@bizappzone.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 1,
+          "lastWeek": 3,
           "lastMonth": 7
         }
       },
@@ -11187,7 +11239,7 @@
         "downloadStats": {
           "lastDay": 1,
           "lastWeek": 1,
-          "lastMonth": 7
+          "lastMonth": 0
         }
       },
       {
@@ -11784,6 +11836,55 @@
           "lastDay": 0,
           "lastWeek": 0,
           "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "braune-digital",
+    "username": "braune-digital",
+    "plugins": [
+      {
+        "name": "nativescript-share-file",
+        "scope": "unscoped",
+        "version": "1.0.6",
+        "description": "Send/share file to other apps.",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "file",
+          "share",
+          "iOS",
+          "nativescript",
+          "share",
+          "file"
+        ],
+        "date": "2019-07-09T10:23:26.696Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-share-file",
+          "homepage": "https://github.com/braune-digital/nativescript-share-file",
+          "repository": "https://github.com/braune-digital/nativescript-share-file",
+          "bugs": "https://github.com/braune-digital/nativescript-share-file/issues"
+        },
+        "author": {
+          "name": "braune-digital",
+          "username": "braune-digital"
+        },
+        "publisher": {
+          "username": "braune-digital",
+          "email": "technik@braune-digital.com"
+        },
+        "maintainers": [
+          {
+            "username": "braune-digital",
+            "email": "technik@braune-digital.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 18,
+          "lastWeek": 64,
+          "lastMonth": 216
         }
       }
     ]
@@ -13500,53 +13601,6 @@
           "lastDay": 5,
           "lastWeek": 49,
           "lastMonth": 338
-        }
-      }
-    ]
-  },
-  {
-    "name": "cendekia",
-    "username": "cendekia",
-    "plugins": [
-      {
-        "name": "nativescript-sentry-temp",
-        "scope": "unscoped",
-        "version": "1.5.3",
-        "description": "Sentry.io NativeScript plugin. (Temporary version which it still wait for merging it by the original author, `danielgek`)",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "Sentry",
-          "nativescript",
-          "sentry",
-          "temp"
-        ],
-        "date": "2018-10-21T19:52:20.092Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-sentry-temp",
-          "homepage": "https://github.com/cendekia/nativescript-sentry-temp",
-          "repository": "https://github.com/cendekia/nativescript-sentry-temp"
-        },
-        "author": {
-          "name": "cendekia",
-          "username": "cendekia"
-        },
-        "publisher": {
-          "username": "cendekia",
-          "email": "me@cendekiapp.com"
-        },
-        "maintainers": [
-          {
-            "username": "cendekia",
-            "email": "me@cendekiapp.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 1,
-          "lastMonth": 7
         }
       }
     ]
@@ -15581,7 +15635,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
-          "lastMonth": 6
+          "lastMonth": 0
         }
       }
     ]
@@ -21253,7 +21307,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
-          "lastMonth": 4
+          "lastMonth": 0
         }
       }
     ]
@@ -22365,6 +22419,45 @@
           "lastDay": 0,
           "lastWeek": 1,
           "lastMonth": 5
+        }
+      },
+      {
+        "name": "nativescript-appavailability",
+        "scope": "unscoped",
+        "version": "1.3.2",
+        "description": "A NativeScript plugin to check for availability of other apps on the device.",
+        "keywords": [
+          "NativeScript",
+          "App Availability",
+          "Availability",
+          "Can open URL",
+          "Check Activities",
+          "Other app",
+          "nativescript",
+          "appavailability"
+        ],
+        "date": "2019-07-31T07:29:07.432Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-appavailability"
+        },
+        "author": {
+          "name": "eddyverbruggen",
+          "username": "eddyverbruggen"
+        },
+        "publisher": {
+          "username": "eddyverbruggen",
+          "email": "eddyverbruggen@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "eddyverbruggen",
+            "email": "eddyverbruggen@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 3,
+          "lastWeek": 5,
+          "lastMonth": 66
         }
       },
       {
@@ -24288,7 +24381,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 1,
-          "lastMonth": 17
+          "lastMonth": 0
         }
       }
     ]
@@ -26247,6 +26340,469 @@
         }
       },
       {
+        "name": "@essent/nativescript-salesforce-dmp",
+        "scope": "essent",
+        "version": "1.1.0",
+        "description": "A NativeScript plugin to use the Salesforce DMP mobile SDK.",
+        "keywords": [
+          "ecosystem:nativescript",
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "Salesforce",
+          "nativescript",
+          "salesforce",
+          "dmp"
+        ],
+        "date": "2018-12-03T13:23:23.037Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40essent%2Fnativescript-salesforce-dmp",
+          "homepage": "https://github.com/Essent/nativescript-salesforce-dmp",
+          "repository": "https://github.com/Essent/nativescript-salesforce-dmp",
+          "bugs": "https://github.com/Essent/nativescript-salesforce-dmp/issues"
+        },
+        "author": {
+          "name": "essent",
+          "username": "essent"
+        },
+        "publisher": {
+          "username": "dennis-montana",
+          "email": "dennisvandenberg@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "danny.reijntjens.essent",
+            "email": "danny.reijntjens@essent.nl"
+          },
+          {
+            "username": "louise.hermosa",
+            "email": "louise.hermosa@essent.nl"
+          },
+          {
+            "username": "milosdelgorge",
+            "email": "milos.delgorge@essent.nl"
+          },
+          {
+            "username": "tijmen-amsing-essent",
+            "email": "tijmen.amsing@essent.nl"
+          },
+          {
+            "username": "timo_aerts",
+            "email": "Timo.Aerts@essent.nl"
+          },
+          {
+            "username": "jesse.schlienkamp.essent",
+            "email": "jesse.schlienkamp@essent.nl"
+          },
+          {
+            "username": "essent-cloud-team",
+            "email": "DL_PA_Cloud_Team@eon.com"
+          },
+          {
+            "username": "rduijf",
+            "email": "roel.duijf@essent.nl"
+          },
+          {
+            "username": "jwaarsenburg",
+            "email": "jens.vandewaarsenburg@essent.nl"
+          },
+          {
+            "username": "julian.essent",
+            "email": "julian.quispel@essent.nl"
+          },
+          {
+            "username": "vasilis.bankov_essent.nl",
+            "email": "vasilis.bankov@essent.nl"
+          },
+          {
+            "username": "janelletavares",
+            "email": "janelle.tavares@essent.nl"
+          },
+          {
+            "username": "sgoris-essent",
+            "email": "s67704@eon.com"
+          },
+          {
+            "username": "azkarmoulana",
+            "email": "azkar.moulana@essent.nl"
+          },
+          {
+            "username": "essent.jesse",
+            "email": "jesse.koekkoek@essent.nl"
+          },
+          {
+            "username": "danielkamphorst",
+            "email": "danielkamphorst2@gmail.com"
+          },
+          {
+            "username": "patrickvangemert",
+            "email": "patrick.van.gemert@essent.nl"
+          },
+          {
+            "username": "fernandesyuri",
+            "email": "yurifoliveira33@gmail.com"
+          },
+          {
+            "username": "davidvpe",
+            "email": "davidvpe@gmail.com"
+          },
+          {
+            "username": "ramkrivaseon",
+            "email": "R42644@EON.com"
+          },
+          {
+            "username": "p33969",
+            "email": "p33969@eon.com"
+          },
+          {
+            "username": "s69018",
+            "email": "s69018@eon.com"
+          },
+          {
+            "username": "erikbrgr-essent",
+            "email": "erik.burger@essent.nl"
+          },
+          {
+            "username": "radurrant",
+            "email": "robert.durrant@essent.nl"
+          },
+          {
+            "username": "veslav",
+            "email": "royhonders@gmail.com"
+          },
+          {
+            "username": "mrtnvh",
+            "email": "info@mrtnvh.com"
+          },
+          {
+            "username": "jorisdiesvelt",
+            "email": "joris.diesvelt@essent.nl"
+          },
+          {
+            "username": "ilija_essent",
+            "email": "ilija.lisenkov@essent.nl"
+          },
+          {
+            "username": "wouter.everse.essent.nl",
+            "email": "wouter.everse@essent.nl"
+          },
+          {
+            "username": "m90992",
+            "email": "m90992@eon.com"
+          },
+          {
+            "username": "niels_essent",
+            "email": "niels.vanbree@essent.nl"
+          },
+          {
+            "username": "nl.santhosh.kumar",
+            "email": "santhosh.ravichandran@essent.nl"
+          },
+          {
+            "username": "stefanipeters",
+            "email": "stefani.peters@essent.nl"
+          },
+          {
+            "username": "jeroenverhoevenessent",
+            "email": "jeroen.verhoeven@essent.nl"
+          },
+          {
+            "username": "thijsvanerp",
+            "email": "thijs.erp@essent.nl"
+          },
+          {
+            "username": "vinodperumal01",
+            "email": "vinod.perumal@essent.nl"
+          },
+          {
+            "username": "dmestry",
+            "email": "dipesh.mestry@essent.nl"
+          },
+          {
+            "username": "panagiotis.doxopoulos",
+            "email": "panagiotis.doxopoulos@essent.nl"
+          },
+          {
+            "username": "nishanthessent",
+            "email": "nishanth.suresh@essent.nl"
+          },
+          {
+            "username": "ekta123",
+            "email": "ekta.agarwal@essent.nl"
+          },
+          {
+            "username": "icyrizard",
+            "email": "richard@torenvliet.org"
+          },
+          {
+            "username": "thomasessent",
+            "email": "thomas.kool@essent.nl"
+          },
+          {
+            "username": "melihkorkmaz",
+            "email": "melihkorkmaz84@gmail.com"
+          },
+          {
+            "username": "luukpook",
+            "email": "luuk.pook@essent.nl"
+          },
+          {
+            "username": "svloon",
+            "email": "stijnvanloon@home.nl"
+          },
+          {
+            "username": "spike1292",
+            "email": "spike1292@gmail.com"
+          },
+          {
+            "username": "rik_bosch_essent",
+            "email": "rik.bosch@essent.nl"
+          },
+          {
+            "username": "wvdkop-essent",
+            "email": "wesley.van.der.kop@essent.nl"
+          },
+          {
+            "username": "sharanyasl",
+            "email": "Sharanya.sargur@essent.nl"
+          },
+          {
+            "username": "sreejanarayanankuttty",
+            "email": "sreeja.narayanan.kutty@essent.nl"
+          },
+          {
+            "username": "alihabib",
+            "email": "ali.habib@essent.nl"
+          },
+          {
+            "username": "geert.jan.evers",
+            "email": "geert.jan.evers@essent.nl"
+          },
+          {
+            "username": "jimfranke1",
+            "email": "info@jimfranke.com"
+          },
+          {
+            "username": "areijngoudt",
+            "email": "areijngoudt@gmail.com"
+          },
+          {
+            "username": "thijsbloks",
+            "email": "thijsbloks@gmail.com"
+          },
+          {
+            "username": "sanjaikumarsankar",
+            "email": "sanjai.sankar@essent.nl"
+          },
+          {
+            "username": "essent-mobile-app-team",
+            "email": "essent-app@essent.nl"
+          },
+          {
+            "username": "jelle-tno",
+            "email": "jelle.nauta@tno.nl"
+          },
+          {
+            "username": "jharskamp",
+            "email": "mjharskamp@gmail.com"
+          },
+          {
+            "username": "m71629",
+            "email": "marloes.van.bragt@essent.nl"
+          },
+          {
+            "username": "frwielstra",
+            "email": "fr.wielstra@gmail.com"
+          },
+          {
+            "username": "joren-navara",
+            "email": "joren.verbaandert@navara.nl"
+          },
+          {
+            "username": "thomas_smeele",
+            "email": "thomas.smeele@hotmail.com"
+          },
+          {
+            "username": "btaluy",
+            "email": "berfu.taluy@gmail.com"
+          },
+          {
+            "username": "geert.rutten",
+            "email": "geert.rutten@navara.nl"
+          },
+          {
+            "username": "vincentbitter",
+            "email": "vincent@vincentbitter.nl"
+          },
+          {
+            "username": "falcoworkstno",
+            "email": "federico.falconieri@tno.nl"
+          },
+          {
+            "username": "cdebruin",
+            "email": "corne1988@gmail.com"
+          },
+          {
+            "username": "niek-essent",
+            "email": "niek.heezemans@essent.nl"
+          },
+          {
+            "username": "wesley.quintor",
+            "email": "wveenendaal@quintor.nl"
+          },
+          {
+            "username": "snorvisable",
+            "email": "b.kardol@hotmail.com"
+          },
+          {
+            "username": "pcmulder",
+            "email": "pcmulder89@gmail.com"
+          },
+          {
+            "username": "jphoiting",
+            "email": "janpieter.hoiting@essent.nl"
+          },
+          {
+            "username": "tomvoigt",
+            "email": "tfvoigt@gmail.com"
+          },
+          {
+            "username": "lmeijdam",
+            "email": "lmeijdam90@gmail.com"
+          },
+          {
+            "username": "petervdwal",
+            "email": "peter.van.der.wal@essent.nl"
+          },
+          {
+            "username": "jboeijenga",
+            "email": "jboeijenga@gmail.com"
+          },
+          {
+            "username": "essent-bot",
+            "email": "jeroen.bertels@essent.nl"
+          },
+          {
+            "username": "vani.anandamurthy",
+            "email": "vani.anandamurthy@essent.nl"
+          },
+          {
+            "username": "jayanti88",
+            "email": "jayanti.kumari@essent.nl"
+          },
+          {
+            "username": "abhinandan.nasalapure.essent",
+            "email": "abhinandan.nasalapure@essent.nl"
+          },
+          {
+            "username": "pavandara",
+            "email": "pavanprata.dara@essent.nl"
+          },
+          {
+            "username": "jeroenvanderlast",
+            "email": "jeroen.van.der.last@navara.nl"
+          },
+          {
+            "username": "c.elshof",
+            "email": "c.elshof@quintor.nl"
+          },
+          {
+            "username": "thedcsherman",
+            "email": "thedcsherman@gmail.com"
+          },
+          {
+            "username": "lucashorward",
+            "email": "lucas.horward@gmail.com"
+          },
+          {
+            "username": "hannahmauritz",
+            "email": "ha.mauritz@essent.nl"
+          },
+          {
+            "username": "dbeaart",
+            "email": "dyon@beaart.nl"
+          },
+          {
+            "username": "tophernl",
+            "email": "chris@topher.nl"
+          },
+          {
+            "username": "nimitha",
+            "email": "nimitha.joy@essent.nl"
+          },
+          {
+            "username": "markdanney",
+            "email": "ui919173@rwe.com"
+          },
+          {
+            "username": "sridharsekar",
+            "email": "sekar.sridhar@essent.nl"
+          },
+          {
+            "username": "mvlagen",
+            "email": "mark.van.lagen@essent.nl"
+          },
+          {
+            "username": "emielvanrijn",
+            "email": "emiel.van.rijn@essent.nl"
+          },
+          {
+            "username": "n9iels",
+            "email": "n.i.vdveer@gmail.com"
+          },
+          {
+            "username": "j.miletic",
+            "email": "j.miletic@levi9.com"
+          },
+          {
+            "username": "koengriffioenessent",
+            "email": "koen.griffioen@essent.nl"
+          },
+          {
+            "username": "geert-navara",
+            "email": "geert.beuneker@navara.nl"
+          },
+          {
+            "username": "davidfesten",
+            "email": "jubilee.curbing.0h@icloud.com"
+          },
+          {
+            "username": "lucaclae",
+            "email": "lucaclae@gmail.com"
+          },
+          {
+            "username": "ui929171",
+            "email": "olga.bielkina@essent.nl"
+          },
+          {
+            "username": "m.cetkovic",
+            "email": "m.cetkovic@levi9.com"
+          },
+          {
+            "username": "mleen",
+            "email": "marleen.van.dijk@essent.nl"
+          },
+          {
+            "username": "nielsvdhorst",
+            "email": "niels.vander.horst@essent.nl"
+          },
+          {
+            "username": "stfnvar",
+            "email": "stefans94@hotmail.com"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 6,
+          "lastMonth": 27
+        }
+      },
+      {
         "name": "@essent/nativescript-videoplayer",
         "scope": "essent",
         "version": "5.0.0",
@@ -26709,469 +27265,6 @@
           "lastDay": 0,
           "lastWeek": 4,
           "lastMonth": 26
-        }
-      },
-      {
-        "name": "@essent/nativescript-salesforce-dmp",
-        "scope": "essent",
-        "version": "1.1.0",
-        "description": "A NativeScript plugin to use the Salesforce DMP mobile SDK.",
-        "keywords": [
-          "ecosystem:nativescript",
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "Salesforce",
-          "nativescript",
-          "salesforce",
-          "dmp"
-        ],
-        "date": "2018-12-03T13:23:23.037Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40essent%2Fnativescript-salesforce-dmp",
-          "homepage": "https://github.com/Essent/nativescript-salesforce-dmp",
-          "repository": "https://github.com/Essent/nativescript-salesforce-dmp",
-          "bugs": "https://github.com/Essent/nativescript-salesforce-dmp/issues"
-        },
-        "author": {
-          "name": "essent",
-          "username": "essent"
-        },
-        "publisher": {
-          "username": "dennis-montana",
-          "email": "dennisvandenberg@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "danny.reijntjens.essent",
-            "email": "danny.reijntjens@essent.nl"
-          },
-          {
-            "username": "louise.hermosa",
-            "email": "louise.hermosa@essent.nl"
-          },
-          {
-            "username": "milosdelgorge",
-            "email": "milos.delgorge@essent.nl"
-          },
-          {
-            "username": "tijmen-amsing-essent",
-            "email": "tijmen.amsing@essent.nl"
-          },
-          {
-            "username": "timo_aerts",
-            "email": "Timo.Aerts@essent.nl"
-          },
-          {
-            "username": "jesse.schlienkamp.essent",
-            "email": "jesse.schlienkamp@essent.nl"
-          },
-          {
-            "username": "essent-cloud-team",
-            "email": "DL_PA_Cloud_Team@eon.com"
-          },
-          {
-            "username": "rduijf",
-            "email": "roel.duijf@essent.nl"
-          },
-          {
-            "username": "jwaarsenburg",
-            "email": "jens.vandewaarsenburg@essent.nl"
-          },
-          {
-            "username": "julian.essent",
-            "email": "julian.quispel@essent.nl"
-          },
-          {
-            "username": "vasilis.bankov_essent.nl",
-            "email": "vasilis.bankov@essent.nl"
-          },
-          {
-            "username": "janelletavares",
-            "email": "janelle.tavares@essent.nl"
-          },
-          {
-            "username": "sgoris-essent",
-            "email": "s67704@eon.com"
-          },
-          {
-            "username": "azkarmoulana",
-            "email": "azkar.moulana@essent.nl"
-          },
-          {
-            "username": "essent.jesse",
-            "email": "jesse.koekkoek@essent.nl"
-          },
-          {
-            "username": "danielkamphorst",
-            "email": "danielkamphorst2@gmail.com"
-          },
-          {
-            "username": "patrickvangemert",
-            "email": "patrick.van.gemert@essent.nl"
-          },
-          {
-            "username": "fernandesyuri",
-            "email": "yurifoliveira33@gmail.com"
-          },
-          {
-            "username": "davidvpe",
-            "email": "davidvpe@gmail.com"
-          },
-          {
-            "username": "ramkrivaseon",
-            "email": "R42644@EON.com"
-          },
-          {
-            "username": "p33969",
-            "email": "p33969@eon.com"
-          },
-          {
-            "username": "s69018",
-            "email": "s69018@eon.com"
-          },
-          {
-            "username": "erikbrgr-essent",
-            "email": "erik.burger@essent.nl"
-          },
-          {
-            "username": "radurrant",
-            "email": "robert.durrant@essent.nl"
-          },
-          {
-            "username": "veslav",
-            "email": "royhonders@gmail.com"
-          },
-          {
-            "username": "mrtnvh",
-            "email": "info@mrtnvh.com"
-          },
-          {
-            "username": "jorisdiesvelt",
-            "email": "joris.diesvelt@essent.nl"
-          },
-          {
-            "username": "ilija_essent",
-            "email": "ilija.lisenkov@essent.nl"
-          },
-          {
-            "username": "wouter.everse.essent.nl",
-            "email": "wouter.everse@essent.nl"
-          },
-          {
-            "username": "m90992",
-            "email": "m90992@eon.com"
-          },
-          {
-            "username": "niels_essent",
-            "email": "niels.vanbree@essent.nl"
-          },
-          {
-            "username": "nl.santhosh.kumar",
-            "email": "santhosh.ravichandran@essent.nl"
-          },
-          {
-            "username": "stefanipeters",
-            "email": "stefani.peters@essent.nl"
-          },
-          {
-            "username": "jeroenverhoevenessent",
-            "email": "jeroen.verhoeven@essent.nl"
-          },
-          {
-            "username": "thijsvanerp",
-            "email": "thijs.erp@essent.nl"
-          },
-          {
-            "username": "vinodperumal01",
-            "email": "vinod.perumal@essent.nl"
-          },
-          {
-            "username": "dmestry",
-            "email": "dipesh.mestry@essent.nl"
-          },
-          {
-            "username": "panagiotis.doxopoulos",
-            "email": "panagiotis.doxopoulos@essent.nl"
-          },
-          {
-            "username": "nishanthessent",
-            "email": "nishanth.suresh@essent.nl"
-          },
-          {
-            "username": "ekta123",
-            "email": "ekta.agarwal@essent.nl"
-          },
-          {
-            "username": "icyrizard",
-            "email": "richard@torenvliet.org"
-          },
-          {
-            "username": "thomasessent",
-            "email": "thomas.kool@essent.nl"
-          },
-          {
-            "username": "melihkorkmaz",
-            "email": "melihkorkmaz84@gmail.com"
-          },
-          {
-            "username": "luukpook",
-            "email": "luuk.pook@essent.nl"
-          },
-          {
-            "username": "svloon",
-            "email": "stijnvanloon@home.nl"
-          },
-          {
-            "username": "spike1292",
-            "email": "spike1292@gmail.com"
-          },
-          {
-            "username": "rik_bosch_essent",
-            "email": "rik.bosch@essent.nl"
-          },
-          {
-            "username": "wvdkop-essent",
-            "email": "wesley.van.der.kop@essent.nl"
-          },
-          {
-            "username": "sharanyasl",
-            "email": "Sharanya.sargur@essent.nl"
-          },
-          {
-            "username": "sreejanarayanankuttty",
-            "email": "sreeja.narayanan.kutty@essent.nl"
-          },
-          {
-            "username": "alihabib",
-            "email": "ali.habib@essent.nl"
-          },
-          {
-            "username": "geert.jan.evers",
-            "email": "geert.jan.evers@essent.nl"
-          },
-          {
-            "username": "jimfranke1",
-            "email": "info@jimfranke.com"
-          },
-          {
-            "username": "areijngoudt",
-            "email": "areijngoudt@gmail.com"
-          },
-          {
-            "username": "thijsbloks",
-            "email": "thijsbloks@gmail.com"
-          },
-          {
-            "username": "sanjaikumarsankar",
-            "email": "sanjai.sankar@essent.nl"
-          },
-          {
-            "username": "essent-mobile-app-team",
-            "email": "essent-app@essent.nl"
-          },
-          {
-            "username": "jelle-tno",
-            "email": "jelle.nauta@tno.nl"
-          },
-          {
-            "username": "jharskamp",
-            "email": "mjharskamp@gmail.com"
-          },
-          {
-            "username": "m71629",
-            "email": "marloes.van.bragt@essent.nl"
-          },
-          {
-            "username": "frwielstra",
-            "email": "fr.wielstra@gmail.com"
-          },
-          {
-            "username": "joren-navara",
-            "email": "joren.verbaandert@navara.nl"
-          },
-          {
-            "username": "thomas_smeele",
-            "email": "thomas.smeele@hotmail.com"
-          },
-          {
-            "username": "btaluy",
-            "email": "berfu.taluy@gmail.com"
-          },
-          {
-            "username": "geert.rutten",
-            "email": "geert.rutten@navara.nl"
-          },
-          {
-            "username": "vincentbitter",
-            "email": "vincent@vincentbitter.nl"
-          },
-          {
-            "username": "falcoworkstno",
-            "email": "federico.falconieri@tno.nl"
-          },
-          {
-            "username": "cdebruin",
-            "email": "corne1988@gmail.com"
-          },
-          {
-            "username": "niek-essent",
-            "email": "niek.heezemans@essent.nl"
-          },
-          {
-            "username": "wesley.quintor",
-            "email": "wveenendaal@quintor.nl"
-          },
-          {
-            "username": "snorvisable",
-            "email": "b.kardol@hotmail.com"
-          },
-          {
-            "username": "pcmulder",
-            "email": "pcmulder89@gmail.com"
-          },
-          {
-            "username": "jphoiting",
-            "email": "janpieter.hoiting@essent.nl"
-          },
-          {
-            "username": "tomvoigt",
-            "email": "tfvoigt@gmail.com"
-          },
-          {
-            "username": "lmeijdam",
-            "email": "lmeijdam90@gmail.com"
-          },
-          {
-            "username": "petervdwal",
-            "email": "peter.van.der.wal@essent.nl"
-          },
-          {
-            "username": "jboeijenga",
-            "email": "jboeijenga@gmail.com"
-          },
-          {
-            "username": "essent-bot",
-            "email": "jeroen.bertels@essent.nl"
-          },
-          {
-            "username": "vani.anandamurthy",
-            "email": "vani.anandamurthy@essent.nl"
-          },
-          {
-            "username": "jayanti88",
-            "email": "jayanti.kumari@essent.nl"
-          },
-          {
-            "username": "abhinandan.nasalapure.essent",
-            "email": "abhinandan.nasalapure@essent.nl"
-          },
-          {
-            "username": "pavandara",
-            "email": "pavanprata.dara@essent.nl"
-          },
-          {
-            "username": "jeroenvanderlast",
-            "email": "jeroen.van.der.last@navara.nl"
-          },
-          {
-            "username": "c.elshof",
-            "email": "c.elshof@quintor.nl"
-          },
-          {
-            "username": "thedcsherman",
-            "email": "thedcsherman@gmail.com"
-          },
-          {
-            "username": "lucashorward",
-            "email": "lucas.horward@gmail.com"
-          },
-          {
-            "username": "hannahmauritz",
-            "email": "ha.mauritz@essent.nl"
-          },
-          {
-            "username": "dbeaart",
-            "email": "dyon@beaart.nl"
-          },
-          {
-            "username": "tophernl",
-            "email": "chris@topher.nl"
-          },
-          {
-            "username": "nimitha",
-            "email": "nimitha.joy@essent.nl"
-          },
-          {
-            "username": "markdanney",
-            "email": "ui919173@rwe.com"
-          },
-          {
-            "username": "sridharsekar",
-            "email": "sekar.sridhar@essent.nl"
-          },
-          {
-            "username": "mvlagen",
-            "email": "mark.van.lagen@essent.nl"
-          },
-          {
-            "username": "emielvanrijn",
-            "email": "emiel.van.rijn@essent.nl"
-          },
-          {
-            "username": "n9iels",
-            "email": "n.i.vdveer@gmail.com"
-          },
-          {
-            "username": "j.miletic",
-            "email": "j.miletic@levi9.com"
-          },
-          {
-            "username": "koengriffioenessent",
-            "email": "koen.griffioen@essent.nl"
-          },
-          {
-            "username": "geert-navara",
-            "email": "geert.beuneker@navara.nl"
-          },
-          {
-            "username": "davidfesten",
-            "email": "jubilee.curbing.0h@icloud.com"
-          },
-          {
-            "username": "lucaclae",
-            "email": "lucaclae@gmail.com"
-          },
-          {
-            "username": "ui929171",
-            "email": "olga.bielkina@essent.nl"
-          },
-          {
-            "username": "m.cetkovic",
-            "email": "m.cetkovic@levi9.com"
-          },
-          {
-            "username": "mleen",
-            "email": "marleen.van.dijk@essent.nl"
-          },
-          {
-            "username": "nielsvdhorst",
-            "email": "niels.vander.horst@essent.nl"
-          },
-          {
-            "username": "stfnvar",
-            "email": "stefans94@hotmail.com"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 6,
-          "lastMonth": 27
         }
       },
       {
@@ -30152,7 +30245,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
-          "lastMonth": 7
+          "lastMonth": 0
         }
       }
     ]
@@ -31123,6 +31216,45 @@
         }
       },
       {
+        "name": "nativescript-material-ripple",
+        "scope": "unscoped",
+        "version": "3.3.2",
+        "description": "Material ripple component",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "material",
+          "ripple"
+        ],
+        "date": "2021-01-07T08:34:55.247Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-material-ripple",
+          "homepage": "https://github.com/Akylas/nativescript-material-components"
+        },
+        "author": {
+          "name": "farfromrefuge",
+          "username": "farfromrefuge"
+        },
+        "publisher": {
+          "username": "farfromrefuge",
+          "email": "martin.guillon@akylas.fr"
+        },
+        "maintainers": [
+          {
+            "username": "farfromrefuge",
+            "email": "martin.guillon@akylas.fr"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 1,
+          "lastWeek": 5,
+          "lastMonth": 130
+        }
+      },
+      {
         "name": "nativescript-akylas-preferences",
         "scope": "unscoped",
         "version": "1.1.11",
@@ -31161,45 +31293,6 @@
           "lastDay": 0,
           "lastWeek": 1,
           "lastMonth": 14
-        }
-      },
-      {
-        "name": "nativescript-material-ripple",
-        "scope": "unscoped",
-        "version": "3.3.2",
-        "description": "Material ripple component",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "nativescript",
-          "material",
-          "ripple"
-        ],
-        "date": "2021-01-07T08:34:55.247Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-material-ripple",
-          "homepage": "https://github.com/Akylas/nativescript-material-components"
-        },
-        "author": {
-          "name": "farfromrefuge",
-          "username": "farfromrefuge"
-        },
-        "publisher": {
-          "username": "farfromrefuge",
-          "email": "martin.guillon@akylas.fr"
-        },
-        "maintainers": [
-          {
-            "username": "farfromrefuge",
-            "email": "martin.guillon@akylas.fr"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 5,
-          "lastMonth": 130
         }
       },
       {
@@ -31791,8 +31884,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 4,
-          "lastMonth": 40
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       },
       {
@@ -31830,8 +31923,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 24,
-          "lastMonth": 53
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       },
       {
@@ -33013,52 +33106,6 @@
         }
       },
       {
-        "name": "@finanzritter/nativescript-pdf-view",
-        "scope": "finanzritter",
-        "version": "3.0.3",
-        "description": "A basic PDF viewer plugin for NativeScript, to display PDF documents on iOS and Android.",
-        "keywords": [
-          "Android",
-          "JavaScript",
-          "NativeScript",
-          "PDF",
-          "View",
-          "iOS",
-          "nativescript",
-          "pdf",
-          "view"
-        ],
-        "date": "2020-12-01T09:04:04.746Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40finanzritter%2Fnativescript-pdf-view",
-          "homepage": "https://github.com/finanzritter/nativescript-pdf-view",
-          "repository": "https://github.com/finanzritter/nativescript-pdf-view"
-        },
-        "author": {
-          "name": "finanzritter",
-          "username": "finanzritter"
-        },
-        "publisher": {
-          "username": "sc85",
-          "email": "sc@wavefab.com"
-        },
-        "maintainers": [
-          {
-            "username": "sc85",
-            "email": "sc@wavefab.com"
-          },
-          {
-            "username": "tillsanders",
-            "email": "mail@till-sanders.de"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 4,
-          "lastWeek": 29,
-          "lastMonth": 72
-        }
-      },
-      {
         "name": "@finanzritter/nativescript-sentry",
         "scope": "finanzritter",
         "version": "1.10.1",
@@ -33108,49 +33155,6 @@
     "name": "Ryan  Lebel",
     "username": "firescript",
     "plugins": [
-      {
-        "name": "nativescript-contacts",
-        "scope": "unscoped",
-        "version": "1.6.4",
-        "description": "A NativeScript module providing easy access to iOS and android contact directory. Pick a contact, update date, or add a new one!",
-        "keywords": [
-          "NativeScript",
-          "Contacts",
-          "Address Book",
-          "Contact Directory",
-          "nativescript",
-          "contacts"
-        ],
-        "date": "2021-08-09T13:34:41.087Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-contacts",
-          "homepage": "https://github.com/firescript/nativescript-contacts",
-          "repository": "https://github.com/firescript/nativescript-contacts"
-        },
-        "author": {
-          "name": "Ryan  Lebel",
-          "username": "firescript"
-        },
-        "publisher": {
-          "username": "firescript",
-          "email": "ryan@firescript.ca"
-        },
-        "maintainers": [
-          {
-            "username": "sitefinitysteve",
-            "email": "steve@sitefinitysteve.com"
-          },
-          {
-            "username": "firescript",
-            "email": "ryan@firescript.ca"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
       {
         "name": "nativescript-messenger",
         "scope": "unscoped",
@@ -36550,57 +36554,6 @@
     ]
   },
   {
-    "name": "hansbak",
-    "username": "hansbak",
-    "plugins": [
-      {
-        "name": "nativescript-escpos-printer",
-        "scope": "unscoped",
-        "version": "2.0.1",
-        "description": "ESCPOS printer for NativeScript",
-        "keywords": [
-          "POS printer",
-          "socket",
-          "nativescript",
-          "javascript",
-          "swift",
-          "java",
-          "IOS",
-          "Android",
-          "nativescript",
-          "escpos",
-          "printer"
-        ],
-        "date": "2020-03-01T09:01:20.791Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-escpos-printer",
-          "homepage": "https://github.com/growerp/nativescript-escpos-printer",
-          "repository": "https://github.com/growerp/nativescript-escpos-printer",
-          "bugs": "https://github.com/growerp/nativescript-escpos-printer/issues"
-        },
-        "author": {
-          "name": "hansbak",
-          "username": "hansbak"
-        },
-        "publisher": {
-          "username": "hansbak",
-          "email": "npm@hansbakker.com"
-        },
-        "maintainers": [
-          {
-            "username": "hansbak",
-            "email": "npm@hansbakker.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
     "name": "Omar Hernandez",
     "username": "happones",
     "plugins": [
@@ -38006,8 +37959,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 2,
-          "lastMonth": 5
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       },
       {
@@ -38045,7 +37998,7 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 1,
+          "lastWeek": 0,
           "lastMonth": 0
         }
       },
@@ -39488,9 +39441,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 2,
-          "lastMonth": 10
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       }
     ]
@@ -39657,44 +39610,6 @@
           "nativescript",
           "ng2",
           "slides"
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
-        "name": "@irman/nativescript-screen-orientation",
-        "scope": "irman",
-        "version": "1.1.2",
-        "description": "A plugin to force change the orientation of a page programmatically in NativeScript. Supports both Android and iOS. Forked of /nativescript-screen-orientation",
-        "keywords": [
-          "nativescript",
-          "orientation-change",
-          "force-orientation",
-          "lock-orientation",
-          "nativescript",
-          "screen",
-          "orientation"
-        ],
-        "date": "2017-02-14T06:39:09.888Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40irman%2Fnativescript-screen-orientation"
-        },
-        "author": {
-          "name": "irman",
-          "username": "irman"
-        },
-        "publisher": {
-          "username": "irman",
-          "email": "irman@outlook.my"
-        },
-        "maintainers": [
-          {
-            "username": "irman",
-            "email": "irman@outlook.my"
-          }
         ],
         "downloadStats": {
           "lastDay": 0,
@@ -42079,44 +41994,6 @@
     "username": "jnorkus",
     "plugins": [
       {
-        "name": "@jnorkus/nativescript-svg",
-        "scope": "jnorkus",
-        "version": "1.1.2",
-        "description": "NativeScript SVG plugin",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "svg",
-          "nativescript",
-          "svg"
-        ],
-        "date": "2019-08-30T10:42:21.821Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40jnorkus%2Fnativescript-svg"
-        },
-        "author": {
-          "name": "jnorkus",
-          "username": "jnorkus"
-        },
-        "publisher": {
-          "username": "jnorkus",
-          "email": "kornyz@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "jnorkus",
-            "email": "kornyz@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
         "name": "@jnorkus/nativescript-ngx-shadow",
         "scope": "jnorkus",
         "version": "7.0.1",
@@ -42407,6 +42284,49 @@
           {
             "username": "jogboms",
             "email": "jeremiahogbomo@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "joma",
+    "username": "joma",
+    "plugins": [
+      {
+        "name": "nativescript-estimote-plugin",
+        "scope": "unscoped",
+        "version": "0.0.6",
+        "description": "Estimote SDK plugin for Nativescript",
+        "keywords": [
+          "NativeScript",
+          "Estimote",
+          "Beacon",
+          "nativescript",
+          "estimote",
+          "plugin"
+        ],
+        "date": "2017-04-18T10:15:22.894Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-estimote-plugin"
+        },
+        "author": {
+          "name": "joma",
+          "username": "joma"
+        },
+        "publisher": {
+          "username": "joma",
+          "email": "vila_degut@hotmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "joma",
+            "email": "vila_degut@hotmail.com"
           }
         ],
         "downloadStats": {
@@ -43264,8 +43184,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 1,
-          "lastMonth": 7
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       }
     ]
@@ -43715,50 +43635,6 @@
           "lastDay": 0,
           "lastWeek": 2,
           "lastMonth": 4
-        }
-      }
-    ]
-  },
-  {
-    "name": "kallyn_gowdy",
-    "username": "kallyn_gowdy",
-    "plugins": [
-      {
-        "name": "nativescript-plugin-firebase-common",
-        "scope": "unscoped",
-        "version": "0.10.11",
-        "description": "Fire. Base. Firebase!",
-        "keywords": [
-          "NativeScript",
-          "Firebase",
-          "Database",
-          "nativescript",
-          "plugin",
-          "firebase",
-          "common"
-        ],
-        "date": "2016-07-31T17:34:49.112Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-plugin-firebase-common"
-        },
-        "author": {
-          "name": "kallyn_gowdy",
-          "username": "kallyn_gowdy"
-        },
-        "publisher": {
-          "username": "kallyn_gowdy",
-          "email": "kallyngowdy@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "kallyn_gowdy",
-            "email": "kallyngowdy@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
         }
       }
     ]
@@ -47707,6 +47583,51 @@
     ]
   },
   {
+    "name": "Ladarius Young",
+    "username": "lyoung83",
+    "plugins": [
+      {
+        "name": "nativescript-skygear-sdk",
+        "scope": "unscoped",
+        "version": "0.0.6",
+        "description": "This Plugin allows you to interact with Skygear.io or a skygear-server backend.",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "skygear",
+          "sdk"
+        ],
+        "date": "2019-08-24T14:48:38.746Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-skygear-sdk",
+          "homepage": "https://github.com/lyoung83/nativescript-skygear-sdk"
+        },
+        "author": {
+          "name": "Ladarius Young",
+          "username": "lyoung83"
+        },
+        "publisher": {
+          "username": "lyoung83",
+          "email": "ladarius.young@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "lyoung83",
+            "email": "ladarius.young@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
     "name": "Morten Sjøgren",
     "username": "m_abs",
     "plugins": [
@@ -48156,50 +48077,6 @@
         }
       },
       {
-        "name": "nativescript-photoviewer",
-        "scope": "unscoped",
-        "version": "3.0.1",
-        "description": "A simple Photo-viewer component for NativeScript based on NYTPhotoViewer pod for iOS and ImageGalleryViewer for Android.",
-        "keywords": [
-          "NativeScript",
-          "Photo",
-          "Photos",
-          "Image",
-          "Images",
-          "Preview",
-          "Gallery",
-          "Development",
-          "JavaScript",
-          "iOS",
-          "Android",
-          "nativescript",
-          "photoviewer"
-        ],
-        "date": "2021-04-14T09:12:50.925Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-photoviewer"
-        },
-        "author": {
-          "name": "manijak",
-          "username": "manijak"
-        },
-        "publisher": {
-          "username": "manijak",
-          "email": "erkocevic@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "manijak",
-            "email": "erkocevic@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 35,
-          "lastWeek": 45,
-          "lastMonth": 98
-        }
-      },
-      {
         "name": "nativescript-youtube-parser",
         "scope": "unscoped",
         "version": "2.0.1",
@@ -48633,9 +48510,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 2,
-          "lastMonth": 7
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       }
     ]
@@ -50009,51 +49886,6 @@
           {
             "username": "maxbaki",
             "email": "massimiliano.baki@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
-    "name": "maximl",
-    "username": "maximl",
-    "plugins": [
-      {
-        "name": "@maximl/nativescript-dev-appium",
-        "scope": "maximl",
-        "version": "6.1.3-r1",
-        "description": "A NativeScript plugin to help integrate and run Appium tests",
-        "keywords": [
-          "nativescript",
-          "appium",
-          "test",
-          "nativescript",
-          "dev",
-          "appium"
-        ],
-        "date": "2020-05-19T17:54:46.689Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40maximl%2Fnativescript-dev-appium",
-          "homepage": "https://github.com/MaximlLabs/nativescript-dev-appium#readme",
-          "repository": "https://github.com/MaximlLabs/nativescript-dev-appium"
-        },
-        "author": {
-          "name": "maximl",
-          "username": "maximl"
-        },
-        "publisher": {
-          "username": "maximl",
-          "email": "npm@maximl.com"
-        },
-        "maintainers": [
-          {
-            "username": "maximl",
-            "email": "npm@maximl.com"
           }
         ],
         "downloadStats": {
@@ -51799,6 +51631,46 @@
         }
       },
       {
+        "name": "nativescript-enumerable",
+        "scope": "unscoped",
+        "version": "3.5.2",
+        "description": "A NativeScript module providing LINQ style extensions for handling arrays and lists.",
+        "keywords": [
+          "NativeScript",
+          "LINQ",
+          "Enumerable",
+          "Lists",
+          "Collections",
+          "nativescript",
+          "enumerable"
+        ],
+        "date": "2016-09-09T21:40:37.446Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-enumerable",
+          "homepage": "https://github.com/mkloubert/nativescript-enumerable",
+          "repository": "https://github.com/mkloubert/nativescript-enumerable"
+        },
+        "author": {
+          "name": "Marcel Joachim Kloubert",
+          "username": "mkloubert"
+        },
+        "publisher": {
+          "username": "mkloubert",
+          "email": "marcel.kloubert@gmx.net"
+        },
+        "maintainers": [
+          {
+            "username": "mkloubert",
+            "email": "marcel.kloubert@gmx.net"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 2,
+          "lastMonth": 76
+        }
+      },
+      {
         "name": "nativescript-toolbox",
         "scope": "unscoped",
         "version": "3.0.1",
@@ -52320,7 +52192,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 4,
-          "lastMonth": 26
+          "lastMonth": 0
         }
       }
     ]
@@ -54053,8 +53925,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 1,
-          "lastMonth": 4
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       },
       {
@@ -58767,28 +58639,22 @@
         }
       },
       {
-        "name": "@nstudio/xplat",
-        "scope": "nstudio",
-        "version": "19.0.0",
-        "description": "Cross-platform (xplat) tools for Nx workspaces.",
+        "name": "@nativescript/doctor",
+        "scope": "nativescript",
+        "version": "2.0.15",
+        "description": "Library that helps identifying if the environment can be used for development of {N} apps.",
         "keywords": [
-          "xplat",
-          "cross-platform",
-          "multi-platform",
-          "nx",
-          "angular",
-          "schematics",
-          "electron",
-          "ionic",
-          "nativescript",
-          "nstudio",
-          "xplat"
+          "NativeScript",
+          "doctor",
+          "tns",
+          "doctor"
         ],
-        "date": "2024-05-27T02:34:55.994Z",
+        "date": "2024-08-19T13:51:07.197Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40nstudio%2Fxplat",
-          "homepage": "https://nstudio.io/xplat",
-          "repository": "https://github.com/nstudio/xplat"
+          "npm": "https://www.npmjs.com/package/%40nativescript%2Fdoctor",
+          "homepage": "https://github.com/NativeScript/nativescript-doctor#readme",
+          "repository": "https://github.com/NativeScript/nativescript-doctor",
+          "bugs": "https://github.com/NativeScript/nativescript-doctor/issues"
         },
         "author": {
           "name": "NativeScript Team",
@@ -58800,20 +58666,32 @@
         },
         "maintainers": [
           {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
+            "username": "nativescript-user",
+            "email": "nativescript@telerik.com"
           },
           {
-            "username": "multishiv19",
-            "email": "sp@shiv19.com"
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
           },
           {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
+            "username": "lini",
+            "email": "bit@gbg.bg"
           },
           {
-            "username": "alexziskind1",
-            "email": "alex@nuvious.com"
+            "username": "tachev",
+            "email": "nevermindd7@gmail.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "rosen_vladimirov",
+            "email": "rosen.vladimirov.91@gmail.com"
           },
           {
             "username": "walkerrunpdx",
@@ -58828,14 +58706,42 @@
             "email": "dave@davecoffin.com"
           },
           {
-            "username": "triniwiz",
-            "email": "fortune.osei@yahoo.com"
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "multishiv19",
+            "email": "sp@shiv19.com"
+          },
+          {
+            "username": "eddyverbruggen",
+            "email": "eddyverbruggen@gmail.com"
+          },
+          {
+            "username": "edusperoni",
+            "email": "edusperoni@gmail.com"
+          },
+          {
+            "username": "facetious",
+            "email": "Ian.MacDonald.facetious@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
           }
         ],
         "downloadStats": {
-          "lastDay": 411,
-          "lastWeek": 1675,
-          "lastMonth": 6562
+          "lastDay": 517,
+          "lastWeek": 2634,
+          "lastMonth": 11730
         }
       },
       {
@@ -58949,22 +58855,28 @@
         }
       },
       {
-        "name": "@nativescript/doctor",
-        "scope": "nativescript",
-        "version": "2.0.15",
-        "description": "Library that helps identifying if the environment can be used for development of {N} apps.",
+        "name": "@nstudio/xplat",
+        "scope": "nstudio",
+        "version": "19.0.0",
+        "description": "Cross-platform (xplat) tools for Nx workspaces.",
         "keywords": [
-          "NativeScript",
-          "doctor",
-          "tns",
-          "doctor"
+          "xplat",
+          "cross-platform",
+          "multi-platform",
+          "nx",
+          "angular",
+          "schematics",
+          "electron",
+          "ionic",
+          "nativescript",
+          "nstudio",
+          "xplat"
         ],
-        "date": "2024-08-19T13:51:07.197Z",
+        "date": "2024-05-27T02:34:55.994Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript%2Fdoctor",
-          "homepage": "https://github.com/NativeScript/nativescript-doctor#readme",
-          "repository": "https://github.com/NativeScript/nativescript-doctor",
-          "bugs": "https://github.com/NativeScript/nativescript-doctor/issues"
+          "npm": "https://www.npmjs.com/package/%40nstudio%2Fxplat",
+          "homepage": "https://nstudio.io/xplat",
+          "repository": "https://github.com/nstudio/xplat"
         },
         "author": {
           "name": "NativeScript Team",
@@ -58976,32 +58888,20 @@
         },
         "maintainers": [
           {
-            "username": "nativescript-user",
-            "email": "nativescript@telerik.com"
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
           },
           {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
+            "username": "multishiv19",
+            "email": "sp@shiv19.com"
           },
           {
-            "username": "lini",
-            "email": "bit@gbg.bg"
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
           },
           {
-            "username": "tachev",
-            "email": "nevermindd7@gmail.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "rosen_vladimirov",
-            "email": "rosen.vladimirov.91@gmail.com"
+            "username": "alexziskind1",
+            "email": "alex@nuvious.com"
           },
           {
             "username": "walkerrunpdx",
@@ -59016,42 +58916,14 @@
             "email": "dave@davecoffin.com"
           },
           {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "multishiv19",
-            "email": "sp@shiv19.com"
-          },
-          {
-            "username": "eddyverbruggen",
-            "email": "eddyverbruggen@gmail.com"
-          },
-          {
-            "username": "edusperoni",
-            "email": "edusperoni@gmail.com"
-          },
-          {
-            "username": "facetious",
-            "email": "Ian.MacDonald.facetious@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
+            "username": "triniwiz",
+            "email": "fortune.osei@yahoo.com"
           }
         ],
         "downloadStats": {
-          "lastDay": 517,
-          "lastWeek": 2634,
-          "lastMonth": 11730
+          "lastDay": 411,
+          "lastWeek": 1675,
+          "lastMonth": 6562
         }
       },
       {
@@ -60261,6 +60133,118 @@
         }
       },
       {
+        "name": "@nativescript/template-blank-ts",
+        "scope": "nativescript",
+        "version": "8.8.1",
+        "description": "Blank template for Vanilla NativeScript apps using TypeScript",
+        "keywords": [
+          "nstudio",
+          "nativescript",
+          "mobile",
+          "{N}",
+          "tns",
+          "template",
+          "category-general",
+          "template",
+          "blank",
+          "ts"
+        ],
+        "date": "2024-07-22T20:42:53.332Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40nativescript%2Ftemplate-blank-ts",
+          "homepage": "https://github.com/NativeScript/nativescript-app-templates",
+          "repository": "https://github.com/NativeScript/nativescript-app-templates",
+          "bugs": "https://github.com/NativeScript/NativeScript/issues"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "nativescript-bot",
+          "email": "oss@nativescript.org"
+        },
+        "maintainers": [
+          {
+            "username": "nativescript-user",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "tachev",
+            "email": "nevermindd7@gmail.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "rosen_vladimirov",
+            "email": "rosen.vladimirov.91@gmail.com"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "davecoffin",
+            "email": "dave@davecoffin.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "multishiv19",
+            "email": "sp@shiv19.com"
+          },
+          {
+            "username": "eddyverbruggen",
+            "email": "eddyverbruggen@gmail.com"
+          },
+          {
+            "username": "edusperoni",
+            "email": "edusperoni@gmail.com"
+          },
+          {
+            "username": "facetious",
+            "email": "Ian.MacDonald.facetious@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 3,
+          "lastMonth": 46
+        }
+      },
+      {
         "name": "@nativescript/template-blank-svelte",
         "scope": "nativescript",
         "version": "8.8.1",
@@ -60372,118 +60356,6 @@
           "lastDay": 6,
           "lastWeek": 75,
           "lastMonth": 276
-        }
-      },
-      {
-        "name": "@nativescript/template-blank-ts",
-        "scope": "nativescript",
-        "version": "8.8.1",
-        "description": "Blank template for Vanilla NativeScript apps using TypeScript",
-        "keywords": [
-          "nstudio",
-          "nativescript",
-          "mobile",
-          "{N}",
-          "tns",
-          "template",
-          "category-general",
-          "template",
-          "blank",
-          "ts"
-        ],
-        "date": "2024-07-22T20:42:53.332Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript%2Ftemplate-blank-ts",
-          "homepage": "https://github.com/NativeScript/nativescript-app-templates",
-          "repository": "https://github.com/NativeScript/nativescript-app-templates",
-          "bugs": "https://github.com/NativeScript/NativeScript/issues"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "nativescript-bot",
-          "email": "oss@nativescript.org"
-        },
-        "maintainers": [
-          {
-            "username": "nativescript-user",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "tachev",
-            "email": "nevermindd7@gmail.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "rosen_vladimirov",
-            "email": "rosen.vladimirov.91@gmail.com"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "davecoffin",
-            "email": "dave@davecoffin.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "multishiv19",
-            "email": "sp@shiv19.com"
-          },
-          {
-            "username": "eddyverbruggen",
-            "email": "eddyverbruggen@gmail.com"
-          },
-          {
-            "username": "edusperoni",
-            "email": "edusperoni@gmail.com"
-          },
-          {
-            "username": "facetious",
-            "email": "Ian.MacDonald.facetious@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 3,
-          "lastMonth": 46
         }
       },
       {
@@ -62790,6 +62662,116 @@
         }
       },
       {
+        "name": "@nativescript/flutter",
+        "scope": "nativescript",
+        "version": "1.0.2",
+        "description": "Flutter for NativeScript",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "Flutter",
+          "Dart",
+          "flutter"
+        ],
+        "date": "2024-08-18T17:38:03.408Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40nativescript%2Fflutter",
+          "homepage": "https://github.com/NativeScript/ui-kit",
+          "repository": "https://github.com/NativeScript/ui-kit",
+          "bugs": "https://github.com/NativeScript/ui-kit/issues"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "nativescript-bot",
+          "email": "oss@nativescript.org"
+        },
+        "maintainers": [
+          {
+            "username": "nativescript-user",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "tachev",
+            "email": "nevermindd7@gmail.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "rosen_vladimirov",
+            "email": "rosen.vladimirov.91@gmail.com"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "davecoffin",
+            "email": "dave@davecoffin.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "multishiv19",
+            "email": "sp@shiv19.com"
+          },
+          {
+            "username": "eddyverbruggen",
+            "email": "eddyverbruggen@gmail.com"
+          },
+          {
+            "username": "edusperoni",
+            "email": "edusperoni@gmail.com"
+          },
+          {
+            "username": "facetious",
+            "email": "Ian.MacDonald.facetious@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 1,
+          "lastWeek": 13,
+          "lastMonth": 97
+        }
+      },
+      {
         "name": "@nativescript/google-maps",
         "scope": "nativescript",
         "version": "1.7.1",
@@ -63230,116 +63212,6 @@
           "lastDay": 33,
           "lastWeek": 83,
           "lastMonth": 460
-        }
-      },
-      {
-        "name": "@nativescript/flutter",
-        "scope": "nativescript",
-        "version": "1.0.2",
-        "description": "Flutter for NativeScript",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "Flutter",
-          "Dart",
-          "flutter"
-        ],
-        "date": "2024-08-18T17:38:03.408Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript%2Fflutter",
-          "homepage": "https://github.com/NativeScript/ui-kit",
-          "repository": "https://github.com/NativeScript/ui-kit",
-          "bugs": "https://github.com/NativeScript/ui-kit/issues"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "nativescript-bot",
-          "email": "oss@nativescript.org"
-        },
-        "maintainers": [
-          {
-            "username": "nativescript-user",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "tachev",
-            "email": "nevermindd7@gmail.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "rosen_vladimirov",
-            "email": "rosen.vladimirov.91@gmail.com"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "davecoffin",
-            "email": "dave@davecoffin.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "multishiv19",
-            "email": "sp@shiv19.com"
-          },
-          {
-            "username": "eddyverbruggen",
-            "email": "eddyverbruggen@gmail.com"
-          },
-          {
-            "username": "edusperoni",
-            "email": "edusperoni@gmail.com"
-          },
-          {
-            "username": "facetious",
-            "email": "Ian.MacDonald.facetious@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 13,
-          "lastMonth": 97
         }
       },
       {
@@ -67936,115 +67808,6 @@
         }
       },
       {
-        "name": "@nativescript/google-pay",
-        "scope": "nativescript",
-        "version": "1.0.0",
-        "description": "Plugin that provides Google Pay support for NativeScript Android applications.",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "google",
-          "pay"
-        ],
-        "date": "2023-09-25T22:02:06.013Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript%2Fgoogle-pay",
-          "homepage": "https://github.com/NativeScript/payments",
-          "repository": "https://github.com/NativeScript/payments",
-          "bugs": "https://github.com/NativeScript/payments/issues"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "nativescript-bot",
-          "email": "oss@nativescript.org"
-        },
-        "maintainers": [
-          {
-            "username": "nativescript-user",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "tachev",
-            "email": "nevermindd7@gmail.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "rosen_vladimirov",
-            "email": "rosen.vladimirov.91@gmail.com"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "davecoffin",
-            "email": "dave@davecoffin.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "multishiv19",
-            "email": "sp@shiv19.com"
-          },
-          {
-            "username": "eddyverbruggen",
-            "email": "eddyverbruggen@gmail.com"
-          },
-          {
-            "username": "edusperoni",
-            "email": "edusperoni@gmail.com"
-          },
-          {
-            "username": "facetious",
-            "email": "Ian.MacDonald.facetious@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 6,
-          "lastMonth": 31
-        }
-      },
-      {
         "name": "nativescript-background-http",
         "scope": "unscoped",
         "version": "4.2.1",
@@ -68230,7 +67993,7 @@
         ],
         "downloadStats": {
           "lastDay": 1,
-          "lastWeek": 1,
+          "lastWeek": 0,
           "lastMonth": 9
         }
       },
@@ -69076,62 +68839,6 @@
         }
       },
       {
-        "name": "@triniwiz/nativescript-pager",
-        "scope": "triniwiz",
-        "version": "14.0.2",
-        "description": "A Carousel/Pager plugin for NativeScript",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "Android",
-          "iOS",
-          "pager",
-          "viewpager",
-          "UIPageViewController",
-          "slides",
-          "Carousel",
-          "ng",
-          "angular",
-          "vue",
-          "nativescript-angular",
-          "nativescript-vue",
-          "nativescript-react",
-          "nativescript-svelte",
-          "nativescript",
-          "pager"
-        ],
-        "date": "2022-12-02T21:16:49.511Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40triniwiz%2Fnativescript-pager",
-          "homepage": "https://github.com/NativeScript/plugins",
-          "repository": "https://github.com/triniwiz/nativescript-plugins",
-          "bugs": "https://github.com/NativeScript/plugins/issues"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "nativescript-bot",
-          "email": "oss@nativescript.org"
-        },
-        "maintainers": [
-          {
-            "username": "triniwiz",
-            "email": "fortune.osei@yahoo.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 23,
-          "lastWeek": 252,
-          "lastMonth": 954
-        }
-      },
-      {
         "name": "@nativescript/hook",
         "scope": "nativescript",
         "version": "2.0.0",
@@ -69231,6 +68938,62 @@
           "lastDay": 1019,
           "lastWeek": 5879,
           "lastMonth": 25273
+        }
+      },
+      {
+        "name": "@triniwiz/nativescript-pager",
+        "scope": "triniwiz",
+        "version": "14.0.2",
+        "description": "A Carousel/Pager plugin for NativeScript",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "pager",
+          "viewpager",
+          "UIPageViewController",
+          "slides",
+          "Carousel",
+          "ng",
+          "angular",
+          "vue",
+          "nativescript-angular",
+          "nativescript-vue",
+          "nativescript-react",
+          "nativescript-svelte",
+          "nativescript",
+          "pager"
+        ],
+        "date": "2022-12-02T21:16:49.511Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40triniwiz%2Fnativescript-pager",
+          "homepage": "https://github.com/NativeScript/plugins",
+          "repository": "https://github.com/triniwiz/nativescript-plugins",
+          "bugs": "https://github.com/NativeScript/plugins/issues"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "nativescript-bot",
+          "email": "oss@nativescript.org"
+        },
+        "maintainers": [
+          {
+            "username": "triniwiz",
+            "email": "fortune.osei@yahoo.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 23,
+          "lastWeek": 252,
+          "lastMonth": 954
         }
       },
       {
@@ -70994,115 +70757,6 @@
         }
       },
       {
-        "name": "@nativescript/canvas-pixi",
-        "scope": "nativescript",
-        "version": "1.1.0",
-        "description": "Plugin for using pixi.js in NativeScript",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "canvas",
-          "pixi"
-        ],
-        "date": "2023-02-09T16:15:28.690Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40nativescript%2Fcanvas-pixi",
-          "homepage": "https://github.com/NativeScript/canvas",
-          "repository": "https://github.com/NativeScript/canvas",
-          "bugs": "https://github.com/NativeScript/canvas/issues"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "nativescript-bot",
-          "email": "oss@nativescript.org"
-        },
-        "maintainers": [
-          {
-            "username": "nativescript-user",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "tachev",
-            "email": "nevermindd7@gmail.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "rosen_vladimirov",
-            "email": "rosen.vladimirov.91@gmail.com"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "davecoffin",
-            "email": "dave@davecoffin.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "multishiv19",
-            "email": "sp@shiv19.com"
-          },
-          {
-            "username": "eddyverbruggen",
-            "email": "eddyverbruggen@gmail.com"
-          },
-          {
-            "username": "edusperoni",
-            "email": "edusperoni@gmail.com"
-          },
-          {
-            "username": "facetious",
-            "email": "Ian.MacDonald.facetious@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 5,
-          "lastWeek": 56,
-          "lastMonth": 1386
-        }
-      },
-      {
         "name": "@nativescript/social-share",
         "scope": "nativescript",
         "version": "2.3.0",
@@ -71209,6 +70863,115 @@
           "lastDay": 99,
           "lastWeek": 610,
           "lastMonth": 2099
+        }
+      },
+      {
+        "name": "@nativescript/canvas-pixi",
+        "scope": "nativescript",
+        "version": "1.1.0",
+        "description": "Plugin for using pixi.js in NativeScript",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "canvas",
+          "pixi"
+        ],
+        "date": "2023-02-09T16:15:28.690Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40nativescript%2Fcanvas-pixi",
+          "homepage": "https://github.com/NativeScript/canvas",
+          "repository": "https://github.com/NativeScript/canvas",
+          "bugs": "https://github.com/NativeScript/canvas/issues"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "nativescript-bot",
+          "email": "oss@nativescript.org"
+        },
+        "maintainers": [
+          {
+            "username": "nativescript-user",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "tachev",
+            "email": "nevermindd7@gmail.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "rosen_vladimirov",
+            "email": "rosen.vladimirov.91@gmail.com"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "davecoffin",
+            "email": "dave@davecoffin.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "multishiv19",
+            "email": "sp@shiv19.com"
+          },
+          {
+            "username": "eddyverbruggen",
+            "email": "eddyverbruggen@gmail.com"
+          },
+          {
+            "username": "edusperoni",
+            "email": "edusperoni@gmail.com"
+          },
+          {
+            "username": "facetious",
+            "email": "Ian.MacDonald.facetious@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 5,
+          "lastWeek": 56,
+          "lastMonth": 1386
         }
       },
       {
@@ -72499,56 +72262,6 @@
         }
       },
       {
-        "name": "@triniwiz/nativescript-supabase-storage",
-        "scope": "triniwiz",
-        "version": "0.3.0",
-        "description": "A Nativescript client library to interact with Supabase Storage",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "nativescript",
-          "supabase",
-          "storage"
-        ],
-        "date": "2022-12-14T21:19:23.807Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40triniwiz%2Fnativescript-supabase-storage",
-          "homepage": "https://github.com/triniwiz/nativeScript-plugins",
-          "repository": "https://github.com/triniwiz/nativeScript-plugins",
-          "bugs": "https://github.com/triniwiz/nativeScript-plugins/issues"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "triniwiz",
-          "email": "fortune.osei@yahoo.com"
-        },
-        "maintainers": [
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "triniwiz",
-            "email": "fortune.osei@yahoo.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 14,
-          "lastMonth": 23
-        }
-      },
-      {
         "name": "@nativescript/biometrics",
         "scope": "nativescript",
         "version": "1.3.1",
@@ -72654,6 +72367,56 @@
           "lastDay": 29,
           "lastWeek": 214,
           "lastMonth": 1018
+        }
+      },
+      {
+        "name": "@triniwiz/nativescript-supabase-storage",
+        "scope": "triniwiz",
+        "version": "0.3.0",
+        "description": "A Nativescript client library to interact with Supabase Storage",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "nativescript",
+          "supabase",
+          "storage"
+        ],
+        "date": "2022-12-14T21:19:23.807Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40triniwiz%2Fnativescript-supabase-storage",
+          "homepage": "https://github.com/triniwiz/nativeScript-plugins",
+          "repository": "https://github.com/triniwiz/nativeScript-plugins",
+          "bugs": "https://github.com/triniwiz/nativeScript-plugins/issues"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "triniwiz",
+          "email": "fortune.osei@yahoo.com"
+        },
+        "maintainers": [
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "triniwiz",
+            "email": "fortune.osei@yahoo.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 14,
+          "lastMonth": 23
         }
       },
       {
@@ -72833,6 +72596,76 @@
         }
       },
       {
+        "name": "@nstudio/nativescript-label-glitch",
+        "scope": "nstudio",
+        "version": "1.0.0",
+        "description": "Label with a Glitch!",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "TypeScript",
+          "iOS",
+          "Android",
+          "nativescript",
+          "label",
+          "glitch"
+        ],
+        "date": "2023-08-07T03:58:45.412Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40nstudio%2Fnativescript-label-glitch",
+          "homepage": "https://github.com/nstudio/nativescript-ui-kit",
+          "repository": "https://github.com/nstudio/nativescript-ui-kit",
+          "bugs": "https://github.com/nstudio/nativescript-ui-kit/issues"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "walkerrunpdx",
+          "email": "walkerrunpdx@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "multishiv19",
+            "email": "sp@shiv19.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "alexziskind1",
+            "email": "alex@nuvious.com"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "davecoffin",
+            "email": "dave@davecoffin.com"
+          },
+          {
+            "username": "triniwiz",
+            "email": "fortune.osei@yahoo.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
         "name": "tns-platform-declarations",
         "scope": "unscoped",
         "version": "6.5.15",
@@ -72913,78 +72746,8 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 120,
-          "lastWeek": 1039,
-          "lastMonth": 5906
-        }
-      },
-      {
-        "name": "@nstudio/nativescript-label-glitch",
-        "scope": "nstudio",
-        "version": "1.0.0",
-        "description": "Label with a Glitch!",
-        "keywords": [
-          "NativeScript",
-          "JavaScript",
-          "TypeScript",
-          "iOS",
-          "Android",
-          "nativescript",
-          "label",
-          "glitch"
-        ],
-        "date": "2023-08-07T03:58:45.412Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40nstudio%2Fnativescript-label-glitch",
-          "homepage": "https://github.com/nstudio/nativescript-ui-kit",
-          "repository": "https://github.com/nstudio/nativescript-ui-kit",
-          "bugs": "https://github.com/nstudio/nativescript-ui-kit/issues"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "walkerrunpdx",
-          "email": "walkerrunpdx@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "multishiv19",
-            "email": "sp@shiv19.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "alexziskind1",
-            "email": "alex@nuvious.com"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "davecoffin",
-            "email": "dave@davecoffin.com"
-          },
-          {
-            "username": "triniwiz",
-            "email": "fortune.osei@yahoo.com"
-          }
-        ],
-        "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 1,
+          "lastWeek": 0,
           "lastMonth": 0
         }
       },
@@ -74247,96 +74010,6 @@
         }
       },
       {
-        "name": "tns-template-hello-world-ts",
-        "scope": "unscoped",
-        "version": "6.5.4",
-        "description": "Nativescript hello-world-ts project template",
-        "keywords": [
-          "nstudio",
-          "nativescript",
-          "mobile",
-          "{N}",
-          "tns",
-          "template",
-          "tns",
-          "template",
-          "hello",
-          "world",
-          "ts"
-        ],
-        "date": "2020-06-07T16:19:36.344Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/tns-template-hello-world-ts"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "rigor789",
-          "email": "shout@igor-randjelovic.com"
-        },
-        "maintainers": [
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          },
-          {
-            "username": "teobugslayer",
-            "email": "teobugslayer@gmail.com"
-          },
-          {
-            "username": "hdeshev",
-            "email": "hristo@deshev.com"
-          },
-          {
-            "username": "kerezov",
-            "email": "d.kerezov@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
         "name": "@nativescript/ios-security",
         "scope": "nativescript",
         "version": "1.0.0",
@@ -74436,6 +74109,96 @@
           {
             "username": "sis0k0",
             "email": "stanimira.vlaeva@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "tns-template-hello-world-ts",
+        "scope": "unscoped",
+        "version": "6.5.4",
+        "description": "Nativescript hello-world-ts project template",
+        "keywords": [
+          "nstudio",
+          "nativescript",
+          "mobile",
+          "{N}",
+          "tns",
+          "template",
+          "tns",
+          "template",
+          "hello",
+          "world",
+          "ts"
+        ],
+        "date": "2020-06-07T16:19:36.344Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/tns-template-hello-world-ts"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "rigor789",
+          "email": "shout@igor-randjelovic.com"
+        },
+        "maintainers": [
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
+          },
+          {
+            "username": "teobugslayer",
+            "email": "teobugslayer@gmail.com"
+          },
+          {
+            "username": "hdeshev",
+            "email": "hristo@deshev.com"
+          },
+          {
+            "username": "kerezov",
+            "email": "d.kerezov@gmail.com"
           }
         ],
         "downloadStats": {
@@ -75134,84 +74897,6 @@
         }
       },
       {
-        "name": "tns-template-blank",
-        "scope": "unscoped",
-        "version": "6.5.4",
-        "description": "Blank template for Vanilla NativeScript apps using JavaScript",
-        "keywords": [
-          "nstudio",
-          "nativescript",
-          "mobile",
-          "nativescript",
-          "{N}",
-          "tns",
-          "template",
-          "category-general",
-          "tns",
-          "template",
-          "blank"
-        ],
-        "date": "2020-06-07T16:19:25.963Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/tns-template-blank"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "rigor789",
-          "email": "shout@igor-randjelovic.com"
-        },
-        "maintainers": [
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
         "name": "@nativescript/apple-sign-in",
         "scope": "nativescript",
         "version": "1.0.0",
@@ -75379,6 +75064,84 @@
           {
             "username": "triniwiz",
             "email": "fortune.osei@yahoo.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "tns-template-blank",
+        "scope": "unscoped",
+        "version": "6.5.4",
+        "description": "Blank template for Vanilla NativeScript apps using JavaScript",
+        "keywords": [
+          "nstudio",
+          "nativescript",
+          "mobile",
+          "nativescript",
+          "{N}",
+          "tns",
+          "template",
+          "category-general",
+          "tns",
+          "template",
+          "blank"
+        ],
+        "date": "2020-06-07T16:19:25.963Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/tns-template-blank"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "rigor789",
+          "email": "shout@igor-randjelovic.com"
+        },
+        "maintainers": [
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
           }
         ],
         "downloadStats": {
@@ -76217,6 +75980,87 @@
         }
       },
       {
+        "name": "nativescript-typedoc-theme",
+        "scope": "unscoped",
+        "version": "1.1.0",
+        "description": "A TypeDoc theme for the API-Reference of NativeScript packages.",
+        "keywords": [
+          "NativeScript",
+          "tns-core-modules",
+          "api-ref",
+          "typedoc",
+          "theme",
+          "nativescript",
+          "typedoc",
+          "theme"
+        ],
+        "date": "2021-09-19T19:10:43.410Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-typedoc-theme",
+          "homepage": "https://github.com/NativeScript/tns-core-modules-API-Ref#readme",
+          "repository": "https://github.com/NativeScript/tns-core-modules-API-Ref"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "nativescript-bot",
+          "email": "oss@nativescript.org"
+        },
+        "maintainers": [
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
+          },
+          {
+            "username": "panayot.cankov",
+            "email": "panayot.cankov@telerik.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
         "name": "tns-template-drawer-navigation",
         "scope": "unscoped",
         "version": "6.5.4",
@@ -76290,87 +76134,6 @@
           {
             "username": "sis0k0",
             "email": "stanimira.vlaeva@gmail.com"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
-        "name": "nativescript-typedoc-theme",
-        "scope": "unscoped",
-        "version": "1.1.0",
-        "description": "A TypeDoc theme for the API-Reference of NativeScript packages.",
-        "keywords": [
-          "NativeScript",
-          "tns-core-modules",
-          "api-ref",
-          "typedoc",
-          "theme",
-          "nativescript",
-          "typedoc",
-          "theme"
-        ],
-        "date": "2021-09-19T19:10:43.410Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-typedoc-theme",
-          "homepage": "https://github.com/NativeScript/tns-core-modules-API-Ref#readme",
-          "repository": "https://github.com/NativeScript/tns-core-modules-API-Ref"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "nativescript-bot",
-          "email": "oss@nativescript.org"
-        },
-        "maintainers": [
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          },
-          {
-            "username": "panayot.cankov",
-            "email": "panayot.cankov@telerik.com"
           }
         ],
         "downloadStats": {
@@ -76950,6 +76713,83 @@
         }
       },
       {
+        "name": "nativescript-app-sync-sdk",
+        "scope": "unscoped",
+        "version": "1.0.1",
+        "description": "Management SDK for the NativeScript AppSync service",
+        "date": "2019-06-26T10:26:21.347Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-app-sync-sdk",
+          "homepage": "https://github.com/EddyVerbruggen/nativescript-app-sync-sdk-cli",
+          "repository": "https://github.com/EddyVerbruggen/nativescript-app-sync-sdk-cli"
+        },
+        "author": {
+          "name": "NativeScript Team",
+          "username": "nativescript"
+        },
+        "publisher": {
+          "username": "eddyverbruggen",
+          "email": "eddyverbruggen@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "tns-bot",
+            "email": "nativescript@telerik.com"
+          },
+          {
+            "username": "rosen-vladimirov",
+            "email": "vladimirov@progress.com"
+          },
+          {
+            "username": "stoskov",
+            "email": "s.toskov@gmail.com"
+          },
+          {
+            "username": "lini",
+            "email": "bit@gbg.bg"
+          },
+          {
+            "username": "walkerrunpdx",
+            "email": "walkerrunpdx@gmail.com"
+          },
+          {
+            "username": "rigor789",
+            "email": "shout@igor-randjelovic.com"
+          },
+          {
+            "username": "nativescript-bot",
+            "email": "oss@nativescript.org"
+          },
+          {
+            "username": "bradmartin",
+            "email": "bradwaynemartin@gmail.com"
+          },
+          {
+            "username": "tdermendjiev",
+            "email": "tdermendjievft@gmail.com"
+          },
+          {
+            "username": "sis0k0",
+            "email": "stanimira.vlaeva@gmail.com"
+          },
+          {
+            "username": "eddyverbruggen",
+            "email": "eddyverbruggen@gmail.com"
+          }
+        ],
+        "keywords": [
+          "nativescript",
+          "app",
+          "sync",
+          "sdk"
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
         "name": "@nativescript/eslint-plugin",
         "scope": "nativescript",
         "version": "0.0.4",
@@ -77046,83 +76886,6 @@
             "username": "sis0k0",
             "email": "stanimira.vlaeva@gmail.com"
           }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
-        "name": "nativescript-app-sync-sdk",
-        "scope": "unscoped",
-        "version": "1.0.1",
-        "description": "Management SDK for the NativeScript AppSync service",
-        "date": "2019-06-26T10:26:21.347Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-app-sync-sdk",
-          "homepage": "https://github.com/EddyVerbruggen/nativescript-app-sync-sdk-cli",
-          "repository": "https://github.com/EddyVerbruggen/nativescript-app-sync-sdk-cli"
-        },
-        "author": {
-          "name": "NativeScript Team",
-          "username": "nativescript"
-        },
-        "publisher": {
-          "username": "eddyverbruggen",
-          "email": "eddyverbruggen@gmail.com"
-        },
-        "maintainers": [
-          {
-            "username": "tns-bot",
-            "email": "nativescript@telerik.com"
-          },
-          {
-            "username": "rosen-vladimirov",
-            "email": "vladimirov@progress.com"
-          },
-          {
-            "username": "stoskov",
-            "email": "s.toskov@gmail.com"
-          },
-          {
-            "username": "lini",
-            "email": "bit@gbg.bg"
-          },
-          {
-            "username": "walkerrunpdx",
-            "email": "walkerrunpdx@gmail.com"
-          },
-          {
-            "username": "rigor789",
-            "email": "shout@igor-randjelovic.com"
-          },
-          {
-            "username": "nativescript-bot",
-            "email": "oss@nativescript.org"
-          },
-          {
-            "username": "bradmartin",
-            "email": "bradwaynemartin@gmail.com"
-          },
-          {
-            "username": "tdermendjiev",
-            "email": "tdermendjievft@gmail.com"
-          },
-          {
-            "username": "sis0k0",
-            "email": "stanimira.vlaeva@gmail.com"
-          },
-          {
-            "username": "eddyverbruggen",
-            "email": "eddyverbruggen@gmail.com"
-          }
-        ],
-        "keywords": [
-          "nativescript",
-          "app",
-          "sync",
-          "sdk"
         ],
         "downloadStats": {
           "lastDay": 0,
@@ -91184,9 +90947,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 55,
-          "lastWeek": 295,
-          "lastMonth": 1233
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       },
       {
@@ -94596,6 +94359,53 @@
           "material",
           "loading",
           "indicator"
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nikstn",
+    "username": "nikstn",
+    "plugins": [
+      {
+        "name": "nativescript-ng-bottomsheet",
+        "scope": "unscoped",
+        "version": "0.0.9",
+        "description": "Nativescript Angular Bottom Sheet plugin",
+        "keywords": [
+          "NativeScript",
+          "Angular",
+          "TypeScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "ng",
+          "bottomsheet"
+        ],
+        "date": "2020-05-15T16:08:37.433Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-ng-bottomsheet",
+          "homepage": "https://github.com/Nikstn/nativescript-ng-bottomsheet",
+          "repository": "https://github.com/Nikstn/nativescript-ng-bottomsheet"
+        },
+        "author": {
+          "name": "Nikstn",
+          "username": "nikstn"
+        },
+        "publisher": {
+          "username": "nikstn",
+          "email": "nikist99@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "nikstn",
+            "email": "nikist99@gmail.com"
+          }
         ],
         "downloadStats": {
           "lastDay": 0,
@@ -98465,9 +98275,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 2,
-          "lastWeek": 2,
-          "lastMonth": 6
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       },
       {
@@ -102215,9 +102025,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 4,
-          "lastWeek": 18,
-          "lastMonth": 63
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       }
     ]
@@ -103509,6 +103319,49 @@
           "name": "rigor789",
           "username": "rigor789"
         },
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "rishabhx86",
+    "username": "rishabhx86",
+    "plugins": [
+      {
+        "name": "nativescript-demoplugin",
+        "scope": "unscoped",
+        "version": "1.0.0",
+        "description": "Your awesome NativeScript plugin.",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "demoplugin"
+        ],
+        "date": "2019-01-25T10:15:21.690Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-demoplugin"
+        },
+        "author": {
+          "name": "rishabhx86",
+          "username": "rishabhx86"
+        },
+        "publisher": {
+          "username": "rishabhx86",
+          "email": "rishabh19910623@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "rishabhx86",
+            "email": "rishabh19910623@gmail.com"
+          }
+        ],
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
@@ -106314,8 +106167,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 1,
-          "lastMonth": 14
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       }
     ]
@@ -106701,7 +106554,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 2,
-          "lastMonth": 30
+          "lastMonth": 0
         }
       }
     ]
@@ -107959,6 +107812,50 @@
     ]
   },
   {
+    "name": "shailymishra",
+    "username": "shailymishra",
+    "plugins": [
+      {
+        "name": "nativescript-test-plug",
+        "scope": "unscoped",
+        "version": "1.0.0",
+        "description": "Your awesome NativeScript plugin.",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "test",
+          "plug"
+        ],
+        "date": "2017-07-26T12:12:35.902Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-test-plug"
+        },
+        "author": {
+          "name": "shailymishra",
+          "username": "shailymishra"
+        },
+        "publisher": {
+          "username": "shailymishra",
+          "email": "smishra@argusoft.in"
+        },
+        "maintainers": [
+          {
+            "username": "shailymishra",
+            "email": "smishra@argusoft.in"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      }
+    ]
+  },
+  {
     "name": "Sharique",
     "username": "sharique-hasan",
     "plugins": [
@@ -108587,7 +108484,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
-          "lastMonth": 11
+          "lastMonth": 0
         }
       },
       {
@@ -109735,7 +109632,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 9,
-          "lastMonth": 15
+          "lastMonth": 0
         }
       }
     ]
@@ -109780,9 +109677,9 @@
           }
         ],
         "downloadStats": {
-          "lastDay": 1,
-          "lastWeek": 2,
-          "lastMonth": 16
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       }
     ]
@@ -117874,6 +117771,46 @@
         }
       },
       {
+        "name": "nativescript-dynamic-label",
+        "scope": "unscoped",
+        "version": "1.0.1",
+        "description": "A version of Label that adjusts font to fit size",
+        "keywords": [
+          "NativeScript",
+          "JavaScript",
+          "Android",
+          "iOS",
+          "nativescript",
+          "dynamic",
+          "label"
+        ],
+        "date": "2020-02-15T19:14:49.970Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-dynamic-label",
+          "homepage": "https://github.com/tremho/nativescript-dynamic-label",
+          "repository": "https://github.com/tremho/nativescript-dynamic-label"
+        },
+        "author": {
+          "name": "tremho",
+          "username": "tremho"
+        },
+        "publisher": {
+          "username": "tremho",
+          "email": "steve@ohmert.com"
+        },
+        "maintainers": [
+          {
+            "username": "tremho",
+            "email": "steve@ohmert.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 1,
+          "lastMonth": 6
+        }
+      },
+      {
         "name": "@tremho/jove-cli",
         "scope": "tremho",
         "version": "0.7.0-pre-release.67",
@@ -117943,6 +117880,53 @@
         "date": "2022-03-31T19:58:16.151Z",
         "links": {
           "npm": "https://www.npmjs.com/package/%40tremho%2Fjove-app-template"
+        },
+        "author": {
+          "name": "tremho",
+          "username": "tremho"
+        },
+        "publisher": {
+          "username": "tremho",
+          "email": "steve@ohmert.com"
+        },
+        "maintainers": [
+          {
+            "username": "tremho",
+            "email": "steve@ohmert.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "@tremho/jove-test",
+        "scope": "tremho",
+        "version": "0.6.9-pre-release.280",
+        "description": "Test API Module for Jove Framework",
+        "keywords": [
+          "Jove",
+          "Test",
+          "framework",
+          "desktop",
+          "mobile",
+          "electron",
+          "nativescript",
+          "windows",
+          "macintosh",
+          "linux",
+          "android",
+          "ios",
+          "jove",
+          "test"
+        ],
+        "date": "2022-01-07T19:13:49.351Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/%40tremho%2Fjove-test",
+          "homepage": "https://github.com/tremho/thunderbolt-test#readme",
+          "repository": "https://github.com/tremho/thunderbolt-test"
         },
         "author": {
           "name": "tremho",
@@ -119739,8 +119723,8 @@
         ],
         "downloadStats": {
           "lastDay": 0,
-          "lastWeek": 1,
-          "lastMonth": 14
+          "lastWeek": 0,
+          "lastMonth": 0
         }
       },
       {
@@ -119777,7 +119761,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
-          "lastMonth": 7
+          "lastMonth": 0
         }
       },
       {
@@ -122600,8 +122584,7 @@
         "links": {
           "npm": "https://www.npmjs.com/package/%40valor%2Fnativescript-feedback",
           "homepage": "https://github.com/valor-software/nativescript-plugins",
-          "repository": "https://github.com/valor-software/nativescript-plugins",
-          "bugs": "https://github.com/valor-software/nativescript-plugins/issues"
+          "repository": "https://github.com/valor-software/nativescript-plugins"
         },
         "author": {
           "name": "valor",
@@ -122657,8 +122640,7 @@
         "links": {
           "npm": "https://www.npmjs.com/package/%40valor%2Fnativescript-barcodescanner",
           "homepage": "https://github.com/valor-software/nativescript-plugins",
-          "repository": "https://github.com/valor-software/nativescript-plugins",
-          "bugs": "https://github.com/valor-software/nativescript-plugins/issues"
+          "repository": "https://github.com/valor-software/nativescript-plugins"
         },
         "author": {
           "name": "valor",
@@ -122705,8 +122687,7 @@
         "links": {
           "npm": "https://www.npmjs.com/package/%40valor%2Fnativescript-ngrx-devtools",
           "homepage": "https://github.com/valor-software/nativescript-plugins#readme",
-          "repository": "https://github.com/valor-software/nativescript-plugins",
-          "bugs": "https://github.com/valor-software/nativescript-plugins/issues"
+          "repository": "https://github.com/valor-software/nativescript-plugins"
         },
         "author": {
           "name": "valor",
@@ -123437,7 +123418,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 0,
-          "lastMonth": 5
+          "lastMonth": 0
         }
       },
       {
@@ -123628,6 +123609,48 @@
           "npm": "https://www.npmjs.com/package/nativescript-dynatrace-cocoapods-plugin",
           "homepage": "https://github.com/var/nativescript-dynatrace-cocoapods-plugin#readme",
           "repository": "https://github.com/var/nativescript-dynatrace-cocoapods-plugin"
+        },
+        "author": {
+          "name": "vimalramaka",
+          "username": "vimalramaka"
+        },
+        "publisher": {
+          "username": "vimalramaka",
+          "email": "vimmy2492@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "vimalramaka",
+            "email": "vimmy2492@gmail.com"
+          }
+        ],
+        "downloadStats": {
+          "lastDay": 0,
+          "lastWeek": 0,
+          "lastMonth": 0
+        }
+      },
+      {
+        "name": "nativescript-dynatrace-gradle-plugin",
+        "scope": "unscoped",
+        "version": "1.0.3",
+        "description": "NativeScript Plugin wrapper for Dynatrace Gradle",
+        "keywords": [
+          "nativescript",
+          "dynatrace",
+          "gradle",
+          "android",
+          "nativescript",
+          "dynatrace",
+          "gradle",
+          "plugin"
+        ],
+        "date": "2020-03-28T00:41:02.485Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/nativescript-dynatrace-gradle-plugin",
+          "homepage": "https://github.com/var/nativescript-dynatrace-gradle-plugin#readme",
+          "repository": "https://github.com/var/nativescript-dynatrace-gradle-plugin",
+          "bugs": "https://github.com/var/nativescript-dynatrace-gradle-plugin/issues"
         },
         "author": {
           "name": "vimalramaka",
@@ -124832,7 +124855,7 @@
         "downloadStats": {
           "lastDay": 0,
           "lastWeek": 2,
-          "lastMonth": 10
+          "lastMonth": 0
         }
       },
       {
@@ -126189,50 +126212,6 @@
           {
             "username": "wytzen",
             "email": "wytze.korstanje@navara.nl"
-          }
-        ],
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      }
-    ]
-  },
-  {
-    "name": "feng",
-    "username": "xiaochong4",
-    "plugins": [
-      {
-        "name": "nativescript-jpush",
-        "scope": "unscoped",
-        "version": "1.2.1",
-        "description": "A Nativescript plugin for jpush SDK",
-        "keywords": [
-          "nativescript",
-          "jpush",
-          "ecosystem:nativescript",
-          "nativescript-android",
-          "nativescript-ios",
-          "nativescript",
-          "jpush"
-        ],
-        "date": "2017-05-22T14:12:03.366Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/nativescript-jpush"
-        },
-        "author": {
-          "name": "feng",
-          "username": "xiaochong4"
-        },
-        "publisher": {
-          "username": "xiaochong4",
-          "email": "277324181@qq.com"
-        },
-        "maintainers": [
-          {
-            "username": "xiaochong4",
-            "email": "277324181@qq.com"
           }
         ],
         "downloadStats": {
@@ -128130,13 +128109,13 @@
     "username": "zalastax",
     "plugins": [
       {
-        "name": "@zalastax/nolb-nativescript-s",
+        "name": "@zalastax/nolb-nativescript-f",
         "scope": "zalastax",
         "version": "2023.1.24",
         "description": "Subpackage of no-one-left-behind.",
-        "date": "2023-01-24T13:30:18.890Z",
+        "date": "2023-01-24T13:29:30.196Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40zalastax%2Fnolb-nativescript-s"
+          "npm": "https://www.npmjs.com/package/%40zalastax%2Fnolb-nativescript-f"
         },
         "publisher": {
           "username": "zalastax",
@@ -128151,7 +128130,7 @@
         "keywords": [
           "nolb",
           "nativescript",
-          "s"
+          "f"
         ],
         "author": {
           "name": "zalastax",
@@ -128198,40 +128177,6 @@
         }
       },
       {
-        "name": "@zalastax/nolb-nativescript-3",
-        "scope": "zalastax",
-        "version": "2023.1.24",
-        "description": "Subpackage of no-one-left-behind.",
-        "date": "2023-01-24T13:28:52.193Z",
-        "links": {
-          "npm": "https://www.npmjs.com/package/%40zalastax%2Fnolb-nativescript-3"
-        },
-        "publisher": {
-          "username": "zalastax",
-          "email": "kpierre@outlook.com"
-        },
-        "maintainers": [
-          {
-            "username": "npm",
-            "email": "npm@npmjs.com"
-          }
-        ],
-        "keywords": [
-          "nolb",
-          "nativescript",
-          "3"
-        ],
-        "author": {
-          "name": "zalastax",
-          "username": "zalastax"
-        },
-        "downloadStats": {
-          "lastDay": 0,
-          "lastWeek": 0,
-          "lastMonth": 0
-        }
-      },
-      {
         "name": "@zalastax/nolb-nativescript-x",
         "scope": "zalastax",
         "version": "2023.1.24",
@@ -128266,13 +128211,13 @@
         }
       },
       {
-        "name": "@zalastax/nolb-nativescript-f",
+        "name": "@zalastax/nolb-nativescript-s",
         "scope": "zalastax",
         "version": "2023.1.24",
         "description": "Subpackage of no-one-left-behind.",
-        "date": "2023-01-24T13:29:30.196Z",
+        "date": "2023-01-24T13:30:18.890Z",
         "links": {
-          "npm": "https://www.npmjs.com/package/%40zalastax%2Fnolb-nativescript-f"
+          "npm": "https://www.npmjs.com/package/%40zalastax%2Fnolb-nativescript-s"
         },
         "publisher": {
           "username": "zalastax",
@@ -128287,7 +128232,7 @@
         "keywords": [
           "nolb",
           "nativescript",
-          "f"
+          "s"
         ],
         "author": {
           "name": "zalastax",
